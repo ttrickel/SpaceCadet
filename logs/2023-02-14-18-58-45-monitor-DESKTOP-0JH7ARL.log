@@ -1,0 +1,5 @@
+2023-02-14 18:58:46,020 : INFO : root : Loading MPF Monitor
+2023-02-14 18:58:46,176 : INFO : Core : Looking for MPF at localhost:5051
+2023-02-14 19:05:10,485 : INFO : root : MPF Monitor run loop ended.
+2023-02-14 19:05:10,486 : INFO : root : Stopping child threads... (0 remaining)
+2023-02-14 19:05:10,486 : INFO : root : All child threads stopped.

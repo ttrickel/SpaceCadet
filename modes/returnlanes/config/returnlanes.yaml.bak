@@ -1,0 +1,139 @@
+#config_version=6
+# lowerlanes config file
+#
+
+
+
+                # To re-activate the left Out-Lane Kicker light all 3 Radiation
+                  # Target Lights.
+                # To re-activate the right Out-Lane kicker light all 3 Comet
+                  # Target Lights.
+
+      # Bonus Lane
+        # - Single lane between the Left Out-Lane and the Left Return Lane.
+        # - The Bonus Lane is always passed when the Ball passes the Launch Ramp.
+        # - Enter this lane to "Re-fuel' the ship.
+        # - Extra points are awarded if the Bonus Lane Light is on and the Bonus was activated
+                # * Lane Pass - 10,000 points
+                # * See the Bonus Section for more information.
+      
+      # Out-Lanes
+        # - 2 Lanes located at the lower-left and lower-right of the Table.
+        # - Pass this lane and the ball drains or enters the Out-Lane Kicker when the kicker is activated.
+                # * Lane Pass - 20,000 points.
+                # * Extra Ball Light - 20,000 points + Extra Ball is awarded.
+      
+      # Return Lanes
+        # - 2 Lanes located at the lower-left & lower-right corners of the Table.
+        # - Pass this lane and the Ball returns to one of the Flippers.
+        # - If the lane is lit the light goes out
+        # - Extra Points are awarded if the Return Lane Light is lit.
+                # * Lane Pass - 5000 points
+                # * Lane Light - 25,000 points
+        # - Light the Return Lane Lights by hitting the Space Warp Rollover.
+      
+      # LANE LIGHTS
+        # Bonus Lane
+        # - Single light in the Bonus Lane.
+        # - Indicates a bonus is available in this lane.
+        # - Activated when a mission is completed.
+        # - Goes out when the Ball passes the Bonus Lane.
+        
+        # Out Lanes
+        # - Single light located at the top of each of the Out-Lanes (2 lights total).
+        # - Indicates an Extra Ball is available in this lane.
+        # - Pass the lane to receive an Extra Ball.
+        
+        # Return Lanes
+        # - Single light located at the top of each of the Return Lanes (2 lights total).
+        # - Indicates a point bonus is available in this lane.
+        # - Pass the lane to receive extra points.
+
+mode:
+  start_events: ball_started
+  stop_events: ball_stopped
+  priority: 200
+
+shots:
+  returnLaneL_shot:
+    switch: s_left_return_lane
+    profile: returnLane
+    advance_events: s_spacewarp_rollover_active
+    control_events:
+      - events: returnLaneL_shot_lit_hit
+        state: 0
+  bonusLane_shot:
+    switch: s_bonus_lane
+  outLaneL_shot:
+    switch: s_left_out_lane
+    profile: outLane
+  returnLaneR_shot:
+    switch: s_right_return_lane
+    profile: returnLane
+    advance_events: s_spacewarp_rollover_active
+    control_events:
+      - events: returnLaneR_shot_lit_hit
+        state: 0
+  outLaneR_shot:
+    switch: s_right_out_lane
+    profile: outLane
+  spacewarp_rollover_shot:
+    switch: s_spacewarp_rollover
+
+# event_player:
+    # s_spacewarp_rollover_active: returnLaneL_shot_returnLane.states: lit
+
+shot_groups:
+    returnLane_shot:
+        shots: returnLaneL_shot, returnLaneR_shot
+        # reset_events: 
+           # medal_shot_lit_complete   #: 2s # mode_reentry_started
+    outLane_shot:
+        shots: outLaneL_shot, outLaneR_shot
+           
+shot_profiles:
+  returnLane:
+    states:
+      - name: unlit
+        show: off
+ #       manual_advance: true
+      - name: lit
+        show: "returnLane_lit"
+ #       manual_advance: false
+ #   loop: true
+    advance_on_hit: false
+  outLane:
+    states:
+      - name: unlit
+        show: off
+
+variable_player:
+  returnLane_shot_unlit_hit:
+    score: 5000
+  returnLane_shot_lit_hit:
+    score: 25000
+  outLane_shot_unlit_hit:
+    score: 20000
+
+sound_player:
+ #   reentry_sound_active:
+     s_left_return_lane_active:
+        reentry_sound:
+            action: play
+     s_bonus_lane_active:
+        reentry_sound:
+            action: play
+     s_left_out_lane_active:
+        reentry_sound:
+            action: play
+     s_right_return_lane_active:
+        reentry_sound:
+            action: play
+     s_right_out_lane_active:
+        reentry_sound:
+            action: play
+
+shows: 
+    returnLane_lit:    # define our show to indicate the state
+        - lights:
+            (led): yellow

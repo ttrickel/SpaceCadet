@@ -1,0 +1,95 @@
+2023-12-05 19:20:31,095 : kivy : Factory: 186 symbols loaded
+2023-12-05 19:20:31,206 : kivy : ImageLoaderFFPy: Using ffpyplayer 4.3.2
+2023-12-05 19:20:31,207 : kivy : Image: Providers: img_tex, img_dds, img_sdl2, img_pil, img_ffpyplayer 
+2023-12-05 19:20:31,242 : kivy : VideoGstplayer: Using Gstreamer 1.18.0.0
+2023-12-05 19:20:31,243 : kivy : Video: Provider: gstplayer
+2023-12-05 19:20:31,371 : kivy : Loading MPF-MC controller
+2023-12-05 19:20:31,373 : YamlMultifileConfigLoader : Machine config file #1: config
+2023-12-05 19:20:31,374 : ConfigProcessor : Config file in cache changed: C:\Users\student\pinball\cobraPinTest1\config\config
+2023-12-05 19:20:31,389 : ConfigProcessor : Loading config from file c:\users\student\mpfenv\lib\site-packages\mpfmc\mcconfig.yaml.
+2023-12-05 19:20:31,421 : ConfigProcessor : Loading config: c:\users\student\mpfenv\lib\site-packages\mpfmc\mcconfig.yaml
+2023-12-05 19:20:31,422 : ConfigProcessor : Loading config from file C:\Users\student\pinball\cobraPinTest1\config\config.
+2023-12-05 19:20:31,459 : ConfigProcessor : Loading config: C:\Users\student\pinball\cobraPinTest1\config\config
+2023-12-05 19:20:31,461 : ConfigProcessor : Config file cache created: C:\Users\student\AppData\Local\Temp\8788ef445fdd76e1de1cbcebe7495fec.mpf_cache
+2023-12-05 19:20:31,461 : ConfigProcessor : Loading config from cache: C:\Users\student\AppData\Local\Temp\32ed7ad340ce8029344f8b9ff63edc80.mpf_cache
+2023-12-05 19:20:31,462 : ConfigProcessor : Loading config from cache: C:\Users\student\AppData\Local\Temp\8696bd5a5a040ff67990be11cb4d3c0c.mpf_cache
+2023-12-05 19:20:31,462 : ConfigProcessor : Loading config from cache: C:\Users\student\AppData\Local\Temp\4675a535c8328a9c278c807d999ed109.mpf_cache
+2023-12-05 19:20:31,463 : ConfigProcessor : Loading config from cache: C:\Users\student\AppData\Local\Temp\0c8438cab3480347c0c749fa494946a2.mpf_cache
+2023-12-05 19:20:31,463 : ConfigProcessor : Loading config from cache: C:\Users\student\AppData\Local\Temp\edae2e0e7aeda847f5007d89f37fc8de.mpf_cache
+2023-12-05 19:20:31,464 : mpfmc : Mission Pinball Framework Media Controller v0.55.0
+2023-12-05 19:20:31,464 : mpfmc : Mission Pinball Framework Game Engine v0.55.0
+2023-12-05 19:20:31,464 : mpfmc : Machine path: C:\Users\student\pinball\cobraPinTest1
+2023-12-05 19:20:31,464 : mpfmc : Starting clock at 60.0Hz
+2023-12-05 19:20:31,476 : kivy : Text: Provider: sdl2
+2023-12-05 19:20:31,511 : kivy : Window: Provider: sdl2
+2023-12-05 19:20:31,841 : kivy : GL: Using the "OpenGL" graphics system
+2023-12-05 19:20:31,843 : kivy : GL: GLEW initialization succeeded
+2023-12-05 19:20:31,844 : kivy : GL: Backend used <glew>
+2023-12-05 19:20:31,844 : kivy : GL: OpenGL version <b'4.6.13543 Compatibility Profile Context 25.20.15006.9'>
+2023-12-05 19:20:31,844 : kivy : GL: OpenGL vendor <b'ATI Technologies Inc.'>
+2023-12-05 19:20:31,844 : kivy : GL: OpenGL renderer <b'Radeon RX Vega M GL Graphics'>
+2023-12-05 19:20:31,845 : kivy : GL: OpenGL parsed version: 4, 6
+2023-12-05 19:20:31,845 : kivy : GL: Shading version <b'4.60'>
+2023-12-05 19:20:31,845 : kivy : GL: Texture max size <16384>
+2023-12-05 19:20:31,845 : kivy : GL: Texture max units <32>
+2023-12-05 19:20:31,861 : kivy : Window: auto add sdl2 input provider
+2023-12-05 19:20:31,862 : kivy : Window: virtual keyboard not allowed, single mode, not docked
+2023-12-05 19:20:32,069 : AudioInterface : Initialized
+2023-12-05 19:20:32,069 : AudioInterface : Loaded SDL 2.0.12
+2023-12-05 19:20:32,069 : AudioInterface : Loaded SDL_Mixer 2.0.4
+2023-12-05 19:20:32,069 : AudioInterface : Loaded GStreamer 1.18.0.0
+2023-12-05 19:20:32,069 : AudioInterface : Loaded GLib 2.62.6
+2023-12-05 19:20:32,069 : AudioInterface : Settings requested - rate: 44100, channels: 1, buffer: 2048 samples
+2023-12-05 19:20:32,069 : AudioInterface : Settings in use - rate: 44100, channels: 1, buffer: 2048 samples (4096 bytes @ 2 bytes per sample)
+2023-12-05 19:20:32,069 : SoundSystem : Setting master volume to 0.0
+2023-12-05 19:20:32,069 : SoundSystem : master_volume in sound_system is deprecated and will be removed in the future.
+2023-12-05 19:20:32,070 : AudioInterface : Enabling audio playback
+2023-12-05 19:20:32,071 : kivy : Base: Start application main loop
+2023-12-05 19:20:32,071 : EventManager : Event: ======'display_window_initialized'====== Args={}
+2023-12-05 19:20:32,089 : mpfmc : Display: Setting 'window' as default display
+2023-12-05 19:20:32,097 : EventManager : Event: ======'displays_initialized'====== Args={}
+2023-12-05 19:20:32,098 : EventManager : Event: ======'slide_window_blank_created'====== Args={}
+2023-12-05 19:20:32,098 : EventManager : Event: ======'display_window_ready'====== Args={}
+2023-12-05 19:20:32,106 : EventManager : Event: ======'init_phase_1'====== Args={}
+2023-12-05 19:20:32,110 : EventManager : Event: ======'mc_ready'====== Args={}
+2023-12-05 19:20:32,110 : EventManager : Event: ======'init_phase_2'====== Args={}
+2023-12-05 19:20:32,112 : EventManager : Event: ======'init_phase_3'====== Args={}
+2023-12-05 19:20:32,113 : EventManager : Event: ======'init_phase_4'====== Args={}
+2023-12-05 19:20:32,114 : EventManager : Event: ======'init_phase_5'====== Args={}
+2023-12-05 19:20:32,126 : SoundAsset : Load sound medal_complete_sound failed due to an exception - Could not locate file sound50.wav
+2023-12-05 19:20:33,123 : mpfmc : Shutting down due to child thread crash
+2023-12-05 19:20:33,123 : mpfmc : Crash details: Traceback (most recent call last):
+  File "c:\users\student\mpfenv\lib\site-packages\mpfmc\assets\sound.py", line 621, in do_load
+    self._container = self.machine.sound_system.audio_interface.load_sound_file_to_memory(self.file)
+  File "mpfmc\core\audio\audio_interface.pyx", line 691, in mpfmc.core.audio.audio_interface.AudioInterface.load_sound_file_to_memory
+  File "mpfmc\core\audio\sound_file.pyx", line 60, in mpfmc.core.audio.sound_file.SoundMemoryFile.__init__
+  File "mpfmc\core\audio\sound_file.pyx", line 82, in mpfmc.core.audio.sound_file.SoundMemoryFile.load
+mpfmc.core.audio.audio_exception.AudioException: Could not locate file sound50.wav
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "c:\users\student\mpfenv\lib\site-packages\mpfmc\core\assets.py", line 116, in run
+    asset.do_load()
+  File "c:\users\student\mpfenv\lib\site-packages\mpfmc\assets\sound.py", line 627, in do_load
+    self.name, exception)) from exception
+mpfmc.core.audio.audio_exception.AudioException: Load sound medal_complete_sound failed due to an exception: Could not locate file sound50.wav
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "c:\users\student\mpfenv\lib\site-packages\mpfmc\core\assets.py", line 120, in run
+    1, self.log.name, asset.name) from e
+mpf.exceptions.config_file_error.ConfigFileError: Config File Error in Asset Loader: Error while loading sounds asset file 'sound50.wav' Context: medal_complete_sound Error Code: CFE-Asset_Loader-1 (https://docs.missionpinball.org/en/0.55/logs/CFE-Asset_Loader-1.html)
+
+2023-12-05 19:20:33,123 : mpfmc : Stopping...
+2023-12-05 19:20:33,123 : EventManager : Event: ======'shutdown'====== Args={}
+2023-12-05 19:20:33,123 : AudioInterface : Disabling audio playback
+2023-12-05 19:20:33,229 : mpfmc : Loop rate 73.42 Hz
+2023-12-05 19:20:33,229 : kivy : Base: Leaving application in progress...
+2023-12-05 19:20:33,229 : mpfmc : Stopping...
+2023-12-05 19:20:33,229 : EventManager : Event: ======'shutdown'====== Args={}
+2023-12-05 19:20:33,229 : mpfmc : Loop rate 73.42 Hz
+2023-12-05 19:20:33,229 : kivy : MC run loop ended.
+2023-12-05 19:20:33,230 : kivy : Stopping child threads... (0 remaining)
+2023-12-05 19:20:33,230 : kivy : All child threads stopped.

@@ -1,0 +1,236 @@
+2024-12-02 10:02:55,606 : INFO : root : Loading config.
+2024-12-02 10:02:55,611 : INFO : YamlMultifileConfigLoader : Machine config file #1: config.yaml
+2024-12-02 10:02:55,612 : WARNING : ConfigProcessor : Config file in cache changed: C:\Users\student\pinball\cobraPinTest1\config\config.yaml
+2024-12-02 10:02:55,612 : INFO : ConfigProcessor : Loading config from file c:\users\student\mpfenv\lib\site-packages\mpf\mpfconfig.yaml.
+2024-12-02 10:02:55,673 : INFO : ConfigProcessor : Loading config: c:\users\student\mpfenv\lib\site-packages\mpf\mpfconfig.yaml
+2024-12-02 10:02:55,673 : INFO : ConfigProcessor : Loading config from file C:\Users\student\pinball\cobraPinTest1\config\config.yaml.
+2024-12-02 10:02:55,716 : INFO : ConfigProcessor : Loading config: C:\Users\student\pinball\cobraPinTest1\config\config.yaml
+2024-12-02 10:02:55,719 : INFO : ConfigProcessor : Config file cache created: C:\Users\student\AppData\Local\Temp\f1427cd4cbc9163bc2263f349f0fb463.mpf_cache
+2024-12-02 10:02:55,782 : INFO : ConfigProcessor : Loading config from cache: C:\Users\student\AppData\Local\Temp\32ed7ad340ce8029344f8b9ff63edc80.mpf_cache
+2024-12-02 10:02:55,782 : INFO : ConfigProcessor : Loading config from cache: C:\Users\student\AppData\Local\Temp\8696bd5a5a040ff67990be11cb4d3c0c.mpf_cache
+2024-12-02 10:02:55,783 : INFO : ConfigProcessor : Loading config from cache: C:\Users\student\AppData\Local\Temp\4675a535c8328a9c278c807d999ed109.mpf_cache
+2024-12-02 10:02:55,784 : INFO : ConfigProcessor : Loading config from cache: C:\Users\student\AppData\Local\Temp\0c8438cab3480347c0c749fa494946a2.mpf_cache
+2024-12-02 10:02:55,785 : INFO : ConfigProcessor : Loading config from cache: C:\Users\student\AppData\Local\Temp\edae2e0e7aeda847f5007d89f37fc8de.mpf_cache
+2024-12-02 10:02:55,786 : INFO : ConfigProcessor : Loading config from cache: C:\Users\student\AppData\Local\Temp\f8d2c2cf3ea01f085365ea23fa51a701.mpf_cache
+2024-12-02 10:02:55,786 : INFO : ConfigProcessor : Loading config from cache: C:\Users\student\AppData\Local\Temp\30bd992f4b62a9b099207aebeb59554c.mpf_cache
+2024-12-02 10:02:55,787 : INFO : Machine : Mission Pinball Framework Core Engine v0.55.0
+2024-12-02 10:02:55,787 : INFO : Machine : Command line arguments: {'no_load_cache': False, 'create_config_cache': True, 'bcp': True, 'configfile': ['config.yaml'], 'force_assets_load': False, 'jsonlogging': False, 'logfile': 'logs\\2024-12-02-10-02-55-mpf-DESKTOP-0JH7ARL.log', 'pause': False, 'production': False, 'text_ui': True, 'loglevel': 15, 'consoleloglevel': 20, 'force_platform': None, 'syslog_address': None, 'mc_file_name': None, 'no_sound': False}
+2024-12-02 10:02:55,787 : INFO : Machine : MPF path: c:\users\student\mpfenv\lib\site-packages\mpf
+2024-12-02 10:02:55,787 : INFO : Machine : Machine path: C:\Users\student\pinball\cobraPinTest1
+2024-12-02 10:02:55,787 : INFO : Machine : Platform: win32
+2024-12-02 10:02:55,787 : INFO : Machine : Python executable location: c:\users\student\mpfenv\scripts\python.exe
+2024-12-02 10:02:55,787 : INFO : Machine : Python version: 3.7.8 (64-bit)
+2024-12-02 10:02:55,789 : INFO : Machine : Initialise MPF.
+2024-12-02 10:02:56,049 : INFO : OPP : Connecting to com4 at 115200bps
+2024-12-02 10:02:56,143 : INFO : OPP : Init of OPP board 0 done
+2024-12-02 10:02:56,143 : INFO : OPP : Connecting to com5 at 115200bps
+2024-12-02 10:02:56,317 : INFO : OPP : Init of OPP board 1 done
+2024-12-02 10:02:56,318 : INFO : EventManager : Event: ======'machine_var_credits_string'====== Args={'value': 'FREE PLAY', 'prev_value': None, 'change': True}
+2024-12-02 10:02:56,360 : INFO : EventManager : Event: ======'machine_var_master_volume'====== Args={'value': 0.5, 'prev_value': None, 'change': True}
+2024-12-02 10:02:56,360 : INFO : EventManager : Event: ======'machine_var_player1_score'====== Args={'value': 1500, 'prev_value': None, 'change': True}
+2024-12-02 10:02:56,360 : INFO : EventManager : Event: ======'machine_var_mpf_version'====== Args={'value': 'MPF v0.55.0', 'prev_value': None, 'change': True}
+2024-12-02 10:02:56,360 : INFO : EventManager : Event: ======'machine_var_mpf_extended_version'====== Args={'value': 'MPF v0.55.0, Config version:5, Show version: 5, BCP version:1.1', 'prev_value': None, 'change': True}
+2024-12-02 10:02:56,360 : INFO : EventManager : Event: ======'machine_var_python_version'====== Args={'value': '3.7.8', 'prev_value': None, 'change': True}
+2024-12-02 10:02:56,361 : INFO : EventManager : Event: ======'machine_var_platform'====== Args={'value': 'Windows-10-10.0.19041-SP0', 'prev_value': None, 'change': True}
+2024-12-02 10:02:56,361 : INFO : EventManager : Event: ======'machine_var_platform_system'====== Args={'value': 'Windows', 'prev_value': None, 'change': True}
+2024-12-02 10:02:56,361 : INFO : EventManager : Event: ======'machine_var_platform_release'====== Args={'value': '10', 'prev_value': None, 'change': True}
+2024-12-02 10:02:56,361 : INFO : EventManager : Event: ======'machine_var_platform_version'====== Args={'value': '10.0.19041', 'prev_value': None, 'change': True}
+2024-12-02 10:02:56,361 : INFO : EventManager : Event: ======'machine_var_platform_machine'====== Args={'value': 'AMD64', 'prev_value': None, 'change': True}
+2024-12-02 10:02:56,361 : INFO : EventManager : Event: ======'init_phase_1'====== Args={}
+2024-12-02 10:02:56,384 : ERROR : asyncio : Task exception was never retrieved
+future: <Task finished coro=<SystemWideDevice.device_added_system_wide() done, defined at c:\users\student\mpfenv\lib\site-packages\mpf\core\system_wide_device.py:15> exception=ConfigFileError('Failed to configure switch s_mission_spot_2 in platform. See error above')>
+Traceback (most recent call last):
+  File "c:\users\student\mpfenv\lib\site-packages\mpf\devices\switch.py", line 149, in _initialize
+    self.config['number'], config, self.config['platform_settings'])
+  File "c:\users\student\mpfenv\lib\site-packages\mpf\platforms\opp\opp.py", line 825, in configure_switch
+    number = self._get_dict_index(number)
+  File "c:\users\student\mpfenv\lib\site-packages\mpf\platforms\opp\opp.py", line 760, in _get_dict_index
+    self.raise_config_error("You need to specify a chain as chain-card-number in: {}".format(input_str), 17)
+  File "c:\users\student\mpfenv\lib\site-packages\mpf\core\logging.py", line 173, in raise_config_error
+    from source_exception
+mpf.exceptions.config_file_error.ConfigFileError: Config File Error in OPP: You need to specify a chain as chain-card-number in: 41 Error Code: CFE-OPP-17 (https://docs.missionpinball.org/en/0.55/logs/CFE-OPP-17.html)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "c:\users\student\mpfenv\lib\site-packages\mpf\core\system_wide_device.py", line 17, in device_added_system_wide
+    await self._initialize()
+  File "c:\users\student\mpfenv\lib\site-packages\mpf\devices\switch.py", line 152, in _initialize
+    self.class_label) from e
+mpf.exceptions.config_file_error.ConfigFileError: Config File Error in switch: Failed to configure switch s_mission_spot_2 in platform. See error above Error Code: CFE-switch-2 (https://docs.missionpinball.org/en/0.55/logs/CFE-switch-2.html)
+2024-12-02 10:02:56,385 : ERROR : asyncio : Task exception was never retrieved
+future: <Task finished coro=<SystemWideDevice.device_added_system_wide() done, defined at c:\users\student\mpfenv\lib\site-packages\mpf\core\system_wide_device.py:15> exception=ConfigFileError('Failed to configure switch s_mission_spot_3 in platform. See error above')>
+Traceback (most recent call last):
+  File "c:\users\student\mpfenv\lib\site-packages\mpf\devices\switch.py", line 149, in _initialize
+    self.config['number'], config, self.config['platform_settings'])
+  File "c:\users\student\mpfenv\lib\site-packages\mpf\platforms\opp\opp.py", line 825, in configure_switch
+    number = self._get_dict_index(number)
+  File "c:\users\student\mpfenv\lib\site-packages\mpf\platforms\opp\opp.py", line 760, in _get_dict_index
+    self.raise_config_error("You need to specify a chain as chain-card-number in: {}".format(input_str), 17)
+  File "c:\users\student\mpfenv\lib\site-packages\mpf\core\logging.py", line 173, in raise_config_error
+    from source_exception
+mpf.exceptions.config_file_error.ConfigFileError: Config File Error in OPP: You need to specify a chain as chain-card-number in: 43 Error Code: CFE-OPP-17 (https://docs.missionpinball.org/en/0.55/logs/CFE-OPP-17.html)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "c:\users\student\mpfenv\lib\site-packages\mpf\core\system_wide_device.py", line 17, in device_added_system_wide
+    await self._initialize()
+  File "c:\users\student\mpfenv\lib\site-packages\mpf\devices\switch.py", line 152, in _initialize
+    self.class_label) from e
+mpf.exceptions.config_file_error.ConfigFileError: Config File Error in switch: Failed to configure switch s_mission_spot_3 in platform. See error above Error Code: CFE-switch-2 (https://docs.missionpinball.org/en/0.55/logs/CFE-switch-2.html)
+2024-12-02 10:02:56,386 : ERROR : asyncio : Task exception was never retrieved
+future: <Task finished coro=<SystemWideDevice.device_added_system_wide() done, defined at c:\users\student\mpfenv\lib\site-packages\mpf\core\system_wide_device.py:15> exception=ConfigFileError('Failed to configure switch s_medal_drop_middle in platform. See error above')>
+Traceback (most recent call last):
+  File "c:\users\student\mpfenv\lib\site-packages\mpf\devices\switch.py", line 149, in _initialize
+    self.config['number'], config, self.config['platform_settings'])
+  File "c:\users\student\mpfenv\lib\site-packages\mpf\platforms\opp\opp.py", line 825, in configure_switch
+    number = self._get_dict_index(number)
+  File "c:\users\student\mpfenv\lib\site-packages\mpf\platforms\opp\opp.py", line 760, in _get_dict_index
+    self.raise_config_error("You need to specify a chain as chain-card-number in: {}".format(input_str), 17)
+  File "c:\users\student\mpfenv\lib\site-packages\mpf\core\logging.py", line 173, in raise_config_error
+    from source_exception
+mpf.exceptions.config_file_error.ConfigFileError: Config File Error in OPP: You need to specify a chain as chain-card-number in: 38 Error Code: CFE-OPP-17 (https://docs.missionpinball.org/en/0.55/logs/CFE-OPP-17.html)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "c:\users\student\mpfenv\lib\site-packages\mpf\core\system_wide_device.py", line 17, in device_added_system_wide
+    await self._initialize()
+  File "c:\users\student\mpfenv\lib\site-packages\mpf\devices\switch.py", line 152, in _initialize
+    self.class_label) from e
+mpf.exceptions.config_file_error.ConfigFileError: Config File Error in switch: Failed to configure switch s_medal_drop_middle in platform. See error above Error Code: CFE-switch-2 (https://docs.missionpinball.org/en/0.55/logs/CFE-switch-2.html)
+2024-12-02 10:02:56,386 : ERROR : asyncio : Task exception was never retrieved
+future: <Task finished coro=<SystemWideDevice.device_added_system_wide() done, defined at c:\users\student\mpfenv\lib\site-packages\mpf\core\system_wide_device.py:15> exception=ConfigFileError('Failed to configure switch s_medal_drop_left in platform. See error above')>
+Traceback (most recent call last):
+  File "c:\users\student\mpfenv\lib\site-packages\mpf\devices\switch.py", line 149, in _initialize
+    self.config['number'], config, self.config['platform_settings'])
+  File "c:\users\student\mpfenv\lib\site-packages\mpf\platforms\opp\opp.py", line 825, in configure_switch
+    number = self._get_dict_index(number)
+  File "c:\users\student\mpfenv\lib\site-packages\mpf\platforms\opp\opp.py", line 760, in _get_dict_index
+    self.raise_config_error("You need to specify a chain as chain-card-number in: {}".format(input_str), 17)
+  File "c:\users\student\mpfenv\lib\site-packages\mpf\core\logging.py", line 173, in raise_config_error
+    from source_exception
+mpf.exceptions.config_file_error.ConfigFileError: Config File Error in OPP: You need to specify a chain as chain-card-number in: 36 Error Code: CFE-OPP-17 (https://docs.missionpinball.org/en/0.55/logs/CFE-OPP-17.html)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "c:\users\student\mpfenv\lib\site-packages\mpf\core\system_wide_device.py", line 17, in device_added_system_wide
+    await self._initialize()
+  File "c:\users\student\mpfenv\lib\site-packages\mpf\devices\switch.py", line 152, in _initialize
+    self.class_label) from e
+mpf.exceptions.config_file_error.ConfigFileError: Config File Error in switch: Failed to configure switch s_medal_drop_left in platform. See error above Error Code: CFE-switch-2 (https://docs.missionpinball.org/en/0.55/logs/CFE-switch-2.html)
+2024-12-02 10:02:56,387 : ERROR : asyncio : Task exception was never retrieved
+future: <Task finished coro=<SystemWideDevice.device_added_system_wide() done, defined at c:\users\student\mpfenv\lib\site-packages\mpf\core\system_wide_device.py:15> exception=ConfigFileError('Failed to configure switch s_medal_drop_right in platform. See error above')>
+Traceback (most recent call last):
+  File "c:\users\student\mpfenv\lib\site-packages\mpf\devices\switch.py", line 149, in _initialize
+    self.config['number'], config, self.config['platform_settings'])
+  File "c:\users\student\mpfenv\lib\site-packages\mpf\platforms\opp\opp.py", line 825, in configure_switch
+    number = self._get_dict_index(number)
+  File "c:\users\student\mpfenv\lib\site-packages\mpf\platforms\opp\opp.py", line 760, in _get_dict_index
+    self.raise_config_error("You need to specify a chain as chain-card-number in: {}".format(input_str), 17)
+  File "c:\users\student\mpfenv\lib\site-packages\mpf\core\logging.py", line 173, in raise_config_error
+    from source_exception
+mpf.exceptions.config_file_error.ConfigFileError: Config File Error in OPP: You need to specify a chain as chain-card-number in: 39 Error Code: CFE-OPP-17 (https://docs.missionpinball.org/en/0.55/logs/CFE-OPP-17.html)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "c:\users\student\mpfenv\lib\site-packages\mpf\core\system_wide_device.py", line 17, in device_added_system_wide
+    await self._initialize()
+  File "c:\users\student\mpfenv\lib\site-packages\mpf\devices\switch.py", line 152, in _initialize
+    self.class_label) from e
+mpf.exceptions.config_file_error.ConfigFileError: Config File Error in switch: Failed to configure switch s_medal_drop_right in platform. See error above Error Code: CFE-switch-2 (https://docs.missionpinball.org/en/0.55/logs/CFE-switch-2.html)
+2024-12-02 10:02:56,387 : ERROR : asyncio : Task exception was never retrieved
+future: <Task finished coro=<SystemWideDevice.device_added_system_wide() done, defined at c:\users\student\mpfenv\lib\site-packages\mpf\core\system_wide_device.py:15> exception=ConfigFileError('Failed to configure switch s_mission_spot_1 in platform. See error above')>
+Traceback (most recent call last):
+  File "c:\users\student\mpfenv\lib\site-packages\mpf\devices\switch.py", line 149, in _initialize
+    self.config['number'], config, self.config['platform_settings'])
+  File "c:\users\student\mpfenv\lib\site-packages\mpf\platforms\opp\opp.py", line 825, in configure_switch
+    number = self._get_dict_index(number)
+  File "c:\users\student\mpfenv\lib\site-packages\mpf\platforms\opp\opp.py", line 760, in _get_dict_index
+    self.raise_config_error("You need to specify a chain as chain-card-number in: {}".format(input_str), 17)
+  File "c:\users\student\mpfenv\lib\site-packages\mpf\core\logging.py", line 173, in raise_config_error
+    from source_exception
+mpf.exceptions.config_file_error.ConfigFileError: Config File Error in OPP: You need to specify a chain as chain-card-number in: 40 Error Code: CFE-OPP-17 (https://docs.missionpinball.org/en/0.55/logs/CFE-OPP-17.html)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "c:\users\student\mpfenv\lib\site-packages\mpf\core\system_wide_device.py", line 17, in device_added_system_wide
+    await self._initialize()
+  File "c:\users\student\mpfenv\lib\site-packages\mpf\devices\switch.py", line 152, in _initialize
+    self.class_label) from e
+mpf.exceptions.config_file_error.ConfigFileError: Config File Error in switch: Failed to configure switch s_mission_spot_1 in platform. See error above Error Code: CFE-switch-2 (https://docs.missionpinball.org/en/0.55/logs/CFE-switch-2.html)
+2024-12-02 10:02:56,389 : INFO : EventManager : Event: ======'init_phase_2'====== Args={}
+2024-12-02 10:02:56,389 : INFO : Machine : Starting the main run loop.
+2024-12-02 10:02:56,393 : INFO : Machine : Shutting down...
+2024-12-02 10:02:56,394 : INFO : EventManager : Event: ======'shutdown'====== Args={}
+2024-12-02 10:02:56,397 : ERROR : OPP : Stop called on serial connection com5
+2024-12-02 10:02:56,397 : ERROR : OPP : Stop called on serial connection com4
+2024-12-02 10:02:56,400 : ERROR : asyncio : Task exception was never retrieved
+future: <Task finished coro=<SwitchController._initialize_switches() done, defined at c:\users\student\mpfenv\lib\site-packages\mpf\core\switch_controller.py:80> exception=AttributeError("'NoneType' object has no attribute 'number'")>
+Traceback (most recent call last):
+  File "c:\users\student\mpfenv\lib\site-packages\mpf\core\switch_controller.py", line 82, in _initialize_switches
+    await self.update_switches_from_hw()
+  File "c:\users\student\mpfenv\lib\site-packages\mpf\core\switch_controller.py", line 104, in update_switches_from_hw
+    switches.add((switch, switch.hw_switch.number))
+AttributeError: 'NoneType' object has no attribute 'number'
+2024-12-02 10:02:56,403 : ERROR : Machine : Runtime Exception
+Traceback (most recent call last):
+  File "c:\users\student\mpfenv\lib\site-packages\mpf\devices\switch.py", line 149, in _initialize
+    self.config['number'], config, self.config['platform_settings'])
+  File "c:\users\student\mpfenv\lib\site-packages\mpf\platforms\opp\opp.py", line 825, in configure_switch
+    number = self._get_dict_index(number)
+  File "c:\users\student\mpfenv\lib\site-packages\mpf\platforms\opp\opp.py", line 760, in _get_dict_index
+    self.raise_config_error("You need to specify a chain as chain-card-number in: {}".format(input_str), 17)
+  File "c:\users\student\mpfenv\lib\site-packages\mpf\core\logging.py", line 173, in raise_config_error
+    from source_exception
+mpf.exceptions.config_file_error.ConfigFileError: Config File Error in OPP: You need to specify a chain as chain-card-number in: 41 Error Code: CFE-OPP-17 (https://docs.missionpinball.org/en/0.55/logs/CFE-OPP-17.html)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "c:\users\student\mpfenv\lib\site-packages\mpf\core\machine.py", line 769, in _run_loop
+    raise self._exception['exception']
+  File "c:\users\student\mpfenv\lib\site-packages\mpf\core\system_wide_device.py", line 17, in device_added_system_wide
+    await self._initialize()
+  File "c:\users\student\mpfenv\lib\site-packages\mpf\devices\switch.py", line 152, in _initialize
+    self.class_label) from e
+mpf.exceptions.config_file_error.ConfigFileError: Config File Error in switch: Failed to configure switch s_mission_spot_2 in platform. See error above Error Code: CFE-switch-2 (https://docs.missionpinball.org/en/0.55/logs/CFE-switch-2.html)
+2024-12-02 10:03:22,881 : ERROR : root : 
+Traceback (most recent call last):
+  File "c:\users\student\mpfenv\lib\site-packages\mpf\devices\switch.py", line 149, in _initialize
+    self.config['number'], config, self.config['platform_settings'])
+  File "c:\users\student\mpfenv\lib\site-packages\mpf\platforms\opp\opp.py", line 825, in configure_switch
+    number = self._get_dict_index(number)
+  File "c:\users\student\mpfenv\lib\site-packages\mpf\platforms\opp\opp.py", line 760, in _get_dict_index
+    self.raise_config_error("You need to specify a chain as chain-card-number in: {}".format(input_str), 17)
+  File "c:\users\student\mpfenv\lib\site-packages\mpf\core\logging.py", line 173, in raise_config_error
+    from source_exception
+mpf.exceptions.config_file_error.ConfigFileError: Config File Error in OPP: You need to specify a chain as chain-card-number in: 41 Error Code: CFE-OPP-17 (https://docs.missionpinball.org/en/0.55/logs/CFE-OPP-17.html)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "c:\users\student\mpfenv\lib\site-packages\mpf\core\machine.py", line 769, in _run_loop
+    raise self._exception['exception']
+  File "c:\users\student\mpfenv\lib\site-packages\mpf\core\system_wide_device.py", line 17, in device_added_system_wide
+    await self._initialize()
+  File "c:\users\student\mpfenv\lib\site-packages\mpf\devices\switch.py", line 152, in _initialize
+    self.class_label) from e
+mpf.exceptions.config_file_error.ConfigFileError: Config File Error in switch: Failed to configure switch s_mission_spot_2 in platform. See error above Error Code: CFE-switch-2 (https://docs.missionpinball.org/en/0.55/logs/CFE-switch-2.html)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "c:\users\student\mpfenv\lib\site-packages\mpf\commands\game.py", line 239, in __init__
+    self.machine.run()
+  File "c:\users\student\mpfenv\lib\site-packages\mpf\core\machine.py", line 687, in run
+    self._run_loop()
+  File "c:\users\student\mpfenv\lib\site-packages\mpf\core\machine.py", line 772, in _run_loop
+    report_crash(self._exception['exception'], "exception_during_run", self.config)
+  File "c:\users\student\mpfenv\lib\site-packages\mpf\core\crash_reporter.py", line 236, in report_crash
+    response = input("Do you want to report the crash to the MPF team (yes/no/show)? ")
+EOFError

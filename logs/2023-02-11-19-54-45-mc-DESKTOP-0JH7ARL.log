@@ -1,0 +1,16 @@
+2023-02-11 19:54:45,601 : kivy : Factory: 186 symbols loaded
+2023-02-11 19:54:45,710 : kivy : ImageLoaderFFPy: Using ffpyplayer 4.3.2
+2023-02-11 19:54:45,710 : kivy : Image: Providers: img_tex, img_dds, img_sdl2, img_pil, img_ffpyplayer 
+2023-02-11 19:54:45,749 : kivy : VideoGstplayer: Using Gstreamer 1.18.0.0
+2023-02-11 19:54:45,749 : kivy : Video: Provider: gstplayer
+2023-02-11 19:54:45,889 : kivy : Loading MPF-MC controller
+2023-02-11 19:54:46,178 : ConfigProcessor : Config spec file cache created: C:\Users\student\AppData\Local\Temp\config_spec.mpf_cache
+2023-02-11 19:54:46,193 : YamlMultifileConfigLoader : Machine config file #1: config
+2023-02-11 19:54:46,193 : ConfigProcessor : Loading config from file c:\users\student\mpfenv\lib\site-packages\mpfmc\mcconfig.yaml.
+2023-02-11 19:54:46,221 : ConfigProcessor : Loading config: c:\users\student\mpfenv\lib\site-packages\mpfmc\mcconfig.yaml
+2023-02-11 19:54:46,221 : ConfigProcessor : Loading config from file C:\Users\student\pinball\cobraPinTest1\config\config.
+2023-02-11 19:54:46,246 : ConfigProcessor : Loading config: C:\Users\student\pinball\cobraPinTest1\config\config
+2023-02-11 19:54:46,247 : ConfigProcessor : Config file cache created: C:\Users\student\AppData\Local\Temp\8788ef445fdd76e1de1cbcebe7495fec.mpf_cache
+2023-02-11 19:54:46,247 : ConfigProcessor : Loading config from file c:\users\student\mpfenv\lib\site-packages\mpf\modes\attract\config\attract.yaml.
+2023-02-11 19:54:46,248 : ConfigProcessor : Loading config: c:\users\student\mpfenv\lib\site-packages\mpf\modes\attract\config\attract.yaml
+2023-02-11 19:54:46,248 : ConfigProcessor : Loading config from file C:\Users\student\pinball\cobraPinTest1\modes\attract\config\attract.yaml.

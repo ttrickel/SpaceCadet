@@ -1,0 +1,85 @@
+2024-11-24 17:01:36,401 : INFO : root : Loading config.
+2024-11-24 17:01:36,405 : INFO : YamlMultifileConfigLoader : Machine config file #1: config.yaml
+2024-11-24 17:01:36,405 : WARNING : ConfigProcessor : Config file in cache changed: C:\Users\student\pinball\cobraPinTest1\config\config.yaml
+2024-11-24 17:01:36,405 : INFO : ConfigProcessor : Loading config from file c:\users\student\mpfenv\lib\site-packages\mpf\mpfconfig.yaml.
+2024-11-24 17:01:36,465 : INFO : ConfigProcessor : Loading config: c:\users\student\mpfenv\lib\site-packages\mpf\mpfconfig.yaml
+2024-11-24 17:01:36,466 : INFO : ConfigProcessor : Loading config from file C:\Users\student\pinball\cobraPinTest1\config\config.yaml.
+2024-11-24 17:01:36,507 : INFO : ConfigProcessor : Loading config: C:\Users\student\pinball\cobraPinTest1\config\config.yaml
+2024-11-24 17:01:36,509 : INFO : ConfigProcessor : Config file cache created: C:\Users\student\AppData\Local\Temp\f1427cd4cbc9163bc2263f349f0fb463.mpf_cache
+2024-11-24 17:01:36,575 : INFO : ConfigProcessor : Loading config from cache: C:\Users\student\AppData\Local\Temp\32ed7ad340ce8029344f8b9ff63edc80.mpf_cache
+2024-11-24 17:01:36,576 : INFO : ConfigProcessor : Loading config from cache: C:\Users\student\AppData\Local\Temp\8696bd5a5a040ff67990be11cb4d3c0c.mpf_cache
+2024-11-24 17:01:36,577 : INFO : ConfigProcessor : Loading config from cache: C:\Users\student\AppData\Local\Temp\4675a535c8328a9c278c807d999ed109.mpf_cache
+2024-11-24 17:01:36,578 : INFO : ConfigProcessor : Loading config from cache: C:\Users\student\AppData\Local\Temp\0c8438cab3480347c0c749fa494946a2.mpf_cache
+2024-11-24 17:01:36,579 : INFO : ConfigProcessor : Loading config from cache: C:\Users\student\AppData\Local\Temp\edae2e0e7aeda847f5007d89f37fc8de.mpf_cache
+2024-11-24 17:01:36,580 : INFO : ConfigProcessor : Loading config from cache: C:\Users\student\AppData\Local\Temp\f8d2c2cf3ea01f085365ea23fa51a701.mpf_cache
+2024-11-24 17:01:36,580 : INFO : ConfigProcessor : Loading config from cache: C:\Users\student\AppData\Local\Temp\30bd992f4b62a9b099207aebeb59554c.mpf_cache
+2024-11-24 17:01:36,581 : INFO : Machine : Mission Pinball Framework Core Engine v0.55.0
+2024-11-24 17:01:36,581 : INFO : Machine : Command line arguments: {'no_load_cache': False, 'create_config_cache': True, 'bcp': True, 'configfile': ['config.yaml'], 'force_assets_load': False, 'jsonlogging': False, 'logfile': 'logs\\2024-11-24-17-01-36-mpf-DESKTOP-0JH7ARL.log', 'pause': False, 'production': False, 'text_ui': True, 'loglevel': 15, 'consoleloglevel': 20, 'force_platform': None, 'syslog_address': None, 'mc_file_name': None, 'no_sound': False}
+2024-11-24 17:01:36,581 : INFO : Machine : MPF path: c:\users\student\mpfenv\lib\site-packages\mpf
+2024-11-24 17:01:36,581 : INFO : Machine : Machine path: C:\Users\student\pinball\cobraPinTest1
+2024-11-24 17:01:36,581 : INFO : Machine : Platform: win32
+2024-11-24 17:01:36,581 : INFO : Machine : Python executable location: c:\users\student\mpfenv\scripts\python.exe
+2024-11-24 17:01:36,581 : INFO : Machine : Python version: 3.7.8 (64-bit)
+2024-11-24 17:01:36,583 : INFO : Machine : Initialise MPF.
+2024-11-24 17:01:36,772 : INFO : OPP : Connecting to com4 at 115200bps
+2024-11-24 17:01:36,956 : INFO : OPP : Init of OPP board 0 done
+2024-11-24 17:01:36,956 : INFO : OPP : Connecting to com5 at 115200bps
+2024-11-24 17:01:37,113 : INFO : OPP : Init of OPP board 1 done
+2024-11-24 17:01:37,114 : INFO : EventManager : Event: ======'machine_var_credits_string'====== Args={'value': 'FREE PLAY', 'prev_value': None, 'change': True}
+2024-11-24 17:01:37,156 : INFO : EventManager : Event: ======'machine_var_master_volume'====== Args={'value': 0.5, 'prev_value': None, 'change': True}
+2024-11-24 17:01:37,156 : INFO : EventManager : Event: ======'machine_var_player1_score'====== Args={'value': 1500, 'prev_value': None, 'change': True}
+2024-11-24 17:01:37,156 : INFO : EventManager : Event: ======'machine_var_mpf_version'====== Args={'value': 'MPF v0.55.0', 'prev_value': None, 'change': True}
+2024-11-24 17:01:37,156 : INFO : EventManager : Event: ======'machine_var_mpf_extended_version'====== Args={'value': 'MPF v0.55.0, Config version:5, Show version: 5, BCP version:1.1', 'prev_value': None, 'change': True}
+2024-11-24 17:01:37,156 : INFO : EventManager : Event: ======'machine_var_python_version'====== Args={'value': '3.7.8', 'prev_value': None, 'change': True}
+2024-11-24 17:01:37,157 : INFO : EventManager : Event: ======'machine_var_platform'====== Args={'value': 'Windows-10-10.0.19041-SP0', 'prev_value': None, 'change': True}
+2024-11-24 17:01:37,157 : INFO : EventManager : Event: ======'machine_var_platform_system'====== Args={'value': 'Windows', 'prev_value': None, 'change': True}
+2024-11-24 17:01:37,157 : INFO : EventManager : Event: ======'machine_var_platform_release'====== Args={'value': '10', 'prev_value': None, 'change': True}
+2024-11-24 17:01:37,157 : INFO : EventManager : Event: ======'machine_var_platform_version'====== Args={'value': '10.0.19041', 'prev_value': None, 'change': True}
+2024-11-24 17:01:37,157 : INFO : EventManager : Event: ======'machine_var_platform_machine'====== Args={'value': 'AMD64', 'prev_value': None, 'change': True}
+2024-11-24 17:01:37,157 : INFO : EventManager : Event: ======'init_phase_1'====== Args={}
+2024-11-24 17:01:37,179 : INFO : EventManager : Event: ======'init_phase_2'====== Args={}
+2024-11-24 17:01:37,180 : INFO : SwitchController : Found active switch: ('0-0-8', <Platform.OPP>) <switch.s_trough1>
+2024-11-24 17:01:37,184 : INFO : EventManager : Event: ======'bcp_connection_attempt'====== Args={'name': 'local_display', 'host': 'localhost', 'port': 5050}
+2024-11-24 17:01:37,186 : INFO : BCPClientSocket : Connecting BCP to 'local_display' at localhost:5050...
+2024-11-24 17:01:39,239 : INFO : BCPClientSocket : Connected BCP to 'local_display' localhost:5050
+2024-11-24 17:01:39,241 : INFO : EventManager : Event: ======'bcp_clients_connected'====== Args={}
+2024-11-24 17:01:39,262 : INFO : ball_device.bd_trough : BCH: Initial count: 1
+2024-11-24 17:01:39,262 : INFO : EventManager : Event: ======'machine_var_mc_version'====== Args={'value': 'MPF-MC v0.55.0', 'prev_value': None, 'change': True}
+2024-11-24 17:01:39,262 : INFO : EventManager : Event: ======'machine_var_mc_extended_version'====== Args={'value': 'MPF-MC v0.55.0 (config_version=5, BCP v1.1, Requires MPF v0.55.0-dev.49)', 'prev_value': None, 'change': True}
+2024-11-24 17:01:39,264 : INFO : ball_device.bd_trough : State: idle
+2024-11-24 17:01:39,277 : INFO : ball_device.bd_plunger : BCH: Initial count: 0
+2024-11-24 17:01:39,277 : INFO : ball_device.bd_plunger : State: idle
+2024-11-24 17:01:39,341 : INFO : EventManager : Event: ======'init_phase_3'====== Args={}
+2024-11-24 17:01:39,347 : INFO : EventManager : Event: ======'init_phase_4'====== Args={}
+2024-11-24 17:01:39,347 : INFO : BallController : Initial balls found: 1
+2024-11-24 17:01:39,348 : ERROR : asyncio : Exception in callback EventManager._queue_task_done(<Task finishe...ntry_right>')>)
+handle: <Handle EventManager._queue_task_done(<Task finishe...ntry_right>')>)>
+Traceback (most recent call last):
+  File "C:\Program Files\Python37\lib\asyncio\events.py", line 88, in _run
+    self._context.run(self._callback, *self._args)
+  File "c:\users\student\mpfenv\lib\site-packages\mpf\core\events.py", line 728, in _queue_task_done
+    future.result()
+  File "c:\users\student\mpfenv\lib\site-packages\mpf\core\events.py", line 645, in _run_handlers_sequential
+    handler.callback(queue=queue, **merged_kwargs)
+  File "c:\users\student\mpfenv\lib\site-packages\mpf\devices\switch.py", line 82, in _check_duplicate_switch_numbers
+    switch.hw_switch.number, switch))
+AssertionError: Duplicate switch number 0-0-1 for switch <switch.s_reentry_right>
+2024-11-24 17:01:39,373 : INFO : Machine : Starting the main run loop.
+2024-11-24 17:01:39,376 : INFO : Machine : Shutting down...
+2024-11-24 17:01:39,376 : INFO : EventManager : Event: ======'shutdown'====== Args={}
+2024-11-24 17:01:39,378 : ERROR : OPP : Stop called on serial connection com5
+2024-11-24 17:01:39,378 : ERROR : OPP : Stop called on serial connection com4
+2024-11-24 17:01:39,383 : ERROR : Machine : Runtime Exception
+Traceback (most recent call last):
+  File "c:\users\student\mpfenv\lib\site-packages\mpf\core\machine.py", line 769, in _run_loop
+    raise self._exception['exception']
+  File "C:\Program Files\Python37\lib\asyncio\events.py", line 88, in _run
+    self._context.run(self._callback, *self._args)
+  File "c:\users\student\mpfenv\lib\site-packages\mpf\core\events.py", line 728, in _queue_task_done
+    future.result()
+  File "c:\users\student\mpfenv\lib\site-packages\mpf\core\events.py", line 645, in _run_handlers_sequential
+    handler.callback(queue=queue, **merged_kwargs)
+  File "c:\users\student\mpfenv\lib\site-packages\mpf\devices\switch.py", line 82, in _check_duplicate_switch_numbers
+    switch.hw_switch.number, switch))
+AssertionError: Duplicate switch number 0-0-1 for switch <switch.s_reentry_right>
+2024-11-24 17:02:19,317 : INFO : root : MPF run loop ended.

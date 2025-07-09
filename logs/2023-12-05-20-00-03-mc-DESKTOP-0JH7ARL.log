@@ -1,0 +1,19 @@
+2023-12-05 20:00:03,205 : kivy : Factory: 186 symbols loaded
+2023-12-05 20:00:03,306 : kivy : ImageLoaderFFPy: Using ffpyplayer 4.3.2
+2023-12-05 20:00:03,306 : kivy : Image: Providers: img_tex, img_dds, img_sdl2, img_pil, img_ffpyplayer 
+2023-12-05 20:00:03,341 : kivy : VideoGstplayer: Using Gstreamer 1.18.0.0
+2023-12-05 20:00:03,341 : kivy : Video: Provider: gstplayer
+2023-12-05 20:00:03,465 : kivy : Loading MPF-MC controller
+2023-12-05 20:00:03,467 : YamlMultifileConfigLoader : Machine config file #1: config
+2023-12-05 20:00:03,467 : ConfigProcessor : Config file in cache changed: C:\Users\student\pinball\cobraPinTest1\config\config
+2023-12-05 20:00:03,482 : ConfigProcessor : Loading config from file c:\users\student\mpfenv\lib\site-packages\mpfmc\mcconfig.yaml.
+2023-12-05 20:00:03,523 : ConfigProcessor : Loading config: c:\users\student\mpfenv\lib\site-packages\mpfmc\mcconfig.yaml
+2023-12-05 20:00:03,523 : ConfigProcessor : Loading config from file C:\Users\student\pinball\cobraPinTest1\config\config.
+2023-12-05 20:00:03,560 : ConfigProcessor : Loading config: C:\Users\student\pinball\cobraPinTest1\config\config
+2023-12-05 20:00:03,561 : ConfigProcessor : Config file cache created: C:\Users\student\AppData\Local\Temp\8788ef445fdd76e1de1cbcebe7495fec.mpf_cache
+2023-12-05 20:00:03,562 : ConfigProcessor : Loading config from cache: C:\Users\student\AppData\Local\Temp\32ed7ad340ce8029344f8b9ff63edc80.mpf_cache
+2023-12-05 20:00:03,562 : ConfigProcessor : Loading config from cache: C:\Users\student\AppData\Local\Temp\8696bd5a5a040ff67990be11cb4d3c0c.mpf_cache
+2023-12-05 20:00:03,563 : ConfigProcessor : Loading config from cache: C:\Users\student\AppData\Local\Temp\4675a535c8328a9c278c807d999ed109.mpf_cache
+2023-12-05 20:00:03,563 : ConfigProcessor : Loading config from cache: C:\Users\student\AppData\Local\Temp\0c8438cab3480347c0c749fa494946a2.mpf_cache
+2023-12-05 20:00:03,564 : ConfigProcessor : Config file in cache changed: C:\Users\student\pinball\cobraPinTest1\modes\medal\config\medal.yaml
+2023-12-05 20:00:03,564 : ConfigProcessor : Loading config from file C:\Users\student\pinball\cobraPinTest1\modes\medal\config\medal.yaml.

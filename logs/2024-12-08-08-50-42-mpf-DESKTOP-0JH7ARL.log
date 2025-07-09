@@ -1,0 +1,347 @@
+2024-12-08 08:50:42,384 : INFO : root : Loading config.
+2024-12-08 08:50:42,708 : INFO : ConfigProcessor : Config spec file cache created: C:\Users\student\AppData\Local\Temp\config_spec.mpf_cache
+2024-12-08 08:50:42,709 : INFO : YamlMultifileConfigLoader : Machine config file #1: config.yaml
+2024-12-08 08:50:42,709 : INFO : ConfigProcessor : Loading config from file c:\users\student\mpfenv\lib\site-packages\mpf\mpfconfig.yaml.
+2024-12-08 08:50:42,769 : INFO : ConfigProcessor : Loading config: c:\users\student\mpfenv\lib\site-packages\mpf\mpfconfig.yaml
+2024-12-08 08:50:42,770 : INFO : ConfigProcessor : Loading config from file C:\Users\student\pinball\cobraPinTest1\config\config.yaml.
+2024-12-08 08:50:42,811 : INFO : ConfigProcessor : Loading config: C:\Users\student\pinball\cobraPinTest1\config\config.yaml
+2024-12-08 08:50:42,813 : INFO : ConfigProcessor : Config file cache created: C:\Users\student\AppData\Local\Temp\f1427cd4cbc9163bc2263f349f0fb463.mpf_cache
+2024-12-08 08:50:42,884 : INFO : ConfigProcessor : Loading config from file c:\users\student\mpfenv\lib\site-packages\mpf\modes\attract\config\attract.yaml.
+2024-12-08 08:50:42,885 : INFO : ConfigProcessor : Loading config: c:\users\student\mpfenv\lib\site-packages\mpf\modes\attract\config\attract.yaml
+2024-12-08 08:50:42,885 : INFO : ConfigProcessor : Loading config from file C:\Users\student\pinball\cobraPinTest1\modes\attract\config\attract.yaml.
+2024-12-08 08:50:42,886 : INFO : ConfigProcessor : Loading config: C:\Users\student\pinball\cobraPinTest1\modes\attract\config\attract.yaml
+2024-12-08 08:50:42,887 : INFO : ConfigProcessor : Config file cache created: C:\Users\student\AppData\Local\Temp\32ed7ad340ce8029344f8b9ff63edc80.mpf_cache
+2024-12-08 08:50:42,887 : INFO : ConfigProcessor : Loading config from file c:\users\student\mpfenv\lib\site-packages\mpf\modes\game\config\game.yaml.
+2024-12-08 08:50:42,889 : INFO : ConfigProcessor : Loading config: c:\users\student\mpfenv\lib\site-packages\mpf\modes\game\config\game.yaml
+2024-12-08 08:50:42,889 : INFO : ConfigProcessor : Config file cache created: C:\Users\student\AppData\Local\Temp\8696bd5a5a040ff67990be11cb4d3c0c.mpf_cache
+2024-12-08 08:50:42,890 : INFO : ConfigProcessor : Loading config from file C:\Users\student\pinball\cobraPinTest1\modes\base\config\base.yaml.
+2024-12-08 08:50:42,894 : INFO : ConfigProcessor : Loading config: C:\Users\student\pinball\cobraPinTest1\modes\base\config\base.yaml
+2024-12-08 08:50:42,895 : INFO : ConfigProcessor : Config file cache created: C:\Users\student\AppData\Local\Temp\4675a535c8328a9c278c807d999ed109.mpf_cache
+2024-12-08 08:50:42,895 : INFO : ConfigProcessor : Loading config from file C:\Users\student\pinball\cobraPinTest1\modes\reentry\config\reentry.yaml.
+2024-12-08 08:50:42,912 : INFO : ConfigProcessor : Loading config: C:\Users\student\pinball\cobraPinTest1\modes\reentry\config\reentry.yaml
+2024-12-08 08:50:42,913 : INFO : ConfigProcessor : Config file cache created: C:\Users\student\AppData\Local\Temp\0c8438cab3480347c0c749fa494946a2.mpf_cache
+2024-12-08 08:50:42,913 : INFO : ConfigProcessor : Loading config from file C:\Users\student\pinball\cobraPinTest1\modes\lowerlanes\config\lowerlanes.yaml.
+2024-12-08 08:50:42,925 : INFO : ConfigProcessor : Loading config: C:\Users\student\pinball\cobraPinTest1\modes\lowerlanes\config\lowerlanes.yaml
+2024-12-08 08:50:42,925 : INFO : ConfigProcessor : Config file cache created: C:\Users\student\AppData\Local\Temp\5052615755bdf1309b248cf8695ad4ff.mpf_cache
+2024-12-08 08:50:42,926 : INFO : ConfigProcessor : Loading config from file C:\Users\student\pinball\cobraPinTest1\modes\attract\shows\.\attract_display_loop.yaml.
+2024-12-08 08:50:42,933 : INFO : ConfigProcessor : Loading config: C:\Users\student\pinball\cobraPinTest1\modes\attract\shows\.\attract_display_loop.yaml
+2024-12-08 08:50:42,934 : INFO : ConfigProcessor : Config file cache created: C:\Users\student\AppData\Local\Temp\f8d2c2cf3ea01f085365ea23fa51a701.mpf_cache
+2024-12-08 08:50:42,934 : INFO : ConfigProcessor : Loading config from file C:\Users\student\pinball\cobraPinTest1\modes\attract\shows\.\attract_light_show.yaml.
+2024-12-08 08:50:42,939 : INFO : ConfigProcessor : Loading config: C:\Users\student\pinball\cobraPinTest1\modes\attract\shows\.\attract_light_show.yaml
+2024-12-08 08:50:42,940 : INFO : ConfigProcessor : Config file cache created: C:\Users\student\AppData\Local\Temp\30bd992f4b62a9b099207aebeb59554c.mpf_cache
+2024-12-08 08:50:42,940 : INFO : Machine : Mission Pinball Framework Core Engine v0.55.0
+2024-12-08 08:50:42,940 : INFO : Machine : Command line arguments: {'no_load_cache': True, 'create_config_cache': True, 'bcp': True, 'configfile': ['config.yaml'], 'force_assets_load': False, 'jsonlogging': False, 'logfile': 'logs\\2024-12-08-08-50-42-mpf-DESKTOP-0JH7ARL.log', 'pause': False, 'production': False, 'text_ui': True, 'loglevel': 15, 'consoleloglevel': 20, 'force_platform': None, 'syslog_address': None, 'mc_file_name': None, 'no_sound': False}
+2024-12-08 08:50:42,940 : INFO : Machine : MPF path: c:\users\student\mpfenv\lib\site-packages\mpf
+2024-12-08 08:50:42,940 : INFO : Machine : Machine path: C:\Users\student\pinball\cobraPinTest1
+2024-12-08 08:50:42,940 : INFO : Machine : Platform: win32
+2024-12-08 08:50:42,941 : INFO : Machine : Python executable location: c:\users\student\mpfenv\scripts\python.exe
+2024-12-08 08:50:42,941 : INFO : Machine : Python version: 3.7.8 (64-bit)
+2024-12-08 08:50:42,943 : INFO : Machine : Initialise MPF.
+2024-12-08 08:50:43,297 : INFO : OPP : Connecting to com4 at 115200bps
+2024-12-08 08:50:43,400 : INFO : OPP : Init of OPP board 0 done
+2024-12-08 08:50:43,400 : INFO : OPP : Connecting to com5 at 115200bps
+2024-12-08 08:50:43,570 : INFO : OPP : Init of OPP board 1 done
+2024-12-08 08:50:43,571 : INFO : EventManager : Event: ======'machine_var_credits_string'====== Args={'value': 'FREE PLAY', 'prev_value': None, 'change': True}
+2024-12-08 08:50:43,616 : INFO : EventManager : Event: ======'machine_var_master_volume'====== Args={'value': 0.5, 'prev_value': None, 'change': True}
+2024-12-08 08:50:43,617 : INFO : EventManager : Event: ======'machine_var_player1_score'====== Args={'value': 1500, 'prev_value': None, 'change': True}
+2024-12-08 08:50:43,617 : INFO : EventManager : Event: ======'machine_var_mpf_version'====== Args={'value': 'MPF v0.55.0', 'prev_value': None, 'change': True}
+2024-12-08 08:50:43,617 : INFO : EventManager : Event: ======'machine_var_mpf_extended_version'====== Args={'value': 'MPF v0.55.0, Config version:5, Show version: 5, BCP version:1.1', 'prev_value': None, 'change': True}
+2024-12-08 08:50:43,617 : INFO : EventManager : Event: ======'machine_var_python_version'====== Args={'value': '3.7.8', 'prev_value': None, 'change': True}
+2024-12-08 08:50:43,617 : INFO : EventManager : Event: ======'machine_var_platform'====== Args={'value': 'Windows-10-10.0.19041-SP0', 'prev_value': None, 'change': True}
+2024-12-08 08:50:43,617 : INFO : EventManager : Event: ======'machine_var_platform_system'====== Args={'value': 'Windows', 'prev_value': None, 'change': True}
+2024-12-08 08:50:43,617 : INFO : EventManager : Event: ======'machine_var_platform_release'====== Args={'value': '10', 'prev_value': None, 'change': True}
+2024-12-08 08:50:43,617 : INFO : EventManager : Event: ======'machine_var_platform_version'====== Args={'value': '10.0.19041', 'prev_value': None, 'change': True}
+2024-12-08 08:50:43,617 : INFO : EventManager : Event: ======'machine_var_platform_machine'====== Args={'value': 'AMD64', 'prev_value': None, 'change': True}
+2024-12-08 08:50:43,617 : INFO : EventManager : Event: ======'init_phase_1'====== Args={}
+2024-12-08 08:50:43,642 : INFO : EventManager : Event: ======'init_phase_2'====== Args={}
+2024-12-08 08:50:43,643 : INFO : SwitchController : Found active switch: ('0-0-8', <Platform.OPP>) <switch.s_trough1>
+2024-12-08 08:50:43,648 : INFO : EventManager : Event: ======'bcp_connection_attempt'====== Args={'name': 'local_display', 'host': 'localhost', 'port': 5050}
+2024-12-08 08:50:43,649 : INFO : BCPClientSocket : Connecting BCP to 'local_display' at localhost:5050...
+2024-12-08 08:50:45,690 : INFO : BCPClientSocket : Connected BCP to 'local_display' localhost:5050
+2024-12-08 08:50:45,691 : INFO : EventManager : Event: ======'bcp_clients_connected'====== Args={}
+2024-12-08 08:50:45,692 : INFO : EventManager : Event: ======'machine_var_mc_version'====== Args={'value': 'MPF-MC v0.55.0', 'prev_value': None, 'change': True}
+2024-12-08 08:50:45,692 : INFO : EventManager : Event: ======'machine_var_mc_extended_version'====== Args={'value': 'MPF-MC v0.55.0 (config_version=5, BCP v1.1, Requires MPF v0.55.0-dev.49)', 'prev_value': None, 'change': True}
+2024-12-08 08:50:45,712 : INFO : ball_device.bd_trough : BCH: Initial count: 1
+2024-12-08 08:50:45,713 : INFO : ball_device.bd_trough : State: idle
+2024-12-08 08:50:45,714 : INFO : ball_device.bd_plunger : BCH: Initial count: 0
+2024-12-08 08:50:45,714 : INFO : ball_device.bd_plunger : State: idle
+2024-12-08 08:50:45,777 : INFO : EventManager : Event: ======'init_phase_3'====== Args={}
+2024-12-08 08:50:45,782 : INFO : EventManager : Event: ======'init_phase_4'====== Args={}
+2024-12-08 08:50:45,783 : INFO : BallController : Initial balls found: 1
+2024-12-08 08:50:45,784 : INFO : EventManager : Event: ======'machine_var_audits_events_game_ended'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2024-12-08 08:50:45,784 : INFO : EventManager : Event: ======'machine_var_audits_events_game_started'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2024-12-08 08:50:45,785 : INFO : EventManager : Event: ======'machine_var_audits_player_score'====== Args={'value': {'average': 1800.0, 'top': [2000, 1900, 1500], 'total': 3}, 'prev_value': None, 'change': True}
+2024-12-08 08:50:45,785 : INFO : EventManager : Event: ======'machine_var_audits_shots_bonusLane_shot'====== Args={'value': 14, 'prev_value': None, 'change': True}
+2024-12-08 08:50:45,785 : INFO : EventManager : Event: ======'machine_var_audits_shots_medalL_shot'====== Args={'value': 174, 'prev_value': None, 'change': True}
+2024-12-08 08:50:45,785 : INFO : EventManager : Event: ======'machine_var_audits_shots_medalM_shot'====== Args={'value': 166, 'prev_value': None, 'change': True}
+2024-12-08 08:50:45,785 : INFO : EventManager : Event: ======'machine_var_audits_shots_medalR_shot'====== Args={'value': 165, 'prev_value': None, 'change': True}
+2024-12-08 08:50:45,785 : INFO : EventManager : Event: ======'machine_var_audits_shots_my_first_shot'====== Args={'value': 119, 'prev_value': None, 'change': True}
+2024-12-08 08:50:45,786 : INFO : EventManager : Event: ======'machine_var_audits_shots_my_first_shot_mode2'====== Args={'value': 72, 'prev_value': None, 'change': True}
+2024-12-08 08:50:45,786 : INFO : EventManager : Event: ======'machine_var_audits_shots_outLaneL_shot'====== Args={'value': 8, 'prev_value': None, 'change': True}
+2024-12-08 08:50:45,786 : INFO : EventManager : Event: ======'machine_var_audits_shots_outLaneR_shot'====== Args={'value': 22, 'prev_value': None, 'change': True}
+2024-12-08 08:50:45,786 : INFO : EventManager : Event: ======'machine_var_audits_shots_reentryL_shot'====== Args={'value': 473, 'prev_value': None, 'change': True}
+2024-12-08 08:50:45,786 : INFO : EventManager : Event: ======'machine_var_audits_shots_reentryM_shot'====== Args={'value': 432, 'prev_value': None, 'change': True}
+2024-12-08 08:50:45,787 : INFO : EventManager : Event: ======'machine_var_audits_shots_reentryR_shot'====== Args={'value': 410, 'prev_value': None, 'change': True}
+2024-12-08 08:50:45,787 : INFO : EventManager : Event: ======'machine_var_audits_shots_reentry_shot'====== Args={'value': 9, 'prev_value': None, 'change': True}
+2024-12-08 08:50:45,787 : INFO : EventManager : Event: ======'machine_var_audits_shots_returnLaneL_shot'====== Args={'value': 86, 'prev_value': None, 'change': True}
+2024-12-08 08:50:45,787 : INFO : EventManager : Event: ======'machine_var_audits_shots_returnLaneR_shot'====== Args={'value': 45, 'prev_value': None, 'change': True}
+2024-12-08 08:50:45,788 : INFO : EventManager : Event: ======'machine_var_audits_shots_spacewarp_rollover_shot'====== Args={'value': 26, 'prev_value': None, 'change': True}
+2024-12-08 08:50:45,788 : INFO : EventManager : Event: ======'machine_var_audits_shots_top_lane_A'====== Args={'value': 12, 'prev_value': None, 'change': True}
+2024-12-08 08:50:45,789 : INFO : EventManager : Event: ======'machine_var_audits_shots_top_lane_J'====== Args={'value': 12, 'prev_value': None, 'change': True}
+2024-12-08 08:50:45,789 : INFO : EventManager : Event: ======'machine_var_audits_shots_top_lane_M'====== Args={'value': 9, 'prev_value': None, 'change': True}
+2024-12-08 08:50:45,789 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_blackhole_kicker'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2024-12-08 08:50:45,789 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_bonus_lane'====== Args={'value': 27, 'prev_value': None, 'change': True}
+2024-12-08 08:50:45,790 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_booster_drop_target_1'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2024-12-08 08:50:45,790 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_booster_drop_target_2'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2024-12-08 08:50:45,791 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_booster_drop_target_3'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2024-12-08 08:50:45,791 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_comet_spot_1'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2024-12-08 08:50:45,792 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_comet_spot_2'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2024-12-08 08:50:45,792 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_comet_spot_3'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2024-12-08 08:50:45,793 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_engine_bumper_1'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2024-12-08 08:50:45,793 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_engine_bumper_2'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2024-12-08 08:50:45,794 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_engine_bumper_3'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2024-12-08 08:50:45,795 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_fuel_chute_1'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2024-12-08 08:50:45,795 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_fuel_chute_2'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2024-12-08 08:50:45,795 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_fuel_chute_3'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2024-12-08 08:50:45,796 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_fuel_chute_4'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2024-12-08 08:50:45,796 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_fuel_chute_5'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2024-12-08 08:50:45,796 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_fuel_chute_6'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2024-12-08 08:50:45,796 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_fuel_flag'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2024-12-08 08:50:45,797 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_fuel_spot_1'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2024-12-08 08:50:45,797 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_fuel_spot_2'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2024-12-08 08:50:45,797 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_fuel_spot_3'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2024-12-08 08:50:45,797 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_green_wormhole'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2024-12-08 08:50:45,798 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_hyperspace_flag'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2024-12-08 08:50:45,798 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_hyperspacekicker'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2024-12-08 08:50:45,798 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_launch_lane_1'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2024-12-08 08:50:45,799 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_launch_lane_2'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2024-12-08 08:50:45,799 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_launch_lane_3'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2024-12-08 08:50:45,799 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_launch_ramp'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2024-12-08 08:50:45,799 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_left_attack_bumper'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2024-12-08 08:50:45,800 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_left_flipper'====== Args={'value': 999, 'prev_value': None, 'change': True}
+2024-12-08 08:50:45,800 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_left_out_lane'====== Args={'value': 12, 'prev_value': None, 'change': True}
+2024-12-08 08:50:45,800 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_left_out_lane_kicker'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2024-12-08 08:50:45,800 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_left_return_lane'====== Args={'value': 93, 'prev_value': None, 'change': True}
+2024-12-08 08:50:45,801 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_lower_attack_bumper'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2024-12-08 08:50:45,801 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_lower_left_rebound'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2024-12-08 08:50:45,801 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_lower_left_slingshot'====== Args={'value': 44, 'prev_value': None, 'change': True}
+2024-12-08 08:50:45,802 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_lower_right_rebound'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2024-12-08 08:50:45,802 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_lower_right_slingshot'====== Args={'value': 43, 'prev_value': None, 'change': True}
+2024-12-08 08:50:45,802 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_medal_drop_left'====== Args={'value': 188, 'prev_value': None, 'change': True}
+2024-12-08 08:50:45,802 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_medal_drop_middle'====== Args={'value': 180, 'prev_value': None, 'change': True}
+2024-12-08 08:50:45,803 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_medal_drop_right'====== Args={'value': 179, 'prev_value': None, 'change': True}
+2024-12-08 08:50:45,803 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_mission_spot_1'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2024-12-08 08:50:45,803 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_mission_spot_2'====== Args={'value': 2, 'prev_value': None, 'change': True}
+2024-12-08 08:50:45,804 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_mission_spot_3'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2024-12-08 08:50:45,804 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_multiplier_left'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2024-12-08 08:50:45,804 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_multiplier_middle'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2024-12-08 08:50:45,805 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_multiplier_right'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2024-12-08 08:50:45,806 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_plunger'====== Args={'value': 165, 'prev_value': None, 'change': True}
+2024-12-08 08:50:45,806 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_radiationspot_1'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2024-12-08 08:50:45,807 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_radiationspot_2'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2024-12-08 08:50:45,807 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_radiationspot_3'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2024-12-08 08:50:45,807 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_red_wormhole'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2024-12-08 08:50:45,808 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_reentry_left'====== Args={'value': 831, 'prev_value': None, 'change': True}
+2024-12-08 08:50:45,808 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_reentry_middle'====== Args={'value': 506, 'prev_value': None, 'change': True}
+2024-12-08 08:50:45,809 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_reentry_right'====== Args={'value': 469, 'prev_value': None, 'change': True}
+2024-12-08 08:50:45,809 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_right_flipper'====== Args={'value': 774, 'prev_value': None, 'change': True}
+2024-12-08 08:50:45,810 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_right_inlane'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2024-12-08 08:50:45,810 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_right_out_lane'====== Args={'value': 48, 'prev_value': None, 'change': True}
+2024-12-08 08:50:45,810 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_right_out_lane_kicker'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2024-12-08 08:50:45,811 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_right_return_lane'====== Args={'value': 57, 'prev_value': None, 'change': True}
+2024-12-08 08:50:45,811 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_satellite_bumper'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2024-12-08 08:50:45,811 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_secondary_outlane_kicker'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2024-12-08 08:50:45,812 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_skill_shot_1'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2024-12-08 08:50:45,812 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_skill_shot_2'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2024-12-08 08:50:45,812 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_skill_shot_3'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2024-12-08 08:50:45,813 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_skill_shot_4'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2024-12-08 08:50:45,813 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_skill_shot_5'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2024-12-08 08:50:45,813 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_skill_shot_6'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2024-12-08 08:50:45,814 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_skill_shot_lane'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2024-12-08 08:50:45,814 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_spacewarp_rollover'====== Args={'value': 27, 'prev_value': None, 'change': True}
+2024-12-08 08:50:45,814 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_start'====== Args={'value': 7, 'prev_value': None, 'change': True}
+2024-12-08 08:50:45,815 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_trough1'====== Args={'value': 30, 'prev_value': None, 'change': True}
+2024-12-08 08:50:45,815 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_trough2'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2024-12-08 08:50:45,815 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_trough3'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2024-12-08 08:50:45,816 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_trough4'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2024-12-08 08:50:45,816 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_trough5'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2024-12-08 08:50:45,817 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_trough6'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2024-12-08 08:50:45,818 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_trough_jam'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2024-12-08 08:50:45,818 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_upper_attack_bumper'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2024-12-08 08:50:45,819 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_upper_left_rebound'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2024-12-08 08:50:45,819 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_upper_right_rebound'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2024-12-08 08:50:45,819 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_wormhole_target'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2024-12-08 08:50:45,820 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_yellow_wormhole'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2024-12-08 08:50:45,820 : INFO : EventManager : Event: ======'init_phase_5'====== Args={}
+2024-12-08 08:50:45,866 : INFO : EventManager : Event: ======'init_done'====== Args={}
+2024-12-08 08:50:45,867 : INFO : EventManager : Event: ======'machine_reset_phase_1'====== Args={}
+2024-12-08 08:50:45,880 : INFO : EventManager : Event: ======'slide_welcome_slide_removed'====== Args={'_from_bcp': True}
+2024-12-08 08:50:45,881 : INFO : EventManager : Event: ======'slide_welcome_slide_created'====== Args={'_from_bcp': True}
+2024-12-08 08:50:45,882 : INFO : EventManager : Event: ======'slide_welcome_slide_active'====== Args={'_from_bcp': True}
+2024-12-08 08:50:45,882 : INFO : EventManager : Event: ======'machine_reset_phase_2'====== Args={}
+2024-12-08 08:50:45,883 : INFO : EventManager : Event: ======'machine_reset_phase_3'====== Args={}
+2024-12-08 08:50:45,883 : INFO : EventManager : Event: ======'reset_complete'====== Args={}
+2024-12-08 08:50:45,884 : INFO : EventManager : Event: ======'mode_attract_will_start'====== Args={}
+2024-12-08 08:50:45,884 : INFO : EventManager : Event: ======'mode_attract_starting'====== Args={}
+2024-12-08 08:50:45,885 : INFO : Mode.attract : Started. Priority: 10
+2024-12-08 08:50:45,885 : INFO : EventManager : Event: ======'modes_active_modes_changed'====== Args={}
+2024-12-08 08:50:45,885 : INFO : EventManager : Event: ======'mode_attract_started'====== Args={}
+2024-12-08 08:50:45,886 : INFO : EventManager : Event: ======'collecting_balls_complete'====== Args={}
+2024-12-08 08:50:45,928 : INFO : EventManager : Event: ======'slide_awesome_slide_created'====== Args={'_from_bcp': True}
+2024-12-08 08:50:45,928 : INFO : EventManager : Event: ======'slide_awesome_slide_active'====== Args={'_from_bcp': True}
+2024-12-08 08:50:45,928 : INFO : Machine : Starting the main run loop.
+2024-12-08 08:50:46,130 : INFO : BcpServer : New client connected.
+2024-12-08 08:50:48,898 : INFO : EventManager : Event: ======'slide_press_start_created'====== Args={'_from_bcp': True}
+2024-12-08 08:50:48,901 : INFO : EventManager : Event: ======'slide_press_start_active'====== Args={'_from_bcp': True}
+2024-12-08 08:50:51,902 : INFO : EventManager : Event: ======'slide_mission_pinball_created'====== Args={'_from_bcp': True}
+2024-12-08 08:50:51,907 : INFO : EventManager : Event: ======'slide_mission_pinball_active'====== Args={'_from_bcp': True}
+2024-12-08 08:50:53,141 : INFO : SwitchController : <<<<<<< 's_start' active >>>>>>>
+2024-12-08 08:50:53,373 : INFO : SwitchController : <<<<<<< 's_start' inactive >>>>>>>
+2024-12-08 08:50:53,373 : INFO : EventManager : Event: ======'request_to_start_game'====== Args={}
+2024-12-08 08:50:53,376 : INFO : EventManager : Event: ======'game_start'====== Args={'buttons': [], 'hold_time': 0.23500000004423782}
+2024-12-08 08:50:53,378 : INFO : EventManager : Event: ======'mode_game_will_start'====== Args={'buttons': [], 'hold_time': 0.23500000004423782}
+2024-12-08 08:50:53,380 : INFO : EventManager : Event: ======'mode_game_starting'====== Args={'buttons': [], 'hold_time': 0.23500000004423782}
+2024-12-08 08:50:53,381 : INFO : EventManager : Event: ======'mode_attract_will_stop'====== Args={}
+2024-12-08 08:50:53,383 : INFO : EventManager : Event: ======'mode_attract_stopping'====== Args={}
+2024-12-08 08:50:53,384 : INFO : Mode.attract : Stopped.
+2024-12-08 08:50:53,384 : INFO : EventManager : Event: ======'modes_active_modes_changed'====== Args={}
+2024-12-08 08:50:53,387 : INFO : EventManager : Event: ======'mode_attract_stopped'====== Args={}
+2024-12-08 08:50:53,387 : INFO : EventManager : Event: ======'clear'====== Args={'key': 'attract'}
+2024-12-08 08:50:53,389 : INFO : Mode.game : Started. Priority: 20
+2024-12-08 08:50:53,389 : INFO : EventManager : Event: ======'modes_active_modes_changed'====== Args={}
+2024-12-08 08:50:53,391 : INFO : EventManager : Event: ======'mode_game_started'====== Args={'buttons': [], 'hold_time': 0.23500000004423782}
+2024-12-08 08:50:53,405 : INFO : EventManager : Event: ======'game_will_start'====== Args={}
+2024-12-08 08:50:53,405 : INFO : EventManager : Event: ======'slide_awesome_slide_removed'====== Args={'_from_bcp': True}
+2024-12-08 08:50:53,406 : INFO : EventManager : Event: ======'slide_press_start_removed'====== Args={'_from_bcp': True}
+2024-12-08 08:50:53,406 : INFO : EventManager : Event: ======'slide_mission_pinball_removed'====== Args={'_from_bcp': True}
+2024-12-08 08:50:53,406 : INFO : EventManager : Event: ======'slide_welcome_slide_active'====== Args={'_from_bcp': True}
+2024-12-08 08:50:53,407 : INFO : EventManager : Event: ======'game_starting'====== Args={'game': <Mode.game>}
+2024-12-08 08:50:53,407 : INFO : EventManager : Event: ======'player_add_request'====== Args={}
+2024-12-08 08:50:53,408 : INFO : EventManager : Event: ======'player_will_add'====== Args={'number': 1}
+2024-12-08 08:50:53,408 : INFO : EventManager : Event: ======'player_adding'====== Args={'player': <Player 1>, 'number': 1}
+2024-12-08 08:50:53,408 : INFO : EventManager : Event: ======'player_added'====== Args={'player': <Player 1>, 'num': 1}
+2024-12-08 08:50:53,409 : INFO : Mode.game : Player added successfully. Total players: 1
+2024-12-08 08:50:53,409 : INFO : EventManager : Event: ======'player_index'====== Args={'value': 0, 'prev_value': 0, 'change': 0, 'player_num': 1}
+2024-12-08 08:50:53,409 : INFO : EventManager : Event: ======'player_number'====== Args={'value': 1, 'prev_value': 1, 'change': 0, 'player_num': 1}
+2024-12-08 08:50:53,410 : INFO : EventManager : Event: ======'player_score'====== Args={'value': 0, 'prev_value': 0, 'change': 0, 'player_num': 1}
+2024-12-08 08:50:53,410 : INFO : EventManager : Event: ======'game_started'====== Args={}
+2024-12-08 08:50:53,428 : INFO : EventManager : Event: ======'player_turn_will_start'====== Args={'player': <Player 1>, 'number': 1}
+2024-12-08 08:50:53,429 : INFO : EventManager : Event: ======'player_turn_starting'====== Args={'player': <Player 1>, 'number': 1}
+2024-12-08 08:50:53,429 : INFO : EventManager : Event: ======'player_ball'====== Args={'value': 1, 'prev_value': 0, 'change': 1, 'player_num': 1}
+2024-12-08 08:50:53,430 : INFO : EventManager : Event: ======'player_turn_started'====== Args={'player': <Player 1>, 'number': 1}
+2024-12-08 08:50:53,430 : INFO : EventManager : Event: ======'ball_will_start'====== Args={'player': 1, 'ball': 1, 'balls_remaining': 2, 'is_extra_ball': False}
+2024-12-08 08:50:53,435 : INFO : EventManager : Event: ======'ball_starting'====== Args={'player': 1, 'ball': 1, 'balls_remaining': 2, 'is_extra_ball': False}
+2024-12-08 08:50:53,436 : INFO : EventManager : Event: ======'mode_base_will_start'====== Args={'queue': <QueuedEvent>, 'player': 1, 'ball': 1, 'balls_remaining': 2, 'is_extra_ball': False}
+2024-12-08 08:50:53,437 : INFO : EventManager : Event: ======'mode_base_starting'====== Args={'queue': <QueuedEvent>, 'player': 1, 'ball': 1, 'balls_remaining': 2, 'is_extra_ball': False}
+2024-12-08 08:50:53,437 : INFO : Mode.base : Started. Priority: 100
+2024-12-08 08:50:53,437 : INFO : EventManager : Event: ======'modes_active_modes_changed'====== Args={}
+2024-12-08 08:50:53,437 : INFO : EventManager : Event: ======'mode_base_started'====== Args={'queue': <QueuedEvent>, 'player': 1, 'ball': 1, 'balls_remaining': 2, 'is_extra_ball': False}
+2024-12-08 08:50:53,439 : INFO : EventManager : Event: ======'balls_in_play'====== Args={'balls': 1}
+2024-12-08 08:50:53,439 : INFO : EventManager : Event: ======'ball_started'====== Args={'player': 1, 'ball': 1, 'balls_remaining': 2, 'is_extra_ball': False}
+2024-12-08 08:50:53,440 : INFO : EventManager : Event: ======'mode_lowerlanes_will_start'====== Args={'player': 1, 'ball': 1, 'balls_remaining': 2, 'is_extra_ball': False}
+2024-12-08 08:50:53,440 : INFO : EventManager : Event: ======'player_shot_returnLaneL_shot_enabled'====== Args={'value': True, 'prev_value': 0, 'change': 1, 'player_num': 1}
+2024-12-08 08:50:53,441 : INFO : EventManager : Event: ======'player_shot_bonusLane_shot_enabled'====== Args={'value': True, 'prev_value': 0, 'change': 1, 'player_num': 1}
+2024-12-08 08:50:53,441 : INFO : EventManager : Event: ======'player_shot_outLaneL_shot_enabled'====== Args={'value': True, 'prev_value': 0, 'change': 1, 'player_num': 1}
+2024-12-08 08:50:53,442 : INFO : EventManager : Event: ======'player_shot_returnLaneR_shot_enabled'====== Args={'value': True, 'prev_value': 0, 'change': 1, 'player_num': 1}
+2024-12-08 08:50:53,442 : INFO : EventManager : Event: ======'player_shot_outLaneR_shot_enabled'====== Args={'value': True, 'prev_value': 0, 'change': 1, 'player_num': 1}
+2024-12-08 08:50:53,443 : INFO : EventManager : Event: ======'player_shot_spacewarp_rollover_shot_enabled'====== Args={'value': True, 'prev_value': 0, 'change': 1, 'player_num': 1}
+2024-12-08 08:50:53,443 : INFO : EventManager : Event: ======'returnLane_shot_complete'====== Args={'state': 'unlit'}
+2024-12-08 08:50:53,444 : INFO : EventManager : Event: ======'returnLane_shot_unlit_complete'====== Args={}
+2024-12-08 08:50:53,444 : INFO : EventManager : Event: ======'outLane_shot_complete'====== Args={'state': 'unlit'}
+2024-12-08 08:50:53,444 : INFO : EventManager : Event: ======'outLane_shot_unlit_complete'====== Args={}
+2024-12-08 08:50:53,445 : INFO : EventManager : Event: ======'mode_lowerlanes_starting'====== Args={'player': 1, 'ball': 1, 'balls_remaining': 2, 'is_extra_ball': False}
+2024-12-08 08:50:53,446 : INFO : EventManager : Event: ======'mode_reentry_will_start'====== Args={'player': 1, 'ball': 1, 'balls_remaining': 2, 'is_extra_ball': False}
+2024-12-08 08:50:53,446 : INFO : EventManager : Event: ======'player_shot_reentryL_shot_enabled'====== Args={'value': True, 'prev_value': 0, 'change': 1, 'player_num': 1}
+2024-12-08 08:50:53,447 : INFO : EventManager : Event: ======'player_shot_reentryM_shot_enabled'====== Args={'value': True, 'prev_value': 0, 'change': 1, 'player_num': 1}
+2024-12-08 08:50:53,447 : INFO : EventManager : Event: ======'player_shot_reentryR_shot_enabled'====== Args={'value': True, 'prev_value': 0, 'change': 1, 'player_num': 1}
+2024-12-08 08:50:53,448 : INFO : EventManager : Event: ======'reentry_shot_complete'====== Args={'state': 'off'}
+2024-12-08 08:50:53,448 : INFO : EventManager : Event: ======'reentry_shot_off_complete'====== Args={}
+2024-12-08 08:50:53,450 : INFO : EventManager : Event: ======'mode_reentry_starting'====== Args={'player': 1, 'ball': 1, 'balls_remaining': 2, 'is_extra_ball': False}
+2024-12-08 08:50:53,452 : INFO : Mode.lowerlanes : Started. Priority: 200
+2024-12-08 08:50:53,452 : INFO : EventManager : Event: ======'modes_active_modes_changed'====== Args={}
+2024-12-08 08:50:53,452 : INFO : EventManager : Event: ======'mode_lowerlanes_started'====== Args={'player': 1, 'ball': 1, 'balls_remaining': 2, 'is_extra_ball': False}
+2024-12-08 08:50:53,490 : INFO : EventManager : Event: ======'logicblock_reentry_shot_complete_count_updated'====== Args={'value': 1, 'enabled': True}
+2024-12-08 08:50:53,490 : INFO : EventManager : Event: ======'logicblock_reentry_shot_complete_count_updated'====== Args={'value': 1, 'enabled': True}
+2024-12-08 08:50:53,490 : INFO : Mode.reentry : Started. Priority: 200
+2024-12-08 08:50:53,490 : INFO : EventManager : Event: ======'modes_active_modes_changed'====== Args={}
+2024-12-08 08:50:53,491 : INFO : EventManager : Event: ======'mode_reentry_started'====== Args={'player': 1, 'ball': 1, 'balls_remaining': 2, 'is_extra_ball': False}
+2024-12-08 08:50:53,491 : INFO : EventManager : Event: ======'player_attack_bumper_count'====== Args={'value': 1, 'prev_value': 0, 'change': 1, 'player_num': 1}
+2024-12-08 08:50:53,492 : INFO : EventManager : Event: ======'single_player_ball_started'====== Args={}
+2024-12-08 08:50:53,492 : INFO : EventManager : Event: ======'slide_base.slide_player-mode_base_started_created'====== Args={'_from_bcp': True}
+2024-12-08 08:50:53,493 : INFO : EventManager : Event: ======'slide_base.slide_player-mode_base_started_active'====== Args={'_from_bcp': True}
+2024-12-08 08:50:53,493 : INFO : EventManager : Event: ======'slide__global.slide_player-ball_started_created'====== Args={'_from_bcp': True}
+2024-12-08 08:50:53,525 : INFO : EventManager : Event: ======'ball_start_target'====== Args={'target': 'playfield'}
+2024-12-08 08:50:53,526 : INFO : ball_device.bd_plunger : Setting up player-controlled eject. Balls: 1, Target: <playfield.playfield>, player_controlled_eject_event: None
+2024-12-08 08:50:53,527 : INFO : EventManager : Event: ======'balldevice_balls_available'====== Args={}
+2024-12-08 08:50:53,528 : INFO : ball_device.bd_trough : State: waiting_for_target_ready
+2024-12-08 08:50:53,529 : INFO : EventManager : Event: ======'balldevice_bd_trough_ball_eject_attempt'====== Args={'balls': 1, 'target': <ball_device.bd_plunger>, 'source': <ball_device.bd_trough>, 'mechanical_eject': True, 'num_attempts': 0}
+2024-12-08 08:50:53,529 : INFO : ball_device.bd_plunger : State: waiting_for_ball
+2024-12-08 08:50:53,530 : INFO : ball_device.bd_trough : State: ejecting
+2024-12-08 08:50:53,530 : INFO : ball_device.bd_trough : Ejecting ball to <ball_device.bd_plunger>
+2024-12-08 08:50:53,530 : INFO : EventManager : Event: ======'balldevice_bd_trough_ejecting_ball'====== Args={'balls': 1, 'target': <ball_device.bd_plunger>, 'source': <ball_device.bd_trough>, 'mechanical_eject': True, 'num_attempts': 0}
+2024-12-08 08:50:53,532 : INFO : ball_device.bd_trough : Wait for ball to leave device
+2024-12-08 08:50:53,532 : INFO : coil.c_trough_eject : Pulsing Driver for 10ms (1.0 pulse_power)
+2024-12-08 08:50:57,226 : INFO : SwitchController : <<<<<<< 's_trough1' inactive >>>>>>>
+2024-12-08 08:50:57,234 : INFO : ball_device.bd_trough : State: ball_left
+2024-12-08 08:50:57,234 : INFO : ball_device.bd_trough : Ball left
+2024-12-08 08:50:57,234 : INFO : ball_device.bd_trough : Wait for confirm with timeout 10.0
+2024-12-08 08:50:59,084 : INFO : SwitchController : <<<<<<< 's_plunger' active >>>>>>>
+2024-12-08 08:50:59,084 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_plunger'====== Args={'value': 166, 'prev_value': 165, 'change': 1}
+2024-12-08 08:50:59,587 : INFO : ball_device.bd_plunger : Received ball from <ball_device.bd_trough>
+2024-12-08 08:50:59,588 : INFO : EventManager : Event: ======'balldevice_bd_plunger_ball_enter'====== Args={'new_balls': 1, 'unclaimed_balls': 0, 'new_available_balls': 0, 'device': <ball_device.bd_plunger>}
+2024-12-08 08:50:59,591 : INFO : EventManager : Event: ======'balldevice_bd_plunger_ball_entered'====== Args={'new_balls': 0, 'device': <ball_device.bd_plunger>}
+2024-12-08 08:50:59,593 : INFO : EventManager : Event: ======'balldevice_bd_plunger_ball_count_changed'====== Args={'balls': 1}
+2024-12-08 08:50:59,595 : INFO : ball_device.bd_trough : Got eject confirm
+2024-12-08 08:50:59,595 : INFO : ball_device.bd_trough : Eject successful
+2024-12-08 08:50:59,595 : INFO : EventManager : Event: ======'balldevice_bd_trough_ball_eject_success'====== Args={'balls': 1, 'target': <ball_device.bd_plunger>}
+2024-12-08 08:50:59,599 : INFO : EventManager : Event: ======'balldevice_bd_trough_ball_count_changed'====== Args={'balls': 0}
+2024-12-08 08:50:59,599 : INFO : ball_device.bd_trough : State: idle
+2024-12-08 08:50:59,600 : INFO : ball_device.bd_plunger : State: waiting_for_target_ready
+2024-12-08 08:50:59,602 : INFO : EventManager : Event: ======'balldevice_bd_plunger_ball_eject_attempt'====== Args={'balls': 1, 'target': <playfield.playfield>, 'source': <ball_device.bd_plunger>, 'mechanical_eject': True, 'num_attempts': 0}
+2024-12-08 08:50:59,605 : INFO : ball_device.bd_plunger : State: ejecting
+2024-12-08 08:50:59,606 : INFO : ball_device.bd_plunger : Ejecting ball to <playfield.playfield>
+2024-12-08 08:50:59,606 : INFO : EventManager : Event: ======'balldevice_bd_plunger_ejecting_ball'====== Args={'balls': 1, 'target': <playfield.playfield>, 'source': <ball_device.bd_plunger>, 'mechanical_eject': True, 'num_attempts': 0}
+2024-12-08 08:50:59,611 : INFO : ball_device.bd_plunger : Wait for ball to leave device
+2024-12-08 08:51:00,139 : INFO : SwitchController : <<<<<<< 's_plunger' inactive >>>>>>>
+2024-12-08 08:51:00,152 : INFO : ball_device.bd_plunger : State: ball_left
+2024-12-08 08:51:00,152 : INFO : ball_device.bd_plunger : Ball left
+2024-12-08 08:51:00,152 : INFO : ball_device.bd_plunger : Wait for confirm with timeout 10.0
+2024-12-08 08:51:06,213 : INFO : SwitchController : <<<<<<< 's_spacewarp_rollover' active >>>>>>>
+2024-12-08 08:51:06,213 : INFO : EventManager : Event: ======'playfield_active'====== Args={}
+2024-12-08 08:51:06,214 : INFO : EventManager : Event: ======'s_spacewarp_rollover_active'====== Args={}
+2024-12-08 08:51:06,216 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_spacewarp_rollover'====== Args={'value': 28, 'prev_value': 27, 'change': 1}
+2024-12-08 08:51:06,232 : INFO : EventManager : Event: ======'player_shot_spacewarp_rollover_shot'====== Args={'value': 1, 'prev_value': 0, 'change': 1, 'player_num': 1}
+2024-12-08 08:51:06,232 : INFO : EventManager : Event: ======'machine_var_audits_shots_spacewarp_rollover_shot'====== Args={'value': 27, 'prev_value': 26, 'change': 1}
+2024-12-08 08:51:06,233 : INFO : EventManager : Event: ======'spacewarp_rollover_shot_hit'====== Args={'profile': 'default', 'state': 'unlit', 'advancing': True}
+2024-12-08 08:51:06,233 : INFO : EventManager : Event: ======'spacewarp_rollover_shot_default_hit'====== Args={'profile': 'default', 'state': 'unlit', 'advancing': True}
+2024-12-08 08:51:06,233 : INFO : EventManager : Event: ======'spacewarp_rollover_shot_default_unlit_hit'====== Args={'profile': 'default', 'state': 'unlit', 'advancing': True}
+2024-12-08 08:51:06,233 : INFO : EventManager : Event: ======'spacewarp_rollover_shot_unlit_hit'====== Args={'profile': 'default', 'state': 'unlit', 'advancing': True}
+2024-12-08 08:51:06,234 : INFO : EventManager : Event: ======'returnLane_shot.states.lit#'====== Args={'priority': 0}
+2024-12-08 08:51:06,234 : INFO : EventManager : Event: ======'returnLaneL_shot.states.lit'====== Args={'priority': 0}
+2024-12-08 08:51:06,241 : INFO : ball_device.bd_plunger : Got eject confirm
+2024-12-08 08:51:06,241 : INFO : ball_device.bd_plunger : Eject successful
+2024-12-08 08:51:06,241 : INFO : EventManager : Event: ======'balldevice_bd_plunger_ball_eject_success'====== Args={'balls': 1, 'target': <playfield.playfield>}
+2024-12-08 08:51:06,241 : INFO : EventManager : Event: ======'balldevice_playfield_ball_enter'====== Args={'new_balls': 1, 'unclaimed_balls': 1, 'device': <playfield.playfield>}
+2024-12-08 08:51:06,242 : INFO : EventManager : Event: ======'playfield_ball_count_change'====== Args={'balls': 1, 'change': 1}
+2024-12-08 08:51:06,242 : INFO : EventManager : Event: ======'balldevice_bd_plunger_ball_count_changed'====== Args={'balls': 0}
+2024-12-08 08:51:06,242 : INFO : ball_device.bd_plunger : State: idle
+2024-12-08 08:51:06,388 : INFO : SwitchController : <<<<<<< 's_spacewarp_rollover' inactive >>>>>>>
+2024-12-08 08:51:11,809 : INFO : SwitchController : <<<<<<< 's_left_return_lane' active >>>>>>>
+2024-12-08 08:51:11,809 : INFO : EventManager : Event: ======'s_left_return_lane_active'====== Args={}
+2024-12-08 08:51:11,810 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_left_return_lane'====== Args={'value': 94, 'prev_value': 93, 'change': 1}
+2024-12-08 08:51:11,824 : INFO : EventManager : Event: ======'machine_var_audits_shots_returnLaneL_shot'====== Args={'value': 87, 'prev_value': 86, 'change': 1}
+2024-12-08 08:51:11,835 : INFO : EventManager : Event: ======'returnLaneL_shot_hit'====== Args={'profile': 'returnLane', 'state': 'unlit', 'advancing': False}
+2024-12-08 08:51:11,835 : INFO : EventManager : Event: ======'returnLaneL_shot_returnLane_hit'====== Args={'profile': 'returnLane', 'state': 'unlit', 'advancing': False}
+2024-12-08 08:51:11,835 : INFO : EventManager : Event: ======'returnLaneL_shot_returnLane_unlit_hit'====== Args={'profile': 'returnLane', 'state': 'unlit', 'advancing': False}
+2024-12-08 08:51:11,835 : INFO : EventManager : Event: ======'returnLaneL_shot_unlit_hit'====== Args={'profile': 'returnLane', 'state': 'unlit', 'advancing': False}
+2024-12-08 08:51:11,836 : INFO : EventManager : Event: ======'returnLane_shot_hit'====== Args={}
+2024-12-08 08:51:11,836 : INFO : EventManager : Event: ======'returnLane_shot_unlit_hit'====== Args={}
+2024-12-08 08:51:11,836 : INFO : EventManager : Event: ======'player_score'====== Args={'value': 5000, 'prev_value': 0, 'change': 5000, 'player_num': 1}
+2024-12-08 08:51:12,083 : INFO : SwitchController : <<<<<<< 's_left_return_lane' inactive >>>>>>>
+2024-12-08 08:58:01,077 : INFO : Machine : Shutting down...
+2024-12-08 08:58:01,078 : INFO : EventManager : Event: ======'shutdown'====== Args={}
+2024-12-08 08:58:01,088 : ERROR : OPP : Stop called on serial connection com5
+2024-12-08 08:58:01,088 : ERROR : OPP : Stop called on serial connection com4
+2024-12-08 08:58:01,091 : ERROR : asyncio : Task was destroyed but it is pending!
+task: <Task pending coro=<Event.wait() running at C:\Program Files\Python37\lib\asyncio\locks.py:293> wait_for=<Future cancelled>>
+2024-12-08 08:58:01,092 : INFO : root : MPF run loop ended.

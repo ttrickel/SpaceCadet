@@ -1,0 +1,182 @@
+2023-04-14 20:23:15,259 : INFO : root : Loading config.
+2023-04-14 20:23:15,603 : INFO : ConfigProcessor : Config spec file cache created: C:\Users\student\AppData\Local\Temp\config_spec.mpf_cache
+2023-04-14 20:23:15,603 : INFO : YamlMultifileConfigLoader : Machine config file #1: config.yaml
+2023-04-14 20:23:15,604 : INFO : ConfigProcessor : Loading config from file c:\users\student\mpfenv\lib\site-packages\mpf\mpfconfig.yaml.
+2023-04-14 20:23:15,689 : INFO : ConfigProcessor : Loading config: c:\users\student\mpfenv\lib\site-packages\mpf\mpfconfig.yaml
+2023-04-14 20:23:15,690 : INFO : ConfigProcessor : Loading config from file C:\Users\student\pinball\cobraPinTest1\config\config.yaml.
+2023-04-14 20:23:15,730 : INFO : ConfigProcessor : Loading config: C:\Users\student\pinball\cobraPinTest1\config\config.yaml
+2023-04-14 20:23:15,732 : INFO : ConfigProcessor : Config file cache created: C:\Users\student\AppData\Local\Temp\f1427cd4cbc9163bc2263f349f0fb463.mpf_cache
+2023-04-14 20:23:15,807 : INFO : ConfigProcessor : Loading config from file c:\users\student\mpfenv\lib\site-packages\mpf\modes\attract\config\attract.yaml.
+2023-04-14 20:23:15,808 : INFO : ConfigProcessor : Loading config: c:\users\student\mpfenv\lib\site-packages\mpf\modes\attract\config\attract.yaml
+2023-04-14 20:23:15,809 : INFO : ConfigProcessor : Loading config from file C:\Users\student\pinball\cobraPinTest1\modes\attract\config\attract.yaml.
+2023-04-14 20:23:15,810 : INFO : ConfigProcessor : Loading config: C:\Users\student\pinball\cobraPinTest1\modes\attract\config\attract.yaml
+2023-04-14 20:23:15,810 : INFO : ConfigProcessor : Config file cache created: C:\Users\student\AppData\Local\Temp\32ed7ad340ce8029344f8b9ff63edc80.mpf_cache
+2023-04-14 20:23:15,811 : INFO : ConfigProcessor : Loading config from file c:\users\student\mpfenv\lib\site-packages\mpf\modes\game\config\game.yaml.
+2023-04-14 20:23:15,814 : INFO : ConfigProcessor : Loading config: c:\users\student\mpfenv\lib\site-packages\mpf\modes\game\config\game.yaml
+2023-04-14 20:23:15,815 : INFO : ConfigProcessor : Config file cache created: C:\Users\student\AppData\Local\Temp\8696bd5a5a040ff67990be11cb4d3c0c.mpf_cache
+2023-04-14 20:23:15,815 : INFO : ConfigProcessor : Loading config from file C:\Users\student\pinball\cobraPinTest1\modes\base\config\base.yaml.
+2023-04-14 20:23:15,821 : INFO : ConfigProcessor : Loading config: C:\Users\student\pinball\cobraPinTest1\modes\base\config\base.yaml
+2023-04-14 20:23:15,821 : INFO : ConfigProcessor : Config file cache created: C:\Users\student\AppData\Local\Temp\4675a535c8328a9c278c807d999ed109.mpf_cache
+2023-04-14 20:23:15,822 : INFO : ConfigProcessor : Loading config from file C:\Users\student\pinball\cobraPinTest1\modes\reentry\config\reentry.yaml.
+2023-04-14 20:23:15,833 : INFO : ConfigProcessor : Loading config: C:\Users\student\pinball\cobraPinTest1\modes\reentry\config\reentry.yaml
+2023-04-14 20:23:15,834 : INFO : ConfigProcessor : Config file cache created: C:\Users\student\AppData\Local\Temp\0c8438cab3480347c0c749fa494946a2.mpf_cache
+2023-04-14 20:23:15,835 : INFO : ConfigProcessor : Loading config from file C:\Users\student\pinball\cobraPinTest1\modes\attract\shows\.\attract_display_loop.yaml.
+2023-04-14 20:23:15,844 : INFO : ConfigProcessor : Loading config: C:\Users\student\pinball\cobraPinTest1\modes\attract\shows\.\attract_display_loop.yaml
+2023-04-14 20:23:15,844 : INFO : ConfigProcessor : Config file cache created: C:\Users\student\AppData\Local\Temp\f8d2c2cf3ea01f085365ea23fa51a701.mpf_cache
+2023-04-14 20:23:15,845 : INFO : ConfigProcessor : Loading config from file C:\Users\student\pinball\cobraPinTest1\modes\attract\shows\.\attract_light_show.yaml.
+2023-04-14 20:23:15,848 : INFO : ConfigProcessor : Loading config: C:\Users\student\pinball\cobraPinTest1\modes\attract\shows\.\attract_light_show.yaml
+2023-04-14 20:23:15,849 : INFO : ConfigProcessor : Config file cache created: C:\Users\student\AppData\Local\Temp\30bd992f4b62a9b099207aebeb59554c.mpf_cache
+2023-04-14 20:23:15,849 : INFO : Machine : Mission Pinball Framework Core Engine v0.55.0
+2023-04-14 20:23:15,850 : INFO : Machine : Command line arguments: {'no_load_cache': True, 'create_config_cache': True, 'bcp': True, 'configfile': ['config.yaml'], 'force_assets_load': False, 'jsonlogging': False, 'logfile': 'logs\\2023-04-14-20-23-15-mpf-DESKTOP-0JH7ARL.log', 'pause': False, 'production': False, 'text_ui': True, 'loglevel': 15, 'consoleloglevel': 20, 'force_platform': None, 'syslog_address': None, 'mc_file_name': None, 'no_sound': False}
+2023-04-14 20:23:15,850 : INFO : Machine : MPF path: c:\users\student\mpfenv\lib\site-packages\mpf
+2023-04-14 20:23:15,850 : INFO : Machine : Machine path: C:\Users\student\pinball\cobraPinTest1
+2023-04-14 20:23:15,850 : INFO : Machine : Platform: win32
+2023-04-14 20:23:15,850 : INFO : Machine : Python executable location: c:\users\student\mpfenv\scripts\python.exe
+2023-04-14 20:23:15,850 : INFO : Machine : Python version: 3.7.8 (64-bit)
+2023-04-14 20:23:15,851 : INFO : Machine : Initialise MPF.
+2023-04-14 20:23:16,043 : INFO : EventManager : Event: ======'machine_var_credits_string'====== Args={'value': 'FREE PLAY', 'prev_value': None, 'change': True}
+2023-04-14 20:23:16,093 : INFO : EventManager : Event: ======'machine_var_master_volume'====== Args={'value': 0.5, 'prev_value': None, 'change': True}
+2023-04-14 20:23:16,093 : INFO : EventManager : Event: ======'machine_var_player1_score'====== Args={'value': 1500, 'prev_value': None, 'change': True}
+2023-04-14 20:23:16,093 : INFO : EventManager : Event: ======'machine_var_mpf_version'====== Args={'value': 'MPF v0.55.0', 'prev_value': None, 'change': True}
+2023-04-14 20:23:16,093 : INFO : EventManager : Event: ======'machine_var_mpf_extended_version'====== Args={'value': 'MPF v0.55.0, Config version:5, Show version: 5, BCP version:1.1', 'prev_value': None, 'change': True}
+2023-04-14 20:23:16,093 : INFO : EventManager : Event: ======'machine_var_python_version'====== Args={'value': '3.7.8', 'prev_value': None, 'change': True}
+2023-04-14 20:23:16,093 : INFO : EventManager : Event: ======'machine_var_platform'====== Args={'value': 'Windows-10-10.0.19041-SP0', 'prev_value': None, 'change': True}
+2023-04-14 20:23:16,094 : INFO : EventManager : Event: ======'machine_var_platform_system'====== Args={'value': 'Windows', 'prev_value': None, 'change': True}
+2023-04-14 20:23:16,094 : INFO : EventManager : Event: ======'machine_var_platform_release'====== Args={'value': '10', 'prev_value': None, 'change': True}
+2023-04-14 20:23:16,094 : INFO : EventManager : Event: ======'machine_var_platform_version'====== Args={'value': '10.0.19041', 'prev_value': None, 'change': True}
+2023-04-14 20:23:16,094 : INFO : EventManager : Event: ======'machine_var_platform_machine'====== Args={'value': 'AMD64', 'prev_value': None, 'change': True}
+2023-04-14 20:23:16,094 : INFO : EventManager : Event: ======'init_phase_1'====== Args={}
+2023-04-14 20:23:16,115 : INFO : EventManager : Event: ======'init_phase_2'====== Args={}
+2023-04-14 20:23:16,116 : INFO : SwitchController : Found active switch: ('0-0-8', <Platform.Virtual>) <switch.s_trough1>
+2023-04-14 20:23:16,118 : ERROR : asyncio : Exception in callback EventManager._queue_task_done(<Task finishe...pdate,queue')>)
+handle: <Handle EventManager._queue_task_done(<Task finishe...pdate,queue')>)>
+Traceback (most recent call last):
+  File "C:\Program Files\Python37\lib\asyncio\events.py", line 88, in _run
+    self._context.run(self._callback, *self._args)
+  File "c:\users\student\mpfenv\lib\site-packages\mpf\core\events.py", line 728, in _queue_task_done
+    future.result()
+  File "c:\users\student\mpfenv\lib\site-packages\mpf\core\events.py", line 645, in _run_handlers_sequential
+    handler.callback(queue=queue, **merged_kwargs)
+  File "c:\users\student\mpfenv\lib\site-packages\mpf\core\mode_controller.py", line 101, in initialise_modes
+    **item.kwargs)
+  File "c:\users\student\mpfenv\lib\site-packages\mpf\core\config_player.py", line 132, in process_mode_config
+    config = self.validate_config(config)
+  File "c:\users\student\mpfenv\lib\site-packages\mpf\core\config_player.py", line 104, in validate_config
+    validated_config[event] = self.validate_config_entry(settings, event)
+  File "c:\users\student\mpfenv\lib\site-packages\mpf\config_players\device_config_player.py", line 56, in validate_config_entry
+    raise e
+  File "c:\users\student\mpfenv\lib\site-packages\mpf\config_players\device_config_player.py", line 52, in validate_config_entry
+    self._validate_config_item(device, device_settings))
+  File "c:\users\student\mpfenv\lib\site-packages\mpf\config_players\device_config_player.py", line 79, in _validate_config_item
+    device_settings = self._parse_config(device_settings, device)
+  File "c:\users\student\mpfenv\lib\site-packages\mpf\core\config_player.py", line 126, in _parse_config
+    return self.get_full_config(config)
+  File "c:\users\student\mpfenv\lib\site-packages\mpf\core\config_player.py", line 199, in get_full_config
+    self.config_file_section, value, base_spec='config_player_common')
+  File "c:\users\student\mpfenv\lib\site-packages\mpf\core\config_validator.py", line 180, in validate_config
+    validation_failure_info=validation_failure_info)
+  File "c:\users\student\mpfenv\lib\site-packages\mpf\core\config_validator.py", line 222, in _validate_config
+    validation_failure_info=ValidationPath(validation_failure_info, k))
+  File "c:\users\student\mpfenv\lib\site-packages\mpf\core\config_validator.py", line 259, in validate_config_item
+    return self.validate_item(item, validation, validation_failure_info)
+  File "c:\users\student\mpfenv\lib\site-packages\mpf\core\config_validator.py", line 709, in validate_item
+    return self.validator_list[validator](item, validation_failure_info=validation_failure_info, param=param)
+  File "c:\users\student\mpfenv\lib\site-packages\mpf\core\config_validator.py", line 401, in _validate_type_enum
+    item, str(param)))
+  File "c:\users\student\mpfenv\lib\site-packages\mpf\core\config_validator.py", line 728, in validation_error
+    item, msg), 5 if code is None else code, self.log.name)
+mpf.exceptions.config_file_error.ConfigFileError: Config File Error in ConfigValidator: Failed to load config player reentry_shot_lit_complete:shows with settings {'flash_yellow': {'loops': 0, 'priority': 0, 'action': 'play', 'show': None, 'speed': 1.0, 'block_queue': False, 'start_step': <NativeTemplate 1>, 'start_running': <Template True>, 'sync_ms': None, 'manual_advance': False, 'show_queue': None, 'key': None, 'show_tokens': {}, 'events_when_played': [], 'events_when_stopped': [], 'events_when_looped': [], 'events_when_paused': [], 'events_when_resumed': [], 'events_when_advanced': [], 'events_when_stepped_back': [], 'events_when_updated': [], 'events_when_completed': []}, 'attack_bumper_red': None} >> Config validation error: Entry show_player:show_player:action = "attack_bumper_red" is not valid. Entry "attack_bumper_red" is not valid for enum. Valid values are: play,stop,pause,resume,advance,step_back,update,queue Error Code: CFE-ConfigValidator-5 (https://docs.missionpinball.org/en/0.55/logs/CFE-ConfigValidator-5.html)
+2023-04-14 20:23:16,163 : INFO : Machine : Starting the main run loop.
+2023-04-14 20:23:16,167 : INFO : Machine : Shutting down...
+2023-04-14 20:23:16,167 : INFO : EventManager : Event: ======'shutdown'====== Args={}
+2023-04-14 20:23:16,168 : ERROR : Machine : Runtime Exception
+Traceback (most recent call last):
+  File "c:\users\student\mpfenv\lib\site-packages\mpf\core\machine.py", line 769, in _run_loop
+    raise self._exception['exception']
+  File "C:\Program Files\Python37\lib\asyncio\events.py", line 88, in _run
+    self._context.run(self._callback, *self._args)
+  File "c:\users\student\mpfenv\lib\site-packages\mpf\core\events.py", line 728, in _queue_task_done
+    future.result()
+  File "c:\users\student\mpfenv\lib\site-packages\mpf\core\events.py", line 645, in _run_handlers_sequential
+    handler.callback(queue=queue, **merged_kwargs)
+  File "c:\users\student\mpfenv\lib\site-packages\mpf\core\mode_controller.py", line 101, in initialise_modes
+    **item.kwargs)
+  File "c:\users\student\mpfenv\lib\site-packages\mpf\core\config_player.py", line 132, in process_mode_config
+    config = self.validate_config(config)
+  File "c:\users\student\mpfenv\lib\site-packages\mpf\core\config_player.py", line 104, in validate_config
+    validated_config[event] = self.validate_config_entry(settings, event)
+  File "c:\users\student\mpfenv\lib\site-packages\mpf\config_players\device_config_player.py", line 56, in validate_config_entry
+    raise e
+  File "c:\users\student\mpfenv\lib\site-packages\mpf\config_players\device_config_player.py", line 52, in validate_config_entry
+    self._validate_config_item(device, device_settings))
+  File "c:\users\student\mpfenv\lib\site-packages\mpf\config_players\device_config_player.py", line 79, in _validate_config_item
+    device_settings = self._parse_config(device_settings, device)
+  File "c:\users\student\mpfenv\lib\site-packages\mpf\core\config_player.py", line 126, in _parse_config
+    return self.get_full_config(config)
+  File "c:\users\student\mpfenv\lib\site-packages\mpf\core\config_player.py", line 199, in get_full_config
+    self.config_file_section, value, base_spec='config_player_common')
+  File "c:\users\student\mpfenv\lib\site-packages\mpf\core\config_validator.py", line 180, in validate_config
+    validation_failure_info=validation_failure_info)
+  File "c:\users\student\mpfenv\lib\site-packages\mpf\core\config_validator.py", line 222, in _validate_config
+    validation_failure_info=ValidationPath(validation_failure_info, k))
+  File "c:\users\student\mpfenv\lib\site-packages\mpf\core\config_validator.py", line 259, in validate_config_item
+    return self.validate_item(item, validation, validation_failure_info)
+  File "c:\users\student\mpfenv\lib\site-packages\mpf\core\config_validator.py", line 709, in validate_item
+    return self.validator_list[validator](item, validation_failure_info=validation_failure_info, param=param)
+  File "c:\users\student\mpfenv\lib\site-packages\mpf\core\config_validator.py", line 401, in _validate_type_enum
+    item, str(param)))
+  File "c:\users\student\mpfenv\lib\site-packages\mpf\core\config_validator.py", line 728, in validation_error
+    item, msg), 5 if code is None else code, self.log.name)
+mpf.exceptions.config_file_error.ConfigFileError: Config File Error in ConfigValidator: Failed to load config player reentry_shot_lit_complete:shows with settings {'flash_yellow': {'loops': 0, 'priority': 0, 'action': 'play', 'show': None, 'speed': 1.0, 'block_queue': False, 'start_step': <NativeTemplate 1>, 'start_running': <Template True>, 'sync_ms': None, 'manual_advance': False, 'show_queue': None, 'key': None, 'show_tokens': {}, 'events_when_played': [], 'events_when_stopped': [], 'events_when_looped': [], 'events_when_paused': [], 'events_when_resumed': [], 'events_when_advanced': [], 'events_when_stepped_back': [], 'events_when_updated': [], 'events_when_completed': []}, 'attack_bumper_red': None} >> Config validation error: Entry show_player:show_player:action = "attack_bumper_red" is not valid. Entry "attack_bumper_red" is not valid for enum. Valid values are: play,stop,pause,resume,advance,step_back,update,queue Error Code: CFE-ConfigValidator-5 (https://docs.missionpinball.org/en/0.55/logs/CFE-ConfigValidator-5.html)
+2023-04-14 20:23:32,922 : ERROR : root : 
+Traceback (most recent call last):
+  File "c:\users\student\mpfenv\lib\site-packages\mpf\core\machine.py", line 769, in _run_loop
+    raise self._exception['exception']
+  File "C:\Program Files\Python37\lib\asyncio\events.py", line 88, in _run
+    self._context.run(self._callback, *self._args)
+  File "c:\users\student\mpfenv\lib\site-packages\mpf\core\events.py", line 728, in _queue_task_done
+    future.result()
+  File "c:\users\student\mpfenv\lib\site-packages\mpf\core\events.py", line 645, in _run_handlers_sequential
+    handler.callback(queue=queue, **merged_kwargs)
+  File "c:\users\student\mpfenv\lib\site-packages\mpf\core\mode_controller.py", line 101, in initialise_modes
+    **item.kwargs)
+  File "c:\users\student\mpfenv\lib\site-packages\mpf\core\config_player.py", line 132, in process_mode_config
+    config = self.validate_config(config)
+  File "c:\users\student\mpfenv\lib\site-packages\mpf\core\config_player.py", line 104, in validate_config
+    validated_config[event] = self.validate_config_entry(settings, event)
+  File "c:\users\student\mpfenv\lib\site-packages\mpf\config_players\device_config_player.py", line 56, in validate_config_entry
+    raise e
+  File "c:\users\student\mpfenv\lib\site-packages\mpf\config_players\device_config_player.py", line 52, in validate_config_entry
+    self._validate_config_item(device, device_settings))
+  File "c:\users\student\mpfenv\lib\site-packages\mpf\config_players\device_config_player.py", line 79, in _validate_config_item
+    device_settings = self._parse_config(device_settings, device)
+  File "c:\users\student\mpfenv\lib\site-packages\mpf\core\config_player.py", line 126, in _parse_config
+    return self.get_full_config(config)
+  File "c:\users\student\mpfenv\lib\site-packages\mpf\core\config_player.py", line 199, in get_full_config
+    self.config_file_section, value, base_spec='config_player_common')
+  File "c:\users\student\mpfenv\lib\site-packages\mpf\core\config_validator.py", line 180, in validate_config
+    validation_failure_info=validation_failure_info)
+  File "c:\users\student\mpfenv\lib\site-packages\mpf\core\config_validator.py", line 222, in _validate_config
+    validation_failure_info=ValidationPath(validation_failure_info, k))
+  File "c:\users\student\mpfenv\lib\site-packages\mpf\core\config_validator.py", line 259, in validate_config_item
+    return self.validate_item(item, validation, validation_failure_info)
+  File "c:\users\student\mpfenv\lib\site-packages\mpf\core\config_validator.py", line 709, in validate_item
+    return self.validator_list[validator](item, validation_failure_info=validation_failure_info, param=param)
+  File "c:\users\student\mpfenv\lib\site-packages\mpf\core\config_validator.py", line 401, in _validate_type_enum
+    item, str(param)))
+  File "c:\users\student\mpfenv\lib\site-packages\mpf\core\config_validator.py", line 728, in validation_error
+    item, msg), 5 if code is None else code, self.log.name)
+mpf.exceptions.config_file_error.ConfigFileError: Config File Error in ConfigValidator: Failed to load config player reentry_shot_lit_complete:shows with settings {'flash_yellow': {'loops': 0, 'priority': 0, 'action': 'play', 'show': None, 'speed': 1.0, 'block_queue': False, 'start_step': <NativeTemplate 1>, 'start_running': <Template True>, 'sync_ms': None, 'manual_advance': False, 'show_queue': None, 'key': None, 'show_tokens': {}, 'events_when_played': [], 'events_when_stopped': [], 'events_when_looped': [], 'events_when_paused': [], 'events_when_resumed': [], 'events_when_advanced': [], 'events_when_stepped_back': [], 'events_when_updated': [], 'events_when_completed': []}, 'attack_bumper_red': None} >> Config validation error: Entry show_player:show_player:action = "attack_bumper_red" is not valid. Entry "attack_bumper_red" is not valid for enum. Valid values are: play,stop,pause,resume,advance,step_back,update,queue Error Code: CFE-ConfigValidator-5 (https://docs.missionpinball.org/en/0.55/logs/CFE-ConfigValidator-5.html)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "c:\users\student\mpfenv\lib\site-packages\mpf\commands\game.py", line 239, in __init__
+    self.machine.run()
+  File "c:\users\student\mpfenv\lib\site-packages\mpf\core\machine.py", line 687, in run
+    self._run_loop()
+  File "c:\users\student\mpfenv\lib\site-packages\mpf\core\machine.py", line 772, in _run_loop
+    report_crash(self._exception['exception'], "exception_during_run", self.config)
+  File "c:\users\student\mpfenv\lib\site-packages\mpf\core\crash_reporter.py", line 236, in report_crash
+    response = input("Do you want to report the crash to the MPF team (yes/no/show)? ")
+EOFError

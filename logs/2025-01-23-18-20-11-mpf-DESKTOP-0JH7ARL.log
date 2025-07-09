@@ -1,0 +1,6 @@
+2025-01-23 18:20:11,851 : INFO : root : Loading config.
+2025-01-23 18:20:12,190 : INFO : ConfigProcessor : Config spec file cache created: C:\Users\student\AppData\Local\Temp\config_spec.mpf_cache
+2025-01-23 18:20:12,190 : INFO : YamlMultifileConfigLoader : Machine config file #1: config.yaml
+2025-01-23 18:20:12,191 : INFO : ConfigProcessor : Loading config from file c:\users\student\mpfenv\lib\site-packages\mpf\mpfconfig.yaml.
+2025-01-23 18:20:12,257 : INFO : ConfigProcessor : Loading config: c:\users\student\mpfenv\lib\site-packages\mpf\mpfconfig.yaml
+2025-01-23 18:20:12,258 : INFO : ConfigProcessor : Loading config from file C:\Users\student\pinball\cobraPinTest1\config\config.yaml.

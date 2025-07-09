@@ -1,0 +1,521 @@
+#config_version=5
+
+#hardware:
+#    platform: opp
+#    driverboards: cobrapin
+
+modes:
+  - base
+#  - mode2
+  - reentry
+  - medal
+#  - test
+#  - mission
+  
+hardware:
+  #platform: virtual
+   platform: opp
+   driverboards: gen2
+
+opp:
+   ports: com4, com5
+   baud: 115200
+   debug: True
+
+# virtual_platform_start_active_switches:
+  # - s_trough1
+  
+playfields:
+  playfield:
+    tags: default
+    default_source_device: bd_plunger  # use None in steps before 8
+
+switches:
+  s_left_flipper:
+    number: 0-0-11
+    tags: left_flipper
+  s_right_flipper:
+    number: 0-0-27
+    tags: right_flipper
+  s_reentry_left:
+    number: 0-0-3
+    tags: playfield_active
+  s_reentry_middle:
+    number: 0-0-2
+    tags: playfield_active
+  s_reentry_right:
+    number: 0-0-1
+    tags: playfield_active
+  # s_left_attack_bumper:
+    # number: 0-0-17
+  # s_lower_attack_bumper:
+    # number: 72
+  # s_upper_attack_bumper:
+    # number: 73
+    # tags: playfield_active
+  # s_green_wormhole:
+    # number: 5
+  # s_red_wormhole:
+    # number: 6
+  # s_multiplier_left:
+    # number: 7
+  # s_multiplier_middle:
+    # number: 8
+  # s_multiplier_right:
+    # number: 9
+  # s_spacewarp_rollover:
+    # number: 10
+  # s_fuel_spot_1:
+    # number: 11
+  # s_fuel_spot_2:
+    # number: 12
+  # s_fuel_spot_3:
+    # number: 13
+  # s_satellite_bumper:
+    # number: 14
+  # s_hyperspacekicker:
+    # number: 15
+  # s_radiationspot_1:
+    # number: 16
+  # s_radiationspot_2:
+    # number: 17
+  # s_radiationspot_3:
+    # number: 18
+  # s_fuel_flag:
+    # number: 19
+  # s_comet_spot_1:
+    # number: 20
+  # s_comet_spot_2:
+    # number: 21
+  # s_comet_spot_3:
+    # number: 22
+  # s_hyperspace_flag:
+    # number: 23
+  # s_wormhole_target:
+    # number: 24
+  # s_upper_right_rebound:
+    # number: 25
+  # s_upper_left_rebound:
+    # number: 26
+  s_medal_drop_left:
+    number: 0-0-24
+    tags: playfield_active
+  s_medal_drop_middle:
+    number: 0-0-26
+    tags: playfield_active
+  s_medal_drop_right:
+    number: 0-0-25
+    tags: playfield_active
+  # s_booster_drop_target_1:
+    # number: 30
+  # s_booster_drop_target_2:
+    # number: 31
+  # s_booster_drop_target_3:
+    # number: 32
+  # s_yellow_wormhole:
+    # number: 33
+  s_mission_spot_1:
+    number: 0-0-17
+  s_mission_spot_2:
+    number: 0-0-18
+  s_mission_spot_3:
+    number: 0-0-19
+  # s_lower_right_slingshot:
+    # number: 37
+  # s_lower_left_slingshot:
+    # number: 38
+  # s_left_return_lane:
+    # number: 39
+  # s_bonus_lane:
+    # number: 40
+  # s_left_out_lane:
+    # number: 41
+  # s_left_out_lane_kicker:
+    # number: 42
+  # s_right_return_lane:
+    # number: 43
+  # s_right_out_lane:
+    # number: 44
+  # s_right_out_lane_kicker:
+    # number: 45
+  # s_blackhole_kicker:
+    # number: 46
+  # s_skill_shot_lane:
+    # number: 47
+  # s_secondary_outlane_kicker:
+    # number: 48
+  # s_skill_shot_1:
+    # number: 49
+  # s_skill_shot_2:
+    # number: 50
+  # s_skill_shot_3:
+    # number: 51
+  # s_skill_shot_4:
+    # number: 52
+  # s_skill_shot_5:
+    # number: 53
+  # s_skill_shot_6:
+    # number: 54
+  # s_fuel_chute_1:
+    # number: 55
+  # s_fuel_chute_2:
+    # number: 56
+  # s_fuel_chute_3:
+    # number: 57
+  # s_fuel_chute_4:
+    # number: 58
+  # s_fuel_chute_5:
+    # number: 59
+  # s_fuel_chute_6:
+    # number: 60
+  # s_launch_ramp:
+    # number: 61
+  # s_launch_lane_1:
+    # number: 62
+  # s_launch_lane_2:
+    # number: 63
+  # s_launch_lane_3:
+    # number: 64
+  # s_engine_bumper_1:
+    # number: 65
+  # s_engine_bumper_2:
+    # number: 66
+  # s_engine_bumper_3:
+    # number: 67
+  s_trough1:
+    number: 0-0-8
+    type: NC
+  s_plunger:
+    number: 0-0-9
+  s_start:
+    number: 0-0-10
+    tags: start
+
+lights:
+  #NEO0 output supports 256 LEDs numbered 0-0-0 to 0-0-255
+  l_re-entry_left:
+    number: 0-0-2
+    subtype: led
+    type: grb   #Most WS2812-based LEDs are grb color order.
+
+  l_re-entry_middle:
+    number: 0-0-1
+    subtype: led
+    type: grb   #Most WS2812-based LEDs are grb color order.
+
+  l_re-entry_right:
+    number: 0-0-0
+    subtype: led
+    type: grb   #Most WS2812-based LEDs are grb color order.
+    
+  l_attack_bumper_left:
+    number: 0-0-3
+    subtype: led
+    type: grb   #Most WS2812-based LEDs are grb color order.
+
+  l_attack_bumper_middle:
+    number: 0-0-4
+    subtype: led
+    type: grb   #Most WS2812-based LEDs are grb color order.
+
+  l_attack_bumper_right:
+    number: 0-0-5
+    subtype: led
+    type: grb   #Most WS2812-based LEDs are grb color order.
+ 
+  l_JAM_lanes:
+    number: 0-0-6
+    subtype: led
+    type: grb   #Most WS2812-based LEDs are grb color order.
+      
+  l_mission_spot_1:
+    number: 0-0-7
+    subtype: led
+    type: grb   #Most WS2812-based LEDs are grb color order.
+
+  l_mission_spot_2:
+    number: 0-0-8
+    subtype: led
+    type: grb   #Most WS2812-based LEDs are grb color order.
+
+  l_mission_spot_3:
+    number: 0-0-9
+    subtype: led
+    type: grb   #Most WS2812-based LEDs are grb color order.
+      
+  l_medal_spot_1:
+    number: 0-0-10
+    subtype: led
+    type: grb   #Most WS2812-based LEDs are grb color order.
+      
+  l_medal_spot_2:
+    number: 0-0-11
+    subtype: led
+    type: grb   #Most WS2812-based LEDs are grb color order.
+      
+  l_medal_spot_3:
+    number: 0-0-12
+    subtype: led
+    type: grb   #Most WS2812-based LEDs are grb color order.
+
+#0-0-14 Green   Right Slingshot
+#0-0-13 Yellow  Left Slingshot
+#0-0-12 White   Right Flipper
+#0-0-0  Blue    Left Flipper
+#0-0-11
+#0-0-10
+#0-0-9
+#0-0-8
+      
+coils:      
+  c_flipper_left_main:
+    number: 0-0-1
+    default_pulse_ms: 20
+    allow_enable: true
+  c_flipper_left_hold:
+    number: 0-0-2
+    default_pulse_ms: 20
+    allow_enable: true
+  c_flipper_right_main:
+    number: 0-0-3
+    default_pulse_ms: 20
+  c_flipper_right_hold:
+    number: 0-0-4
+    allow_enable: true
+  c_trough_eject:
+    number: 0-0-5
+  c_lower_left_slingshot:
+    number: 0-0-6
+  c_lower_right_slingshot:
+    number: 0-0-7
+  c_left_attack_bumper:
+    number: 0-0-8
+  c_lower_attack_bumper:
+    number: 0-0-9
+  c_upper_attack_bumper:
+    number: 0-0-10
+
+# autofire_coils:
+  # lower_left_slingshot:
+    # coil: c_lower_left_slingshot
+    # switch: s_lower_left_slingshot
+  # lower_right_slingshot:
+    # coil: c_lower_right_slingshot
+    # switch: s_lower_right_slingshot
+  # left_attack_bumper:
+    # coil: c_left_attack_bumper
+    # switch: s_left_attack_bumper
+  # lower_attack_bumper:
+    # coil: c_lower_attack_bumper
+    # switch: s_lower_attack_bumper
+  # upper_attack_bumper:
+    # coil: c_upper_attack_bumper
+    # switch: s_upper_attack_bumper
+
+flippers:
+  left_flipper:
+    main_coil: c_flipper_left_main
+    hold_coil: c_flipper_left_hold
+    activation_switch: s_left_flipper
+    enable_events: machine_reset_phase_3    #enable flipper until start button created
+  right_flipper:
+    main_coil: c_flipper_right_main
+    hold_coil: c_flipper_right_hold
+    activation_switch: s_right_flipper
+#    enable_events: machine_reset_phase_3
+
+ball_devices:
+    bd_trough:
+        ball_switches: s_trough1
+        eject_coil: c_trough_eject
+        tags: trough, home, drain
+        eject_targets: bd_plunger
+    bd_plunger:
+        ball_switches: s_plunger
+        mechanical_eject: true
+
+displays:
+  window:
+    width: 800
+    height: 600
+
+slides:
+    welcome_slide:
+        widgets:
+            - type: text
+              text: SPACE CADET!
+              font_size: 120
+              color: purple
+
+    # left_reentry_switch_closure:
+        # widgets:
+            # - text: L SWITCH CLOSED
+              # type: text
+            
+    # middle_reentry_switch_closure:
+        # widgets:
+            # - text: M SWITCH CLOSED
+              # type: text
+    # right_reentry_switch_closure:
+        # widgets:
+            # - text: R SWITCH CLOSED
+              # type: text
+
+slide_player:
+    init_done: welcome_slide
+
+#    s_reentry_left_active: left_reentry_switch_closure
+#    s_reentry_left_inactive: 
+#        left_reentry_switch_closure:
+#            action: remove
+        
+#    s_reentry_middle_active: middle_reentry_switch_closure
+#    s_reentry_right_active: right_reentry_switch_closure
+    ball_started :
+        widgets:
+            type: text
+            text: PLAYER (number) BALL (ball)
+
+# reentry_switches:
+    # reentry_1:
+        # switch: s_reentry_left
+    # reentry_2:
+        # switch: s_reentry_middle
+    # reentry_3:
+        # switch: s_reentry_right
+
+light_player:
+    ball_started:
+        l_attack_bumper_left: blue
+        l_attack_bumper_middle: blue
+        l_attack_bumper_right: blue
+    # s_reentry_left_active: 
+        # l_re-entry_left: blue
+    # s_reentry_left_inactive: 
+        # l_re-entry_left: red
+        
+sounds:
+    reentry_sound:
+        file: sound26.wav
+        volume: 0.75
+    drop_sound:
+        file: sound49.wav
+        volume: 0.75
+    target_sound:
+        file: sound49d.wav
+        volume: 0.75
+    medal_complete_sound:
+        file: sound50.wav
+        volume: 0.75
+        
+sound_player:
+ #   reentry_sound_active:
+     s_reentry_left_active:
+        reentry_sound:
+            action: play
+     s_reentry_middle_active:
+        reentry_sound:
+            action: play
+     s_reentry_right_active:
+        reentry_sound:
+            action: play
+    # medal_drop_sound_active:
+     s_medal_drop_left_active:
+        drop_sound:
+            action: play
+     s_medal_drop_middle_active:
+        drop_sound:
+            action: play
+     s_medal_drop_right_active:
+        drop_sound:
+            action: play
+     medal_shot_done:
+        medal_complete_sound:
+            action: play
+            delay: 0.25s
+           
+        # drop_sound:
+            # action: play
+    # booster_drop_sound_active:
+        # drop_sound:
+            # action: play
+    # multiplier_drop_sound_active:
+        # drop_sound:
+            # action: play
+    # comet_spot_target_sound_active:
+        # target_sound:
+            # action: play
+    # radiation_spot_target_sound_active:
+        # target_sound:
+            # action: play
+    # mission_spot_target_sound_active:
+        # target_sound:
+            # action: play        
+
+# counters:
+    # reentry_switch_counter:
+        # count_events: s_reentry_left_active #, s_reentry_middle_active, s_reentry_right_active
+        # events_when_hit: reentry_sound_active
+    # medal_drop_counter:
+        # count_events: s_medal_drop_left_active, s_medal_drop_middle_active, s_medal_drop_right_active
+        # events_when_hit: medal_drop_sound_active
+    # booster_drop_counter:
+        # count_events: s_booster_drop_target_1_active, s_booster_drop_target_2_active, s_booster_drop_target_3_active
+        # events_when_hit: booster_drop_sound_active
+    # multiplier_drop_counter:
+        # count_events: s_multiplier_left_active, s_multiplier_middle_active, s_multiplier_right_active
+        # events_when_hit: multiplier_drop_sound_active
+    # comet_spot_target_counter:
+        # count_events: s_comet_spot_1_active, s_comet_spot_2_active, s_comet_spot_3_active
+        # events_when_hit: comet_spot_target_sound_active
+    # radiation_spot_target_counter:
+        # count_events: s_radiationspot_1_active, s_radiationspot_2_active, s_radiationspot_3_active
+        # events_when_hit: radiation_spot_target_sound_active
+    # mission_spot_target_counter:
+        # count_events: s_mission_spot_1_active, s_mission_spot_2_active, s_mission_spot_3_active
+        # events_when_hit: mission_spot_target_sound_active
+        
+sound_system:
+    tracks:
+        sfx:
+            type: standard
+            simultaneous_sounds: 8
+            volume: 0.9
+
+assets:
+    sounds:
+        default:
+            load: on_demand
+        sfx:
+            track: sfx
+
+keyboard:
+    z:
+        switch: s_left_flipper
+    '/':
+        switch: s_right_flipper
+    s:
+        switch: s_start
+    p:
+        switch: s_plunger
+        toggle: true
+    1:
+        switch: s_trough1
+        toggle: true
+    e:
+        switch: s_reentry_left
+    r:
+        switch: s_reentry_middle
+    t:
+        switch: s_reentry_right
+    u:
+        switch: s_medal_drop_left
+    i:
+        switch: s_medal_drop_middle
+    o:
+        switch: s_medal_drop_right
+    n:
+        event: reentry_start
+    m:
+        event: reentry_stop
+        

@@ -1,0 +1,178 @@
+2023-02-10 11:35:44,903 : INFO : root : Loading config.
+2023-02-10 11:35:44,919 : INFO : YamlMultifileConfigLoader : Machine config file #1: config.yaml
+2023-02-10 11:35:44,919 : INFO : ConfigProcessor : Loading config from cache: C:\Users\student\AppData\Local\Temp\f1427cd4cbc9163bc2263f349f0fb463.mpf_cache
+2023-02-10 11:35:44,981 : DEBUG : YamlMultifileConfigLoader : Loading mode attract from c:\users\student\mpfenv\lib\site-packages\mpf\modes\attract\config\attract.yaml
+2023-02-10 11:35:44,981 : INFO : ConfigProcessor : Loading config from cache: C:\Users\student\AppData\Local\Temp\7315f14db5aa651883463bde45465327.mpf_cache
+2023-02-10 11:35:44,997 : DEBUG : YamlMultifileConfigLoader : Loading mode game from c:\users\student\mpfenv\lib\site-packages\mpf\modes\game\config\game.yaml
+2023-02-10 11:35:44,997 : INFO : ConfigProcessor : Loading config from cache: C:\Users\student\AppData\Local\Temp\8696bd5a5a040ff67990be11cb4d3c0c.mpf_cache
+2023-02-10 11:35:44,998 : DEBUG : YamlMultifileConfigLoader : Loading mode base from c:\users\student\mpfenv\lib\site-packages\mpf\modes\base\config\base.yaml
+2023-02-10 11:35:44,998 : INFO : ConfigProcessor : Loading config from cache: C:\Users\student\AppData\Local\Temp\4675a535c8328a9c278c807d999ed109.mpf_cache
+2023-02-10 11:35:44,999 : INFO : Machine : Mission Pinball Framework Core Engine v0.55.0
+2023-02-10 11:35:44,999 : INFO : Machine : Command line arguments: {'no_load_cache': False, 'create_config_cache': True, 'bcp': True, 'configfile': ['config.yaml'], 'force_assets_load': False, 'jsonlogging': False, 'logfile': 'logs\\2023-02-10-11-35-44-mpf-DESKTOP-0JH7ARL.log', 'pause': False, 'production': False, 'text_ui': True, 'loglevel': 10, 'consoleloglevel': 20, 'force_platform': None, 'syslog_address': None, 'mc_file_name': None, 'no_sound': False}
+2023-02-10 11:35:44,999 : INFO : Machine : MPF path: c:\users\student\mpfenv\lib\site-packages\mpf
+2023-02-10 11:35:44,999 : INFO : Machine : Machine path: C:\Users\student\pinball\cobraPinTest1
+2023-02-10 11:35:44,999 : INFO : Machine : Platform: win32
+2023-02-10 11:35:44,999 : INFO : Machine : Python executable location: c:\users\student\mpfenv\scripts\python.exe
+2023-02-10 11:35:44,999 : INFO : Machine : Python version: 3.7.8 (64-bit)
+2023-02-10 11:35:45,000 : DEBUG : asyncio : Using selector: SelectSelector
+2023-02-10 11:35:45,001 : INFO : Machine : Initialise MPF.
+2023-02-10 11:35:45,009 : DEBUG : OPP : Configuring the OPP Gen2 boards
+2023-02-10 11:35:45,056 : DEBUG : asciimatics.widgets : Updating: None
+2023-02-10 11:35:45,056 : DEBUG : asciimatics.widgets : Updating: None
+2023-02-10 11:35:45,056 : DEBUG : asciimatics.widgets : Updating: None
+2023-02-10 11:35:45,056 : DEBUG : asciimatics.widgets : Updating: None
+2023-02-10 11:35:45,056 : DEBUG : asciimatics.widgets : Updating: None
+2023-02-10 11:35:45,056 : DEBUG : asciimatics.widgets : Updating: None
+2023-02-10 11:35:45,056 : DEBUG : asciimatics.widgets : Updating: None
+2023-02-10 11:35:45,056 : DEBUG : asciimatics.widgets : Updating: None
+2023-02-10 11:35:45,056 : DEBUG : asciimatics.widgets : Updating: None
+2023-02-10 11:35:45,056 : DEBUG : asciimatics.widgets : Updating: None
+2023-02-10 11:35:45,056 : DEBUG : asciimatics.widgets : Updating: None
+2023-02-10 11:35:45,056 : DEBUG : asciimatics.widgets : Updating: None
+2023-02-10 11:35:45,056 : DEBUG : asciimatics.widgets : Updating: None
+2023-02-10 11:35:45,056 : DEBUG : asciimatics.widgets : Updating: None
+2023-02-10 11:35:45,056 : DEBUG : asciimatics.widgets : Updating: None
+2023-02-10 11:35:45,056 : DEBUG : asciimatics.widgets : Updating: None
+2023-02-10 11:35:45,056 : DEBUG : asciimatics.widgets : Updating: None
+2023-02-10 11:35:45,056 : DEBUG : asciimatics.widgets : Updating: None
+2023-02-10 11:35:45,056 : DEBUG : asciimatics.widgets : Cloning: Test
+2023-02-10 11:35:45,056 : DEBUG : asciimatics.widgets : Updating: None
+2023-02-10 11:35:45,056 : DEBUG : asciimatics.widgets : Updating: None
+2023-02-10 11:35:45,056 : DEBUG : asciimatics.widgets : Updating: None
+2023-02-10 11:35:45,056 : DEBUG : asciimatics.widgets : Updating: None
+2023-02-10 11:35:45,056 : DEBUG : asciimatics.widgets : Updating: None
+2023-02-10 11:35:45,056 : DEBUG : asciimatics.widgets : Updating: None
+2023-02-10 11:35:45,056 : DEBUG : asciimatics.widgets : Updating: None
+2023-02-10 11:35:45,056 : DEBUG : asciimatics.widgets : Updating: None
+2023-02-10 11:35:45,056 : DEBUG : asciimatics.widgets : Updating: None
+2023-02-10 11:35:45,056 : DEBUG : asciimatics.widgets : Updating: None
+2023-02-10 11:35:45,056 : DEBUG : asciimatics.widgets : Updating: None
+2023-02-10 11:35:45,056 : DEBUG : asciimatics.widgets : Updating: None
+2023-02-10 11:35:45,056 : DEBUG : asciimatics.widgets : Updating: None
+2023-02-10 11:35:45,056 : DEBUG : asciimatics.widgets : Updating: None
+2023-02-10 11:35:45,056 : DEBUG : asciimatics.widgets : Updating: None
+2023-02-10 11:35:45,056 : DEBUG : asciimatics.widgets : Updating: None
+2023-02-10 11:35:45,056 : DEBUG : asciimatics.widgets : Updating: None
+2023-02-10 11:35:45,056 : DEBUG : asciimatics.widgets : Updating: None
+2023-02-10 11:35:45,197 : INFO : OPP : Connecting to com4 at 115200bps
+2023-02-10 11:35:45,275 : DEBUG : OPP : com4 sending: b'\xff' ( 0xff)
+2023-02-10 11:35:45,275 : DEBUG : OPP : com4 received: b'\xff' ( 0xff)
+2023-02-10 11:35:45,275 : DEBUG : OPP : Sending EOM command to port 'com4'
+2023-02-10 11:35:45,275 : DEBUG : OPP : com4 sending: b'\xff' ( 0xff)
+2023-02-10 11:35:45,290 : DEBUG : OPP : com4 received: b'\xff' ( 0xff)
+2023-02-10 11:35:45,290 : DEBUG : OPP : Got ID response:  0xff
+2023-02-10 11:35:45,290 : DEBUG : OPP : com4 sending: b' \x00\x00\x00\x00\x00\x94\xff' ( 0x20 0x00 0x00 0x00 0x00 0x00 0x94 0xff)
+2023-02-10 11:35:45,290 : DEBUG : OPP : com4 received: b' \x00\x00\x00\x00\x00\x94\xff' ( 0x20 0x00 0x00 0x00 0x00 0x00 0x94 0xff)
+2023-02-10 11:35:45,290 : DEBUG : OPP : Sending inventory command:  0xf0 0xff
+2023-02-10 11:35:45,290 : DEBUG : OPP : com4 sending: b'\xf0\xff' ( 0xf0 0xff)
+2023-02-10 11:35:45,290 : DEBUG : OPP : com4 received: b'\xf0 \xff' ( 0xf0 0x20 0xff)
+2023-02-10 11:35:45,290 : DEBUG : OPP : Received Inventory Response:  0xf0 0x20 0xff for 0
+2023-02-10 11:35:45,290 : DEBUG : OPP : Found 1 Gen2 OPP boards on 0.
+2023-02-10 11:35:45,290 : DEBUG : OPP : Sending get Gen2 Cfg command:  0x20 0x0d 0x00 0x00 0x00 0x00 0x60 0xff
+2023-02-10 11:35:45,290 : DEBUG : OPP : com4 sending: b' \r\x00\x00\x00\x00`\xff' ( 0x20 0x0d 0x00 0x00 0x00 0x00 0x60 0xff)
+2023-02-10 11:35:45,306 : DEBUG : OPP : com4 received: b' \r\x08\x01\x01\x01\xa9\xff' ( 0x20 0x0d 0x08 0x01 0x01 0x01 0xa9 0xff)
+2023-02-10 11:35:45,306 : DEBUG : OPP : Received Gen2 Cfg Response: 0x20 0x0d 0x08 0x01 0x01 0x01 0xa9 0xff
+2023-02-10 11:35:45,306 : DEBUG : OPPSolenoid 32 on 0 : Creating OPP Solenoid at hardware address: 0x20
+2023-02-10 11:35:45,306 : DEBUG : OPPInputCard 32 on 0 : Creating OPP Input at hardware address: 0x20
+2023-02-10 11:35:45,306 : DEBUG : OPPNeopixel 32 on 0 : Creating OPP Neopixel card at hardware address: 0x20
+2023-02-10 11:35:45,306 : DEBUG : OPP : Sending get version command:  0x20 0x02 0x00 0x00 0x00 0x00 0x50 0xff
+2023-02-10 11:35:45,306 : DEBUG : OPP : com4 sending: b' \x02\x00\x00\x00\x00P\xff' ( 0x20 0x02 0x00 0x00 0x00 0x00 0x50 0xff)
+2023-02-10 11:35:45,306 : DEBUG : OPP : com4 received: b' \x02\x02\x02\x00\x00\xaa\xff' ( 0x20 0x02 0x02 0x02 0x00 0x00 0xaa 0xff)
+2023-02-10 11:35:45,306 : DEBUG : OPP : Received Version Response (Chain: 0):  0x20 0x02 0x02 0x02 0x00 0x00 0xaa 0xff
+2023-02-10 11:35:45,306 : DEBUG : OPP : Firmware version of board 0x20 (Chain: 0): 2.2.0.0
+2023-02-10 11:35:45,306 : DEBUG : OPP : Getting initial inputs states for 0
+2023-02-10 11:35:45,306 : DEBUG : OPP : com4 sending: b' \x08\x00\x00\x00\x00\x8d\xff' ( 0x20 0x08 0x00 0x00 0x00 0x00 0x8d 0xff)
+2023-02-10 11:35:45,306 : DEBUG : OPP : com4 received: b' \x08\x0f\x0f\x0f\x0e\xf1\xff' ( 0x20 0x08 0x0f 0x0f 0x0f 0x0e 0xf1 0xff)
+2023-02-10 11:35:45,306 : INFO : OPP : Init of OPP board 0 done
+2023-02-10 11:35:45,306 : INFO : OPP : Connecting to com5 at 115200bps
+2023-02-10 11:35:45,321 : DEBUG : OPP : com5 sending: b'\xff' ( 0xff)
+2023-02-10 11:35:45,321 : DEBUG : OPP : com5 received: b'\xff' ( 0xff)
+2023-02-10 11:35:45,321 : DEBUG : OPP : Sending EOM command to port 'com5'
+2023-02-10 11:35:45,321 : DEBUG : OPP : com5 sending: b'\xff' ( 0xff)
+2023-02-10 11:35:45,337 : DEBUG : OPP : com5 received: b'\xff' ( 0xff)
+2023-02-10 11:35:45,337 : DEBUG : OPP : Got ID response:  0xff
+2023-02-10 11:35:45,337 : DEBUG : OPP : com5 sending: b' \x00\x00\x00\x00\x00\x94\xff' ( 0x20 0x00 0x00 0x00 0x00 0x00 0x94 0xff)
+2023-02-10 11:35:45,337 : DEBUG : OPP : com5 received: b' \x00\x00\x00\x00\x01\x93\xff' ( 0x20 0x00 0x00 0x00 0x00 0x01 0x93 0xff)
+2023-02-10 11:35:45,337 : DEBUG : OPP : Sending inventory command:  0xf0 0xff
+2023-02-10 11:35:45,337 : DEBUG : OPP : com5 sending: b'\xf0\xff' ( 0xf0 0xff)
+2023-02-10 11:35:45,337 : DEBUG : OPP : com5 received: b'\xf0 \xff' ( 0xf0 0x20 0xff)
+2023-02-10 11:35:45,337 : DEBUG : OPP : Received Inventory Response:  0xf0 0x20 0xff for 1
+2023-02-10 11:35:45,337 : DEBUG : OPP : Found 2 Gen2 OPP boards on 1.
+2023-02-10 11:35:45,337 : DEBUG : OPP : Sending get Gen2 Cfg command:  0x20 0x0d 0x00 0x00 0x00 0x00 0x60 0xff
+2023-02-10 11:35:45,337 : DEBUG : OPP : com5 sending: b' \r\x00\x00\x00\x00`\xff' ( 0x20 0x0d 0x00 0x00 0x00 0x00 0x60 0xff)
+2023-02-10 11:35:45,337 : DEBUG : OPP : com5 received: b' \r\x08\x01\x02\x02\x9f\xff' ( 0x20 0x0d 0x08 0x01 0x02 0x02 0x9f 0xff)
+2023-02-10 11:35:45,337 : DEBUG : OPP : Received Gen2 Cfg Response: 0x20 0x0d 0x08 0x01 0x02 0x02 0x9f 0xff
+2023-02-10 11:35:45,337 : DEBUG : OPPSolenoid 32 on 1 : Creating OPP Solenoid at hardware address: 0x20
+2023-02-10 11:35:45,337 : DEBUG : OPPInputCard 32 on 1 : Creating OPP Input at hardware address: 0x20
+2023-02-10 11:35:45,337 : DEBUG : OPPNeopixel 32 on 1 : Creating OPP Neopixel card at hardware address: 0x20
+2023-02-10 11:35:45,337 : DEBUG : OPP : Sending get version command:  0x20 0x02 0x00 0x00 0x00 0x00 0x50 0xff
+2023-02-10 11:35:45,337 : DEBUG : OPP : com5 sending: b' \x02\x00\x00\x00\x00P\xff' ( 0x20 0x02 0x00 0x00 0x00 0x00 0x50 0xff)
+2023-02-10 11:35:45,337 : DEBUG : OPP : com5 received: b' \x02\x02\x02\x00\x00\xaa\xff' ( 0x20 0x02 0x02 0x02 0x00 0x00 0xaa 0xff)
+2023-02-10 11:35:45,337 : DEBUG : OPP : Received Version Response (Chain: 1):  0x20 0x02 0x02 0x02 0x00 0x00 0xaa 0xff
+2023-02-10 11:35:45,337 : DEBUG : OPP : Firmware version of board 0x20 (Chain: 1): 2.2.0.0
+2023-02-10 11:35:45,337 : DEBUG : OPP : Getting initial inputs states for 1
+2023-02-10 11:35:45,337 : DEBUG : OPP : com5 sending: b' \x08\x00\x00\x00\x00\x8d\xff' ( 0x20 0x08 0x00 0x00 0x00 0x00 0x8d 0xff)
+2023-02-10 11:35:45,353 : DEBUG : OPP : com5 received: b' \x08\xff' ( 0x20 0x08 0xff)
+2023-02-10 11:35:45,353 : DEBUG : OPP : Waiting for another 1 cards
+2023-02-10 11:35:45,353 : DEBUG : OPP : com5 received: b'\xff' ( 0xff)
+2023-02-10 11:35:45,353 : DEBUG : OPP : Waiting for another 1 cards
+2023-02-10 11:35:45,353 : DEBUG : OPP : com5 received: b'\x0f\x0e\x9e\xff' ( 0x0f 0x0e 0x9e 0xff)
+2023-02-10 11:35:45,353 : INFO : OPP : Init of OPP board 1 done
+2023-02-10 11:35:45,353 : INFO : EventManager : Event: ======'machine_var_credits_string'====== Args={'value': 'FREE PLAY', 'prev_value': None, 'change': True}
+2023-02-10 11:35:45,400 : INFO : EventManager : Event: ======'machine_var_master_volume'====== Args={'value': 0.5, 'prev_value': None, 'change': True}
+2023-02-10 11:35:45,400 : INFO : EventManager : Event: ======'machine_var_mpf_version'====== Args={'value': 'MPF v0.55.0', 'prev_value': None, 'change': True}
+2023-02-10 11:35:45,400 : INFO : EventManager : Event: ======'machine_var_mpf_extended_version'====== Args={'value': 'MPF v0.55.0, Config version:5, Show version: 5, BCP version:1.1', 'prev_value': None, 'change': True}
+2023-02-10 11:35:45,400 : INFO : EventManager : Event: ======'machine_var_python_version'====== Args={'value': '3.7.8', 'prev_value': None, 'change': True}
+2023-02-10 11:35:45,400 : INFO : EventManager : Event: ======'machine_var_platform'====== Args={'value': 'Windows-10-10.0.19041-SP0', 'prev_value': None, 'change': True}
+2023-02-10 11:35:45,400 : INFO : EventManager : Event: ======'machine_var_platform_system'====== Args={'value': 'Windows', 'prev_value': None, 'change': True}
+2023-02-10 11:35:45,400 : INFO : EventManager : Event: ======'machine_var_platform_release'====== Args={'value': '10', 'prev_value': None, 'change': True}
+2023-02-10 11:35:45,400 : INFO : EventManager : Event: ======'machine_var_platform_version'====== Args={'value': '10.0.19041', 'prev_value': None, 'change': True}
+2023-02-10 11:35:45,400 : INFO : EventManager : Event: ======'machine_var_platform_machine'====== Args={'value': 'AMD64', 'prev_value': None, 'change': True}
+2023-02-10 11:35:45,400 : INFO : EventManager : Event: ======'init_phase_1'====== Args={}
+2023-02-10 11:35:45,400 : DEBUG : ModeController : Loaded mode base
+2023-02-10 11:35:45,400 : DEBUG : ModeController : Loaded mode attract
+2023-02-10 11:35:45,415 : DEBUG : ModeController : Loaded mode game
+2023-02-10 11:35:45,415 : DEBUG : OPP : Configure driver 0-0-1
+2023-02-10 11:35:45,415 : DEBUG : OPPSolenoid 32 on 0 : Writing individual config:  0x20 0x14 0x01 0x04 0x14 0x00 0x97 0xff on 0
+2023-02-10 11:35:45,415 : DEBUG : OPP : com4 sending: b' \x14\x01\x04\x14\x00\x97\xff' ( 0x20 0x14 0x01 0x04 0x14 0x00 0x97 0xff)
+2023-02-10 11:35:45,415 : DEBUG : OPP : Configure driver 0-0-2
+2023-02-10 11:35:45,415 : DEBUG : OPPSolenoid 32 on 0 : Writing individual config:  0x20 0x14 0x02 0x04 0x14 0x00 0xad 0xff on 0
+2023-02-10 11:35:45,415 : DEBUG : OPP : com4 sending: b' \x14\x02\x04\x14\x00\xad\xff' ( 0x20 0x14 0x02 0x04 0x14 0x00 0xad 0xff)
+2023-02-10 11:35:45,415 : DEBUG : OPP : Configure driver 0-0-3
+2023-02-10 11:35:45,415 : DEBUG : OPPSolenoid 32 on 0 : Writing individual config:  0x20 0x14 0x03 0x02 0x14 0x00 0xc6 0xff on 0
+2023-02-10 11:35:45,415 : DEBUG : OPP : com4 sending: b' \x14\x03\x02\x14\x00\xc6\xff' ( 0x20 0x14 0x03 0x02 0x14 0x00 0xc6 0xff)
+2023-02-10 11:35:45,415 : DEBUG : OPP : Configure driver 0-0-4
+2023-02-10 11:35:45,415 : DEBUG : OPPSolenoid 32 on 0 : Writing individual config:  0x20 0x14 0x04 0x04 0x0a 0x00 0x58 0xff on 0
+2023-02-10 11:35:45,415 : DEBUG : OPP : com4 sending: b' \x14\x04\x04\n\x00X\xff' ( 0x20 0x14 0x04 0x04 0x0a 0x00 0x58 0xff)
+2023-02-10 11:35:45,415 : DEBUG : OPP : Configure driver 0-0-5
+2023-02-10 11:35:45,415 : DEBUG : OPPSolenoid 32 on 0 : Writing individual config:  0x20 0x14 0x05 0x02 0x0a 0x00 0x33 0xff on 0
+2023-02-10 11:35:45,415 : DEBUG : OPP : com4 sending: b' \x14\x05\x02\n\x003\xff' ( 0x20 0x14 0x05 0x02 0x0a 0x00 0x33 0xff)
+2023-02-10 11:35:45,415 : DEBUG : OPP : Configure driver 0-0-6
+2023-02-10 11:35:45,415 : DEBUG : OPPSolenoid 32 on 0 : Writing individual config:  0x20 0x14 0x06 0x02 0x0a 0x00 0x09 0xff on 0
+2023-02-10 11:35:45,415 : DEBUG : OPP : com4 sending: b' \x14\x06\x02\n\x00\t\xff' ( 0x20 0x14 0x06 0x02 0x0a 0x00 0x09 0xff)
+2023-02-10 11:35:45,415 : DEBUG : OPP : Configure driver 0-0-7
+2023-02-10 11:35:45,415 : DEBUG : OPPSolenoid 32 on 0 : Writing individual config:  0x20 0x14 0x07 0x02 0x0a 0x00 0x1f 0xff on 0
+2023-02-10 11:35:45,415 : DEBUG : OPP : com4 sending: b' \x14\x07\x02\n\x00\x1f\xff' ( 0x20 0x14 0x07 0x02 0x0a 0x00 0x1f 0xff)
+2023-02-10 11:35:45,415 : DEBUG : OPP : Configure driver 0-0-8
+2023-02-10 11:35:45,415 : DEBUG : OPPSolenoid 32 on 0 : Writing individual config:  0x20 0x14 0x08 0x02 0x0a 0x00 0xcd 0xff on 0
+2023-02-10 11:35:45,415 : DEBUG : OPP : com4 sending: b' \x14\x08\x02\n\x00\xcd\xff' ( 0x20 0x14 0x08 0x02 0x0a 0x00 0xcd 0xff)
+2023-02-10 11:35:45,415 : DEBUG : OPP : Configure driver 0-0-9
+2023-02-10 11:35:45,415 : DEBUG : OPPSolenoid 32 on 0 : Writing individual config:  0x20 0x14 0x09 0x02 0x0a 0x00 0xdb 0xff on 0
+2023-02-10 11:35:45,415 : DEBUG : OPP : com4 sending: b' \x14\t\x02\n\x00\xdb\xff' ( 0x20 0x14 0x09 0x02 0x0a 0x00 0xdb 0xff)
+2023-02-10 11:35:45,415 : DEBUG : OPP : Configure driver 0-0-10
+2023-02-10 11:35:45,415 : DEBUG : OPPSolenoid 32 on 0 : Writing individual config:  0x20 0x14 0x0a 0x02 0x0a 0x00 0xe1 0xff on 0
+2023-02-10 11:35:45,415 : DEBUG : OPP : com4 sending: b' \x14\n\x02\n\x00\xe1\xff' ( 0x20 0x14 0x0a 0x02 0x0a 0x00 0xe1 0xff)
+2023-02-10 11:35:45,415 : INFO : EventManager : Event: ======'logicblock_reentry_switch_counter_updated'====== Args={'value': 0, 'enabled': True}
+2023-02-10 11:35:45,415 : INFO : EventManager : Event: ======'logicblock_reentry_switch_counter_updated'====== Args={'value': 0, 'enabled': True}
+2023-02-10 11:35:45,415 : INFO : EventManager : Event: ======'init_phase_2'====== Args={}
+2023-02-10 11:35:45,415 : INFO : SwitchController : Found active switch: ('0-0-8', <Platform.OPP>) <switch.s_trough1>
+2023-02-10 11:35:45,415 : INFO : EventManager : Event: ======'bcp_connection_attempt'====== Args={'name': 'local_display', 'host': 'localhost', 'port': 5050}
+2023-02-10 11:35:45,431 : DEBUG : asciimatics.widgets : Updating: message
+2023-02-10 11:35:45,431 : DEBUG : asciimatics.widgets : Updating: message
+2023-02-10 11:35:45,431 : INFO : BCPClientSocket : Connecting BCP to 'local_display' at localhost:5050...
+2023-02-10 11:35:52,949 : INFO : Machine : Starting the main run loop.
+2023-02-10 11:35:52,949 : INFO : Machine : Shutting down...
+2023-02-10 11:35:52,949 : INFO : EventManager : Event: ======'shutdown'====== Args={}
+2023-02-10 11:35:52,949 : ERROR : OPP : Stop called on serial connection com5
+2023-02-10 11:35:52,949 : ERROR : OPP : Stop called on serial connection com4
+2023-02-10 11:35:52,949 : INFO : root : MPF run loop ended.

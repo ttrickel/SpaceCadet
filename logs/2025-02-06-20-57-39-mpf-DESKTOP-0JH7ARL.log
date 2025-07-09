@@ -1,0 +1,20 @@
+2025-02-06 20:57:39,331 : INFO : root : Loading config.
+2025-02-06 20:57:39,375 : INFO : ConfigProcessor : Config spec file cache created: C:\Users\student\AppData\Local\Temp\config_spec.mpf_cache
+2025-02-06 20:57:39,375 : INFO : YamlMultifileConfigLoader : Machine config file #1: config.yaml
+2025-02-06 20:57:39,375 : INFO : ConfigProcessor : Loading config from file C:\Users\student\mpfenv3\Lib\site-packages\mpf\mpfconfig.yaml.
+2025-02-06 20:57:39,384 : INFO : ConfigProcessor : Loading config: C:\Users\student\mpfenv3\Lib\site-packages\mpf\mpfconfig.yaml
+2025-02-06 20:57:39,384 : INFO : ConfigProcessor : Loading config from file C:\Users\student\pinball\cobraPinTest1\config\config.yaml.
+2025-02-06 20:57:39,391 : INFO : ConfigProcessor : Loading config: C:\Users\student\pinball\cobraPinTest1\config\config.yaml
+2025-02-06 20:57:39,392 : INFO : ConfigProcessor : Config file cache created: C:\Users\student\AppData\Local\Temp\a20d2796aecf24feaad48747be24652a.mpf_cache
+2025-02-06 20:57:39,462 : INFO : ConfigProcessor : Loading config from file C:\Users\student\mpfenv3\Lib\site-packages\mpf\modes\attract\config\attract.yaml.
+2025-02-06 20:57:39,463 : INFO : ConfigProcessor : Loading config: C:\Users\student\mpfenv3\Lib\site-packages\mpf\modes\attract\config\attract.yaml
+2025-02-06 20:57:39,463 : INFO : ConfigProcessor : Loading config from file C:\Users\student\pinball\cobraPinTest1\modes\attract\config\attract.yaml.
+2025-02-06 20:57:39,464 : INFO : ConfigProcessor : Loading config: C:\Users\student\pinball\cobraPinTest1\modes\attract\config\attract.yaml
+2025-02-06 20:57:39,464 : INFO : ConfigProcessor : Config file cache created: C:\Users\student\AppData\Local\Temp\0196918bccd620e51d3c4d2630650aa0.mpf_cache
+2025-02-06 20:57:39,464 : INFO : ConfigProcessor : Loading config from file C:\Users\student\mpfenv3\Lib\site-packages\mpf\modes\game\config\game.yaml.
+2025-02-06 20:57:39,465 : INFO : ConfigProcessor : Loading config: C:\Users\student\mpfenv3\Lib\site-packages\mpf\modes\game\config\game.yaml
+2025-02-06 20:57:39,465 : INFO : ConfigProcessor : Config file cache created: C:\Users\student\AppData\Local\Temp\511dcc6b491b0fa2d7aa9abdf6497e9c.mpf_cache
+2025-02-06 20:57:39,466 : INFO : ConfigProcessor : Loading config from file C:\Users\student\pinball\cobraPinTest1\modes\base\config\base.yaml.
+2025-02-06 20:57:39,467 : INFO : ConfigProcessor : Loading config: C:\Users\student\pinball\cobraPinTest1\modes\base\config\base.yaml
+2025-02-06 20:57:39,467 : INFO : ConfigProcessor : Config file cache created: C:\Users\student\AppData\Local\Temp\4675a535c8328a9c278c807d999ed109.mpf_cache
+2025-02-06 20:57:39,468 : INFO : ConfigProcessor : Loading config from file C:\Users\student\pinball\cobraPinTest1\modes\reentry\config\reentry.yaml.

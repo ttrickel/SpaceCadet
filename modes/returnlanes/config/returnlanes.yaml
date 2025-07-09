@@ -1,0 +1,82 @@
+#config_version=6
+# returnlanes config file
+#
+
+      # Return Lanes
+        # - 2 Lanes located at the lower-left & lower-right corners of the Table.
+        # - Pass this lane and the Ball returns to one of the Flippers.
+        # - If the lane is lit the light goes out
+        # - Extra Points are awarded if the Return Lane Light is lit.
+                # * Lane Pass - 5000 points
+                # * Lane Light - 25,000 points
+        # - Light the Return Lane Lights by hitting the Space Warp Rollover.
+      
+      # LANE LIGHTS  
+        # Return Lanes
+        # - Single light located at the top of each of the Return Lanes (2 lights total).
+        # - Indicates a point bonus is available in this lane.
+        # - Pass the lane to receive extra points.
+
+mode:
+  start_events: ball_started
+  stop_events: ball_stopped
+  priority: 200
+
+shots:
+  returnLaneL_shot:
+    switch: s_left_return_lane
+    profile: returnLane
+    advance_events: s_spacewarp_rollover_active
+    control_events:
+      - events: returnLaneL_shot_lit_hit
+        state: 0
+  returnLaneR_shot:
+    switch: s_right_return_lane
+    profile: returnLane
+    advance_events: s_spacewarp_rollover_active
+    control_events:
+      - events: returnLaneR_shot_lit_hit
+        state: 0
+  spacewarp_rollover_shot:
+    switch: s_spacewarp_rollover
+
+# event_player:
+    # s_spacewarp_rollover_active: returnLaneL_shot_returnLane.states: lit
+
+shot_groups:
+    returnLane_shot:
+        shots: returnLaneL_shot, returnLaneR_shot
+        # reset_events: 
+           # medal_shot_lit_complete   #: 2s # mode_reentry_started
+           
+shot_profiles:
+  returnLane:
+    states:
+      - name: unlit
+        show: off
+ #       manual_advance: true
+      - name: lit
+        show: "returnLane_lit"
+ #       manual_advance: false
+ #   loop: true
+    advance_on_hit: false
+
+variable_player:
+  returnLane_shot_unlit_hit:
+    score: 5000
+  returnLane_shot_lit_hit:
+    score: 25000
+
+sound_player:
+ #   reentry_sound_active:
+     s_left_return_lane_active:
+        reentry_sound:
+            action: play
+     s_right_return_lane_active:
+        reentry_sound:
+            action: play
+        
+shows: 
+    returnLane_lit:    # define our show to indicate the state
+        - lights:
+            (led): yellow

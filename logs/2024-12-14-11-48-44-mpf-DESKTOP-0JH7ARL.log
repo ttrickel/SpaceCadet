@@ -1,0 +1,234 @@
+2024-12-14 11:48:44,367 : INFO : root : Loading config.
+2024-12-14 11:48:44,425 : INFO : ConfigProcessor : Config spec file cache created: C:\Users\student\AppData\Local\Temp\config_spec.mpf_cache
+2024-12-14 11:48:44,425 : INFO : YamlMultifileConfigLoader : Machine config file #1: config.yaml
+2024-12-14 11:48:44,425 : INFO : ConfigProcessor : Loading config from file C:\Users\student\mpfenv3\Lib\site-packages\mpf\mpfconfig.yaml.
+2024-12-14 11:48:44,434 : INFO : ConfigProcessor : Loading config: C:\Users\student\mpfenv3\Lib\site-packages\mpf\mpfconfig.yaml
+2024-12-14 11:48:44,434 : INFO : ConfigProcessor : Loading config from file C:\Users\student\pinball\cobraPinTest1\config\config.yaml.
+2024-12-14 11:48:44,443 : INFO : ConfigProcessor : Loading config: C:\Users\student\pinball\cobraPinTest1\config\config.yaml
+2024-12-14 11:48:44,444 : INFO : ConfigProcessor : Config file cache created: C:\Users\student\AppData\Local\Temp\a20d2796aecf24feaad48747be24652a.mpf_cache
+2024-12-14 11:48:44,531 : INFO : ConfigProcessor : Loading config from file C:\Users\student\mpfenv3\Lib\site-packages\mpf\modes\attract\config\attract.yaml.
+2024-12-14 11:48:44,531 : INFO : ConfigProcessor : Loading config: C:\Users\student\mpfenv3\Lib\site-packages\mpf\modes\attract\config\attract.yaml
+2024-12-14 11:48:44,531 : INFO : ConfigProcessor : Loading config from file C:\Users\student\pinball\cobraPinTest1\modes\attract\config\attract.yaml.
+2024-12-14 11:48:44,531 : INFO : ConfigProcessor : Loading config: C:\Users\student\pinball\cobraPinTest1\modes\attract\config\attract.yaml
+2024-12-14 11:48:44,533 : INFO : ConfigProcessor : Config file cache created: C:\Users\student\AppData\Local\Temp\0196918bccd620e51d3c4d2630650aa0.mpf_cache
+2024-12-14 11:48:44,533 : INFO : ConfigProcessor : Loading config from file C:\Users\student\mpfenv3\Lib\site-packages\mpf\modes\game\config\game.yaml.
+2024-12-14 11:48:44,533 : INFO : ConfigProcessor : Loading config: C:\Users\student\mpfenv3\Lib\site-packages\mpf\modes\game\config\game.yaml
+2024-12-14 11:48:44,533 : INFO : ConfigProcessor : Config file cache created: C:\Users\student\AppData\Local\Temp\511dcc6b491b0fa2d7aa9abdf6497e9c.mpf_cache
+2024-12-14 11:48:44,534 : INFO : ConfigProcessor : Loading config from file C:\Users\student\pinball\cobraPinTest1\modes\base\config\base.yaml.
+2024-12-14 11:48:44,536 : INFO : ConfigProcessor : Loading config: C:\Users\student\pinball\cobraPinTest1\modes\base\config\base.yaml
+2024-12-14 11:48:44,536 : INFO : ConfigProcessor : Config file cache created: C:\Users\student\AppData\Local\Temp\4675a535c8328a9c278c807d999ed109.mpf_cache
+2024-12-14 11:48:44,536 : INFO : ConfigProcessor : Loading config from file C:\Users\student\pinball\cobraPinTest1\modes\reentry\config\reentry.yaml.
+2024-12-14 11:48:44,540 : INFO : ConfigProcessor : Loading config: C:\Users\student\pinball\cobraPinTest1\modes\reentry\config\reentry.yaml
+2024-12-14 11:48:44,540 : INFO : ConfigProcessor : Config file cache created: C:\Users\student\AppData\Local\Temp\0c8438cab3480347c0c749fa494946a2.mpf_cache
+2024-12-14 11:48:44,540 : INFO : ConfigProcessor : Loading config from file C:\Users\student\pinball\cobraPinTest1\modes\lowerlanes\config\lowerlanes.yaml.
+2024-12-14 11:48:44,541 : INFO : ConfigProcessor : Loading config: C:\Users\student\pinball\cobraPinTest1\modes\lowerlanes\config\lowerlanes.yaml
+2024-12-14 11:48:44,542 : INFO : ConfigProcessor : Config file cache created: C:\Users\student\AppData\Local\Temp\5052615755bdf1309b248cf8695ad4ff.mpf_cache
+2024-12-14 11:48:44,543 : INFO : ConfigProcessor : Loading config from file C:\Users\student\pinball\cobraPinTest1\modes\attract\shows\.\attract_display_loop.yaml.
+2024-12-14 11:48:44,544 : INFO : ConfigProcessor : Loading config: C:\Users\student\pinball\cobraPinTest1\modes\attract\shows\.\attract_display_loop.yaml
+2024-12-14 11:48:44,545 : INFO : ConfigProcessor : Config file cache created: C:\Users\student\AppData\Local\Temp\f8d2c2cf3ea01f085365ea23fa51a701.mpf_cache
+2024-12-14 11:48:44,545 : INFO : ConfigProcessor : Loading config from file C:\Users\student\pinball\cobraPinTest1\modes\attract\shows\.\attract_light_show.yaml.
+2024-12-14 11:48:44,546 : INFO : ConfigProcessor : Loading config: C:\Users\student\pinball\cobraPinTest1\modes\attract\shows\.\attract_light_show.yaml
+2024-12-14 11:48:44,547 : INFO : ConfigProcessor : Config file cache created: C:\Users\student\AppData\Local\Temp\30bd992f4b62a9b099207aebeb59554c.mpf_cache
+2024-12-14 11:48:44,547 : INFO : Machine : Mission Pinball Framework Core Engine v0.57.3
+2024-12-14 11:48:44,547 : INFO : Machine : Command line arguments: {'no_load_cache': True, 'create_config_cache': True, 'bcp': True, 'configfile': ['config.yaml'], 'force_assets_load': False, 'platform_integration_test': False, 'jsonlogging': False, 'logfile': 'logs\\2024-12-14-11-48-44-mpf-DESKTOP-0JH7ARL.log', 'pause': False, 'production': False, 'text_ui': True, 'loglevel': 15, 'consoleloglevel': 20, 'force_platform': None, 'syslog_address': None, 'mc_file_name': None, 'no_sound': False}
+2024-12-14 11:48:44,547 : INFO : Machine : MPF path: C:\Users\student\mpfenv3\Lib\site-packages\mpf
+2024-12-14 11:48:44,547 : INFO : Machine : Machine path: C:\Users\student\pinball\cobraPinTest1
+2024-12-14 11:48:44,547 : INFO : Machine : Platform: win32
+2024-12-14 11:48:44,547 : INFO : Machine : Python executable location: C:\Users\student\mpfenv3\Scripts\python.exe
+2024-12-14 11:48:44,547 : INFO : Machine : Python version: 3.11.8 (64-bit)
+2024-12-14 11:48:44,549 : INFO : Machine : Initializing MPF...
+2024-12-14 11:48:44,851 : INFO : OPP : Connecting to com4 at 115200bps
+2024-12-14 11:48:44,954 : INFO : OPP : Init of OPP board 0 done
+2024-12-14 11:48:44,954 : INFO : OPP : Connecting to com5 at 115200bps
+2024-12-14 11:48:45,143 : INFO : OPP : Init of OPP board 1 done
+2024-12-14 11:48:45,144 : INFO : EventManager : Event: ======'machine_var_credits_string'====== Args={'value': 'FREE PLAY', 'prev_value': None, 'change': True}
+2024-12-14 11:48:45,215 : INFO : EventManager : Event: ======'machine_var_master_volume'====== Args={'value': 0.5, 'prev_value': None, 'change': True}
+2024-12-14 11:48:45,215 : INFO : EventManager : Event: ======'machine_var_player1_score'====== Args={'value': 1500, 'prev_value': None, 'change': True}
+2024-12-14 11:48:45,215 : INFO : EventManager : Event: ======'machine_var_mpf_version'====== Args={'value': 'Mission Pinball Framework v0.57.3', 'prev_value': None, 'change': True}
+2024-12-14 11:48:45,215 : INFO : EventManager : Event: ======'machine_var_mpf_extended_version'====== Args={'value': 'Mission Pinball Framework v0.57.3, Config version:6, Show version: 6, BCP version:1.1', 'prev_value': None, 'change': True}
+2024-12-14 11:48:45,215 : INFO : EventManager : Event: ======'machine_var_python_version'====== Args={'value': '3.11.8', 'prev_value': None, 'change': True}
+2024-12-14 11:48:45,225 : INFO : EventManager : Event: ======'machine_var_platform'====== Args={'value': 'Windows-10-10.0.19045-SP0', 'prev_value': None, 'change': True}
+2024-12-14 11:48:45,225 : INFO : EventManager : Event: ======'machine_var_platform_system'====== Args={'value': 'Windows', 'prev_value': None, 'change': True}
+2024-12-14 11:48:45,225 : INFO : EventManager : Event: ======'machine_var_platform_release'====== Args={'value': '10', 'prev_value': None, 'change': True}
+2024-12-14 11:48:45,225 : INFO : EventManager : Event: ======'machine_var_platform_version'====== Args={'value': '10.0.19045', 'prev_value': None, 'change': True}
+2024-12-14 11:48:45,225 : INFO : EventManager : Event: ======'machine_var_platform_machine'====== Args={'value': 'AMD64', 'prev_value': None, 'change': True}
+2024-12-14 11:48:45,225 : INFO : EventManager : Event: ======'init_phase_1'====== Args={}
+2024-12-14 11:48:45,246 : INFO : EventManager : Event: ======'init_phase_2'====== Args={}
+2024-12-14 11:48:45,246 : INFO : SwitchController : Found active switch: ('0-0-8', <Platform.OPP>) <switch.s_trough1>
+2024-12-14 11:48:45,250 : INFO : EventManager : Event: ======'bcp_connection_attempt'====== Args={'name': 'local_display', 'host': 'localhost', 'port': 5050}
+2024-12-14 11:48:45,251 : INFO : BCPClientSocket : Connecting BCP to 'local_display' at localhost:5050...
+2024-12-14 11:48:47,279 : INFO : BCPClientSocket : Connected BCP to 'local_display' localhost:5050
+2024-12-14 11:48:47,279 : INFO : EventManager : Event: ======'bcp_clients_connected'====== Args={}
+2024-12-14 11:48:47,519 : INFO : EventManager : Event: ======'machine_var_mc_version'====== Args={'value': 'MPF-MC v0.57.1', 'prev_value': None, 'change': True}
+2024-12-14 11:48:47,519 : INFO : EventManager : Event: ======'machine_var_mc_extended_version'====== Args={'value': 'MPF-MC v0.57.1 (config_version=6, BCP v1.1,                      Requires MPF API compatibility v0.57.0 or newer)', 'prev_value': None, 'change': True}
+2024-12-14 11:48:47,520 : INFO : ball_device.bd_trough : BCH: Initial count: 1
+2024-12-14 11:48:47,554 : INFO : ball_device.bd_trough : State: idle
+2024-12-14 11:48:47,555 : INFO : ball_device.bd_plunger : BCH: Initial count: 0
+2024-12-14 11:48:47,555 : INFO : ball_device.bd_plunger : State: idle
+2024-12-14 11:48:47,566 : INFO : EventManager : Event: ======'init_phase_3'====== Args={}
+2024-12-14 11:48:47,569 : ERROR : asyncio : Exception in callback EventManager._queue_task_done(<Task finishe... color grey')>)
+handle: <Handle EventManager._queue_task_done(<Task finishe... color grey')>)>
+Traceback (most recent call last):
+  File "C:\Users\student\mpfenv3\Lib\site-packages\mpf\config_players\light_player.py", line 122, in _convert_color
+    color = RGBColor(color)
+            ^^^^^^^^^^^^^^^
+  File "C:\Users\student\mpfenv3\Lib\site-packages\mpf\core\rgb_color.py", line 177, in __init__
+    self._color = RGBColor.string_to_rgb(color)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\student\mpfenv3\Lib\site-packages\mpf\core\rgb_color.py", line 420, in string_to_rgb
+    raise ColorException("Invalid RGB string: {}".format(value))
+mpf.core.rgb_color.ColorException: Invalid RGB string: grey
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Program Files\Python311\Lib\asyncio\events.py", line 84, in _run
+    self._context.run(self._callback, *self._args)
+  File "C:\Users\student\mpfenv3\Lib\site-packages\mpf\core\events.py", line 795, in _queue_task_done
+    future.result()
+  File "C:\Users\student\mpfenv3\Lib\site-packages\mpf\core\events.py", line 708, in _run_handlers_sequential
+    handler.callback(queue=queue, **merged_kwargs)
+  File "C:\Users\student\mpfenv3\Lib\site-packages\mpf\core\show_controller.py", line 53, in _load_shows
+    self.machine.shows[show_name].load(show_config)
+  File "C:\Users\student\mpfenv3\Lib\site-packages\mpf\assets\show.py", line 171, in load
+    self._process_step_actions(step, actions)
+  File "C:\Users\student\mpfenv3\Lib\site-packages\mpf\assets\show.py", line 201, in _process_step_actions
+    raise e
+  File "C:\Users\student\mpfenv3\Lib\site-packages\mpf\assets\show.py", line 197, in _process_step_actions
+    self.machine.show_controller.show_players[key].validate_config_entry(value, self.name)
+  File "C:\Users\student\mpfenv3\Lib\site-packages\mpf\config_players\device_config_player.py", line 56, in validate_config_entry
+    raise e
+  File "C:\Users\student\mpfenv3\Lib\site-packages\mpf\config_players\device_config_player.py", line 52, in validate_config_entry
+    self._validate_config_item(device, device_settings))
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\student\mpfenv3\Lib\site-packages\mpf\config_players\device_config_player.py", line 83, in _validate_config_item
+    raise e
+  File "C:\Users\student\mpfenv3\Lib\site-packages\mpf\config_players\device_config_player.py", line 80, in _validate_config_item
+    device_settings = self._expand_device_config(device_settings)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\student\mpfenv3\Lib\site-packages\mpf\config_players\light_player.py", line 133, in _expand_device_config
+    device_settings['color'] = self._convert_color(color)
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\student\mpfenv3\Lib\site-packages\mpf\config_players\light_player.py", line 124, in _convert_color
+    self.raise_config_error("Invalid color {}".format(color), 1, source_exception=e, context=context)
+  File "C:\Users\student\mpfenv3\Lib\site-packages\mpf\core\logging.py", line 174, in raise_config_error
+    raise ConfigFileError(msg, error_no, self.log.name if self.log else "", context, self._url_base) \
+mpf.exceptions.config_file_error.ConfigFileError: Config File Error in light_player: Show "attract_light_show" >> Failed to load config player attract_light_show:lights with settings {'l_re-entry_left': 'red', 'l_re-entry_middle': 'red', 'l_re-entry_right': 'red', 'l_attack_bumper_left': 'red', 'l_attack_bumper_middle': 'red', 'l_attack_bumper_right': 'red', 'test1': 'gold', 'test50': 'pink', 'test51': 'purple', 'test52': 'brown', 'test53': 'white', 'test54': 'grey', 'test59': 'dodgerblue'} >> Failed to expand entry "test54". >> Invalid color grey Error Code: CFE-light_player-1 (https://missionpinball.org/logs)
+2024-12-14 11:48:47,574 : INFO : Machine : Starting the main run loop with active modes: []
+2024-12-14 11:48:47,575 : WARNING : Machine : Attract mode is not active, game will not be playable. Please check your attract mode configuration.
+2024-12-14 11:48:47,576 : INFO : Machine : Shutting down...
+2024-12-14 11:48:47,576 : INFO : EventManager : Event: ======'shutdown'====== Args={}
+2024-12-14 11:48:47,577 : ERROR : OPP : Stop called on serial connection com5
+2024-12-14 11:48:47,580 : ERROR : OPP : Stop called on serial connection com4
+2024-12-14 11:48:48,606 : ERROR : Machine : Runtime Exception
+Traceback (most recent call last):
+  File "C:\Users\student\mpfenv3\Lib\site-packages\mpf\config_players\light_player.py", line 122, in _convert_color
+    color = RGBColor(color)
+            ^^^^^^^^^^^^^^^
+  File "C:\Users\student\mpfenv3\Lib\site-packages\mpf\core\rgb_color.py", line 177, in __init__
+    self._color = RGBColor.string_to_rgb(color)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\student\mpfenv3\Lib\site-packages\mpf\core\rgb_color.py", line 420, in string_to_rgb
+    raise ColorException("Invalid RGB string: {}".format(value))
+mpf.core.rgb_color.ColorException: Invalid RGB string: grey
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\student\mpfenv3\Lib\site-packages\mpf\core\machine.py", line 808, in _run_loop
+    raise self._exception['exception']
+  File "C:\Program Files\Python311\Lib\asyncio\events.py", line 84, in _run
+    self._context.run(self._callback, *self._args)
+  File "C:\Users\student\mpfenv3\Lib\site-packages\mpf\core\events.py", line 795, in _queue_task_done
+    future.result()
+  File "C:\Users\student\mpfenv3\Lib\site-packages\mpf\core\events.py", line 708, in _run_handlers_sequential
+    handler.callback(queue=queue, **merged_kwargs)
+  File "C:\Users\student\mpfenv3\Lib\site-packages\mpf\core\show_controller.py", line 53, in _load_shows
+    self.machine.shows[show_name].load(show_config)
+  File "C:\Users\student\mpfenv3\Lib\site-packages\mpf\assets\show.py", line 171, in load
+    self._process_step_actions(step, actions)
+  File "C:\Users\student\mpfenv3\Lib\site-packages\mpf\assets\show.py", line 201, in _process_step_actions
+    raise e
+  File "C:\Users\student\mpfenv3\Lib\site-packages\mpf\assets\show.py", line 197, in _process_step_actions
+    self.machine.show_controller.show_players[key].validate_config_entry(value, self.name)
+  File "C:\Users\student\mpfenv3\Lib\site-packages\mpf\config_players\device_config_player.py", line 56, in validate_config_entry
+    raise e
+  File "C:\Users\student\mpfenv3\Lib\site-packages\mpf\config_players\device_config_player.py", line 52, in validate_config_entry
+    self._validate_config_item(device, device_settings))
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\student\mpfenv3\Lib\site-packages\mpf\config_players\device_config_player.py", line 83, in _validate_config_item
+    raise e
+  File "C:\Users\student\mpfenv3\Lib\site-packages\mpf\config_players\device_config_player.py", line 80, in _validate_config_item
+    device_settings = self._expand_device_config(device_settings)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\student\mpfenv3\Lib\site-packages\mpf\config_players\light_player.py", line 133, in _expand_device_config
+    device_settings['color'] = self._convert_color(color)
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\student\mpfenv3\Lib\site-packages\mpf\config_players\light_player.py", line 124, in _convert_color
+    self.raise_config_error("Invalid color {}".format(color), 1, source_exception=e, context=context)
+  File "C:\Users\student\mpfenv3\Lib\site-packages\mpf\core\logging.py", line 174, in raise_config_error
+    raise ConfigFileError(msg, error_no, self.log.name if self.log else "", context, self._url_base) \
+mpf.exceptions.config_file_error.ConfigFileError: Config File Error in light_player: Show "attract_light_show" >> Failed to load config player attract_light_show:lights with settings {'l_re-entry_left': 'red', 'l_re-entry_middle': 'red', 'l_re-entry_right': 'red', 'l_attack_bumper_left': 'red', 'l_attack_bumper_middle': 'red', 'l_attack_bumper_right': 'red', 'test1': 'gold', 'test50': 'pink', 'test51': 'purple', 'test52': 'brown', 'test53': 'white', 'test54': 'grey', 'test59': 'dodgerblue'} >> Failed to expand entry "test54". >> Invalid color grey Error Code: CFE-light_player-1 (https://missionpinball.org/logs)
+2024-12-14 11:48:53,832 : ERROR : root : 
+Traceback (most recent call last):
+  File "C:\Users\student\mpfenv3\Lib\site-packages\mpf\config_players\light_player.py", line 122, in _convert_color
+    color = RGBColor(color)
+            ^^^^^^^^^^^^^^^
+  File "C:\Users\student\mpfenv3\Lib\site-packages\mpf\core\rgb_color.py", line 177, in __init__
+    self._color = RGBColor.string_to_rgb(color)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\student\mpfenv3\Lib\site-packages\mpf\core\rgb_color.py", line 420, in string_to_rgb
+    raise ColorException("Invalid RGB string: {}".format(value))
+mpf.core.rgb_color.ColorException: Invalid RGB string: grey
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\student\mpfenv3\Lib\site-packages\mpf\core\machine.py", line 808, in _run_loop
+    raise self._exception['exception']
+  File "C:\Program Files\Python311\Lib\asyncio\events.py", line 84, in _run
+    self._context.run(self._callback, *self._args)
+  File "C:\Users\student\mpfenv3\Lib\site-packages\mpf\core\events.py", line 795, in _queue_task_done
+    future.result()
+  File "C:\Users\student\mpfenv3\Lib\site-packages\mpf\core\events.py", line 708, in _run_handlers_sequential
+    handler.callback(queue=queue, **merged_kwargs)
+  File "C:\Users\student\mpfenv3\Lib\site-packages\mpf\core\show_controller.py", line 53, in _load_shows
+    self.machine.shows[show_name].load(show_config)
+  File "C:\Users\student\mpfenv3\Lib\site-packages\mpf\assets\show.py", line 171, in load
+    self._process_step_actions(step, actions)
+  File "C:\Users\student\mpfenv3\Lib\site-packages\mpf\assets\show.py", line 201, in _process_step_actions
+    raise e
+  File "C:\Users\student\mpfenv3\Lib\site-packages\mpf\assets\show.py", line 197, in _process_step_actions
+    self.machine.show_controller.show_players[key].validate_config_entry(value, self.name)
+  File "C:\Users\student\mpfenv3\Lib\site-packages\mpf\config_players\device_config_player.py", line 56, in validate_config_entry
+    raise e
+  File "C:\Users\student\mpfenv3\Lib\site-packages\mpf\config_players\device_config_player.py", line 52, in validate_config_entry
+    self._validate_config_item(device, device_settings))
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\student\mpfenv3\Lib\site-packages\mpf\config_players\device_config_player.py", line 83, in _validate_config_item
+    raise e
+  File "C:\Users\student\mpfenv3\Lib\site-packages\mpf\config_players\device_config_player.py", line 80, in _validate_config_item
+    device_settings = self._expand_device_config(device_settings)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\student\mpfenv3\Lib\site-packages\mpf\config_players\light_player.py", line 133, in _expand_device_config
+    device_settings['color'] = self._convert_color(color)
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\student\mpfenv3\Lib\site-packages\mpf\config_players\light_player.py", line 124, in _convert_color
+    self.raise_config_error("Invalid color {}".format(color), 1, source_exception=e, context=context)
+  File "C:\Users\student\mpfenv3\Lib\site-packages\mpf\core\logging.py", line 174, in raise_config_error
+    raise ConfigFileError(msg, error_no, self.log.name if self.log else "", context, self._url_base) \
+mpf.exceptions.config_file_error.ConfigFileError: Config File Error in light_player: Show "attract_light_show" >> Failed to load config player attract_light_show:lights with settings {'l_re-entry_left': 'red', 'l_re-entry_middle': 'red', 'l_re-entry_right': 'red', 'l_attack_bumper_left': 'red', 'l_attack_bumper_middle': 'red', 'l_attack_bumper_right': 'red', 'test1': 'gold', 'test50': 'pink', 'test51': 'purple', 'test52': 'brown', 'test53': 'white', 'test54': 'grey', 'test59': 'dodgerblue'} >> Failed to expand entry "test54". >> Invalid color grey Error Code: CFE-light_player-1 (https://missionpinball.org/logs)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\student\mpfenv3\Lib\site-packages\mpf\commands\game.py", line 240, in __init__
+    self.machine.run()
+  File "C:\Users\student\mpfenv3\Lib\site-packages\mpf\core\machine.py", line 704, in run
+    self._run_loop()
+  File "C:\Users\student\mpfenv3\Lib\site-packages\mpf\core\machine.py", line 811, in _run_loop
+    report_crash(self._exception['exception'], "exception_during_run", self.config)
+  File "C:\Users\student\mpfenv3\Lib\site-packages\mpf\core\crash_reporter.py", line 236, in report_crash
+    response = input("Do you want to report the crash to the MPF team (yes/no/show)? ")
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+EOFError

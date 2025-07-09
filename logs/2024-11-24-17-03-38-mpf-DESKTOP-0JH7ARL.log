@@ -1,0 +1,106 @@
+2024-11-24 17:03:39,000 : INFO : root : Loading config.
+2024-11-24 17:03:39,004 : INFO : YamlMultifileConfigLoader : Machine config file #1: config.yaml
+2024-11-24 17:03:39,004 : WARNING : ConfigProcessor : Config file in cache changed: C:\Users\student\pinball\cobraPinTest1\config\config.yaml
+2024-11-24 17:03:39,005 : INFO : ConfigProcessor : Loading config from file c:\users\student\mpfenv\lib\site-packages\mpf\mpfconfig.yaml.
+2024-11-24 17:03:39,068 : INFO : ConfigProcessor : Loading config: c:\users\student\mpfenv\lib\site-packages\mpf\mpfconfig.yaml
+2024-11-24 17:03:39,069 : INFO : ConfigProcessor : Loading config from file C:\Users\student\pinball\cobraPinTest1\config\config.yaml.
+2024-11-24 17:03:39,109 : INFO : ConfigProcessor : Loading config: C:\Users\student\pinball\cobraPinTest1\config\config.yaml
+2024-11-24 17:03:39,111 : INFO : ConfigProcessor : Config file cache created: C:\Users\student\AppData\Local\Temp\f1427cd4cbc9163bc2263f349f0fb463.mpf_cache
+2024-11-24 17:03:39,173 : INFO : ConfigProcessor : Loading config from cache: C:\Users\student\AppData\Local\Temp\32ed7ad340ce8029344f8b9ff63edc80.mpf_cache
+2024-11-24 17:03:39,174 : INFO : ConfigProcessor : Loading config from cache: C:\Users\student\AppData\Local\Temp\8696bd5a5a040ff67990be11cb4d3c0c.mpf_cache
+2024-11-24 17:03:39,175 : INFO : ConfigProcessor : Loading config from cache: C:\Users\student\AppData\Local\Temp\4675a535c8328a9c278c807d999ed109.mpf_cache
+2024-11-24 17:03:39,176 : INFO : ConfigProcessor : Loading config from cache: C:\Users\student\AppData\Local\Temp\0c8438cab3480347c0c749fa494946a2.mpf_cache
+2024-11-24 17:03:39,177 : INFO : ConfigProcessor : Loading config from cache: C:\Users\student\AppData\Local\Temp\edae2e0e7aeda847f5007d89f37fc8de.mpf_cache
+2024-11-24 17:03:39,178 : INFO : ConfigProcessor : Loading config from cache: C:\Users\student\AppData\Local\Temp\f8d2c2cf3ea01f085365ea23fa51a701.mpf_cache
+2024-11-24 17:03:39,178 : INFO : ConfigProcessor : Loading config from cache: C:\Users\student\AppData\Local\Temp\30bd992f4b62a9b099207aebeb59554c.mpf_cache
+2024-11-24 17:03:39,179 : INFO : Machine : Mission Pinball Framework Core Engine v0.55.0
+2024-11-24 17:03:39,179 : INFO : Machine : Command line arguments: {'no_load_cache': False, 'create_config_cache': True, 'bcp': True, 'configfile': ['config.yaml'], 'force_assets_load': False, 'jsonlogging': False, 'logfile': 'logs\\2024-11-24-17-03-38-mpf-DESKTOP-0JH7ARL.log', 'pause': False, 'production': False, 'text_ui': True, 'loglevel': 15, 'consoleloglevel': 20, 'force_platform': None, 'syslog_address': None, 'mc_file_name': None, 'no_sound': False}
+2024-11-24 17:03:39,179 : INFO : Machine : MPF path: c:\users\student\mpfenv\lib\site-packages\mpf
+2024-11-24 17:03:39,179 : INFO : Machine : Machine path: C:\Users\student\pinball\cobraPinTest1
+2024-11-24 17:03:39,179 : INFO : Machine : Platform: win32
+2024-11-24 17:03:39,179 : INFO : Machine : Python executable location: c:\users\student\mpfenv\scripts\python.exe
+2024-11-24 17:03:39,179 : INFO : Machine : Python version: 3.7.8 (64-bit)
+2024-11-24 17:03:39,181 : INFO : Machine : Initialise MPF.
+2024-11-24 17:03:39,371 : INFO : OPP : Connecting to com4 at 115200bps
+2024-11-24 17:03:39,552 : INFO : OPP : Init of OPP board 0 done
+2024-11-24 17:03:39,552 : INFO : OPP : Connecting to com5 at 115200bps
+2024-11-24 17:03:39,727 : INFO : OPP : Init of OPP board 1 done
+2024-11-24 17:03:39,728 : INFO : EventManager : Event: ======'machine_var_credits_string'====== Args={'value': 'FREE PLAY', 'prev_value': None, 'change': True}
+2024-11-24 17:03:39,778 : INFO : EventManager : Event: ======'machine_var_master_volume'====== Args={'value': 0.5, 'prev_value': None, 'change': True}
+2024-11-24 17:03:39,778 : INFO : EventManager : Event: ======'machine_var_player1_score'====== Args={'value': 1500, 'prev_value': None, 'change': True}
+2024-11-24 17:03:39,778 : INFO : EventManager : Event: ======'machine_var_mpf_version'====== Args={'value': 'MPF v0.55.0', 'prev_value': None, 'change': True}
+2024-11-24 17:03:39,778 : INFO : EventManager : Event: ======'machine_var_mpf_extended_version'====== Args={'value': 'MPF v0.55.0, Config version:5, Show version: 5, BCP version:1.1', 'prev_value': None, 'change': True}
+2024-11-24 17:03:39,778 : INFO : EventManager : Event: ======'machine_var_python_version'====== Args={'value': '3.7.8', 'prev_value': None, 'change': True}
+2024-11-24 17:03:39,778 : INFO : EventManager : Event: ======'machine_var_platform'====== Args={'value': 'Windows-10-10.0.19041-SP0', 'prev_value': None, 'change': True}
+2024-11-24 17:03:39,778 : INFO : EventManager : Event: ======'machine_var_platform_system'====== Args={'value': 'Windows', 'prev_value': None, 'change': True}
+2024-11-24 17:03:39,778 : INFO : EventManager : Event: ======'machine_var_platform_release'====== Args={'value': '10', 'prev_value': None, 'change': True}
+2024-11-24 17:03:39,778 : INFO : EventManager : Event: ======'machine_var_platform_version'====== Args={'value': '10.0.19041', 'prev_value': None, 'change': True}
+2024-11-24 17:03:39,779 : INFO : EventManager : Event: ======'machine_var_platform_machine'====== Args={'value': 'AMD64', 'prev_value': None, 'change': True}
+2024-11-24 17:03:39,779 : INFO : EventManager : Event: ======'init_phase_1'====== Args={}
+2024-11-24 17:03:39,794 : ERROR : asyncio : Exception in callback EventManager._async_handler_done(<QueuedEvent>)(<Task finishe...our config.')>) at c:\users\student\mpfenv\lib\site-packages\mpf\core\events.py:112
+handle: <Handle EventManager._async_handler_done(<QueuedEvent>)(<Task finishe...our config.')>) at c:\users\student\mpfenv\lib\site-packages\mpf\core\events.py:112>
+Traceback (most recent call last):
+  File "C:\Program Files\Python37\lib\asyncio\events.py", line 88, in _run
+    self._context.run(self._callback, *self._args)
+  File "c:\users\student\mpfenv\lib\site-packages\mpf\core\events.py", line 115, in _async_handler_done
+    future.result()
+  File "c:\users\student\mpfenv\lib\site-packages\mpf\core\device_manager.py", line 90, in _load_device_modules
+    await self.machine.mode_controller.load_mode_devices()
+  File "c:\users\student\mpfenv\lib\site-packages\mpf\core\mode_controller.py", line 86, in load_mode_devices
+    await mode.load_mode_devices()
+  File "c:\users\student\mpfenv\lib\site-packages\mpf\core\mode.py", line 431, in load_mode_devices
+    settings = device.validate_and_parse_config(settings, True, "mode:" + self.name)
+  File "c:\users\student\mpfenv\lib\site-packages\mpf\devices\shot.py", line 69, in validate_and_parse_config
+    config = super().validate_and_parse_config(config, is_mode_config, debug_prefix)
+  File "c:\users\student\mpfenv\lib\site-packages\mpf\core\device.py", line 109, in validate_and_parse_config
+    self.config_section, config, self.name, "device", prefix=debug_prefix)
+  File "c:\users\student\mpfenv\lib\site-packages\mpf\core\config_validator.py", line 180, in validate_config
+    validation_failure_info=validation_failure_info)
+  File "c:\users\student\mpfenv\lib\site-packages\mpf\core\config_validator.py", line 222, in _validate_config
+    validation_failure_info=ValidationPath(validation_failure_info, k))
+  File "c:\users\student\mpfenv\lib\site-packages\mpf\core\config_validator.py", line 272, in validate_config_item
+    new_list.append(self.validate_item(i, validation, validation_failure_info))
+  File "c:\users\student\mpfenv\lib\site-packages\mpf\core\config_validator.py", line 709, in validate_item
+    return self.validator_list[validator](item, validation_failure_info=validation_failure_info, param=param)
+  File "c:\users\student\mpfenv\lib\site-packages\mpf\core\config_validator.py", line 424, in _validate_type_machine
+    6)
+  File "c:\users\student\mpfenv\lib\site-packages\mpf\core\config_validator.py", line 728, in validation_error
+    item, msg), 5 if code is None else code, self.log.name)
+mpf.exceptions.config_file_error.ConfigFileError: Config File Error in ConfigValidator: Config validation error: Entry mode:medal:shots:medalL_shot:switch = "s_medal_drop_left" is not valid. Device "s_medal_drop_left" not found in "switches:" section in your config. Error Code: CFE-ConfigValidator-6 (https://docs.missionpinball.org/en/0.55/logs/CFE-ConfigValidator-6.html)
+2024-11-24 17:03:39,842 : INFO : Machine : Starting the main run loop.
+2024-11-24 17:03:39,846 : INFO : Machine : Shutting down...
+2024-11-24 17:03:39,846 : INFO : EventManager : Event: ======'shutdown'====== Args={}
+2024-11-24 17:03:39,846 : ERROR : OPP : Stop called on serial connection com5
+2024-11-24 17:03:39,847 : ERROR : OPP : Stop called on serial connection com4
+2024-11-24 17:03:39,851 : ERROR : Machine : Runtime Exception
+Traceback (most recent call last):
+  File "c:\users\student\mpfenv\lib\site-packages\mpf\core\machine.py", line 769, in _run_loop
+    raise self._exception['exception']
+  File "C:\Program Files\Python37\lib\asyncio\events.py", line 88, in _run
+    self._context.run(self._callback, *self._args)
+  File "c:\users\student\mpfenv\lib\site-packages\mpf\core\events.py", line 115, in _async_handler_done
+    future.result()
+  File "c:\users\student\mpfenv\lib\site-packages\mpf\core\device_manager.py", line 90, in _load_device_modules
+    await self.machine.mode_controller.load_mode_devices()
+  File "c:\users\student\mpfenv\lib\site-packages\mpf\core\mode_controller.py", line 86, in load_mode_devices
+    await mode.load_mode_devices()
+  File "c:\users\student\mpfenv\lib\site-packages\mpf\core\mode.py", line 431, in load_mode_devices
+    settings = device.validate_and_parse_config(settings, True, "mode:" + self.name)
+  File "c:\users\student\mpfenv\lib\site-packages\mpf\devices\shot.py", line 69, in validate_and_parse_config
+    config = super().validate_and_parse_config(config, is_mode_config, debug_prefix)
+  File "c:\users\student\mpfenv\lib\site-packages\mpf\core\device.py", line 109, in validate_and_parse_config
+    self.config_section, config, self.name, "device", prefix=debug_prefix)
+  File "c:\users\student\mpfenv\lib\site-packages\mpf\core\config_validator.py", line 180, in validate_config
+    validation_failure_info=validation_failure_info)
+  File "c:\users\student\mpfenv\lib\site-packages\mpf\core\config_validator.py", line 222, in _validate_config
+    validation_failure_info=ValidationPath(validation_failure_info, k))
+  File "c:\users\student\mpfenv\lib\site-packages\mpf\core\config_validator.py", line 272, in validate_config_item
+    new_list.append(self.validate_item(i, validation, validation_failure_info))
+  File "c:\users\student\mpfenv\lib\site-packages\mpf\core\config_validator.py", line 709, in validate_item
+    return self.validator_list[validator](item, validation_failure_info=validation_failure_info, param=param)
+  File "c:\users\student\mpfenv\lib\site-packages\mpf\core\config_validator.py", line 424, in _validate_type_machine
+    6)
+  File "c:\users\student\mpfenv\lib\site-packages\mpf\core\config_validator.py", line 728, in validation_error
+    item, msg), 5 if code is None else code, self.log.name)
+mpf.exceptions.config_file_error.ConfigFileError: Config File Error in ConfigValidator: Config validation error: Entry mode:medal:shots:medalL_shot:switch = "s_medal_drop_left" is not valid. Device "s_medal_drop_left" not found in "switches:" section in your config. Error Code: CFE-ConfigValidator-6 (https://docs.missionpinball.org/en/0.55/logs/CFE-ConfigValidator-6.html)
+2024-11-24 17:04:09,456 : INFO : root : MPF run loop ended.

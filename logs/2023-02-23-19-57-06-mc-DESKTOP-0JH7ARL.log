@@ -1,0 +1,113 @@
+2023-02-23 19:57:06,892 : kivy : Factory: 186 symbols loaded
+2023-02-23 19:57:07,001 : kivy : ImageLoaderFFPy: Using ffpyplayer 4.3.2
+2023-02-23 19:57:07,001 : kivy : Image: Providers: img_tex, img_dds, img_sdl2, img_pil, img_ffpyplayer 
+2023-02-23 19:57:07,036 : kivy : VideoGstplayer: Using Gstreamer 1.18.0.0
+2023-02-23 19:57:07,036 : kivy : Video: Provider: gstplayer
+2023-02-23 19:57:07,172 : kivy : Loading MPF-MC controller
+2023-02-23 19:57:07,550 : ConfigProcessor : Config spec file cache created: C:\Users\student\AppData\Local\Temp\config_spec.mpf_cache
+2023-02-23 19:57:07,565 : YamlMultifileConfigLoader : Machine config file #1: config
+2023-02-23 19:57:07,565 : ConfigProcessor : Loading config from file c:\users\student\mpfenv\lib\site-packages\mpfmc\mcconfig.yaml.
+2023-02-23 19:57:07,594 : ConfigProcessor : Loading config: c:\users\student\mpfenv\lib\site-packages\mpfmc\mcconfig.yaml
+2023-02-23 19:57:07,595 : ConfigProcessor : Loading config from file C:\Users\student\pinball\cobraPinTest1\config\config.
+2023-02-23 19:57:07,623 : ConfigProcessor : Loading config: C:\Users\student\pinball\cobraPinTest1\config\config
+2023-02-23 19:57:07,624 : ConfigProcessor : Config file cache created: C:\Users\student\AppData\Local\Temp\8788ef445fdd76e1de1cbcebe7495fec.mpf_cache
+2023-02-23 19:57:07,624 : ConfigProcessor : Loading config from file c:\users\student\mpfenv\lib\site-packages\mpf\modes\attract\config\attract.yaml.
+2023-02-23 19:57:07,626 : ConfigProcessor : Loading config: c:\users\student\mpfenv\lib\site-packages\mpf\modes\attract\config\attract.yaml
+2023-02-23 19:57:07,626 : ConfigProcessor : Loading config from file C:\Users\student\pinball\cobraPinTest1\modes\attract\config\attract.yaml.
+2023-02-23 19:57:07,626 : ConfigProcessor : Loading config: C:\Users\student\pinball\cobraPinTest1\modes\attract\config\attract.yaml
+2023-02-23 19:57:07,627 : ConfigProcessor : Config file cache created: C:\Users\student\AppData\Local\Temp\32ed7ad340ce8029344f8b9ff63edc80.mpf_cache
+2023-02-23 19:57:07,627 : ConfigProcessor : Loading config from file c:\users\student\mpfenv\lib\site-packages\mpf\modes\game\config\game.yaml.
+2023-02-23 19:57:07,628 : ConfigProcessor : Loading config: c:\users\student\mpfenv\lib\site-packages\mpf\modes\game\config\game.yaml
+2023-02-23 19:57:07,629 : ConfigProcessor : Config file cache created: C:\Users\student\AppData\Local\Temp\8696bd5a5a040ff67990be11cb4d3c0c.mpf_cache
+2023-02-23 19:57:07,629 : ConfigProcessor : Loading config from file C:\Users\student\pinball\cobraPinTest1\modes\base\config\base.yaml.
+2023-02-23 19:57:07,633 : ConfigProcessor : Loading config: C:\Users\student\pinball\cobraPinTest1\modes\base\config\base.yaml
+2023-02-23 19:57:07,634 : ConfigProcessor : Config file cache created: C:\Users\student\AppData\Local\Temp\4675a535c8328a9c278c807d999ed109.mpf_cache
+2023-02-23 19:57:07,634 : ConfigProcessor : Loading config from file C:\Users\student\pinball\cobraPinTest1\modes\reentry\config\reentry.yaml.
+2023-02-23 19:57:07,643 : ConfigProcessor : Loading config: C:\Users\student\pinball\cobraPinTest1\modes\reentry\config\reentry.yaml
+2023-02-23 19:57:07,643 : ConfigProcessor : Config file cache created: C:\Users\student\AppData\Local\Temp\0c8438cab3480347c0c749fa494946a2.mpf_cache
+2023-02-23 19:57:07,644 : mpfmc : Mission Pinball Framework Media Controller v0.55.0
+2023-02-23 19:57:07,644 : mpfmc : Mission Pinball Framework Game Engine v0.55.0
+2023-02-23 19:57:07,644 : mpfmc : Machine path: C:\Users\student\pinball\cobraPinTest1
+2023-02-23 19:57:07,644 : mpfmc : Starting clock at 60.0Hz
+2023-02-23 19:57:07,656 : kivy : Text: Provider: sdl2
+2023-02-23 19:57:07,691 : kivy : Window: Provider: sdl2
+2023-02-23 19:57:08,003 : kivy : GL: Using the "OpenGL" graphics system
+2023-02-23 19:57:08,004 : kivy : GL: GLEW initialization succeeded
+2023-02-23 19:57:08,005 : kivy : GL: Backend used <glew>
+2023-02-23 19:57:08,005 : kivy : GL: OpenGL version <b'4.6.13543 Compatibility Profile Context 25.20.15006.9'>
+2023-02-23 19:57:08,005 : kivy : GL: OpenGL vendor <b'ATI Technologies Inc.'>
+2023-02-23 19:57:08,005 : kivy : GL: OpenGL renderer <b'Radeon RX Vega M GL Graphics'>
+2023-02-23 19:57:08,006 : kivy : GL: OpenGL parsed version: 4, 6
+2023-02-23 19:57:08,006 : kivy : GL: Shading version <b'4.60'>
+2023-02-23 19:57:08,006 : kivy : GL: Texture max size <16384>
+2023-02-23 19:57:08,006 : kivy : GL: Texture max units <32>
+2023-02-23 19:57:08,021 : kivy : Window: auto add sdl2 input provider
+2023-02-23 19:57:08,021 : kivy : Window: virtual keyboard not allowed, single mode, not docked
+2023-02-23 19:57:08,233 : AudioInterface : Initialized
+2023-02-23 19:57:08,233 : AudioInterface : Loaded SDL 2.0.12
+2023-02-23 19:57:08,233 : AudioInterface : Loaded SDL_Mixer 2.0.4
+2023-02-23 19:57:08,233 : AudioInterface : Loaded GStreamer 1.18.0.0
+2023-02-23 19:57:08,233 : AudioInterface : Loaded GLib 2.62.6
+2023-02-23 19:57:08,233 : AudioInterface : Settings requested - rate: 44100, channels: 1, buffer: 2048 samples
+2023-02-23 19:57:08,233 : AudioInterface : Settings in use - rate: 44100, channels: 1, buffer: 2048 samples (4096 bytes @ 2 bytes per sample)
+2023-02-23 19:57:08,233 : SoundSystem : Setting master volume to 0.0
+2023-02-23 19:57:08,233 : SoundSystem : master_volume in sound_system is deprecated and will be removed in the future.
+2023-02-23 19:57:08,233 : AudioInterface : Enabling audio playback
+2023-02-23 19:57:08,235 : kivy : Base: Start application main loop
+2023-02-23 19:57:08,235 : EventManager : Event: ======'display_window_initialized'====== Args={}
+2023-02-23 19:57:08,249 : mpfmc : Display: Setting 'window' as default display
+2023-02-23 19:57:08,254 : EventManager : Event: ======'displays_initialized'====== Args={}
+2023-02-23 19:57:08,255 : EventManager : Event: ======'slide_window_blank_created'====== Args={}
+2023-02-23 19:57:08,255 : EventManager : Event: ======'display_window_ready'====== Args={}
+2023-02-23 19:57:08,266 : EventManager : Event: ======'init_phase_1'====== Args={}
+2023-02-23 19:57:08,269 : kivy : Base: Leaving application in progress...
+2023-02-23 19:57:08,269 : kivy : Exception while processing RegisteredHandler(callback=<bound method McConfigPlayer._initialise_system_wide of McConfigPlayer.sounds>, priority=1, kwargs={}, key=UUID('d296162f-4b2d-4c11-9587-b180230e7311'), condition=None, blocking_facility=None) for event init_phase_1. Cannot handle events with spaces in the event name, please remedy "s_reentry_left_active, s_reentry_middle_active, s_reentry_right_active"
+Traceback (most recent call last):
+  File "c:\users\student\mpfenv\lib\site-packages\mpf\core\events.py", line 695, in _run_handlers
+    result = handler.callback(**merged_kwargs)
+  File "c:\users\student\mpfenv\lib\site-packages\mpfmc\core\mc_config_player.py", line 39, in _initialise_system_wide
+    self.machine.machine_config[self.config_file_section])
+  File "c:\users\student\mpfenv\lib\site-packages\mpf\core\config_player.py", line 301, in register_player_events
+    settings=settings))
+  File "c:\users\student\mpfenv\lib\site-packages\mpf\core\events.py", line 178, in add_handler
+    event, condition, additional_priority = self.get_event_and_condition_from_string(event)
+  File "c:\users\student\mpfenv\lib\site-packages\mpf\core\events.py", line 89, in get_event_and_condition_from_string
+    'please remedy "{}"'.format(event_string))
+ValueError: Cannot handle events with spaces in the event name, please remedy "s_reentry_left_active, s_reentry_middle_active, s_reentry_right_active"
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "c:\users\student\mpfenv\lib\site-packages\mpfmc\commands\mc.py", line 227, in __init__
+    thread_stopper=thread_stopper).run()
+  File "c:\users\student\mpfenv\lib\site-packages\kivy\app.py", line 950, in run
+    runTouchApp()
+  File "c:\users\student\mpfenv\lib\site-packages\kivy\base.py", line 582, in runTouchApp
+    EventLoop.mainloop()
+  File "c:\users\student\mpfenv\lib\site-packages\kivy\base.py", line 347, in mainloop
+    self.idle()
+  File "c:\users\student\mpfenv\lib\site-packages\kivy\base.py", line 387, in idle
+    Clock.tick()
+  File "c:\users\student\mpfenv\lib\site-packages\kivy\clock.py", line 733, in tick
+    self.post_idle(ts, self.idle())
+  File "c:\users\student\mpfenv\lib\site-packages\kivy\clock.py", line 776, in post_idle
+    self._process_events()
+  File "kivy\_clock.pyx", line 616, in kivy._clock.CyClockBase._process_events
+  File "kivy\_clock.pyx", line 649, in kivy._clock.CyClockBase._process_events
+  File "kivy\_clock.pyx", line 645, in kivy._clock.CyClockBase._process_events
+  File "kivy\_clock.pyx", line 218, in kivy._clock.ClockEvent.tick
+  File "c:\users\student\mpfenv\lib\site-packages\mpfmc\uix\display.py", line 211, in _displays_initialized
+    self.mc.displays_initialized()
+  File "c:\users\student\mpfenv\lib\site-packages\mpfmc\core\mc.py", line 349, in displays_initialized
+    self._init()
+  File "c:\users\student\mpfenv\lib\site-packages\mpfmc\core\mc.py", line 374, in _init
+    self.events.process_event_queue()
+  File "c:\users\student\mpfenv\lib\site-packages\mpf\core\events.py", line 782, in process_event_queue
+    **event[3])
+  File "c:\users\student\mpfenv\lib\site-packages\mpf\core\events.py", line 741, in _process_event
+    result = self._run_handlers(event, ev_type, kwargs)
+  File "c:\users\student\mpfenv\lib\site-packages\mpf\core\events.py", line 697, in _run_handlers
+    raise Exception("Exception while processing {} for event {}. {}".format(handler, event, e)) from e
+Exception: Exception while processing RegisteredHandler(callback=<bound method McConfigPlayer._initialise_system_wide of McConfigPlayer.sounds>, priority=1, kwargs={}, key=UUID('d296162f-4b2d-4c11-9587-b180230e7311'), condition=None, blocking_facility=None) for event init_phase_1. Cannot handle events with spaces in the event name, please remedy "s_reentry_left_active, s_reentry_middle_active, s_reentry_right_active"
+2023-02-23 19:57:08,305 : kivy : Stopping child threads... (1 remaining)
+2023-02-23 19:57:09,312 : kivy : All child threads stopped.

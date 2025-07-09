@@ -1,0 +1,128 @@
+2024-12-14 11:44:29,049 : INFO : root : Loading config.
+2024-12-14 11:44:29,102 : INFO : ConfigProcessor : Config spec file cache created: C:\Users\student\AppData\Local\Temp\config_spec.mpf_cache
+2024-12-14 11:44:29,102 : INFO : YamlMultifileConfigLoader : Machine config file #1: config.yaml
+2024-12-14 11:44:29,102 : INFO : ConfigProcessor : Loading config from file C:\Users\student\mpfenv3\Lib\site-packages\mpf\mpfconfig.yaml.
+2024-12-14 11:44:29,111 : INFO : ConfigProcessor : Loading config: C:\Users\student\mpfenv3\Lib\site-packages\mpf\mpfconfig.yaml
+2024-12-14 11:44:29,111 : INFO : ConfigProcessor : Loading config from file C:\Users\student\pinball\cobraPinTest1\config\config.yaml.
+2024-12-14 11:44:29,118 : INFO : ConfigProcessor : Loading config: C:\Users\student\pinball\cobraPinTest1\config\config.yaml
+2024-12-14 11:44:29,120 : INFO : ConfigProcessor : Config file cache created: C:\Users\student\AppData\Local\Temp\a20d2796aecf24feaad48747be24652a.mpf_cache
+2024-12-14 11:44:29,194 : INFO : ConfigProcessor : Loading config from file C:\Users\student\mpfenv3\Lib\site-packages\mpf\modes\attract\config\attract.yaml.
+2024-12-14 11:44:29,195 : INFO : ConfigProcessor : Loading config: C:\Users\student\mpfenv3\Lib\site-packages\mpf\modes\attract\config\attract.yaml
+2024-12-14 11:44:29,195 : INFO : ConfigProcessor : Loading config from file C:\Users\student\pinball\cobraPinTest1\modes\attract\config\attract.yaml.
+2024-12-14 11:44:29,196 : INFO : ConfigProcessor : Loading config: C:\Users\student\pinball\cobraPinTest1\modes\attract\config\attract.yaml
+2024-12-14 11:44:29,196 : INFO : ConfigProcessor : Config file cache created: C:\Users\student\AppData\Local\Temp\0196918bccd620e51d3c4d2630650aa0.mpf_cache
+2024-12-14 11:44:29,197 : INFO : ConfigProcessor : Loading config from file C:\Users\student\mpfenv3\Lib\site-packages\mpf\modes\game\config\game.yaml.
+2024-12-14 11:44:29,198 : INFO : ConfigProcessor : Loading config: C:\Users\student\mpfenv3\Lib\site-packages\mpf\modes\game\config\game.yaml
+2024-12-14 11:44:29,198 : INFO : ConfigProcessor : Config file cache created: C:\Users\student\AppData\Local\Temp\511dcc6b491b0fa2d7aa9abdf6497e9c.mpf_cache
+2024-12-14 11:44:29,199 : INFO : ConfigProcessor : Loading config from file C:\Users\student\pinball\cobraPinTest1\modes\base\config\base.yaml.
+2024-12-14 11:44:29,200 : INFO : ConfigProcessor : Loading config: C:\Users\student\pinball\cobraPinTest1\modes\base\config\base.yaml
+2024-12-14 11:44:29,200 : INFO : ConfigProcessor : Config file cache created: C:\Users\student\AppData\Local\Temp\4675a535c8328a9c278c807d999ed109.mpf_cache
+2024-12-14 11:44:29,200 : INFO : ConfigProcessor : Loading config from file C:\Users\student\pinball\cobraPinTest1\modes\reentry\config\reentry.yaml.
+2024-12-14 11:44:29,203 : INFO : ConfigProcessor : Loading config: C:\Users\student\pinball\cobraPinTest1\modes\reentry\config\reentry.yaml
+2024-12-14 11:44:29,204 : INFO : ConfigProcessor : Config file cache created: C:\Users\student\AppData\Local\Temp\0c8438cab3480347c0c749fa494946a2.mpf_cache
+2024-12-14 11:44:29,204 : INFO : ConfigProcessor : Loading config from file C:\Users\student\pinball\cobraPinTest1\modes\lowerlanes\config\lowerlanes.yaml.
+2024-12-14 11:44:29,206 : INFO : ConfigProcessor : Loading config: C:\Users\student\pinball\cobraPinTest1\modes\lowerlanes\config\lowerlanes.yaml
+2024-12-14 11:44:29,206 : INFO : ConfigProcessor : Config file cache created: C:\Users\student\AppData\Local\Temp\5052615755bdf1309b248cf8695ad4ff.mpf_cache
+2024-12-14 11:44:29,207 : INFO : ConfigProcessor : Loading config from file C:\Users\student\pinball\cobraPinTest1\modes\attract\shows\.\attract_display_loop.yaml.
+2024-12-14 11:44:29,208 : INFO : ConfigProcessor : Loading config: C:\Users\student\pinball\cobraPinTest1\modes\attract\shows\.\attract_display_loop.yaml
+2024-12-14 11:44:29,209 : INFO : ConfigProcessor : Config file cache created: C:\Users\student\AppData\Local\Temp\f8d2c2cf3ea01f085365ea23fa51a701.mpf_cache
+2024-12-14 11:44:29,209 : INFO : ConfigProcessor : Loading config from file C:\Users\student\pinball\cobraPinTest1\modes\attract\shows\.\attract_light_show.yaml.
+2024-12-14 11:44:29,210 : INFO : ConfigProcessor : Loading config: C:\Users\student\pinball\cobraPinTest1\modes\attract\shows\.\attract_light_show.yaml
+2024-12-14 11:44:29,211 : INFO : ConfigProcessor : Config file cache created: C:\Users\student\AppData\Local\Temp\30bd992f4b62a9b099207aebeb59554c.mpf_cache
+2024-12-14 11:44:29,211 : INFO : Machine : Mission Pinball Framework Core Engine v0.57.3
+2024-12-14 11:44:29,212 : INFO : Machine : Command line arguments: {'no_load_cache': True, 'create_config_cache': True, 'bcp': True, 'configfile': ['config.yaml'], 'force_assets_load': False, 'platform_integration_test': False, 'jsonlogging': False, 'logfile': 'logs\\2024-12-14-11-44-29-mpf-DESKTOP-0JH7ARL.log', 'pause': False, 'production': False, 'text_ui': True, 'loglevel': 15, 'consoleloglevel': 20, 'force_platform': None, 'syslog_address': None, 'mc_file_name': None, 'no_sound': False}
+2024-12-14 11:44:29,212 : INFO : Machine : MPF path: C:\Users\student\mpfenv3\Lib\site-packages\mpf
+2024-12-14 11:44:29,212 : INFO : Machine : Machine path: C:\Users\student\pinball\cobraPinTest1
+2024-12-14 11:44:29,212 : INFO : Machine : Platform: win32
+2024-12-14 11:44:29,212 : INFO : Machine : Python executable location: C:\Users\student\mpfenv3\Scripts\python.exe
+2024-12-14 11:44:29,212 : INFO : Machine : Python version: 3.11.8 (64-bit)
+2024-12-14 11:44:29,215 : INFO : Machine : Initializing MPF...
+2024-12-14 11:44:29,505 : INFO : OPP : Connecting to com4 at 115200bps
+2024-12-14 11:44:29,615 : INFO : OPP : Init of OPP board 0 done
+2024-12-14 11:44:29,615 : INFO : OPP : Connecting to com5 at 115200bps
+2024-12-14 11:44:29,805 : INFO : OPP : Init of OPP board 1 done
+2024-12-14 11:44:29,805 : INFO : EventManager : Event: ======'machine_var_credits_string'====== Args={'value': 'FREE PLAY', 'prev_value': None, 'change': True}
+2024-12-14 11:44:29,874 : INFO : EventManager : Event: ======'machine_var_master_volume'====== Args={'value': 0.5, 'prev_value': None, 'change': True}
+2024-12-14 11:44:29,874 : INFO : EventManager : Event: ======'machine_var_player1_score'====== Args={'value': 1500, 'prev_value': None, 'change': True}
+2024-12-14 11:44:29,875 : INFO : EventManager : Event: ======'machine_var_mpf_version'====== Args={'value': 'Mission Pinball Framework v0.57.3', 'prev_value': None, 'change': True}
+2024-12-14 11:44:29,875 : INFO : EventManager : Event: ======'machine_var_mpf_extended_version'====== Args={'value': 'Mission Pinball Framework v0.57.3, Config version:6, Show version: 6, BCP version:1.1', 'prev_value': None, 'change': True}
+2024-12-14 11:44:29,875 : INFO : EventManager : Event: ======'machine_var_python_version'====== Args={'value': '3.11.8', 'prev_value': None, 'change': True}
+2024-12-14 11:44:29,883 : INFO : EventManager : Event: ======'machine_var_platform'====== Args={'value': 'Windows-10-10.0.19045-SP0', 'prev_value': None, 'change': True}
+2024-12-14 11:44:29,883 : INFO : EventManager : Event: ======'machine_var_platform_system'====== Args={'value': 'Windows', 'prev_value': None, 'change': True}
+2024-12-14 11:44:29,883 : INFO : EventManager : Event: ======'machine_var_platform_release'====== Args={'value': '10', 'prev_value': None, 'change': True}
+2024-12-14 11:44:29,883 : INFO : EventManager : Event: ======'machine_var_platform_version'====== Args={'value': '10.0.19045', 'prev_value': None, 'change': True}
+2024-12-14 11:44:29,883 : INFO : EventManager : Event: ======'machine_var_platform_machine'====== Args={'value': 'AMD64', 'prev_value': None, 'change': True}
+2024-12-14 11:44:29,883 : INFO : EventManager : Event: ======'init_phase_1'====== Args={}
+2024-12-14 11:44:29,904 : INFO : EventManager : Event: ======'init_phase_2'====== Args={}
+2024-12-14 11:44:29,905 : INFO : SwitchController : Found active switch: ('0-0-8', <Platform.OPP>) <switch.s_trough1>
+2024-12-14 11:44:29,908 : INFO : EventManager : Event: ======'bcp_connection_attempt'====== Args={'name': 'local_display', 'host': 'localhost', 'port': 5050}
+2024-12-14 11:44:29,911 : INFO : BCPClientSocket : Connecting BCP to 'local_display' at localhost:5050...
+2024-12-14 11:44:31,932 : INFO : BCPClientSocket : Connected BCP to 'local_display' localhost:5050
+2024-12-14 11:44:31,933 : INFO : EventManager : Event: ======'bcp_clients_connected'====== Args={}
+2024-12-14 11:44:32,172 : INFO : EventManager : Event: ======'machine_var_mc_version'====== Args={'value': 'MPF-MC v0.57.1', 'prev_value': None, 'change': True}
+2024-12-14 11:44:32,173 : INFO : EventManager : Event: ======'machine_var_mc_extended_version'====== Args={'value': 'MPF-MC v0.57.1 (config_version=6, BCP v1.1,                      Requires MPF API compatibility v0.57.0 or newer)', 'prev_value': None, 'change': True}
+2024-12-14 11:44:32,175 : INFO : ball_device.bd_trough : BCH: Initial count: 1
+2024-12-14 11:44:32,208 : INFO : ball_device.bd_trough : State: idle
+2024-12-14 11:44:32,209 : INFO : ball_device.bd_plunger : BCH: Initial count: 0
+2024-12-14 11:44:32,209 : INFO : ball_device.bd_plunger : State: idle
+2024-12-14 11:44:32,222 : INFO : EventManager : Event: ======'init_phase_3'====== Args={}
+2024-12-14 11:44:32,226 : INFO : EventManager : Event: ======'init_phase_4'====== Args={}
+2024-12-14 11:44:32,227 : INFO : BallController : Initial balls found: 1
+2024-12-14 11:44:32,228 : ERROR : asyncio : Exception in callback EventManager._queue_task_done(<Task finishe...ght.test52>")>)
+handle: <Handle EventManager._queue_task_done(<Task finishe...ght.test52>")>)>
+Traceback (most recent call last):
+  File "C:\Program Files\Python311\Lib\asyncio\events.py", line 84, in _run
+    self._context.run(self._callback, *self._args)
+  File "C:\Users\student\mpfenv3\Lib\site-packages\mpf\core\events.py", line 795, in _queue_task_done
+    future.result()
+  File "C:\Users\student\mpfenv3\Lib\site-packages\mpf\core\events.py", line 708, in _run_handlers_sequential
+    handler.callback(queue=queue, **merged_kwargs)
+  File "C:\Users\student\mpfenv3\Lib\site-packages\mpf\devices\light.py", line 136, in _check_duplicate_light_numbers
+    raise ConfigFileError(f"Duplicate number {type(driver)} {driver.number} for light {light}",
+mpf.exceptions.config_file_error.ConfigFileError: Config File Error in light: Duplicate number <class 'mpf.platforms.opp.opp_modern_lights.OPPModernLightChannel'> 1-0-156 for light <light.test52> Context: (None, '1-0-156', <class 'mpf.platforms.opp.opp_modern_lights.OPPModernLightChannel'>) Error Code: CFE-light-10 (https://missionpinball.org/logs)
+2024-12-14 11:44:32,230 : INFO : Machine : Starting the main run loop with active modes: []
+2024-12-14 11:44:32,230 : WARNING : Machine : Attract mode is not active, game will not be playable. Please check your attract mode configuration.
+2024-12-14 11:44:32,236 : INFO : Machine : Shutting down...
+2024-12-14 11:44:32,237 : INFO : EventManager : Event: ======'shutdown'====== Args={}
+2024-12-14 11:44:32,238 : ERROR : OPP : Stop called on serial connection com5
+2024-12-14 11:44:32,240 : ERROR : OPP : Stop called on serial connection com4
+2024-12-14 11:44:33,252 : ERROR : Machine : Runtime Exception
+Traceback (most recent call last):
+  File "C:\Users\student\mpfenv3\Lib\site-packages\mpf\core\machine.py", line 808, in _run_loop
+    raise self._exception['exception']
+  File "C:\Program Files\Python311\Lib\asyncio\events.py", line 84, in _run
+    self._context.run(self._callback, *self._args)
+  File "C:\Users\student\mpfenv3\Lib\site-packages\mpf\core\events.py", line 795, in _queue_task_done
+    future.result()
+  File "C:\Users\student\mpfenv3\Lib\site-packages\mpf\core\events.py", line 708, in _run_handlers_sequential
+    handler.callback(queue=queue, **merged_kwargs)
+  File "C:\Users\student\mpfenv3\Lib\site-packages\mpf\devices\light.py", line 136, in _check_duplicate_light_numbers
+    raise ConfigFileError(f"Duplicate number {type(driver)} {driver.number} for light {light}",
+mpf.exceptions.config_file_error.ConfigFileError: Config File Error in light: Duplicate number <class 'mpf.platforms.opp.opp_modern_lights.OPPModernLightChannel'> 1-0-156 for light <light.test52> Context: (None, '1-0-156', <class 'mpf.platforms.opp.opp_modern_lights.OPPModernLightChannel'>) Error Code: CFE-light-10 (https://missionpinball.org/logs)
+2024-12-14 11:44:35,226 : ERROR : root : 
+Traceback (most recent call last):
+  File "C:\Users\student\mpfenv3\Lib\site-packages\mpf\core\machine.py", line 808, in _run_loop
+    raise self._exception['exception']
+  File "C:\Program Files\Python311\Lib\asyncio\events.py", line 84, in _run
+    self._context.run(self._callback, *self._args)
+  File "C:\Users\student\mpfenv3\Lib\site-packages\mpf\core\events.py", line 795, in _queue_task_done
+    future.result()
+  File "C:\Users\student\mpfenv3\Lib\site-packages\mpf\core\events.py", line 708, in _run_handlers_sequential
+    handler.callback(queue=queue, **merged_kwargs)
+  File "C:\Users\student\mpfenv3\Lib\site-packages\mpf\devices\light.py", line 136, in _check_duplicate_light_numbers
+    raise ConfigFileError(f"Duplicate number {type(driver)} {driver.number} for light {light}",
+mpf.exceptions.config_file_error.ConfigFileError: Config File Error in light: Duplicate number <class 'mpf.platforms.opp.opp_modern_lights.OPPModernLightChannel'> 1-0-156 for light <light.test52> Context: (None, '1-0-156', <class 'mpf.platforms.opp.opp_modern_lights.OPPModernLightChannel'>) Error Code: CFE-light-10 (https://missionpinball.org/logs)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\student\mpfenv3\Lib\site-packages\mpf\commands\game.py", line 240, in __init__
+    self.machine.run()
+  File "C:\Users\student\mpfenv3\Lib\site-packages\mpf\core\machine.py", line 704, in run
+    self._run_loop()
+  File "C:\Users\student\mpfenv3\Lib\site-packages\mpf\core\machine.py", line 811, in _run_loop
+    report_crash(self._exception['exception'], "exception_during_run", self.config)
+  File "C:\Users\student\mpfenv3\Lib\site-packages\mpf\core\crash_reporter.py", line 236, in report_crash
+    response = input("Do you want to report the crash to the MPF team (yes/no/show)? ")
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+EOFError

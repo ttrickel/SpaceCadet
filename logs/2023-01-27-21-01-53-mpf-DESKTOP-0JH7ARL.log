@@ -1,0 +1,900 @@
+2023-01-27 21:01:53,652 : INFO : root : Loading config.
+2023-01-27 21:01:53,988 : INFO : ConfigProcessor : Config spec file cache created: C:\Users\student\AppData\Local\Temp\config_spec.mpf_cache
+2023-01-27 21:01:53,988 : INFO : YamlMultifileConfigLoader : Machine config file #1: config.yaml
+2023-01-27 21:01:53,988 : INFO : ConfigProcessor : Loading config from file c:\users\student\mpfenv\lib\site-packages\mpf\mpfconfig.yaml.
+2023-01-27 21:01:54,055 : INFO : ConfigProcessor : Loading config: c:\users\student\mpfenv\lib\site-packages\mpf\mpfconfig.yaml
+2023-01-27 21:01:54,056 : INFO : ConfigProcessor : Loading config from file C:\Users\student\pinball\test2\config\config.yaml.
+2023-01-27 21:01:54,105 : INFO : ConfigProcessor : Loading config: C:\Users\student\pinball\test2\config\config.yaml
+2023-01-27 21:01:54,107 : INFO : ConfigProcessor : Config file cache created: C:\Users\student\AppData\Local\Temp\c19bc336499df81d379d258f97126285.mpf_cache
+2023-01-27 21:01:54,180 : INFO : ConfigProcessor : Loading config from file c:\users\student\mpfenv\lib\site-packages\mpf\modes\attract\config\attract.yaml.
+2023-01-27 21:01:54,181 : INFO : ConfigProcessor : Loading config: c:\users\student\mpfenv\lib\site-packages\mpf\modes\attract\config\attract.yaml
+2023-01-27 21:01:54,182 : INFO : ConfigProcessor : Config file cache created: C:\Users\student\AppData\Local\Temp\7315f14db5aa651883463bde45465327.mpf_cache
+2023-01-27 21:01:54,183 : INFO : ConfigProcessor : Loading config from file c:\users\student\mpfenv\lib\site-packages\mpf\modes\game\config\game.yaml.
+2023-01-27 21:01:54,184 : INFO : ConfigProcessor : Loading config: c:\users\student\mpfenv\lib\site-packages\mpf\modes\game\config\game.yaml
+2023-01-27 21:01:54,185 : INFO : ConfigProcessor : Config file cache created: C:\Users\student\AppData\Local\Temp\8696bd5a5a040ff67990be11cb4d3c0c.mpf_cache
+2023-01-27 21:01:54,185 : INFO : Machine : Mission Pinball Framework Core Engine v0.55.0
+2023-01-27 21:01:54,186 : INFO : Machine : Command line arguments: {'no_load_cache': True, 'create_config_cache': True, 'bcp': True, 'configfile': ['config.yaml'], 'force_assets_load': False, 'jsonlogging': False, 'logfile': 'logs\\2023-01-27-21-01-53-mpf-DESKTOP-0JH7ARL.log', 'pause': False, 'production': False, 'text_ui': True, 'loglevel': 15, 'consoleloglevel': 20, 'force_platform': None, 'syslog_address': None, 'mc_file_name': None, 'no_sound': False}
+2023-01-27 21:01:54,186 : INFO : Machine : MPF path: c:\users\student\mpfenv\lib\site-packages\mpf
+2023-01-27 21:01:54,186 : INFO : Machine : Machine path: C:\Users\student\pinball\test2
+2023-01-27 21:01:54,186 : INFO : Machine : Platform: win32
+2023-01-27 21:01:54,186 : INFO : Machine : Python executable location: c:\users\student\mpfenv\scripts\python.exe
+2023-01-27 21:01:54,186 : INFO : Machine : Python version: 3.7.8 (64-bit)
+2023-01-27 21:01:54,188 : INFO : Machine : Initialise MPF.
+2023-01-27 21:01:54,362 : INFO : EventManager : Event: ======'machine_var_credits_string'====== Args={'value': 'FREE PLAY', 'prev_value': None, 'change': True}
+2023-01-27 21:01:54,401 : INFO : EventManager : Event: ======'machine_var_master_volume'====== Args={'value': 0.5, 'prev_value': None, 'change': True}
+2023-01-27 21:01:54,401 : INFO : EventManager : Event: ======'machine_var_mpf_version'====== Args={'value': 'MPF v0.55.0', 'prev_value': None, 'change': True}
+2023-01-27 21:01:54,401 : INFO : EventManager : Event: ======'machine_var_mpf_extended_version'====== Args={'value': 'MPF v0.55.0, Config version:5, Show version: 5, BCP version:1.1', 'prev_value': None, 'change': True}
+2023-01-27 21:01:54,401 : INFO : EventManager : Event: ======'machine_var_python_version'====== Args={'value': '3.7.8', 'prev_value': None, 'change': True}
+2023-01-27 21:01:54,401 : INFO : EventManager : Event: ======'machine_var_platform'====== Args={'value': 'Windows-10-10.0.19041-SP0', 'prev_value': None, 'change': True}
+2023-01-27 21:01:54,401 : INFO : EventManager : Event: ======'machine_var_platform_system'====== Args={'value': 'Windows', 'prev_value': None, 'change': True}
+2023-01-27 21:01:54,402 : INFO : EventManager : Event: ======'machine_var_platform_release'====== Args={'value': '10', 'prev_value': None, 'change': True}
+2023-01-27 21:01:54,402 : INFO : EventManager : Event: ======'machine_var_platform_version'====== Args={'value': '10.0.19041', 'prev_value': None, 'change': True}
+2023-01-27 21:01:54,402 : INFO : EventManager : Event: ======'machine_var_platform_machine'====== Args={'value': 'AMD64', 'prev_value': None, 'change': True}
+2023-01-27 21:01:54,402 : INFO : EventManager : Event: ======'init_phase_1'====== Args={}
+2023-01-27 21:01:54,421 : INFO : EventManager : Event: ======'logicblock_reentry_switch_counter_updated'====== Args={'value': 0, 'enabled': True}
+2023-01-27 21:01:54,421 : INFO : EventManager : Event: ======'logicblock_reentry_switch_counter_updated'====== Args={'value': 0, 'enabled': True}
+2023-01-27 21:01:54,422 : INFO : EventManager : Event: ======'logicblock_medal_drop_counter_updated'====== Args={'value': 0, 'enabled': True}
+2023-01-27 21:01:54,422 : INFO : EventManager : Event: ======'logicblock_medal_drop_counter_updated'====== Args={'value': 0, 'enabled': True}
+2023-01-27 21:01:54,422 : INFO : EventManager : Event: ======'logicblock_booster_drop_counter_updated'====== Args={'value': 0, 'enabled': True}
+2023-01-27 21:01:54,422 : INFO : EventManager : Event: ======'logicblock_booster_drop_counter_updated'====== Args={'value': 0, 'enabled': True}
+2023-01-27 21:01:54,422 : INFO : EventManager : Event: ======'logicblock_multiplier_drop_counter_updated'====== Args={'value': 0, 'enabled': True}
+2023-01-27 21:01:54,422 : INFO : EventManager : Event: ======'logicblock_multiplier_drop_counter_updated'====== Args={'value': 0, 'enabled': True}
+2023-01-27 21:01:54,422 : INFO : EventManager : Event: ======'logicblock_comet_spot_target_counter_updated'====== Args={'value': 0, 'enabled': True}
+2023-01-27 21:01:54,422 : INFO : EventManager : Event: ======'logicblock_comet_spot_target_counter_updated'====== Args={'value': 0, 'enabled': True}
+2023-01-27 21:01:54,422 : INFO : EventManager : Event: ======'logicblock_radiation_spot_target_counter_updated'====== Args={'value': 0, 'enabled': True}
+2023-01-27 21:01:54,422 : INFO : EventManager : Event: ======'logicblock_radiation_spot_target_counter_updated'====== Args={'value': 0, 'enabled': True}
+2023-01-27 21:01:54,422 : INFO : EventManager : Event: ======'logicblock_mission_spot_target_counter_updated'====== Args={'value': 0, 'enabled': True}
+2023-01-27 21:01:54,422 : INFO : EventManager : Event: ======'logicblock_mission_spot_target_counter_updated'====== Args={'value': 0, 'enabled': True}
+2023-01-27 21:01:54,423 : INFO : EventManager : Event: ======'init_phase_2'====== Args={}
+2023-01-27 21:01:54,423 : INFO : SwitchController : Found active switch: ('68', <Platform.SmartVirtual>) <switch.s_trough1>
+2023-01-27 21:01:54,425 : INFO : EventManager : Event: ======'bcp_connection_attempt'====== Args={'name': 'local_display', 'host': 'localhost', 'port': 5050}
+2023-01-27 21:01:54,427 : INFO : BCPClientSocket : Connecting BCP to 'local_display' at localhost:5050...
+2023-01-27 21:01:56,459 : INFO : BCPClientSocket : Connected BCP to 'local_display' localhost:5050
+2023-01-27 21:01:56,461 : INFO : EventManager : Event: ======'bcp_clients_connected'====== Args={}
+2023-01-27 21:01:56,478 : INFO : ball_device.bd_trough : BCH: Initial count: 1
+2023-01-27 21:01:56,478 : INFO : EventManager : Event: ======'machine_var_mc_version'====== Args={'value': 'MPF-MC v0.55.0', 'prev_value': None, 'change': True}
+2023-01-27 21:01:56,479 : INFO : EventManager : Event: ======'machine_var_mc_extended_version'====== Args={'value': 'MPF-MC v0.55.0 (config_version=5, BCP v1.1, Requires MPF v0.55.0-dev.49)', 'prev_value': None, 'change': True}
+2023-01-27 21:01:56,480 : INFO : ball_device.bd_trough : State: idle
+2023-01-27 21:01:56,493 : INFO : ball_device.bd_plunger : BCH: Initial count: 0
+2023-01-27 21:01:56,493 : INFO : ball_device.bd_plunger : State: idle
+2023-01-27 21:01:56,551 : INFO : EventManager : Event: ======'init_phase_3'====== Args={}
+2023-01-27 21:01:56,554 : INFO : EventManager : Event: ======'init_phase_4'====== Args={}
+2023-01-27 21:01:56,554 : INFO : BallController : Initial balls found: 1
+2023-01-27 21:01:56,555 : INFO : EventManager : Event: ======'machine_var_audits_events_game_ended'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2023-01-27 21:01:56,556 : INFO : EventManager : Event: ======'machine_var_audits_events_game_started'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2023-01-27 21:01:56,556 : INFO : EventManager : Event: ======'machine_var_audits_player_score'====== Args={'value': {'average': 0, 'top': [], 'total': 0}, 'prev_value': None, 'change': True}
+2023-01-27 21:01:56,556 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_blackhole_kicker'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2023-01-27 21:01:56,557 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_bonus_lane'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2023-01-27 21:01:56,557 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_booster_drop_target_1'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2023-01-27 21:01:56,557 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_booster_drop_target_2'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2023-01-27 21:01:56,557 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_booster_drop_target_3'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2023-01-27 21:01:56,557 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_comet_spot_1'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2023-01-27 21:01:56,558 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_comet_spot_2'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2023-01-27 21:01:56,558 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_comet_spot_3'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2023-01-27 21:01:56,558 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_engine_bumper_1'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2023-01-27 21:01:56,558 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_engine_bumper_2'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2023-01-27 21:01:56,558 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_engine_bumper_3'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2023-01-27 21:01:56,559 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_fuel_chute_1'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2023-01-27 21:01:56,559 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_fuel_chute_2'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2023-01-27 21:01:56,559 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_fuel_chute_3'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2023-01-27 21:01:56,559 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_fuel_chute_4'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2023-01-27 21:01:56,559 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_fuel_chute_5'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2023-01-27 21:01:56,560 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_fuel_chute_6'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2023-01-27 21:01:56,560 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_fuel_flag'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2023-01-27 21:01:56,560 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_fuel_spot_1'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2023-01-27 21:01:56,560 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_fuel_spot_2'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2023-01-27 21:01:56,561 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_fuel_spot_3'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2023-01-27 21:01:56,561 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_green_wormhole'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2023-01-27 21:01:56,561 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_hyperspace_flag'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2023-01-27 21:01:56,561 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_hyperspacekicker'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2023-01-27 21:01:56,562 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_launch_lane_1'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2023-01-27 21:01:56,562 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_launch_lane_2'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2023-01-27 21:01:56,562 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_launch_lane_3'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2023-01-27 21:01:56,563 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_launch_ramp'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2023-01-27 21:01:56,563 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_left_flipper'====== Args={'value': 36, 'prev_value': None, 'change': True}
+2023-01-27 21:01:56,563 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_left_out_lane'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2023-01-27 21:01:56,564 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_left_out_lane_kicker'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2023-01-27 21:01:56,565 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_left_return_lane'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2023-01-27 21:01:56,565 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_lower_left_rebound'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2023-01-27 21:01:56,565 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_lower_right_rebound'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2023-01-27 21:01:56,566 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_medal_drop_left'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2023-01-27 21:01:56,566 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_medal_drop_middle'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2023-01-27 21:01:56,567 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_medal_drop_right'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2023-01-27 21:01:56,567 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_mission_spot_1'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2023-01-27 21:01:56,568 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_mission_spot_2'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2023-01-27 21:01:56,568 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_mission_spot_3'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2023-01-27 21:01:56,568 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_multiplier_left'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2023-01-27 21:01:56,569 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_multiplier_middle'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2023-01-27 21:01:56,570 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_multiplier_right'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2023-01-27 21:01:56,570 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_plunger'====== Args={'value': 17, 'prev_value': None, 'change': True}
+2023-01-27 21:01:56,571 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_radiationspot_1'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2023-01-27 21:01:56,571 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_radiationspot_2'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2023-01-27 21:01:56,572 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_radiationspot_3'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2023-01-27 21:01:56,572 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_red_wormhole'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2023-01-27 21:01:56,573 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_reentry_left'====== Args={'value': 20, 'prev_value': None, 'change': True}
+2023-01-27 21:01:56,573 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_reentry_middle'====== Args={'value': 11, 'prev_value': None, 'change': True}
+2023-01-27 21:01:56,573 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_reentry_right'====== Args={'value': 6, 'prev_value': None, 'change': True}
+2023-01-27 21:01:56,574 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_right_flipper'====== Args={'value': 22, 'prev_value': None, 'change': True}
+2023-01-27 21:01:56,574 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_right_inlane'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2023-01-27 21:01:56,574 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_right_out_lane'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2023-01-27 21:01:56,575 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_right_out_lane_kicker'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2023-01-27 21:01:56,575 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_right_return_lane'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2023-01-27 21:01:56,575 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_satellite_bumper'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2023-01-27 21:01:56,576 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_secondary_outlane_kicker'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2023-01-27 21:01:56,576 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_skill_shot_1'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2023-01-27 21:01:56,577 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_skill_shot_2'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2023-01-27 21:01:56,578 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_skill_shot_3'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2023-01-27 21:01:56,578 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_skill_shot_4'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2023-01-27 21:01:56,579 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_skill_shot_5'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2023-01-27 21:01:56,579 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_skill_shot_6'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2023-01-27 21:01:56,580 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_skill_shot_lane'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2023-01-27 21:01:56,580 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_spacewarp_rollover'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2023-01-27 21:01:56,580 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_start'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2023-01-27 21:01:56,581 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_trough1'====== Args={'value': 9, 'prev_value': None, 'change': True}
+2023-01-27 21:01:56,581 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_trough2'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2023-01-27 21:01:56,581 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_trough3'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2023-01-27 21:01:56,582 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_trough4'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2023-01-27 21:01:56,582 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_trough5'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2023-01-27 21:01:56,582 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_trough6'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2023-01-27 21:01:56,583 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_trough_jam'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2023-01-27 21:01:56,583 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_upper_left_rebound'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2023-01-27 21:01:56,583 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_upper_right_rebound'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2023-01-27 21:01:56,583 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_wormhole_target'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2023-01-27 21:01:56,584 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_yellow_wormhole'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2023-01-27 21:01:56,584 : INFO : EventManager : Event: ======'init_phase_5'====== Args={}
+2023-01-27 21:01:56,600 : INFO : EventManager : Event: ======'init_done'====== Args={}
+2023-01-27 21:01:56,600 : INFO : EventManager : Event: ======'machine_reset_phase_1'====== Args={}
+2023-01-27 21:01:56,601 : INFO : EventManager : Event: ======'slide_welcome_slide_removed'====== Args={'_from_bcp': True}
+2023-01-27 21:01:56,603 : INFO : EventManager : Event: ======'slide_welcome_slide_created'====== Args={'_from_bcp': True}
+2023-01-27 21:01:56,604 : INFO : EventManager : Event: ======'machine_reset_phase_2'====== Args={}
+2023-01-27 21:01:56,604 : INFO : EventManager : Event: ======'machine_reset_phase_3'====== Args={}
+2023-01-27 21:01:56,605 : INFO : EventManager : Event: ======'reset_complete'====== Args={}
+2023-01-27 21:01:56,605 : INFO : EventManager : Event: ======'mode_attract_will_start'====== Args={}
+2023-01-27 21:01:56,606 : INFO : EventManager : Event: ======'mode_attract_starting'====== Args={}
+2023-01-27 21:01:56,606 : INFO : Mode.attract : Started. Priority: 10
+2023-01-27 21:01:56,606 : INFO : EventManager : Event: ======'modes_active_modes_changed'====== Args={}
+2023-01-27 21:01:56,606 : INFO : EventManager : Event: ======'mode_attract_started'====== Args={}
+2023-01-27 21:01:56,607 : INFO : EventManager : Event: ======'collecting_balls_complete'====== Args={}
+2023-01-27 21:01:56,607 : INFO : EventManager : Event: ======'slide_welcome_slide_active'====== Args={'_from_bcp': True}
+2023-01-27 21:01:56,627 : INFO : EventManager : Event: ======'slide_attract_started_created'====== Args={'_from_bcp': True}
+2023-01-27 21:01:56,627 : INFO : EventManager : Event: ======'slide_attract_started_active'====== Args={'_from_bcp': True}
+2023-01-27 21:01:56,628 : INFO : Machine : Starting the main run loop.
+2023-01-27 21:02:00,827 : INFO : SwitchController : <<<<<<< 's_start' active >>>>>>>
+2023-01-27 21:02:01,045 : INFO : SwitchController : <<<<<<< 's_start' inactive >>>>>>>
+2023-01-27 21:02:01,045 : INFO : EventManager : Event: ======'request_to_start_game'====== Args={}
+2023-01-27 21:02:01,046 : INFO : EventManager : Event: ======'game_start'====== Args={'buttons': [], 'hold_time': 0.21799999999348074}
+2023-01-27 21:02:01,046 : INFO : EventManager : Event: ======'mode_game_will_start'====== Args={'buttons': [], 'hold_time': 0.21799999999348074}
+2023-01-27 21:02:01,048 : INFO : EventManager : Event: ======'mode_game_starting'====== Args={'buttons': [], 'hold_time': 0.21799999999348074}
+2023-01-27 21:02:01,049 : INFO : EventManager : Event: ======'mode_attract_will_stop'====== Args={}
+2023-01-27 21:02:01,049 : INFO : EventManager : Event: ======'mode_attract_stopping'====== Args={}
+2023-01-27 21:02:01,049 : INFO : Mode.attract : Stopped.
+2023-01-27 21:02:01,050 : INFO : EventManager : Event: ======'modes_active_modes_changed'====== Args={}
+2023-01-27 21:02:01,050 : INFO : EventManager : Event: ======'mode_attract_stopped'====== Args={}
+2023-01-27 21:02:01,050 : INFO : EventManager : Event: ======'clear'====== Args={'key': 'attract'}
+2023-01-27 21:02:01,051 : INFO : Mode.game : Started. Priority: 20
+2023-01-27 21:02:01,051 : INFO : EventManager : Event: ======'modes_active_modes_changed'====== Args={}
+2023-01-27 21:02:01,051 : INFO : EventManager : Event: ======'mode_game_started'====== Args={'buttons': [], 'hold_time': 0.21799999999348074}
+2023-01-27 21:02:01,056 : INFO : EventManager : Event: ======'game_will_start'====== Args={}
+2023-01-27 21:02:01,056 : INFO : EventManager : Event: ======'game_starting'====== Args={'game': <Mode.game>}
+2023-01-27 21:02:01,056 : INFO : EventManager : Event: ======'player_add_request'====== Args={}
+2023-01-27 21:02:01,056 : INFO : EventManager : Event: ======'player_will_add'====== Args={'number': 1}
+2023-01-27 21:02:01,057 : INFO : EventManager : Event: ======'player_adding'====== Args={'player': <Player 1>, 'number': 1}
+2023-01-27 21:02:01,057 : INFO : EventManager : Event: ======'player_added'====== Args={'player': <Player 1>, 'num': 1}
+2023-01-27 21:02:01,057 : INFO : Mode.game : Player added successfully. Total players: 1
+2023-01-27 21:02:01,057 : INFO : EventManager : Event: ======'player_index'====== Args={'value': 0, 'prev_value': 0, 'change': 0, 'player_num': 1}
+2023-01-27 21:02:01,057 : INFO : EventManager : Event: ======'player_number'====== Args={'value': 1, 'prev_value': 1, 'change': 0, 'player_num': 1}
+2023-01-27 21:02:01,057 : INFO : EventManager : Event: ======'player_score'====== Args={'value': 0, 'prev_value': 0, 'change': 0, 'player_num': 1}
+2023-01-27 21:02:01,057 : INFO : EventManager : Event: ======'game_started'====== Args={}
+2023-01-27 21:02:01,064 : INFO : EventManager : Event: ======'player_turn_will_start'====== Args={'player': <Player 1>, 'number': 1}
+2023-01-27 21:02:01,064 : INFO : EventManager : Event: ======'player_turn_starting'====== Args={'player': <Player 1>, 'number': 1}
+2023-01-27 21:02:01,071 : INFO : EventManager : Event: ======'player_ball'====== Args={'value': 1, 'prev_value': 0, 'change': 1, 'player_num': 1}
+2023-01-27 21:02:01,072 : INFO : EventManager : Event: ======'player_turn_started'====== Args={'player': <Player 1>, 'number': 1}
+2023-01-27 21:02:01,072 : INFO : EventManager : Event: ======'ball_will_start'====== Args={'player': 1, 'ball': 1, 'balls_remaining': 2, 'is_extra_ball': False}
+2023-01-27 21:02:01,075 : INFO : EventManager : Event: ======'ball_starting'====== Args={'player': 1, 'ball': 1, 'balls_remaining': 2, 'is_extra_ball': False}
+2023-01-27 21:02:01,075 : INFO : EventManager : Event: ======'balls_in_play'====== Args={'balls': 1}
+2023-01-27 21:02:01,075 : INFO : EventManager : Event: ======'ball_started'====== Args={'player': 1, 'ball': 1, 'balls_remaining': 2, 'is_extra_ball': False}
+2023-01-27 21:02:01,076 : INFO : EventManager : Event: ======'single_player_ball_started'====== Args={}
+2023-01-27 21:02:01,076 : INFO : EventManager : Event: ======'ball_start_target'====== Args={'target': 'playfield'}
+2023-01-27 21:02:01,076 : INFO : ball_device.bd_plunger : Setting up player-controlled eject. Balls: 1, Target: <playfield.playfield>, player_controlled_eject_event: None
+2023-01-27 21:02:01,076 : INFO : EventManager : Event: ======'balldevice_balls_available'====== Args={}
+2023-01-27 21:02:01,076 : INFO : ball_device.bd_trough : State: waiting_for_target_ready
+2023-01-27 21:02:01,077 : INFO : EventManager : Event: ======'balldevice_bd_trough_ball_eject_attempt'====== Args={'balls': 1, 'target': <ball_device.bd_plunger>, 'source': <ball_device.bd_trough>, 'mechanical_eject': True, 'num_attempts': 0}
+2023-01-27 21:02:01,077 : INFO : ball_device.bd_plunger : State: waiting_for_ball
+2023-01-27 21:02:01,077 : INFO : ball_device.bd_trough : State: ejecting
+2023-01-27 21:02:01,077 : INFO : ball_device.bd_trough : Ejecting ball to <ball_device.bd_plunger>
+2023-01-27 21:02:01,077 : INFO : EventManager : Event: ======'balldevice_bd_trough_ejecting_ball'====== Args={'balls': 1, 'target': <ball_device.bd_plunger>, 'source': <ball_device.bd_trough>, 'mechanical_eject': True, 'num_attempts': 0}
+2023-01-27 21:02:01,077 : INFO : ball_device.bd_trough : Wait for ball to leave device
+2023-01-27 21:02:01,078 : INFO : coil.c_trough_eject : Pulsing Driver for 10ms (1.0 pulse_power)
+2023-01-27 21:02:01,078 : INFO : SwitchController : <<<<<<< 's_trough1' inactive >>>>>>>
+2023-01-27 21:02:01,080 : INFO : ball_device.bd_trough : State: ball_left
+2023-01-27 21:02:01,080 : INFO : ball_device.bd_trough : Ball left
+2023-01-27 21:02:01,080 : INFO : ball_device.bd_trough : Wait for confirm with timeout 10.0
+2023-01-27 21:02:01,082 : INFO : EventManager : Event: ======'slide__global.slide_player-ball_started_created'====== Args={'_from_bcp': True}
+2023-01-27 21:02:01,083 : INFO : EventManager : Event: ======'slide__global.slide_player-ball_started_active'====== Args={'_from_bcp': True}
+2023-01-27 21:02:01,186 : INFO : SwitchController : <<<<<<< 's_plunger' active >>>>>>>
+2023-01-27 21:02:01,187 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_plunger'====== Args={'value': 18, 'prev_value': 17, 'change': 1}
+2023-01-27 21:02:01,690 : INFO : ball_device.bd_plunger : Received ball from <ball_device.bd_trough>
+2023-01-27 21:02:01,691 : INFO : EventManager : Event: ======'balldevice_bd_plunger_ball_enter'====== Args={'new_balls': 1, 'unclaimed_balls': 0, 'new_available_balls': 0, 'device': <ball_device.bd_plunger>}
+2023-01-27 21:02:01,692 : INFO : EventManager : Event: ======'balldevice_bd_plunger_ball_entered'====== Args={'new_balls': 0, 'device': <ball_device.bd_plunger>}
+2023-01-27 21:02:01,692 : INFO : EventManager : Event: ======'balldevice_bd_plunger_ball_count_changed'====== Args={'balls': 1}
+2023-01-27 21:02:01,693 : INFO : ball_device.bd_trough : Got eject confirm
+2023-01-27 21:02:01,693 : INFO : ball_device.bd_trough : Eject successful
+2023-01-27 21:02:01,693 : INFO : EventManager : Event: ======'balldevice_bd_trough_ball_eject_success'====== Args={'balls': 1, 'target': <ball_device.bd_plunger>}
+2023-01-27 21:02:01,694 : INFO : ball_device.bd_plunger : State: waiting_for_target_ready
+2023-01-27 21:02:01,694 : INFO : EventManager : Event: ======'balldevice_bd_plunger_ball_eject_attempt'====== Args={'balls': 1, 'target': <playfield.playfield>, 'source': <ball_device.bd_plunger>, 'mechanical_eject': True, 'num_attempts': 0}
+2023-01-27 21:02:01,694 : INFO : EventManager : Event: ======'balldevice_bd_trough_ball_count_changed'====== Args={'balls': 0}
+2023-01-27 21:02:01,695 : INFO : ball_device.bd_trough : State: idle
+2023-01-27 21:02:01,695 : INFO : ball_device.bd_plunger : State: ejecting
+2023-01-27 21:02:01,695 : INFO : ball_device.bd_plunger : Ejecting ball to <playfield.playfield>
+2023-01-27 21:02:01,695 : INFO : EventManager : Event: ======'balldevice_bd_plunger_ejecting_ball'====== Args={'balls': 1, 'target': <playfield.playfield>, 'source': <ball_device.bd_plunger>, 'mechanical_eject': True, 'num_attempts': 0}
+2023-01-27 21:02:01,696 : INFO : ball_device.bd_plunger : Wait for ball to leave device
+2023-01-27 21:02:04,192 : INFO : SwitchController : <<<<<<< 's_reentry_left' active >>>>>>>
+2023-01-27 21:02:04,192 : INFO : EventManager : Event: ======'s_reentry_left_active'====== Args={}
+2023-01-27 21:02:04,192 : INFO : EventManager : Event: ======'sw_playfield_active'====== Args={}
+2023-01-27 21:02:04,193 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_reentry_left'====== Args={'value': 21, 'prev_value': 20, 'change': 1}
+2023-01-27 21:02:04,193 : INFO : EventManager : Event: ======'logicblock_reentry_switch_counter_updated'====== Args={'value': 1, 'enabled': True}
+2023-01-27 21:02:04,193 : INFO : EventManager : Event: ======'reentry_sound_active'====== Args={'count': 1}
+2023-01-27 21:02:04,193 : INFO : EventManager : Event: ======'playfield_active'====== Args={}
+2023-01-27 21:02:04,308 : INFO : SwitchController : <<<<<<< 's_reentry_left' inactive >>>>>>>
+2023-01-27 21:02:04,308 : INFO : EventManager : Event: ======'s_reentry_left_inactive'====== Args={}
+2023-01-27 21:02:04,777 : INFO : SwitchController : <<<<<<< 's_reentry_middle' active >>>>>>>
+2023-01-27 21:02:04,777 : INFO : EventManager : Event: ======'s_reentry_middle_active'====== Args={}
+2023-01-27 21:02:04,778 : INFO : EventManager : Event: ======'sw_playfield_active'====== Args={}
+2023-01-27 21:02:04,778 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_reentry_middle'====== Args={'value': 12, 'prev_value': 11, 'change': 1}
+2023-01-27 21:02:04,781 : INFO : EventManager : Event: ======'logicblock_reentry_switch_counter_updated'====== Args={'value': 2, 'enabled': True}
+2023-01-27 21:02:04,781 : INFO : EventManager : Event: ======'reentry_sound_active'====== Args={'count': 2}
+2023-01-27 21:02:04,783 : INFO : EventManager : Event: ======'playfield_active'====== Args={}
+2023-01-27 21:02:04,913 : INFO : SwitchController : <<<<<<< 's_reentry_middle' inactive >>>>>>>
+2023-01-27 21:02:05,201 : INFO : SwitchController : <<<<<<< 's_reentry_right' active >>>>>>>
+2023-01-27 21:02:05,201 : INFO : EventManager : Event: ======'s_reentry_right_active'====== Args={}
+2023-01-27 21:02:05,202 : INFO : EventManager : Event: ======'sw_playfield_active'====== Args={}
+2023-01-27 21:02:05,202 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_reentry_right'====== Args={'value': 7, 'prev_value': 6, 'change': 1}
+2023-01-27 21:02:05,202 : INFO : EventManager : Event: ======'logicblock_reentry_switch_counter_updated'====== Args={'value': 3, 'enabled': True}
+2023-01-27 21:02:05,202 : INFO : EventManager : Event: ======'reentry_sound_active'====== Args={'count': 3}
+2023-01-27 21:02:05,202 : INFO : EventManager : Event: ======'playfield_active'====== Args={}
+2023-01-27 21:02:05,339 : INFO : SwitchController : <<<<<<< 's_reentry_right' inactive >>>>>>>
+2023-01-27 21:02:11,323 : INFO : SwitchController : <<<<<<< 's_reentry_left' active >>>>>>>
+2023-01-27 21:02:11,323 : INFO : EventManager : Event: ======'s_reentry_left_active'====== Args={}
+2023-01-27 21:02:11,323 : INFO : EventManager : Event: ======'sw_playfield_active'====== Args={}
+2023-01-27 21:02:11,324 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_reentry_left'====== Args={'value': 22, 'prev_value': 21, 'change': 1}
+2023-01-27 21:02:11,327 : INFO : EventManager : Event: ======'logicblock_reentry_switch_counter_updated'====== Args={'value': 4, 'enabled': True}
+2023-01-27 21:02:11,328 : INFO : EventManager : Event: ======'reentry_sound_active'====== Args={'count': 4}
+2023-01-27 21:02:11,339 : INFO : EventManager : Event: ======'playfield_active'====== Args={}
+2023-01-27 21:02:11,371 : INFO : SwitchController : <<<<<<< 's_reentry_middle' active >>>>>>>
+2023-01-27 21:02:11,371 : INFO : EventManager : Event: ======'s_reentry_middle_active'====== Args={}
+2023-01-27 21:02:11,371 : INFO : EventManager : Event: ======'sw_playfield_active'====== Args={}
+2023-01-27 21:02:11,372 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_reentry_middle'====== Args={'value': 13, 'prev_value': 12, 'change': 1}
+2023-01-27 21:02:11,374 : INFO : EventManager : Event: ======'logicblock_reentry_switch_counter_updated'====== Args={'value': 5, 'enabled': True}
+2023-01-27 21:02:11,374 : INFO : EventManager : Event: ======'reentry_sound_active'====== Args={'count': 5}
+2023-01-27 21:02:11,376 : INFO : EventManager : Event: ======'playfield_active'====== Args={}
+2023-01-27 21:02:11,443 : INFO : SwitchController : <<<<<<< 's_reentry_left' inactive >>>>>>>
+2023-01-27 21:02:11,443 : INFO : EventManager : Event: ======'s_reentry_left_inactive'====== Args={}
+2023-01-27 21:02:11,514 : INFO : SwitchController : <<<<<<< 's_reentry_right' active >>>>>>>
+2023-01-27 21:02:11,514 : INFO : EventManager : Event: ======'s_reentry_right_active'====== Args={}
+2023-01-27 21:02:11,515 : INFO : EventManager : Event: ======'sw_playfield_active'====== Args={}
+2023-01-27 21:02:11,515 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_reentry_right'====== Args={'value': 8, 'prev_value': 7, 'change': 1}
+2023-01-27 21:02:11,518 : INFO : EventManager : Event: ======'logicblock_reentry_switch_counter_updated'====== Args={'value': 6, 'enabled': True}
+2023-01-27 21:02:11,518 : INFO : EventManager : Event: ======'reentry_sound_active'====== Args={'count': 6}
+2023-01-27 21:02:11,520 : INFO : EventManager : Event: ======'playfield_active'====== Args={}
+2023-01-27 21:02:11,575 : INFO : SwitchController : <<<<<<< 's_reentry_middle' inactive >>>>>>>
+2023-01-27 21:02:11,638 : INFO : SwitchController : <<<<<<< 's_reentry_right' inactive >>>>>>>
+2023-01-27 21:02:12,272 : INFO : SwitchController : <<<<<<< 's_reentry_left' active >>>>>>>
+2023-01-27 21:02:12,272 : INFO : EventManager : Event: ======'s_reentry_left_active'====== Args={}
+2023-01-27 21:02:12,272 : INFO : EventManager : Event: ======'sw_playfield_active'====== Args={}
+2023-01-27 21:02:12,272 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_reentry_left'====== Args={'value': 23, 'prev_value': 22, 'change': 1}
+2023-01-27 21:02:12,273 : INFO : EventManager : Event: ======'logicblock_reentry_switch_counter_updated'====== Args={'value': 7, 'enabled': True}
+2023-01-27 21:02:12,273 : INFO : EventManager : Event: ======'reentry_sound_active'====== Args={'count': 7}
+2023-01-27 21:02:12,273 : INFO : EventManager : Event: ======'playfield_active'====== Args={}
+2023-01-27 21:02:12,375 : INFO : SwitchController : <<<<<<< 's_reentry_middle' active >>>>>>>
+2023-01-27 21:02:12,375 : INFO : EventManager : Event: ======'s_reentry_middle_active'====== Args={}
+2023-01-27 21:02:12,376 : INFO : EventManager : Event: ======'sw_playfield_active'====== Args={}
+2023-01-27 21:02:12,376 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_reentry_middle'====== Args={'value': 14, 'prev_value': 13, 'change': 1}
+2023-01-27 21:02:12,376 : INFO : EventManager : Event: ======'logicblock_reentry_switch_counter_updated'====== Args={'value': 8, 'enabled': True}
+2023-01-27 21:02:12,376 : INFO : EventManager : Event: ======'reentry_sound_active'====== Args={'count': 8}
+2023-01-27 21:02:12,377 : INFO : EventManager : Event: ======'playfield_active'====== Args={}
+2023-01-27 21:02:12,430 : INFO : SwitchController : <<<<<<< 's_reentry_left' inactive >>>>>>>
+2023-01-27 21:02:12,430 : INFO : EventManager : Event: ======'s_reentry_left_inactive'====== Args={}
+2023-01-27 21:02:12,455 : INFO : SwitchController : <<<<<<< 's_reentry_right' active >>>>>>>
+2023-01-27 21:02:12,455 : INFO : EventManager : Event: ======'s_reentry_right_active'====== Args={}
+2023-01-27 21:02:12,455 : INFO : EventManager : Event: ======'sw_playfield_active'====== Args={}
+2023-01-27 21:02:12,456 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_reentry_right'====== Args={'value': 9, 'prev_value': 8, 'change': 1}
+2023-01-27 21:02:12,459 : INFO : EventManager : Event: ======'logicblock_reentry_switch_counter_updated'====== Args={'value': 9, 'enabled': True}
+2023-01-27 21:02:12,459 : INFO : EventManager : Event: ======'reentry_sound_active'====== Args={'count': 9}
+2023-01-27 21:02:12,460 : INFO : EventManager : Event: ======'playfield_active'====== Args={}
+2023-01-27 21:02:12,540 : INFO : SwitchController : <<<<<<< 's_reentry_middle' inactive >>>>>>>
+2023-01-27 21:02:12,627 : INFO : SwitchController : <<<<<<< 's_reentry_right' inactive >>>>>>>
+2023-01-27 21:02:12,973 : INFO : SwitchController : <<<<<<< 's_reentry_left' active >>>>>>>
+2023-01-27 21:02:12,973 : INFO : EventManager : Event: ======'s_reentry_left_active'====== Args={}
+2023-01-27 21:02:12,974 : INFO : EventManager : Event: ======'sw_playfield_active'====== Args={}
+2023-01-27 21:02:12,974 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_reentry_left'====== Args={'value': 24, 'prev_value': 23, 'change': 1}
+2023-01-27 21:02:12,976 : INFO : EventManager : Event: ======'logicblock_reentry_switch_counter_updated'====== Args={'value': 10, 'enabled': True}
+2023-01-27 21:02:12,977 : INFO : EventManager : Event: ======'reentry_sound_active'====== Args={'count': 10}
+2023-01-27 21:02:12,977 : INFO : EventManager : Event: ======'playfield_active'====== Args={}
+2023-01-27 21:02:13,011 : INFO : SwitchController : <<<<<<< 's_reentry_middle' active >>>>>>>
+2023-01-27 21:02:13,011 : INFO : EventManager : Event: ======'s_reentry_middle_active'====== Args={}
+2023-01-27 21:02:13,011 : INFO : EventManager : Event: ======'sw_playfield_active'====== Args={}
+2023-01-27 21:02:13,012 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_reentry_middle'====== Args={'value': 15, 'prev_value': 14, 'change': 1}
+2023-01-27 21:02:13,014 : INFO : EventManager : Event: ======'logicblock_reentry_switch_counter_updated'====== Args={'value': 11, 'enabled': True}
+2023-01-27 21:02:13,015 : INFO : EventManager : Event: ======'reentry_sound_active'====== Args={'count': 11}
+2023-01-27 21:02:13,017 : INFO : EventManager : Event: ======'playfield_active'====== Args={}
+2023-01-27 21:02:13,111 : INFO : SwitchController : <<<<<<< 's_reentry_right' active >>>>>>>
+2023-01-27 21:02:13,111 : INFO : EventManager : Event: ======'s_reentry_right_active'====== Args={}
+2023-01-27 21:02:13,112 : INFO : EventManager : Event: ======'sw_playfield_active'====== Args={}
+2023-01-27 21:02:13,112 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_reentry_right'====== Args={'value': 10, 'prev_value': 9, 'change': 1}
+2023-01-27 21:02:13,115 : INFO : EventManager : Event: ======'logicblock_reentry_switch_counter_updated'====== Args={'value': 12, 'enabled': True}
+2023-01-27 21:02:13,115 : INFO : EventManager : Event: ======'reentry_sound_active'====== Args={'count': 12}
+2023-01-27 21:02:13,116 : INFO : EventManager : Event: ======'playfield_active'====== Args={}
+2023-01-27 21:02:13,136 : INFO : SwitchController : <<<<<<< 's_reentry_left' inactive >>>>>>>
+2023-01-27 21:02:13,136 : INFO : EventManager : Event: ======'s_reentry_left_inactive'====== Args={}
+2023-01-27 21:02:13,170 : INFO : SwitchController : <<<<<<< 's_reentry_middle' inactive >>>>>>>
+2023-01-27 21:02:13,285 : INFO : SwitchController : <<<<<<< 's_reentry_right' inactive >>>>>>>
+2023-01-27 21:02:13,357 : INFO : SwitchController : <<<<<<< 's_reentry_left' active >>>>>>>
+2023-01-27 21:02:13,357 : INFO : EventManager : Event: ======'s_reentry_left_active'====== Args={}
+2023-01-27 21:02:13,357 : INFO : EventManager : Event: ======'sw_playfield_active'====== Args={}
+2023-01-27 21:02:13,358 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_reentry_left'====== Args={'value': 25, 'prev_value': 24, 'change': 1}
+2023-01-27 21:02:13,360 : INFO : EventManager : Event: ======'logicblock_reentry_switch_counter_updated'====== Args={'value': 13, 'enabled': True}
+2023-01-27 21:02:13,360 : INFO : EventManager : Event: ======'reentry_sound_active'====== Args={'count': 13}
+2023-01-27 21:02:13,361 : INFO : EventManager : Event: ======'playfield_active'====== Args={}
+2023-01-27 21:02:13,395 : INFO : SwitchController : <<<<<<< 's_reentry_middle' active >>>>>>>
+2023-01-27 21:02:13,395 : INFO : EventManager : Event: ======'s_reentry_middle_active'====== Args={}
+2023-01-27 21:02:13,395 : INFO : EventManager : Event: ======'sw_playfield_active'====== Args={}
+2023-01-27 21:02:13,395 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_reentry_middle'====== Args={'value': 16, 'prev_value': 15, 'change': 1}
+2023-01-27 21:02:13,396 : INFO : EventManager : Event: ======'logicblock_reentry_switch_counter_updated'====== Args={'value': 14, 'enabled': True}
+2023-01-27 21:02:13,396 : INFO : EventManager : Event: ======'reentry_sound_active'====== Args={'count': 14}
+2023-01-27 21:02:13,396 : INFO : EventManager : Event: ======'playfield_active'====== Args={}
+2023-01-27 21:02:13,442 : INFO : SwitchController : <<<<<<< 's_reentry_left' inactive >>>>>>>
+2023-01-27 21:02:13,443 : INFO : EventManager : Event: ======'s_reentry_left_inactive'====== Args={}
+2023-01-27 21:02:13,494 : INFO : SwitchController : <<<<<<< 's_reentry_right' active >>>>>>>
+2023-01-27 21:02:13,495 : INFO : EventManager : Event: ======'s_reentry_right_active'====== Args={}
+2023-01-27 21:02:13,495 : INFO : EventManager : Event: ======'sw_playfield_active'====== Args={}
+2023-01-27 21:02:13,495 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_reentry_right'====== Args={'value': 11, 'prev_value': 10, 'change': 1}
+2023-01-27 21:02:13,496 : INFO : EventManager : Event: ======'logicblock_reentry_switch_counter_updated'====== Args={'value': 15, 'enabled': True}
+2023-01-27 21:02:13,497 : INFO : EventManager : Event: ======'reentry_sound_active'====== Args={'count': 15}
+2023-01-27 21:02:13,497 : INFO : EventManager : Event: ======'playfield_active'====== Args={}
+2023-01-27 21:02:13,531 : INFO : SwitchController : <<<<<<< 's_reentry_middle' inactive >>>>>>>
+2023-01-27 21:02:13,603 : INFO : SwitchController : <<<<<<< 's_reentry_right' inactive >>>>>>>
+2023-01-27 21:02:13,639 : INFO : SwitchController : <<<<<<< 's_reentry_left' active >>>>>>>
+2023-01-27 21:02:13,640 : INFO : EventManager : Event: ======'s_reentry_left_active'====== Args={}
+2023-01-27 21:02:13,640 : INFO : EventManager : Event: ======'sw_playfield_active'====== Args={}
+2023-01-27 21:02:13,640 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_reentry_left'====== Args={'value': 26, 'prev_value': 25, 'change': 1}
+2023-01-27 21:02:13,643 : INFO : EventManager : Event: ======'logicblock_reentry_switch_counter_updated'====== Args={'value': 16, 'enabled': True}
+2023-01-27 21:02:13,644 : INFO : EventManager : Event: ======'reentry_sound_active'====== Args={'count': 16}
+2023-01-27 21:02:13,645 : INFO : EventManager : Event: ======'playfield_active'====== Args={}
+2023-01-27 21:02:13,687 : INFO : SwitchController : <<<<<<< 's_reentry_middle' active >>>>>>>
+2023-01-27 21:02:13,688 : INFO : EventManager : Event: ======'s_reentry_middle_active'====== Args={}
+2023-01-27 21:02:13,688 : INFO : EventManager : Event: ======'sw_playfield_active'====== Args={}
+2023-01-27 21:02:13,688 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_reentry_middle'====== Args={'value': 17, 'prev_value': 16, 'change': 1}
+2023-01-27 21:02:13,688 : INFO : EventManager : Event: ======'logicblock_reentry_switch_counter_updated'====== Args={'value': 17, 'enabled': True}
+2023-01-27 21:02:13,688 : INFO : EventManager : Event: ======'reentry_sound_active'====== Args={'count': 17}
+2023-01-27 21:02:13,688 : INFO : EventManager : Event: ======'playfield_active'====== Args={}
+2023-01-27 21:02:13,737 : INFO : SwitchController : <<<<<<< 's_reentry_left' inactive >>>>>>>
+2023-01-27 21:02:13,737 : INFO : EventManager : Event: ======'s_reentry_left_inactive'====== Args={}
+2023-01-27 21:02:13,786 : INFO : SwitchController : <<<<<<< 's_reentry_right' active >>>>>>>
+2023-01-27 21:02:13,786 : INFO : EventManager : Event: ======'s_reentry_right_active'====== Args={}
+2023-01-27 21:02:13,786 : INFO : EventManager : Event: ======'sw_playfield_active'====== Args={}
+2023-01-27 21:02:13,786 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_reentry_right'====== Args={'value': 12, 'prev_value': 11, 'change': 1}
+2023-01-27 21:02:13,787 : INFO : EventManager : Event: ======'logicblock_reentry_switch_counter_updated'====== Args={'value': 18, 'enabled': True}
+2023-01-27 21:02:13,787 : INFO : EventManager : Event: ======'reentry_sound_active'====== Args={'count': 18}
+2023-01-27 21:02:13,787 : INFO : EventManager : Event: ======'playfield_active'====== Args={}
+2023-01-27 21:02:13,798 : INFO : SwitchController : <<<<<<< 's_reentry_middle' inactive >>>>>>>
+2023-01-27 21:02:13,874 : INFO : SwitchController : <<<<<<< 's_reentry_right' inactive >>>>>>>
+2023-01-27 21:02:13,911 : INFO : SwitchController : <<<<<<< 's_reentry_left' active >>>>>>>
+2023-01-27 21:02:13,911 : INFO : EventManager : Event: ======'s_reentry_left_active'====== Args={}
+2023-01-27 21:02:13,911 : INFO : EventManager : Event: ======'sw_playfield_active'====== Args={}
+2023-01-27 21:02:13,912 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_reentry_left'====== Args={'value': 27, 'prev_value': 26, 'change': 1}
+2023-01-27 21:02:13,915 : INFO : EventManager : Event: ======'logicblock_reentry_switch_counter_updated'====== Args={'value': 19, 'enabled': True}
+2023-01-27 21:02:13,915 : INFO : EventManager : Event: ======'reentry_sound_active'====== Args={'count': 19}
+2023-01-27 21:02:13,917 : INFO : EventManager : Event: ======'playfield_active'====== Args={}
+2023-01-27 21:02:13,959 : INFO : SwitchController : <<<<<<< 's_reentry_middle' active >>>>>>>
+2023-01-27 21:02:13,960 : INFO : EventManager : Event: ======'s_reentry_middle_active'====== Args={}
+2023-01-27 21:02:13,960 : INFO : EventManager : Event: ======'sw_playfield_active'====== Args={}
+2023-01-27 21:02:13,960 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_reentry_middle'====== Args={'value': 18, 'prev_value': 17, 'change': 1}
+2023-01-27 21:02:13,960 : INFO : EventManager : Event: ======'logicblock_reentry_switch_counter_updated'====== Args={'value': 20, 'enabled': True}
+2023-01-27 21:02:13,960 : INFO : EventManager : Event: ======'reentry_sound_active'====== Args={'count': 20}
+2023-01-27 21:02:13,961 : INFO : EventManager : Event: ======'playfield_active'====== Args={}
+2023-01-27 21:02:14,008 : INFO : SwitchController : <<<<<<< 's_reentry_right' active >>>>>>>
+2023-01-27 21:02:14,008 : INFO : EventManager : Event: ======'s_reentry_right_active'====== Args={}
+2023-01-27 21:02:14,008 : INFO : EventManager : Event: ======'sw_playfield_active'====== Args={}
+2023-01-27 21:02:14,008 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_reentry_right'====== Args={'value': 13, 'prev_value': 12, 'change': 1}
+2023-01-27 21:02:14,010 : INFO : EventManager : Event: ======'logicblock_reentry_switch_counter_updated'====== Args={'value': 21, 'enabled': True}
+2023-01-27 21:02:14,010 : INFO : EventManager : Event: ======'reentry_sound_active'====== Args={'count': 21}
+2023-01-27 21:02:14,011 : INFO : EventManager : Event: ======'playfield_active'====== Args={}
+2023-01-27 21:02:14,021 : INFO : SwitchController : <<<<<<< 's_reentry_left' inactive >>>>>>>
+2023-01-27 21:02:14,021 : INFO : EventManager : Event: ======'s_reentry_left_inactive'====== Args={}
+2023-01-27 21:02:14,071 : INFO : SwitchController : <<<<<<< 's_reentry_middle' inactive >>>>>>>
+2023-01-27 21:02:14,145 : INFO : SwitchController : <<<<<<< 's_reentry_right' inactive >>>>>>>
+2023-01-27 21:02:14,176 : INFO : SwitchController : <<<<<<< 's_reentry_left' active >>>>>>>
+2023-01-27 21:02:14,176 : INFO : EventManager : Event: ======'s_reentry_left_active'====== Args={}
+2023-01-27 21:02:14,176 : INFO : EventManager : Event: ======'sw_playfield_active'====== Args={}
+2023-01-27 21:02:14,177 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_reentry_left'====== Args={'value': 28, 'prev_value': 27, 'change': 1}
+2023-01-27 21:02:14,180 : INFO : EventManager : Event: ======'logicblock_reentry_switch_counter_updated'====== Args={'value': 22, 'enabled': True}
+2023-01-27 21:02:14,180 : INFO : EventManager : Event: ======'reentry_sound_active'====== Args={'count': 22}
+2023-01-27 21:02:14,181 : INFO : EventManager : Event: ======'playfield_active'====== Args={}
+2023-01-27 21:02:14,232 : INFO : SwitchController : <<<<<<< 's_reentry_middle' active >>>>>>>
+2023-01-27 21:02:14,232 : INFO : EventManager : Event: ======'s_reentry_middle_active'====== Args={}
+2023-01-27 21:02:14,232 : INFO : EventManager : Event: ======'sw_playfield_active'====== Args={}
+2023-01-27 21:02:14,232 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_reentry_middle'====== Args={'value': 19, 'prev_value': 18, 'change': 1}
+2023-01-27 21:02:14,238 : INFO : EventManager : Event: ======'logicblock_reentry_switch_counter_updated'====== Args={'value': 23, 'enabled': True}
+2023-01-27 21:02:14,238 : INFO : EventManager : Event: ======'reentry_sound_active'====== Args={'count': 23}
+2023-01-27 21:02:14,238 : INFO : EventManager : Event: ======'playfield_active'====== Args={}
+2023-01-27 21:02:14,281 : INFO : SwitchController : <<<<<<< 's_reentry_left' inactive >>>>>>>
+2023-01-27 21:02:14,281 : INFO : EventManager : Event: ======'s_reentry_left_inactive'====== Args={}
+2023-01-27 21:02:14,292 : INFO : SwitchController : <<<<<<< 's_reentry_right' active >>>>>>>
+2023-01-27 21:02:14,293 : INFO : EventManager : Event: ======'s_reentry_right_active'====== Args={}
+2023-01-27 21:02:14,293 : INFO : EventManager : Event: ======'sw_playfield_active'====== Args={}
+2023-01-27 21:02:14,293 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_reentry_right'====== Args={'value': 14, 'prev_value': 13, 'change': 1}
+2023-01-27 21:02:14,293 : INFO : EventManager : Event: ======'logicblock_reentry_switch_counter_updated'====== Args={'value': 24, 'enabled': True}
+2023-01-27 21:02:14,293 : INFO : EventManager : Event: ======'reentry_sound_active'====== Args={'count': 24}
+2023-01-27 21:02:14,293 : INFO : EventManager : Event: ======'playfield_active'====== Args={}
+2023-01-27 21:02:14,341 : INFO : SwitchController : <<<<<<< 's_reentry_middle' inactive >>>>>>>
+2023-01-27 21:02:14,414 : INFO : SwitchController : <<<<<<< 's_reentry_right' inactive >>>>>>>
+2023-01-27 21:02:14,437 : INFO : SwitchController : <<<<<<< 's_reentry_left' active >>>>>>>
+2023-01-27 21:02:14,437 : INFO : EventManager : Event: ======'s_reentry_left_active'====== Args={}
+2023-01-27 21:02:14,437 : INFO : EventManager : Event: ======'sw_playfield_active'====== Args={}
+2023-01-27 21:02:14,438 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_reentry_left'====== Args={'value': 29, 'prev_value': 28, 'change': 1}
+2023-01-27 21:02:14,438 : INFO : EventManager : Event: ======'logicblock_reentry_switch_counter_updated'====== Args={'value': 25, 'enabled': True}
+2023-01-27 21:02:14,438 : INFO : EventManager : Event: ======'reentry_sound_active'====== Args={'count': 25}
+2023-01-27 21:02:14,438 : INFO : EventManager : Event: ======'playfield_active'====== Args={}
+2023-01-27 21:02:14,475 : INFO : SwitchController : <<<<<<< 's_reentry_middle' active >>>>>>>
+2023-01-27 21:02:14,476 : INFO : EventManager : Event: ======'s_reentry_middle_active'====== Args={}
+2023-01-27 21:02:14,476 : INFO : EventManager : Event: ======'sw_playfield_active'====== Args={}
+2023-01-27 21:02:14,476 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_reentry_middle'====== Args={'value': 20, 'prev_value': 19, 'change': 1}
+2023-01-27 21:02:14,478 : INFO : EventManager : Event: ======'logicblock_reentry_switch_counter_updated'====== Args={'value': 26, 'enabled': True}
+2023-01-27 21:02:14,478 : INFO : EventManager : Event: ======'reentry_sound_active'====== Args={'count': 26}
+2023-01-27 21:02:14,480 : INFO : EventManager : Event: ======'playfield_active'====== Args={}
+2023-01-27 21:02:14,524 : INFO : SwitchController : <<<<<<< 's_reentry_left' inactive >>>>>>>
+2023-01-27 21:02:14,524 : INFO : EventManager : Event: ======'s_reentry_left_inactive'====== Args={}
+2023-01-27 21:02:14,563 : INFO : SwitchController : <<<<<<< 's_reentry_right' active >>>>>>>
+2023-01-27 21:02:14,563 : INFO : EventManager : Event: ======'s_reentry_right_active'====== Args={}
+2023-01-27 21:02:14,563 : INFO : EventManager : Event: ======'sw_playfield_active'====== Args={}
+2023-01-27 21:02:14,563 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_reentry_right'====== Args={'value': 15, 'prev_value': 14, 'change': 1}
+2023-01-27 21:02:14,564 : INFO : EventManager : Event: ======'logicblock_reentry_switch_counter_updated'====== Args={'value': 27, 'enabled': True}
+2023-01-27 21:02:14,565 : INFO : EventManager : Event: ======'reentry_sound_active'====== Args={'count': 27}
+2023-01-27 21:02:14,565 : INFO : EventManager : Event: ======'playfield_active'====== Args={}
+2023-01-27 21:02:14,612 : INFO : SwitchController : <<<<<<< 's_reentry_middle' inactive >>>>>>>
+2023-01-27 21:02:14,818 : INFO : SwitchController : <<<<<<< 's_reentry_right' inactive >>>>>>>
+2023-01-27 21:02:14,902 : INFO : SwitchController : <<<<<<< 's_reentry_right' active >>>>>>>
+2023-01-27 21:02:14,902 : INFO : EventManager : Event: ======'s_reentry_right_active'====== Args={}
+2023-01-27 21:02:14,903 : INFO : EventManager : Event: ======'sw_playfield_active'====== Args={}
+2023-01-27 21:02:14,903 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_reentry_right'====== Args={'value': 16, 'prev_value': 15, 'change': 1}
+2023-01-27 21:02:14,906 : INFO : EventManager : Event: ======'logicblock_reentry_switch_counter_updated'====== Args={'value': 28, 'enabled': True}
+2023-01-27 21:02:14,906 : INFO : EventManager : Event: ======'reentry_sound_active'====== Args={'count': 28}
+2023-01-27 21:02:14,907 : INFO : EventManager : Event: ======'playfield_active'====== Args={}
+2023-01-27 21:02:15,014 : INFO : SwitchController : <<<<<<< 's_reentry_right' inactive >>>>>>>
+2023-01-27 21:02:15,113 : INFO : SwitchController : <<<<<<< 's_reentry_middle' active >>>>>>>
+2023-01-27 21:02:15,113 : INFO : EventManager : Event: ======'s_reentry_middle_active'====== Args={}
+2023-01-27 21:02:15,113 : INFO : EventManager : Event: ======'sw_playfield_active'====== Args={}
+2023-01-27 21:02:15,115 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_reentry_middle'====== Args={'value': 21, 'prev_value': 20, 'change': 1}
+2023-01-27 21:02:15,118 : INFO : EventManager : Event: ======'logicblock_reentry_switch_counter_updated'====== Args={'value': 29, 'enabled': True}
+2023-01-27 21:02:15,118 : INFO : EventManager : Event: ======'reentry_sound_active'====== Args={'count': 29}
+2023-01-27 21:02:15,118 : INFO : EventManager : Event: ======'playfield_active'====== Args={}
+2023-01-27 21:02:15,130 : INFO : SwitchController : <<<<<<< 's_reentry_right' active >>>>>>>
+2023-01-27 21:02:15,130 : INFO : EventManager : Event: ======'s_reentry_right_active'====== Args={}
+2023-01-27 21:02:15,130 : INFO : EventManager : Event: ======'sw_playfield_active'====== Args={}
+2023-01-27 21:02:15,130 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_reentry_right'====== Args={'value': 17, 'prev_value': 16, 'change': 1}
+2023-01-27 21:02:15,131 : INFO : EventManager : Event: ======'logicblock_reentry_switch_counter_updated'====== Args={'value': 30, 'enabled': True}
+2023-01-27 21:02:15,131 : INFO : EventManager : Event: ======'reentry_sound_active'====== Args={'count': 30}
+2023-01-27 21:02:15,131 : INFO : EventManager : Event: ======'playfield_active'====== Args={}
+2023-01-27 21:02:15,149 : INFO : SwitchController : <<<<<<< 's_reentry_right' inactive >>>>>>>
+2023-01-27 21:02:15,307 : INFO : SwitchController : <<<<<<< 's_reentry_left' active >>>>>>>
+2023-01-27 21:02:15,308 : INFO : EventManager : Event: ======'s_reentry_left_active'====== Args={}
+2023-01-27 21:02:15,308 : INFO : EventManager : Event: ======'sw_playfield_active'====== Args={}
+2023-01-27 21:02:15,308 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_reentry_left'====== Args={'value': 30, 'prev_value': 29, 'change': 1}
+2023-01-27 21:02:15,308 : INFO : EventManager : Event: ======'logicblock_reentry_switch_counter_updated'====== Args={'value': 31, 'enabled': True}
+2023-01-27 21:02:15,308 : INFO : EventManager : Event: ======'reentry_sound_active'====== Args={'count': 31}
+2023-01-27 21:02:15,309 : INFO : EventManager : Event: ======'playfield_active'====== Args={}
+2023-01-27 21:02:15,332 : INFO : SwitchController : <<<<<<< 's_reentry_middle' inactive >>>>>>>
+2023-01-27 21:02:15,495 : INFO : SwitchController : <<<<<<< 's_reentry_left' inactive >>>>>>>
+2023-01-27 21:02:15,496 : INFO : EventManager : Event: ======'s_reentry_left_inactive'====== Args={}
+2023-01-27 21:02:15,734 : INFO : SwitchController : <<<<<<< 's_reentry_left' active >>>>>>>
+2023-01-27 21:02:15,734 : INFO : EventManager : Event: ======'s_reentry_left_active'====== Args={}
+2023-01-27 21:02:15,734 : INFO : EventManager : Event: ======'sw_playfield_active'====== Args={}
+2023-01-27 21:02:15,735 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_reentry_left'====== Args={'value': 31, 'prev_value': 30, 'change': 1}
+2023-01-27 21:02:15,737 : INFO : EventManager : Event: ======'logicblock_reentry_switch_counter_updated'====== Args={'value': 32, 'enabled': True}
+2023-01-27 21:02:15,738 : INFO : EventManager : Event: ======'reentry_sound_active'====== Args={'count': 32}
+2023-01-27 21:02:15,740 : INFO : EventManager : Event: ======'playfield_active'====== Args={}
+2023-01-27 21:02:15,893 : INFO : SwitchController : <<<<<<< 's_reentry_left' inactive >>>>>>>
+2023-01-27 21:02:15,893 : INFO : EventManager : Event: ======'s_reentry_left_inactive'====== Args={}
+2023-01-27 21:02:15,916 : INFO : SwitchController : <<<<<<< 's_reentry_middle' active >>>>>>>
+2023-01-27 21:02:15,917 : INFO : EventManager : Event: ======'s_reentry_middle_active'====== Args={}
+2023-01-27 21:02:15,917 : INFO : EventManager : Event: ======'sw_playfield_active'====== Args={}
+2023-01-27 21:02:15,917 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_reentry_middle'====== Args={'value': 22, 'prev_value': 21, 'change': 1}
+2023-01-27 21:02:15,918 : INFO : EventManager : Event: ======'logicblock_reentry_switch_counter_updated'====== Args={'value': 33, 'enabled': True}
+2023-01-27 21:02:15,918 : INFO : EventManager : Event: ======'reentry_sound_active'====== Args={'count': 33}
+2023-01-27 21:02:15,918 : INFO : EventManager : Event: ======'playfield_active'====== Args={}
+2023-01-27 21:02:16,052 : INFO : SwitchController : <<<<<<< 's_reentry_middle' inactive >>>>>>>
+2023-01-27 21:02:16,141 : INFO : SwitchController : <<<<<<< 's_reentry_middle' active >>>>>>>
+2023-01-27 21:02:16,141 : INFO : EventManager : Event: ======'s_reentry_middle_active'====== Args={}
+2023-01-27 21:02:16,142 : INFO : EventManager : Event: ======'sw_playfield_active'====== Args={}
+2023-01-27 21:02:16,142 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_reentry_middle'====== Args={'value': 23, 'prev_value': 22, 'change': 1}
+2023-01-27 21:02:16,145 : INFO : EventManager : Event: ======'logicblock_reentry_switch_counter_updated'====== Args={'value': 34, 'enabled': True}
+2023-01-27 21:02:16,145 : INFO : EventManager : Event: ======'reentry_sound_active'====== Args={'count': 34}
+2023-01-27 21:02:16,147 : INFO : EventManager : Event: ======'playfield_active'====== Args={}
+2023-01-27 21:02:16,277 : INFO : SwitchController : <<<<<<< 's_reentry_right' active >>>>>>>
+2023-01-27 21:02:16,278 : INFO : EventManager : Event: ======'s_reentry_right_active'====== Args={}
+2023-01-27 21:02:16,278 : INFO : EventManager : Event: ======'sw_playfield_active'====== Args={}
+2023-01-27 21:02:16,278 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_reentry_right'====== Args={'value': 18, 'prev_value': 17, 'change': 1}
+2023-01-27 21:02:16,278 : INFO : EventManager : Event: ======'logicblock_reentry_switch_counter_updated'====== Args={'value': 35, 'enabled': True}
+2023-01-27 21:02:16,278 : INFO : EventManager : Event: ======'reentry_sound_active'====== Args={'count': 35}
+2023-01-27 21:02:16,278 : INFO : EventManager : Event: ======'playfield_active'====== Args={}
+2023-01-27 21:02:16,343 : INFO : SwitchController : <<<<<<< 's_reentry_middle' inactive >>>>>>>
+2023-01-27 21:02:16,437 : INFO : SwitchController : <<<<<<< 's_reentry_right' inactive >>>>>>>
+2023-01-27 21:02:16,574 : INFO : SwitchController : <<<<<<< 's_reentry_right' active >>>>>>>
+2023-01-27 21:02:16,574 : INFO : EventManager : Event: ======'s_reentry_right_active'====== Args={}
+2023-01-27 21:02:16,575 : INFO : EventManager : Event: ======'sw_playfield_active'====== Args={}
+2023-01-27 21:02:16,575 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_reentry_right'====== Args={'value': 19, 'prev_value': 18, 'change': 1}
+2023-01-27 21:02:16,578 : INFO : EventManager : Event: ======'logicblock_reentry_switch_counter_updated'====== Args={'value': 36, 'enabled': True}
+2023-01-27 21:02:16,578 : INFO : EventManager : Event: ======'reentry_sound_active'====== Args={'count': 36}
+2023-01-27 21:02:16,580 : INFO : EventManager : Event: ======'playfield_active'====== Args={}
+2023-01-27 21:02:16,687 : INFO : SwitchController : <<<<<<< 's_reentry_right' inactive >>>>>>>
+2023-01-27 21:02:16,717 : INFO : SwitchController : <<<<<<< 's_reentry_middle' active >>>>>>>
+2023-01-27 21:02:16,718 : INFO : EventManager : Event: ======'s_reentry_middle_active'====== Args={}
+2023-01-27 21:02:16,718 : INFO : EventManager : Event: ======'sw_playfield_active'====== Args={}
+2023-01-27 21:02:16,718 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_reentry_middle'====== Args={'value': 24, 'prev_value': 23, 'change': 1}
+2023-01-27 21:02:16,720 : INFO : EventManager : Event: ======'logicblock_reentry_switch_counter_updated'====== Args={'value': 37, 'enabled': True}
+2023-01-27 21:02:16,720 : INFO : EventManager : Event: ======'reentry_sound_active'====== Args={'count': 37}
+2023-01-27 21:02:16,722 : INFO : EventManager : Event: ======'playfield_active'====== Args={}
+2023-01-27 21:02:16,833 : INFO : SwitchController : <<<<<<< 's_reentry_middle' inactive >>>>>>>
+2023-01-27 21:02:16,910 : INFO : SwitchController : <<<<<<< 's_reentry_left' active >>>>>>>
+2023-01-27 21:02:16,911 : INFO : EventManager : Event: ======'s_reentry_left_active'====== Args={}
+2023-01-27 21:02:16,911 : INFO : EventManager : Event: ======'sw_playfield_active'====== Args={}
+2023-01-27 21:02:16,911 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_reentry_left'====== Args={'value': 32, 'prev_value': 31, 'change': 1}
+2023-01-27 21:02:16,912 : INFO : EventManager : Event: ======'logicblock_reentry_switch_counter_updated'====== Args={'value': 38, 'enabled': True}
+2023-01-27 21:02:16,913 : INFO : EventManager : Event: ======'reentry_sound_active'====== Args={'count': 38}
+2023-01-27 21:02:16,914 : INFO : EventManager : Event: ======'playfield_active'====== Args={}
+2023-01-27 21:02:17,092 : INFO : SwitchController : <<<<<<< 's_reentry_left' inactive >>>>>>>
+2023-01-27 21:02:17,092 : INFO : EventManager : Event: ======'s_reentry_left_inactive'====== Args={}
+2023-01-27 21:02:17,272 : INFO : SwitchController : <<<<<<< 's_reentry_left' active >>>>>>>
+2023-01-27 21:02:17,273 : INFO : EventManager : Event: ======'s_reentry_left_active'====== Args={}
+2023-01-27 21:02:17,273 : INFO : EventManager : Event: ======'sw_playfield_active'====== Args={}
+2023-01-27 21:02:17,273 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_reentry_left'====== Args={'value': 33, 'prev_value': 32, 'change': 1}
+2023-01-27 21:02:17,273 : INFO : EventManager : Event: ======'logicblock_reentry_switch_counter_updated'====== Args={'value': 39, 'enabled': True}
+2023-01-27 21:02:17,273 : INFO : EventManager : Event: ======'reentry_sound_active'====== Args={'count': 39}
+2023-01-27 21:02:17,274 : INFO : EventManager : Event: ======'playfield_active'====== Args={}
+2023-01-27 21:02:17,310 : INFO : SwitchController : <<<<<<< 's_reentry_middle' active >>>>>>>
+2023-01-27 21:02:17,310 : INFO : EventManager : Event: ======'s_reentry_middle_active'====== Args={}
+2023-01-27 21:02:17,310 : INFO : EventManager : Event: ======'sw_playfield_active'====== Args={}
+2023-01-27 21:02:17,310 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_reentry_middle'====== Args={'value': 25, 'prev_value': 24, 'change': 1}
+2023-01-27 21:02:17,311 : INFO : EventManager : Event: ======'logicblock_reentry_switch_counter_updated'====== Args={'value': 40, 'enabled': True}
+2023-01-27 21:02:17,311 : INFO : EventManager : Event: ======'reentry_sound_active'====== Args={'count': 40}
+2023-01-27 21:02:17,311 : INFO : EventManager : Event: ======'playfield_active'====== Args={}
+2023-01-27 21:02:17,360 : INFO : SwitchController : <<<<<<< 's_reentry_left' inactive >>>>>>>
+2023-01-27 21:02:17,360 : INFO : EventManager : Event: ======'s_reentry_left_inactive'====== Args={}
+2023-01-27 21:02:17,532 : INFO : SwitchController : <<<<<<< 's_reentry_right' active >>>>>>>
+2023-01-27 21:02:17,532 : INFO : EventManager : Event: ======'s_reentry_right_active'====== Args={}
+2023-01-27 21:02:17,533 : INFO : EventManager : Event: ======'sw_playfield_active'====== Args={}
+2023-01-27 21:02:17,533 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_reentry_right'====== Args={'value': 20, 'prev_value': 19, 'change': 1}
+2023-01-27 21:02:17,533 : INFO : EventManager : Event: ======'logicblock_reentry_switch_counter_updated'====== Args={'value': 41, 'enabled': True}
+2023-01-27 21:02:17,534 : INFO : EventManager : Event: ======'reentry_sound_active'====== Args={'count': 41}
+2023-01-27 21:02:17,534 : INFO : EventManager : Event: ======'playfield_active'====== Args={}
+2023-01-27 21:02:17,631 : INFO : SwitchController : <<<<<<< 's_reentry_middle' inactive >>>>>>>
+2023-01-27 21:02:17,741 : INFO : SwitchController : <<<<<<< 's_reentry_right' inactive >>>>>>>
+2023-01-27 21:02:17,849 : INFO : SwitchController : <<<<<<< 's_reentry_right' active >>>>>>>
+2023-01-27 21:02:17,849 : INFO : EventManager : Event: ======'s_reentry_right_active'====== Args={}
+2023-01-27 21:02:17,849 : INFO : EventManager : Event: ======'sw_playfield_active'====== Args={}
+2023-01-27 21:02:17,850 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_reentry_right'====== Args={'value': 21, 'prev_value': 20, 'change': 1}
+2023-01-27 21:02:17,853 : INFO : EventManager : Event: ======'logicblock_reentry_switch_counter_updated'====== Args={'value': 42, 'enabled': True}
+2023-01-27 21:02:17,853 : INFO : EventManager : Event: ======'reentry_sound_active'====== Args={'count': 42}
+2023-01-27 21:02:17,855 : INFO : EventManager : Event: ======'playfield_active'====== Args={}
+2023-01-27 21:02:17,984 : INFO : SwitchController : <<<<<<< 's_reentry_right' inactive >>>>>>>
+2023-01-27 21:02:18,008 : INFO : SwitchController : <<<<<<< 's_reentry_middle' active >>>>>>>
+2023-01-27 21:02:18,008 : INFO : EventManager : Event: ======'s_reentry_middle_active'====== Args={}
+2023-01-27 21:02:18,008 : INFO : EventManager : Event: ======'sw_playfield_active'====== Args={}
+2023-01-27 21:02:18,008 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_reentry_middle'====== Args={'value': 26, 'prev_value': 25, 'change': 1}
+2023-01-27 21:02:18,008 : INFO : EventManager : Event: ======'logicblock_reentry_switch_counter_updated'====== Args={'value': 43, 'enabled': True}
+2023-01-27 21:02:18,008 : INFO : EventManager : Event: ======'reentry_sound_active'====== Args={'count': 43}
+2023-01-27 21:02:18,009 : INFO : EventManager : Event: ======'playfield_active'====== Args={}
+2023-01-27 21:02:18,216 : INFO : SwitchController : <<<<<<< 's_reentry_left' active >>>>>>>
+2023-01-27 21:02:18,216 : INFO : EventManager : Event: ======'s_reentry_left_active'====== Args={}
+2023-01-27 21:02:18,217 : INFO : EventManager : Event: ======'sw_playfield_active'====== Args={}
+2023-01-27 21:02:18,217 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_reentry_left'====== Args={'value': 34, 'prev_value': 33, 'change': 1}
+2023-01-27 21:02:18,220 : INFO : EventManager : Event: ======'logicblock_reentry_switch_counter_updated'====== Args={'value': 44, 'enabled': True}
+2023-01-27 21:02:18,220 : INFO : EventManager : Event: ======'reentry_sound_active'====== Args={'count': 44}
+2023-01-27 21:02:18,220 : INFO : EventManager : Event: ======'playfield_active'====== Args={}
+2023-01-27 21:02:18,238 : INFO : SwitchController : <<<<<<< 's_reentry_middle' inactive >>>>>>>
+2023-01-27 21:02:18,460 : INFO : SwitchController : <<<<<<< 's_reentry_left' inactive >>>>>>>
+2023-01-27 21:02:18,460 : INFO : EventManager : Event: ======'s_reentry_left_inactive'====== Args={}
+2023-01-27 21:02:18,598 : INFO : SwitchController : <<<<<<< 's_reentry_left' active >>>>>>>
+2023-01-27 21:02:18,598 : INFO : EventManager : Event: ======'s_reentry_left_active'====== Args={}
+2023-01-27 21:02:18,599 : INFO : EventManager : Event: ======'sw_playfield_active'====== Args={}
+2023-01-27 21:02:18,599 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_reentry_left'====== Args={'value': 35, 'prev_value': 34, 'change': 1}
+2023-01-27 21:02:18,602 : INFO : EventManager : Event: ======'logicblock_reentry_switch_counter_updated'====== Args={'value': 45, 'enabled': True}
+2023-01-27 21:02:18,602 : INFO : EventManager : Event: ======'reentry_sound_active'====== Args={'count': 45}
+2023-01-27 21:02:18,604 : INFO : EventManager : Event: ======'playfield_active'====== Args={}
+2023-01-27 21:02:18,712 : INFO : SwitchController : <<<<<<< 's_reentry_left' inactive >>>>>>>
+2023-01-27 21:02:18,712 : INFO : EventManager : Event: ======'s_reentry_left_inactive'====== Args={}
+2023-01-27 21:02:18,772 : INFO : SwitchController : <<<<<<< 's_reentry_middle' active >>>>>>>
+2023-01-27 21:02:18,772 : INFO : EventManager : Event: ======'s_reentry_middle_active'====== Args={}
+2023-01-27 21:02:18,773 : INFO : EventManager : Event: ======'sw_playfield_active'====== Args={}
+2023-01-27 21:02:18,773 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_reentry_middle'====== Args={'value': 27, 'prev_value': 26, 'change': 1}
+2023-01-27 21:02:18,776 : INFO : EventManager : Event: ======'logicblock_reentry_switch_counter_updated'====== Args={'value': 46, 'enabled': True}
+2023-01-27 21:02:18,776 : INFO : EventManager : Event: ======'reentry_sound_active'====== Args={'count': 46}
+2023-01-27 21:02:18,778 : INFO : EventManager : Event: ======'playfield_active'====== Args={}
+2023-01-27 21:02:18,975 : INFO : SwitchController : <<<<<<< 's_reentry_middle' inactive >>>>>>>
+2023-01-27 21:02:19,023 : INFO : SwitchController : <<<<<<< 's_reentry_right' active >>>>>>>
+2023-01-27 21:02:19,023 : INFO : EventManager : Event: ======'s_reentry_right_active'====== Args={}
+2023-01-27 21:02:19,023 : INFO : EventManager : Event: ======'sw_playfield_active'====== Args={}
+2023-01-27 21:02:19,023 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_reentry_right'====== Args={'value': 22, 'prev_value': 21, 'change': 1}
+2023-01-27 21:02:19,024 : INFO : EventManager : Event: ======'logicblock_reentry_switch_counter_updated'====== Args={'value': 47, 'enabled': True}
+2023-01-27 21:02:19,024 : INFO : EventManager : Event: ======'reentry_sound_active'====== Args={'count': 47}
+2023-01-27 21:02:19,024 : INFO : EventManager : Event: ======'playfield_active'====== Args={}
+2023-01-27 21:02:19,205 : INFO : SwitchController : <<<<<<< 's_reentry_right' inactive >>>>>>>
+2023-01-27 21:02:19,559 : INFO : SwitchController : <<<<<<< 's_reentry_middle' active >>>>>>>
+2023-01-27 21:02:19,559 : INFO : EventManager : Event: ======'s_reentry_middle_active'====== Args={}
+2023-01-27 21:02:19,559 : INFO : EventManager : Event: ======'sw_playfield_active'====== Args={}
+2023-01-27 21:02:19,560 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_reentry_middle'====== Args={'value': 28, 'prev_value': 27, 'change': 1}
+2023-01-27 21:02:19,562 : INFO : EventManager : Event: ======'logicblock_reentry_switch_counter_updated'====== Args={'value': 48, 'enabled': True}
+2023-01-27 21:02:19,563 : INFO : EventManager : Event: ======'reentry_sound_active'====== Args={'count': 48}
+2023-01-27 21:02:19,565 : INFO : EventManager : Event: ======'playfield_active'====== Args={}
+2023-01-27 21:02:19,719 : INFO : SwitchController : <<<<<<< 's_reentry_middle' inactive >>>>>>>
+2023-01-27 21:02:19,838 : INFO : SwitchController : <<<<<<< 's_reentry_middle' active >>>>>>>
+2023-01-27 21:02:19,838 : INFO : EventManager : Event: ======'s_reentry_middle_active'====== Args={}
+2023-01-27 21:02:19,839 : INFO : EventManager : Event: ======'sw_playfield_active'====== Args={}
+2023-01-27 21:02:19,839 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_reentry_middle'====== Args={'value': 29, 'prev_value': 28, 'change': 1}
+2023-01-27 21:02:19,842 : INFO : EventManager : Event: ======'logicblock_reentry_switch_counter_updated'====== Args={'value': 49, 'enabled': True}
+2023-01-27 21:02:19,842 : INFO : EventManager : Event: ======'reentry_sound_active'====== Args={'count': 49}
+2023-01-27 21:02:19,844 : INFO : EventManager : Event: ======'playfield_active'====== Args={}
+2023-01-27 21:02:19,987 : INFO : SwitchController : <<<<<<< 's_reentry_left' active >>>>>>>
+2023-01-27 21:02:19,987 : INFO : EventManager : Event: ======'s_reentry_left_active'====== Args={}
+2023-01-27 21:02:19,987 : INFO : EventManager : Event: ======'sw_playfield_active'====== Args={}
+2023-01-27 21:02:19,987 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_reentry_left'====== Args={'value': 36, 'prev_value': 35, 'change': 1}
+2023-01-27 21:02:19,988 : INFO : EventManager : Event: ======'logicblock_reentry_switch_counter_updated'====== Args={'value': 50, 'enabled': True}
+2023-01-27 21:02:19,988 : INFO : EventManager : Event: ======'reentry_sound_active'====== Args={'count': 50}
+2023-01-27 21:02:19,989 : INFO : EventManager : Event: ======'playfield_active'====== Args={}
+2023-01-27 21:02:20,013 : INFO : SwitchController : <<<<<<< 's_reentry_middle' inactive >>>>>>>
+2023-01-27 21:02:20,149 : INFO : SwitchController : <<<<<<< 's_reentry_left' inactive >>>>>>>
+2023-01-27 21:02:20,149 : INFO : EventManager : Event: ======'s_reentry_left_inactive'====== Args={}
+2023-01-27 21:02:20,283 : INFO : SwitchController : <<<<<<< 's_reentry_left' active >>>>>>>
+2023-01-27 21:02:20,284 : INFO : EventManager : Event: ======'s_reentry_left_active'====== Args={}
+2023-01-27 21:02:20,284 : INFO : EventManager : Event: ======'sw_playfield_active'====== Args={}
+2023-01-27 21:02:20,284 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_reentry_left'====== Args={'value': 37, 'prev_value': 36, 'change': 1}
+2023-01-27 21:02:20,286 : INFO : EventManager : Event: ======'logicblock_reentry_switch_counter_updated'====== Args={'value': 51, 'enabled': True}
+2023-01-27 21:02:20,287 : INFO : EventManager : Event: ======'reentry_sound_active'====== Args={'count': 51}
+2023-01-27 21:02:20,287 : INFO : EventManager : Event: ======'playfield_active'====== Args={}
+2023-01-27 21:02:20,492 : INFO : SwitchController : <<<<<<< 's_reentry_middle' active >>>>>>>
+2023-01-27 21:02:20,492 : INFO : EventManager : Event: ======'s_reentry_middle_active'====== Args={}
+2023-01-27 21:02:20,493 : INFO : EventManager : Event: ======'sw_playfield_active'====== Args={}
+2023-01-27 21:02:20,493 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_reentry_middle'====== Args={'value': 30, 'prev_value': 29, 'change': 1}
+2023-01-27 21:02:20,496 : INFO : EventManager : Event: ======'logicblock_reentry_switch_counter_updated'====== Args={'value': 52, 'enabled': True}
+2023-01-27 21:02:20,496 : INFO : EventManager : Event: ======'reentry_sound_active'====== Args={'count': 52}
+2023-01-27 21:02:20,498 : INFO : EventManager : Event: ======'playfield_active'====== Args={}
+2023-01-27 21:02:20,507 : INFO : SwitchController : <<<<<<< 's_reentry_left' inactive >>>>>>>
+2023-01-27 21:02:20,507 : INFO : EventManager : Event: ======'s_reentry_left_inactive'====== Args={}
+2023-01-27 21:02:20,687 : INFO : SwitchController : <<<<<<< 's_reentry_middle' inactive >>>>>>>
+2023-01-27 21:02:20,784 : INFO : SwitchController : <<<<<<< 's_reentry_middle' active >>>>>>>
+2023-01-27 21:02:20,784 : INFO : EventManager : Event: ======'s_reentry_middle_active'====== Args={}
+2023-01-27 21:02:20,784 : INFO : EventManager : Event: ======'sw_playfield_active'====== Args={}
+2023-01-27 21:02:20,785 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_reentry_middle'====== Args={'value': 31, 'prev_value': 30, 'change': 1}
+2023-01-27 21:02:20,788 : INFO : EventManager : Event: ======'logicblock_reentry_switch_counter_updated'====== Args={'value': 53, 'enabled': True}
+2023-01-27 21:02:20,789 : INFO : EventManager : Event: ======'reentry_sound_active'====== Args={'count': 53}
+2023-01-27 21:02:20,790 : INFO : EventManager : Event: ======'playfield_active'====== Args={}
+2023-01-27 21:02:20,818 : INFO : SwitchController : <<<<<<< 's_reentry_right' active >>>>>>>
+2023-01-27 21:02:20,818 : INFO : EventManager : Event: ======'s_reentry_right_active'====== Args={}
+2023-01-27 21:02:20,818 : INFO : EventManager : Event: ======'sw_playfield_active'====== Args={}
+2023-01-27 21:02:20,818 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_reentry_right'====== Args={'value': 23, 'prev_value': 22, 'change': 1}
+2023-01-27 21:02:20,819 : INFO : EventManager : Event: ======'logicblock_reentry_switch_counter_updated'====== Args={'value': 54, 'enabled': True}
+2023-01-27 21:02:20,819 : INFO : EventManager : Event: ======'reentry_sound_active'====== Args={'count': 54}
+2023-01-27 21:02:20,819 : INFO : EventManager : Event: ======'playfield_active'====== Args={}
+2023-01-27 21:02:20,893 : INFO : SwitchController : <<<<<<< 's_reentry_middle' inactive >>>>>>>
+2023-01-27 21:02:21,001 : INFO : SwitchController : <<<<<<< 's_reentry_right' inactive >>>>>>>
+2023-01-27 21:02:32,982 : INFO : BcpServer : New client connected.
+2023-01-27 21:02:39,005 : INFO : SwitchController : <<<<<<< 's_reentry_left' active >>>>>>>
+2023-01-27 21:02:39,006 : INFO : EventManager : Event: ======'s_reentry_left_active'====== Args={}
+2023-01-27 21:02:39,006 : INFO : EventManager : Event: ======'sw_playfield_active'====== Args={}
+2023-01-27 21:02:39,007 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_reentry_left'====== Args={'value': 38, 'prev_value': 37, 'change': 1}
+2023-01-27 21:02:39,010 : INFO : EventManager : Event: ======'logicblock_reentry_switch_counter_updated'====== Args={'value': 55, 'enabled': True}
+2023-01-27 21:02:39,010 : INFO : EventManager : Event: ======'reentry_sound_active'====== Args={'count': 55}
+2023-01-27 21:02:39,011 : INFO : EventManager : Event: ======'playfield_active'====== Args={}
+2023-01-27 21:02:39,165 : INFO : SwitchController : <<<<<<< 's_reentry_left' inactive >>>>>>>
+2023-01-27 21:02:39,165 : INFO : EventManager : Event: ======'s_reentry_left_inactive'====== Args={}
+2023-01-27 21:02:39,494 : INFO : SwitchController : <<<<<<< 's_reentry_middle' active >>>>>>>
+2023-01-27 21:02:39,494 : INFO : EventManager : Event: ======'s_reentry_middle_active'====== Args={}
+2023-01-27 21:02:39,495 : INFO : EventManager : Event: ======'sw_playfield_active'====== Args={}
+2023-01-27 21:02:39,496 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_reentry_middle'====== Args={'value': 32, 'prev_value': 31, 'change': 1}
+2023-01-27 21:02:39,500 : INFO : EventManager : Event: ======'logicblock_reentry_switch_counter_updated'====== Args={'value': 56, 'enabled': True}
+2023-01-27 21:02:39,501 : INFO : EventManager : Event: ======'reentry_sound_active'====== Args={'count': 56}
+2023-01-27 21:02:39,502 : INFO : EventManager : Event: ======'playfield_active'====== Args={}
+2023-01-27 21:02:39,613 : INFO : SwitchController : <<<<<<< 's_reentry_middle' inactive >>>>>>>
+2023-01-27 21:02:39,998 : INFO : SwitchController : <<<<<<< 's_reentry_right' active >>>>>>>
+2023-01-27 21:02:39,998 : INFO : EventManager : Event: ======'s_reentry_right_active'====== Args={}
+2023-01-27 21:02:39,998 : INFO : EventManager : Event: ======'sw_playfield_active'====== Args={}
+2023-01-27 21:02:39,998 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_reentry_right'====== Args={'value': 24, 'prev_value': 23, 'change': 1}
+2023-01-27 21:02:39,999 : INFO : EventManager : Event: ======'logicblock_reentry_switch_counter_updated'====== Args={'value': 57, 'enabled': True}
+2023-01-27 21:02:39,999 : INFO : EventManager : Event: ======'reentry_sound_active'====== Args={'count': 57}
+2023-01-27 21:02:39,999 : INFO : EventManager : Event: ======'playfield_active'====== Args={}
+2023-01-27 21:02:40,150 : INFO : SwitchController : <<<<<<< 's_reentry_right' inactive >>>>>>>
+2023-01-27 21:02:40,694 : INFO : SwitchController : <<<<<<< 's_reentry_middle' active >>>>>>>
+2023-01-27 21:02:40,695 : INFO : EventManager : Event: ======'s_reentry_middle_active'====== Args={}
+2023-01-27 21:02:40,695 : INFO : EventManager : Event: ======'sw_playfield_active'====== Args={}
+2023-01-27 21:02:40,696 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_reentry_middle'====== Args={'value': 33, 'prev_value': 32, 'change': 1}
+2023-01-27 21:02:40,700 : INFO : EventManager : Event: ======'logicblock_reentry_switch_counter_updated'====== Args={'value': 58, 'enabled': True}
+2023-01-27 21:02:40,702 : INFO : EventManager : Event: ======'reentry_sound_active'====== Args={'count': 58}
+2023-01-27 21:02:40,704 : INFO : EventManager : Event: ======'playfield_active'====== Args={}
+2023-01-27 21:02:40,781 : INFO : SwitchController : <<<<<<< 's_reentry_middle' inactive >>>>>>>
+2023-01-27 21:02:40,944 : INFO : SwitchController : <<<<<<< 's_reentry_right' active >>>>>>>
+2023-01-27 21:02:40,945 : INFO : EventManager : Event: ======'s_reentry_right_active'====== Args={}
+2023-01-27 21:02:40,945 : INFO : EventManager : Event: ======'sw_playfield_active'====== Args={}
+2023-01-27 21:02:40,946 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_reentry_right'====== Args={'value': 25, 'prev_value': 24, 'change': 1}
+2023-01-27 21:02:40,950 : INFO : EventManager : Event: ======'logicblock_reentry_switch_counter_updated'====== Args={'value': 59, 'enabled': True}
+2023-01-27 21:02:40,951 : INFO : EventManager : Event: ======'reentry_sound_active'====== Args={'count': 59}
+2023-01-27 21:02:40,952 : INFO : EventManager : Event: ======'playfield_active'====== Args={}
+2023-01-27 21:02:41,091 : INFO : SwitchController : <<<<<<< 's_reentry_right' inactive >>>>>>>
+2023-01-27 21:02:41,190 : INFO : SwitchController : <<<<<<< 's_reentry_left' active >>>>>>>
+2023-01-27 21:02:41,191 : INFO : EventManager : Event: ======'s_reentry_left_active'====== Args={}
+2023-01-27 21:02:41,192 : INFO : EventManager : Event: ======'sw_playfield_active'====== Args={}
+2023-01-27 21:02:41,192 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_reentry_left'====== Args={'value': 39, 'prev_value': 38, 'change': 1}
+2023-01-27 21:02:41,195 : INFO : EventManager : Event: ======'logicblock_reentry_switch_counter_updated'====== Args={'value': 60, 'enabled': True}
+2023-01-27 21:02:41,195 : INFO : EventManager : Event: ======'reentry_sound_active'====== Args={'count': 60}
+2023-01-27 21:02:41,196 : INFO : EventManager : Event: ======'playfield_active'====== Args={}
+2023-01-27 21:02:41,340 : INFO : SwitchController : <<<<<<< 's_reentry_left' inactive >>>>>>>
+2023-01-27 21:02:41,341 : INFO : EventManager : Event: ======'s_reentry_left_inactive'====== Args={}
+2023-01-27 21:02:41,728 : INFO : SwitchController : <<<<<<< 's_reentry_left' active >>>>>>>
+2023-01-27 21:02:41,728 : INFO : EventManager : Event: ======'s_reentry_left_active'====== Args={}
+2023-01-27 21:02:41,728 : INFO : EventManager : Event: ======'sw_playfield_active'====== Args={}
+2023-01-27 21:02:41,729 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_reentry_left'====== Args={'value': 40, 'prev_value': 39, 'change': 1}
+2023-01-27 21:02:41,730 : INFO : EventManager : Event: ======'logicblock_reentry_switch_counter_updated'====== Args={'value': 61, 'enabled': True}
+2023-01-27 21:02:41,730 : INFO : EventManager : Event: ======'reentry_sound_active'====== Args={'count': 61}
+2023-01-27 21:02:41,731 : INFO : EventManager : Event: ======'playfield_active'====== Args={}
+2023-01-27 21:02:41,864 : INFO : SwitchController : <<<<<<< 's_reentry_left' inactive >>>>>>>
+2023-01-27 21:02:41,864 : INFO : EventManager : Event: ======'s_reentry_left_inactive'====== Args={}
+2023-01-27 21:02:42,060 : INFO : SwitchController : <<<<<<< 's_reentry_left' active >>>>>>>
+2023-01-27 21:02:42,061 : INFO : EventManager : Event: ======'s_reentry_left_active'====== Args={}
+2023-01-27 21:02:42,061 : INFO : EventManager : Event: ======'sw_playfield_active'====== Args={}
+2023-01-27 21:02:42,061 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_reentry_left'====== Args={'value': 41, 'prev_value': 40, 'change': 1}
+2023-01-27 21:02:42,062 : INFO : EventManager : Event: ======'logicblock_reentry_switch_counter_updated'====== Args={'value': 62, 'enabled': True}
+2023-01-27 21:02:42,062 : INFO : EventManager : Event: ======'reentry_sound_active'====== Args={'count': 62}
+2023-01-27 21:02:42,062 : INFO : EventManager : Event: ======'playfield_active'====== Args={}
+2023-01-27 21:02:42,174 : INFO : SwitchController : <<<<<<< 's_reentry_left' inactive >>>>>>>
+2023-01-27 21:02:42,175 : INFO : EventManager : Event: ======'s_reentry_left_inactive'====== Args={}
+2023-01-27 21:02:42,263 : INFO : SwitchController : <<<<<<< 's_reentry_left' active >>>>>>>
+2023-01-27 21:02:42,263 : INFO : EventManager : Event: ======'s_reentry_left_active'====== Args={}
+2023-01-27 21:02:42,263 : INFO : EventManager : Event: ======'sw_playfield_active'====== Args={}
+2023-01-27 21:02:42,263 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_reentry_left'====== Args={'value': 42, 'prev_value': 41, 'change': 1}
+2023-01-27 21:02:42,264 : INFO : EventManager : Event: ======'logicblock_reentry_switch_counter_updated'====== Args={'value': 63, 'enabled': True}
+2023-01-27 21:02:42,264 : INFO : EventManager : Event: ======'reentry_sound_active'====== Args={'count': 63}
+2023-01-27 21:02:42,265 : INFO : EventManager : Event: ======'playfield_active'====== Args={}
+2023-01-27 21:02:42,377 : INFO : SwitchController : <<<<<<< 's_reentry_left' inactive >>>>>>>
+2023-01-27 21:02:42,378 : INFO : EventManager : Event: ======'s_reentry_left_inactive'====== Args={}
+2023-01-27 21:02:42,475 : INFO : SwitchController : <<<<<<< 's_reentry_left' active >>>>>>>
+2023-01-27 21:02:42,475 : INFO : EventManager : Event: ======'s_reentry_left_active'====== Args={}
+2023-01-27 21:02:42,475 : INFO : EventManager : Event: ======'sw_playfield_active'====== Args={}
+2023-01-27 21:02:42,476 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_reentry_left'====== Args={'value': 43, 'prev_value': 42, 'change': 1}
+2023-01-27 21:02:42,477 : INFO : EventManager : Event: ======'logicblock_reentry_switch_counter_updated'====== Args={'value': 64, 'enabled': True}
+2023-01-27 21:02:42,477 : INFO : EventManager : Event: ======'reentry_sound_active'====== Args={'count': 64}
+2023-01-27 21:02:42,478 : INFO : EventManager : Event: ======'playfield_active'====== Args={}
+2023-01-27 21:02:42,650 : INFO : SwitchController : <<<<<<< 's_reentry_left' inactive >>>>>>>
+2023-01-27 21:02:42,650 : INFO : EventManager : Event: ======'s_reentry_left_inactive'====== Args={}
+2023-01-27 21:02:42,713 : INFO : SwitchController : <<<<<<< 's_reentry_middle' active >>>>>>>
+2023-01-27 21:02:42,713 : INFO : EventManager : Event: ======'s_reentry_middle_active'====== Args={}
+2023-01-27 21:02:42,713 : INFO : EventManager : Event: ======'sw_playfield_active'====== Args={}
+2023-01-27 21:02:42,713 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_reentry_middle'====== Args={'value': 34, 'prev_value': 33, 'change': 1}
+2023-01-27 21:02:42,714 : INFO : EventManager : Event: ======'logicblock_reentry_switch_counter_updated'====== Args={'value': 65, 'enabled': True}
+2023-01-27 21:02:42,715 : INFO : EventManager : Event: ======'reentry_sound_active'====== Args={'count': 65}
+2023-01-27 21:02:42,715 : INFO : EventManager : Event: ======'playfield_active'====== Args={}
+2023-01-27 21:02:42,853 : INFO : SwitchController : <<<<<<< 's_reentry_middle' inactive >>>>>>>
+2023-01-27 21:02:43,122 : INFO : SwitchController : <<<<<<< 's_reentry_right' active >>>>>>>
+2023-01-27 21:02:43,122 : INFO : EventManager : Event: ======'s_reentry_right_active'====== Args={}
+2023-01-27 21:02:43,122 : INFO : EventManager : Event: ======'sw_playfield_active'====== Args={}
+2023-01-27 21:02:43,122 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_reentry_right'====== Args={'value': 26, 'prev_value': 25, 'change': 1}
+2023-01-27 21:02:43,123 : INFO : EventManager : Event: ======'logicblock_reentry_switch_counter_updated'====== Args={'value': 66, 'enabled': True}
+2023-01-27 21:02:43,123 : INFO : EventManager : Event: ======'reentry_sound_active'====== Args={'count': 66}
+2023-01-27 21:02:43,124 : INFO : EventManager : Event: ======'playfield_active'====== Args={}
+2023-01-27 21:02:43,247 : INFO : SwitchController : <<<<<<< 's_reentry_right' inactive >>>>>>>
+2023-01-27 21:02:43,456 : INFO : SwitchController : <<<<<<< 's_reentry_middle' active >>>>>>>
+2023-01-27 21:02:43,457 : INFO : EventManager : Event: ======'s_reentry_middle_active'====== Args={}
+2023-01-27 21:02:43,458 : INFO : EventManager : Event: ======'sw_playfield_active'====== Args={}
+2023-01-27 21:02:43,460 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_reentry_middle'====== Args={'value': 35, 'prev_value': 34, 'change': 1}
+2023-01-27 21:02:43,463 : INFO : EventManager : Event: ======'logicblock_reentry_switch_counter_updated'====== Args={'value': 67, 'enabled': True}
+2023-01-27 21:02:43,464 : INFO : EventManager : Event: ======'reentry_sound_active'====== Args={'count': 67}
+2023-01-27 21:02:43,465 : INFO : EventManager : Event: ======'playfield_active'====== Args={}
+2023-01-27 21:02:43,541 : INFO : SwitchController : <<<<<<< 's_reentry_middle' inactive >>>>>>>
+2023-01-27 21:02:43,666 : INFO : SwitchController : <<<<<<< 's_reentry_left' active >>>>>>>
+2023-01-27 21:02:43,667 : INFO : EventManager : Event: ======'s_reentry_left_active'====== Args={}
+2023-01-27 21:02:43,668 : INFO : EventManager : Event: ======'sw_playfield_active'====== Args={}
+2023-01-27 21:02:43,670 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_reentry_left'====== Args={'value': 44, 'prev_value': 43, 'change': 1}
+2023-01-27 21:02:43,673 : INFO : EventManager : Event: ======'logicblock_reentry_switch_counter_updated'====== Args={'value': 68, 'enabled': True}
+2023-01-27 21:02:43,674 : INFO : EventManager : Event: ======'reentry_sound_active'====== Args={'count': 68}
+2023-01-27 21:02:43,675 : INFO : EventManager : Event: ======'playfield_active'====== Args={}
+2023-01-27 21:02:43,839 : INFO : SwitchController : <<<<<<< 's_reentry_left' inactive >>>>>>>
+2023-01-27 21:02:43,840 : INFO : EventManager : Event: ======'s_reentry_left_inactive'====== Args={}
+2023-01-27 21:02:44,269 : INFO : SwitchController : <<<<<<< 's_reentry_middle' active >>>>>>>
+2023-01-27 21:02:44,270 : INFO : EventManager : Event: ======'s_reentry_middle_active'====== Args={}
+2023-01-27 21:02:44,270 : INFO : EventManager : Event: ======'sw_playfield_active'====== Args={}
+2023-01-27 21:02:44,271 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_reentry_middle'====== Args={'value': 36, 'prev_value': 35, 'change': 1}
+2023-01-27 21:02:44,273 : INFO : EventManager : Event: ======'logicblock_reentry_switch_counter_updated'====== Args={'value': 69, 'enabled': True}
+2023-01-27 21:02:44,274 : INFO : EventManager : Event: ======'reentry_sound_active'====== Args={'count': 69}
+2023-01-27 21:02:44,275 : INFO : EventManager : Event: ======'playfield_active'====== Args={}
+2023-01-27 21:02:44,385 : INFO : SwitchController : <<<<<<< 's_reentry_middle' inactive >>>>>>>
+2023-01-27 21:02:44,566 : INFO : SwitchController : <<<<<<< 's_reentry_right' active >>>>>>>
+2023-01-27 21:02:44,567 : INFO : EventManager : Event: ======'s_reentry_right_active'====== Args={}
+2023-01-27 21:02:44,568 : INFO : EventManager : Event: ======'sw_playfield_active'====== Args={}
+2023-01-27 21:02:44,569 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_reentry_right'====== Args={'value': 27, 'prev_value': 26, 'change': 1}
+2023-01-27 21:02:44,575 : INFO : EventManager : Event: ======'logicblock_reentry_switch_counter_updated'====== Args={'value': 70, 'enabled': True}
+2023-01-27 21:02:44,575 : INFO : EventManager : Event: ======'reentry_sound_active'====== Args={'count': 70}
+2023-01-27 21:02:44,576 : INFO : EventManager : Event: ======'playfield_active'====== Args={}
+2023-01-27 21:02:44,691 : INFO : SwitchController : <<<<<<< 's_reentry_right' inactive >>>>>>>
+2023-01-27 21:02:44,897 : INFO : SwitchController : <<<<<<< 's_reentry_middle' active >>>>>>>
+2023-01-27 21:02:44,898 : INFO : EventManager : Event: ======'s_reentry_middle_active'====== Args={}
+2023-01-27 21:02:44,899 : INFO : EventManager : Event: ======'sw_playfield_active'====== Args={}
+2023-01-27 21:02:44,901 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_reentry_middle'====== Args={'value': 37, 'prev_value': 36, 'change': 1}
+2023-01-27 21:02:44,904 : INFO : EventManager : Event: ======'logicblock_reentry_switch_counter_updated'====== Args={'value': 71, 'enabled': True}
+2023-01-27 21:02:44,905 : INFO : EventManager : Event: ======'reentry_sound_active'====== Args={'count': 71}
+2023-01-27 21:02:44,906 : INFO : EventManager : Event: ======'playfield_active'====== Args={}
+2023-01-27 21:02:45,083 : INFO : SwitchController : <<<<<<< 's_reentry_middle' inactive >>>>>>>
+2023-01-27 21:02:45,196 : INFO : SwitchController : <<<<<<< 's_reentry_left' active >>>>>>>
+2023-01-27 21:02:45,196 : INFO : EventManager : Event: ======'s_reentry_left_active'====== Args={}
+2023-01-27 21:02:45,198 : INFO : EventManager : Event: ======'sw_playfield_active'====== Args={}
+2023-01-27 21:02:45,199 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_reentry_left'====== Args={'value': 45, 'prev_value': 44, 'change': 1}
+2023-01-27 21:02:45,203 : INFO : EventManager : Event: ======'logicblock_reentry_switch_counter_updated'====== Args={'value': 72, 'enabled': True}
+2023-01-27 21:02:45,204 : INFO : EventManager : Event: ======'reentry_sound_active'====== Args={'count': 72}
+2023-01-27 21:02:45,205 : INFO : EventManager : Event: ======'playfield_active'====== Args={}
+2023-01-27 21:02:45,417 : INFO : SwitchController : <<<<<<< 's_reentry_left' inactive >>>>>>>
+2023-01-27 21:02:45,417 : INFO : EventManager : Event: ======'s_reentry_left_inactive'====== Args={}
+2023-01-27 21:02:45,530 : INFO : SwitchController : <<<<<<< 's_reentry_middle' active >>>>>>>
+2023-01-27 21:02:45,531 : INFO : EventManager : Event: ======'s_reentry_middle_active'====== Args={}
+2023-01-27 21:02:45,532 : INFO : EventManager : Event: ======'sw_playfield_active'====== Args={}
+2023-01-27 21:02:45,533 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_reentry_middle'====== Args={'value': 38, 'prev_value': 37, 'change': 1}
+2023-01-27 21:02:45,537 : INFO : EventManager : Event: ======'logicblock_reentry_switch_counter_updated'====== Args={'value': 73, 'enabled': True}
+2023-01-27 21:02:45,538 : INFO : EventManager : Event: ======'reentry_sound_active'====== Args={'count': 73}
+2023-01-27 21:02:45,539 : INFO : EventManager : Event: ======'playfield_active'====== Args={}
+2023-01-27 21:02:45,668 : INFO : SwitchController : <<<<<<< 's_reentry_middle' inactive >>>>>>>
+2023-01-27 21:02:45,802 : INFO : SwitchController : <<<<<<< 's_reentry_right' active >>>>>>>
+2023-01-27 21:02:45,803 : INFO : EventManager : Event: ======'s_reentry_right_active'====== Args={}
+2023-01-27 21:02:45,804 : INFO : EventManager : Event: ======'sw_playfield_active'====== Args={}
+2023-01-27 21:02:45,805 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_reentry_right'====== Args={'value': 28, 'prev_value': 27, 'change': 1}
+2023-01-27 21:02:45,808 : INFO : EventManager : Event: ======'logicblock_reentry_switch_counter_updated'====== Args={'value': 74, 'enabled': True}
+2023-01-27 21:02:45,808 : INFO : EventManager : Event: ======'reentry_sound_active'====== Args={'count': 74}
+2023-01-27 21:02:45,810 : INFO : EventManager : Event: ======'playfield_active'====== Args={}
+2023-01-27 21:02:45,888 : INFO : SwitchController : <<<<<<< 's_reentry_right' inactive >>>>>>>
+2023-01-27 21:02:46,113 : INFO : SwitchController : <<<<<<< 's_reentry_middle' active >>>>>>>
+2023-01-27 21:02:46,114 : INFO : EventManager : Event: ======'s_reentry_middle_active'====== Args={}
+2023-01-27 21:02:46,115 : INFO : EventManager : Event: ======'sw_playfield_active'====== Args={}
+2023-01-27 21:02:46,116 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_reentry_middle'====== Args={'value': 39, 'prev_value': 38, 'change': 1}
+2023-01-27 21:02:46,120 : INFO : EventManager : Event: ======'logicblock_reentry_switch_counter_updated'====== Args={'value': 75, 'enabled': True}
+2023-01-27 21:02:46,121 : INFO : EventManager : Event: ======'reentry_sound_active'====== Args={'count': 75}
+2023-01-27 21:02:46,122 : INFO : EventManager : Event: ======'playfield_active'====== Args={}
+2023-01-27 21:02:46,298 : INFO : SwitchController : <<<<<<< 's_reentry_middle' inactive >>>>>>>
+2023-01-27 21:02:46,405 : INFO : SwitchController : <<<<<<< 's_reentry_left' active >>>>>>>
+2023-01-27 21:02:46,406 : INFO : EventManager : Event: ======'s_reentry_left_active'====== Args={}
+2023-01-27 21:02:46,407 : INFO : EventManager : Event: ======'sw_playfield_active'====== Args={}
+2023-01-27 21:02:46,409 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_reentry_left'====== Args={'value': 46, 'prev_value': 45, 'change': 1}
+2023-01-27 21:02:46,411 : INFO : EventManager : Event: ======'logicblock_reentry_switch_counter_updated'====== Args={'value': 76, 'enabled': True}
+2023-01-27 21:02:46,412 : INFO : EventManager : Event: ======'reentry_sound_active'====== Args={'count': 76}
+2023-01-27 21:02:46,413 : INFO : EventManager : Event: ======'playfield_active'====== Args={}
+2023-01-27 21:02:46,540 : INFO : SwitchController : <<<<<<< 's_reentry_left' inactive >>>>>>>
+2023-01-27 21:02:46,541 : INFO : EventManager : Event: ======'s_reentry_left_inactive'====== Args={}
+2023-01-27 21:02:46,719 : INFO : SwitchController : <<<<<<< 's_reentry_middle' active >>>>>>>
+2023-01-27 21:02:46,719 : INFO : EventManager : Event: ======'s_reentry_middle_active'====== Args={}
+2023-01-27 21:02:46,720 : INFO : EventManager : Event: ======'sw_playfield_active'====== Args={}
+2023-01-27 21:02:46,720 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_reentry_middle'====== Args={'value': 40, 'prev_value': 39, 'change': 1}
+2023-01-27 21:02:46,721 : INFO : EventManager : Event: ======'logicblock_reentry_switch_counter_updated'====== Args={'value': 77, 'enabled': True}
+2023-01-27 21:02:46,721 : INFO : EventManager : Event: ======'reentry_sound_active'====== Args={'count': 77}
+2023-01-27 21:02:46,722 : INFO : EventManager : Event: ======'playfield_active'====== Args={}
+2023-01-27 21:02:46,828 : INFO : SwitchController : <<<<<<< 's_reentry_middle' inactive >>>>>>>
+2023-01-27 21:02:46,965 : INFO : SwitchController : <<<<<<< 's_reentry_right' active >>>>>>>
+2023-01-27 21:02:46,965 : INFO : EventManager : Event: ======'s_reentry_right_active'====== Args={}
+2023-01-27 21:02:46,967 : INFO : EventManager : Event: ======'sw_playfield_active'====== Args={}
+2023-01-27 21:02:46,968 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_reentry_right'====== Args={'value': 29, 'prev_value': 28, 'change': 1}
+2023-01-27 21:02:46,972 : INFO : EventManager : Event: ======'logicblock_reentry_switch_counter_updated'====== Args={'value': 78, 'enabled': True}
+2023-01-27 21:02:46,973 : INFO : EventManager : Event: ======'reentry_sound_active'====== Args={'count': 78}
+2023-01-27 21:02:46,975 : INFO : EventManager : Event: ======'playfield_active'====== Args={}
+2023-01-27 21:02:47,054 : INFO : SwitchController : <<<<<<< 's_reentry_right' inactive >>>>>>>
+2023-01-27 21:02:47,188 : INFO : SwitchController : <<<<<<< 's_reentry_right' active >>>>>>>
+2023-01-27 21:02:47,189 : INFO : EventManager : Event: ======'s_reentry_right_active'====== Args={}
+2023-01-27 21:02:47,189 : INFO : EventManager : Event: ======'sw_playfield_active'====== Args={}
+2023-01-27 21:02:47,189 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_reentry_right'====== Args={'value': 30, 'prev_value': 29, 'change': 1}
+2023-01-27 21:02:47,190 : INFO : EventManager : Event: ======'logicblock_reentry_switch_counter_updated'====== Args={'value': 79, 'enabled': True}
+2023-01-27 21:02:47,190 : INFO : EventManager : Event: ======'reentry_sound_active'====== Args={'count': 79}
+2023-01-27 21:02:47,190 : INFO : EventManager : Event: ======'playfield_active'====== Args={}
+2023-01-27 21:02:47,263 : INFO : SwitchController : <<<<<<< 's_reentry_right' inactive >>>>>>>
+2023-01-27 21:02:47,375 : INFO : SwitchController : <<<<<<< 's_reentry_middle' active >>>>>>>
+2023-01-27 21:02:47,376 : INFO : EventManager : Event: ======'s_reentry_middle_active'====== Args={}
+2023-01-27 21:02:47,377 : INFO : EventManager : Event: ======'sw_playfield_active'====== Args={}
+2023-01-27 21:02:47,378 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_reentry_middle'====== Args={'value': 41, 'prev_value': 40, 'change': 1}
+2023-01-27 21:02:47,382 : INFO : EventManager : Event: ======'logicblock_reentry_switch_counter_updated'====== Args={'value': 80, 'enabled': True}
+2023-01-27 21:02:47,383 : INFO : EventManager : Event: ======'reentry_sound_active'====== Args={'count': 80}
+2023-01-27 21:02:47,385 : INFO : EventManager : Event: ======'playfield_active'====== Args={}
+2023-01-27 21:02:47,462 : INFO : SwitchController : <<<<<<< 's_reentry_middle' inactive >>>>>>>
+2023-01-27 21:02:52,429 : INFO : Machine : Shutting down...
+2023-01-27 21:02:52,429 : INFO : EventManager : Event: ======'shutdown'====== Args={}
+2023-01-27 21:02:52,433 : INFO : root : MPF run loop ended.

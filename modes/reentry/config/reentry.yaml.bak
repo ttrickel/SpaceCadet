@@ -1,0 +1,286 @@
+#config_version=6
+# reentry config file
+#
+# blue, green, yellow, red
+
+mode:
+  start_events: ball_started #reentry_start   #, device.shots.my_first_shot_mode2.state:0
+  stop_events: ball_stopped #reentry_stop
+  priority: 200
+
+counters:
+  reentry_shot_complete_count:
+    count_events: reentry_shot_lit_complete
+    events_when_hit: reentry_shot_done
+    starting_count: 1
+    direction: up
+    persist_state: false
+    
+widgets:
+  reentry_start_banner:
+    type: text
+    text: REENTRY STARTED
+    font_size: 50
+    color: lime
+    y: 80%
+    expire: 1s
+
+
+shows: 
+    flash_yellow:
+        - duration: 2
+          shows:
+            flash_color:
+              show_tokens:
+                color: yellow
+                leds: l_re-entry_left, l_re-entry_middle, l_re-entry_right
+              speed: 4
+              priority: 10
+                
+    reentry_lit:    # define our show to indicate the state
+        - lights:
+            (led): yellow
+
+    on_abl_blue:
+        - duration: 50ms
+          shows:
+            flash_color:
+                show_tokens:
+                    color: blue
+                    leds: (leds)
+    on_abl_green:
+        - duration: 50ms
+          shows:
+            flash_color:
+                show_tokens:
+                    color: green
+                    leds: (leds)
+
+    on_abl_yellow:
+        - duration: 50ms
+          shows:
+            flash_color:
+                show_tokens:
+                    color: yellow
+                    leds: (leds)
+
+    on_abl_red:
+        - duration: 50ms
+          shows:
+            flash_color:
+                show_tokens:
+                    color: red
+                    leds: (leds)
+        # - duration: 2
+          # shows:
+            # on:
+              # show_tokens:
+                # color: yellow
+                # leds: (led)
+              # speed: 4
+              # priority: 10
+
+show_player:
+  reentry_shot_lit_complete:
+    flash_yellow:
+      loops: 0
+ 
+  attack_bumper_lower_shot_hit{device.counters.reentry_shot_complete_count.value == 1}: 
+    on_abl_blue:
+        loops: 0
+        show_tokens: 
+            leds: l_attack_bumper_lower
+  attack_bumper_lower_shot_hit{device.counters.reentry_shot_complete_count.value == 2}: 
+    on_abl_green:
+        loops: 0
+        show_tokens: 
+            leds: l_attack_bumper_lower
+  attack_bumper_lower_shot_hit{device.counters.reentry_shot_complete_count.value == 3}: 
+    on_abl_yellow:
+        loops: 0
+        show_tokens: 
+            leds: l_attack_bumper_lower
+  attack_bumper_lower_shot_hit{device.counters.reentry_shot_complete_count.value >= 4}: 
+    on_abl_red:
+        loops: 0
+        show_tokens: 
+            leds: l_attack_bumper_lower
+
+  attack_bumper_right_shot_hit{device.counters.reentry_shot_complete_count.value == 1}: 
+    on_abl_blue:
+        loops: 0
+        show_tokens: 
+            leds: l_attack_bumper_right
+  attack_bumper_right_shot_hit{device.counters.reentry_shot_complete_count.value == 2}: 
+    on_abl_green:
+        loops: 0
+        show_tokens: 
+            leds: l_attack_bumper_right
+  attack_bumper_right_shot_hit{device.counters.reentry_shot_complete_count.value == 3}: 
+    on_abl_yellow:
+        loops: 0
+        show_tokens: 
+            leds: l_attack_bumper_right
+  attack_bumper_right_shot_hit{device.counters.reentry_shot_complete_count.value >= 4}: 
+    on_abl_red:
+        loops: 0
+        show_tokens: 
+            leds: l_attack_bumper_right
+    
+  attack_bumper_left_shot_hit{device.counters.reentry_shot_complete_count.value == 1}: 
+    on_abl_blue:
+        loops: 0
+        show_tokens: 
+            leds: l_attack_bumper_left
+  attack_bumper_left_shot_hit{device.counters.reentry_shot_complete_count.value == 2}: 
+    on_abl_green:
+        loops: 0
+        show_tokens: 
+            leds: l_attack_bumper_left
+  attack_bumper_left_shot_hit{device.counters.reentry_shot_complete_count.value == 3}: 
+    on_abl_yellow:
+        loops: 0
+        show_tokens: 
+            leds: l_attack_bumper_left
+  attack_bumper_left_shot_hit{device.counters.reentry_shot_complete_count.value >= 4}: 
+    on_abl_red:
+        loops: 0
+        show_tokens: 
+            leds: l_attack_bumper_left
+    
+widget_player:
+  mode_reentry_started: reentry_start_banner
+
+variable_player:
+  reentry_shot_off_hit:
+    score: 1000
+  reentry_shot_lit_hit:
+    score: 2000
+  reentry_shot_lit_complete:
+    score: 5000
+  # mode_reentry_started:
+    # attack_bumper_count:
+      # int: 1
+      # action: set
+  # reentry_shot_done{count==2}:
+    # attack_bumper_count:
+      # int: 2
+      # action: set
+  # reentry_shot_done{count==3}:
+    # attack_bumper_count:
+      # int: 3
+      # action: set
+  # reentry_shot_done{count==4}:
+    # attack_bumper_count:
+      # int: 4
+      # action: set
+
+#Blue   – 500 points
+#Green  – 1000 points
+#Yellow – 1500 points
+#Red    – 2000 points
+
+  attack_bumper_shot_hit:
+    score: 500 * device.counters.reentry_shot_complete_count.value
+     
+light_player:
+    mode_reentry_started:
+        l_attack_bumper_left:
+            color: blue%1
+        l_attack_bumper_lower:
+            color: blue%1
+        l_attack_bumper_right:
+            color: blue%1
+    reentry_shot_done{count==2}:
+        l_attack_bumper_left:
+            color: green%1
+        l_attack_bumper_lower:
+            color: green%1
+        l_attack_bumper_right:
+            color: green%1
+    reentry_shot_done{count==3}:
+        l_attack_bumper_left:
+            color: yellow%1
+        l_attack_bumper_lower:
+            color: yellow%1
+        l_attack_bumper_right:
+            color: yellow%1
+    reentry_shot_done{count==4}:
+        l_attack_bumper_left:
+            color: red%1
+        l_attack_bumper_lower:
+            color: red%1
+        l_attack_bumper_right:
+            color: red%1
+
+shots:
+  reentryL_shot:
+    switch: s_reentry_left
+    show_tokens:
+      led: l_re-entry_left
+    profile: reentry
+ #   restart_events: mode_reentry_started
+
+  reentryM_shot:
+    switch: s_reentry_middle
+    show_tokens:
+      led: l_re-entry_middle
+    profile: reentry
+#    restart_events: mode_reentry_started
+ 
+  reentryR_shot:
+    switch: s_reentry_right
+    show_tokens:
+      led: l_re-entry_right
+    profile: reentry
+#    restart_events: mode_reentry_started
+
+  attack_bumper_left_shot:
+    switch: s_left_attack_bumper
+    # show_tokens:
+        # led: l_attack_bumper_left
+    # profile: bumper
+    
+  attack_bumper_right_shot:
+    switch: s_right_attack_bumper
+    # show_tokens:
+        # led: l_attack_bumper_right
+    # profile: bumper
+  
+  attack_bumper_lower_shot:
+    switch: s_lower_attack_bumper 
+    # show_tokens:
+        # led: l_attack_bumper_lower 
+    # profile: bumper
+  
+shot_groups:
+    reentry_shot:
+        shots: reentryL_shot, reentryM_shot, reentryR_shot
+        rotate_left_events: s_left_flipper_active
+        rotate_right_events: s_right_flipper_active
+        reset_events: 
+           reentry_shot_lit_complete: 2s # mode_reentry_started
+           
+    attack_bumper_shot:
+        shots: attack_bumper_left_shot, attack_bumper_right_shot, attack_bumper_lower_shot
+        
+        
+shot_profiles:
+  reentry:
+    states:
+      - name: off
+        show: off
+      - name: lit
+        show: "reentry_lit"
+    loop: true
+#    block: true
+  
+  # bumper:
+    # states:
+      # - name: off
+        # show: off
+      # - name: lit
+        # show: "on_abl"
+    # loop: true
+
+

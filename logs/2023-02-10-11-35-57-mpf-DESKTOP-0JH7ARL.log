@@ -1,0 +1,41 @@
+2023-02-10 11:35:57,136 : INFO : root : Loading config.
+2023-02-10 11:35:57,136 : INFO : YamlMultifileConfigLoader : Machine config file #1: config.yaml
+2023-02-10 11:35:57,136 : INFO : ConfigProcessor : Loading config from cache: C:\Users\student\AppData\Local\Temp\f1427cd4cbc9163bc2263f349f0fb463.mpf_cache
+2023-02-10 11:35:57,198 : INFO : ConfigProcessor : Loading config from cache: C:\Users\student\AppData\Local\Temp\7315f14db5aa651883463bde45465327.mpf_cache
+2023-02-10 11:35:57,198 : INFO : ConfigProcessor : Loading config from cache: C:\Users\student\AppData\Local\Temp\8696bd5a5a040ff67990be11cb4d3c0c.mpf_cache
+2023-02-10 11:35:57,206 : INFO : ConfigProcessor : Loading config from cache: C:\Users\student\AppData\Local\Temp\4675a535c8328a9c278c807d999ed109.mpf_cache
+2023-02-10 11:35:57,206 : INFO : Machine : Mission Pinball Framework Core Engine v0.55.0
+2023-02-10 11:35:57,206 : INFO : Machine : Command line arguments: {'no_load_cache': False, 'create_config_cache': True, 'bcp': True, 'configfile': ['config.yaml'], 'force_assets_load': False, 'jsonlogging': False, 'logfile': 'logs\\2023-02-10-11-35-57-mpf-DESKTOP-0JH7ARL.log', 'pause': False, 'production': False, 'text_ui': True, 'loglevel': 15, 'consoleloglevel': 10, 'force_platform': None, 'syslog_address': None, 'mc_file_name': None, 'no_sound': False}
+2023-02-10 11:35:57,206 : INFO : Machine : MPF path: c:\users\student\mpfenv\lib\site-packages\mpf
+2023-02-10 11:35:57,206 : INFO : Machine : Machine path: C:\Users\student\pinball\cobraPinTest1
+2023-02-10 11:35:57,206 : INFO : Machine : Platform: win32
+2023-02-10 11:35:57,206 : INFO : Machine : Python executable location: c:\users\student\mpfenv\scripts\python.exe
+2023-02-10 11:35:57,206 : INFO : Machine : Python version: 3.7.8 (64-bit)
+2023-02-10 11:35:57,208 : INFO : Machine : Initialise MPF.
+2023-02-10 11:35:57,406 : INFO : OPP : Connecting to com4 at 115200bps
+2023-02-10 11:35:57,593 : INFO : OPP : Init of OPP board 0 done
+2023-02-10 11:35:57,593 : INFO : OPP : Connecting to com5 at 115200bps
+2023-02-10 11:35:57,687 : INFO : OPP : Init of OPP board 1 done
+2023-02-10 11:35:57,687 : INFO : EventManager : Event: ======'machine_var_credits_string'====== Args={'value': 'FREE PLAY', 'prev_value': None, 'change': True}
+2023-02-10 11:35:57,734 : INFO : EventManager : Event: ======'machine_var_master_volume'====== Args={'value': 0.5, 'prev_value': None, 'change': True}
+2023-02-10 11:35:57,734 : INFO : EventManager : Event: ======'machine_var_mpf_version'====== Args={'value': 'MPF v0.55.0', 'prev_value': None, 'change': True}
+2023-02-10 11:35:57,734 : INFO : EventManager : Event: ======'machine_var_mpf_extended_version'====== Args={'value': 'MPF v0.55.0, Config version:5, Show version: 5, BCP version:1.1', 'prev_value': None, 'change': True}
+2023-02-10 11:35:57,734 : INFO : EventManager : Event: ======'machine_var_python_version'====== Args={'value': '3.7.8', 'prev_value': None, 'change': True}
+2023-02-10 11:35:57,734 : INFO : EventManager : Event: ======'machine_var_platform'====== Args={'value': 'Windows-10-10.0.19041-SP0', 'prev_value': None, 'change': True}
+2023-02-10 11:35:57,734 : INFO : EventManager : Event: ======'machine_var_platform_system'====== Args={'value': 'Windows', 'prev_value': None, 'change': True}
+2023-02-10 11:35:57,734 : INFO : EventManager : Event: ======'machine_var_platform_release'====== Args={'value': '10', 'prev_value': None, 'change': True}
+2023-02-10 11:35:57,734 : INFO : EventManager : Event: ======'machine_var_platform_version'====== Args={'value': '10.0.19041', 'prev_value': None, 'change': True}
+2023-02-10 11:35:57,734 : INFO : EventManager : Event: ======'machine_var_platform_machine'====== Args={'value': 'AMD64', 'prev_value': None, 'change': True}
+2023-02-10 11:35:57,734 : INFO : EventManager : Event: ======'init_phase_1'====== Args={}
+2023-02-10 11:35:57,749 : INFO : EventManager : Event: ======'logicblock_reentry_switch_counter_updated'====== Args={'value': 0, 'enabled': True}
+2023-02-10 11:35:57,749 : INFO : EventManager : Event: ======'logicblock_reentry_switch_counter_updated'====== Args={'value': 0, 'enabled': True}
+2023-02-10 11:35:57,765 : INFO : EventManager : Event: ======'init_phase_2'====== Args={}
+2023-02-10 11:35:57,765 : INFO : SwitchController : Found active switch: ('0-0-8', <Platform.OPP>) <switch.s_trough1>
+2023-02-10 11:35:57,765 : INFO : EventManager : Event: ======'bcp_connection_attempt'====== Args={'name': 'local_display', 'host': 'localhost', 'port': 5050}
+2023-02-10 11:35:57,765 : INFO : BCPClientSocket : Connecting BCP to 'local_display' at localhost:5050...
+2023-02-10 11:36:04,950 : INFO : Machine : Starting the main run loop.
+2023-02-10 11:36:04,950 : INFO : Machine : Shutting down...
+2023-02-10 11:36:04,950 : INFO : EventManager : Event: ======'shutdown'====== Args={}
+2023-02-10 11:36:04,950 : ERROR : OPP : Stop called on serial connection com5
+2023-02-10 11:36:04,950 : ERROR : OPP : Stop called on serial connection com4
+2023-02-10 11:36:04,950 : INFO : root : MPF run loop ended.

@@ -1,0 +1,595 @@
+2024-12-08 08:44:20,907 : INFO : root : Loading config.
+2024-12-08 08:44:21,243 : INFO : ConfigProcessor : Config spec file cache created: C:\Users\student\AppData\Local\Temp\config_spec.mpf_cache
+2024-12-08 08:44:21,243 : INFO : YamlMultifileConfigLoader : Machine config file #1: config.yaml
+2024-12-08 08:44:21,243 : INFO : ConfigProcessor : Loading config from file c:\users\student\mpfenv\lib\site-packages\mpf\mpfconfig.yaml.
+2024-12-08 08:44:21,307 : INFO : ConfigProcessor : Loading config: c:\users\student\mpfenv\lib\site-packages\mpf\mpfconfig.yaml
+2024-12-08 08:44:21,308 : INFO : ConfigProcessor : Loading config from file C:\Users\student\pinball\cobraPinTest1\config\config.yaml.
+2024-12-08 08:44:21,367 : INFO : ConfigProcessor : Loading config: C:\Users\student\pinball\cobraPinTest1\config\config.yaml
+2024-12-08 08:44:21,370 : INFO : ConfigProcessor : Config file cache created: C:\Users\student\AppData\Local\Temp\f1427cd4cbc9163bc2263f349f0fb463.mpf_cache
+2024-12-08 08:44:21,436 : INFO : ConfigProcessor : Loading config from file c:\users\student\mpfenv\lib\site-packages\mpf\modes\attract\config\attract.yaml.
+2024-12-08 08:44:21,438 : INFO : ConfigProcessor : Loading config: c:\users\student\mpfenv\lib\site-packages\mpf\modes\attract\config\attract.yaml
+2024-12-08 08:44:21,438 : INFO : ConfigProcessor : Loading config from file C:\Users\student\pinball\cobraPinTest1\modes\attract\config\attract.yaml.
+2024-12-08 08:44:21,439 : INFO : ConfigProcessor : Loading config: C:\Users\student\pinball\cobraPinTest1\modes\attract\config\attract.yaml
+2024-12-08 08:44:21,440 : INFO : ConfigProcessor : Config file cache created: C:\Users\student\AppData\Local\Temp\32ed7ad340ce8029344f8b9ff63edc80.mpf_cache
+2024-12-08 08:44:21,440 : INFO : ConfigProcessor : Loading config from file c:\users\student\mpfenv\lib\site-packages\mpf\modes\game\config\game.yaml.
+2024-12-08 08:44:21,442 : INFO : ConfigProcessor : Loading config: c:\users\student\mpfenv\lib\site-packages\mpf\modes\game\config\game.yaml
+2024-12-08 08:44:21,442 : INFO : ConfigProcessor : Config file cache created: C:\Users\student\AppData\Local\Temp\8696bd5a5a040ff67990be11cb4d3c0c.mpf_cache
+2024-12-08 08:44:21,443 : INFO : ConfigProcessor : Loading config from file C:\Users\student\pinball\cobraPinTest1\modes\base\config\base.yaml.
+2024-12-08 08:44:21,447 : INFO : ConfigProcessor : Loading config: C:\Users\student\pinball\cobraPinTest1\modes\base\config\base.yaml
+2024-12-08 08:44:21,448 : INFO : ConfigProcessor : Config file cache created: C:\Users\student\AppData\Local\Temp\4675a535c8328a9c278c807d999ed109.mpf_cache
+2024-12-08 08:44:21,449 : INFO : ConfigProcessor : Loading config from file C:\Users\student\pinball\cobraPinTest1\modes\reentry\config\reentry.yaml.
+2024-12-08 08:44:21,470 : INFO : ConfigProcessor : Loading config: C:\Users\student\pinball\cobraPinTest1\modes\reentry\config\reentry.yaml
+2024-12-08 08:44:21,471 : INFO : ConfigProcessor : Config file cache created: C:\Users\student\AppData\Local\Temp\0c8438cab3480347c0c749fa494946a2.mpf_cache
+2024-12-08 08:44:21,472 : INFO : ConfigProcessor : Loading config from file C:\Users\student\pinball\cobraPinTest1\modes\lowerlanes\config\lowerlanes.yaml.
+2024-12-08 08:44:21,484 : INFO : ConfigProcessor : Loading config: C:\Users\student\pinball\cobraPinTest1\modes\lowerlanes\config\lowerlanes.yaml
+2024-12-08 08:44:21,484 : INFO : ConfigProcessor : Config file cache created: C:\Users\student\AppData\Local\Temp\5052615755bdf1309b248cf8695ad4ff.mpf_cache
+2024-12-08 08:44:21,485 : INFO : ConfigProcessor : Loading config from file C:\Users\student\pinball\cobraPinTest1\modes\attract\shows\.\attract_display_loop.yaml.
+2024-12-08 08:44:21,494 : INFO : ConfigProcessor : Loading config: C:\Users\student\pinball\cobraPinTest1\modes\attract\shows\.\attract_display_loop.yaml
+2024-12-08 08:44:21,495 : INFO : ConfigProcessor : Config file cache created: C:\Users\student\AppData\Local\Temp\f8d2c2cf3ea01f085365ea23fa51a701.mpf_cache
+2024-12-08 08:44:21,495 : INFO : ConfigProcessor : Loading config from file C:\Users\student\pinball\cobraPinTest1\modes\attract\shows\.\attract_light_show.yaml.
+2024-12-08 08:44:21,500 : INFO : ConfigProcessor : Loading config: C:\Users\student\pinball\cobraPinTest1\modes\attract\shows\.\attract_light_show.yaml
+2024-12-08 08:44:21,500 : INFO : ConfigProcessor : Config file cache created: C:\Users\student\AppData\Local\Temp\30bd992f4b62a9b099207aebeb59554c.mpf_cache
+2024-12-08 08:44:21,501 : INFO : Machine : Mission Pinball Framework Core Engine v0.55.0
+2024-12-08 08:44:21,501 : INFO : Machine : Command line arguments: {'no_load_cache': True, 'create_config_cache': True, 'bcp': True, 'configfile': ['config.yaml'], 'force_assets_load': False, 'jsonlogging': False, 'logfile': 'logs\\2024-12-08-08-44-20-mpf-DESKTOP-0JH7ARL.log', 'pause': False, 'production': False, 'text_ui': True, 'loglevel': 15, 'consoleloglevel': 20, 'force_platform': None, 'syslog_address': None, 'mc_file_name': None, 'no_sound': False}
+2024-12-08 08:44:21,501 : INFO : Machine : MPF path: c:\users\student\mpfenv\lib\site-packages\mpf
+2024-12-08 08:44:21,501 : INFO : Machine : Machine path: C:\Users\student\pinball\cobraPinTest1
+2024-12-08 08:44:21,501 : INFO : Machine : Platform: win32
+2024-12-08 08:44:21,501 : INFO : Machine : Python executable location: c:\users\student\mpfenv\scripts\python.exe
+2024-12-08 08:44:21,501 : INFO : Machine : Python version: 3.7.8 (64-bit)
+2024-12-08 08:44:21,503 : INFO : Machine : Initialise MPF.
+2024-12-08 08:44:21,859 : INFO : OPP : Connecting to com4 at 115200bps
+2024-12-08 08:44:21,956 : INFO : OPP : Init of OPP board 0 done
+2024-12-08 08:44:21,956 : INFO : OPP : Connecting to com5 at 115200bps
+2024-12-08 08:44:22,142 : INFO : OPP : Init of OPP board 1 done
+2024-12-08 08:44:22,142 : INFO : EventManager : Event: ======'machine_var_credits_string'====== Args={'value': 'FREE PLAY', 'prev_value': None, 'change': True}
+2024-12-08 08:44:22,197 : INFO : EventManager : Event: ======'machine_var_master_volume'====== Args={'value': 0.5, 'prev_value': None, 'change': True}
+2024-12-08 08:44:22,198 : INFO : EventManager : Event: ======'machine_var_player1_score'====== Args={'value': 1500, 'prev_value': None, 'change': True}
+2024-12-08 08:44:22,198 : INFO : EventManager : Event: ======'machine_var_mpf_version'====== Args={'value': 'MPF v0.55.0', 'prev_value': None, 'change': True}
+2024-12-08 08:44:22,198 : INFO : EventManager : Event: ======'machine_var_mpf_extended_version'====== Args={'value': 'MPF v0.55.0, Config version:5, Show version: 5, BCP version:1.1', 'prev_value': None, 'change': True}
+2024-12-08 08:44:22,198 : INFO : EventManager : Event: ======'machine_var_python_version'====== Args={'value': '3.7.8', 'prev_value': None, 'change': True}
+2024-12-08 08:44:22,198 : INFO : EventManager : Event: ======'machine_var_platform'====== Args={'value': 'Windows-10-10.0.19041-SP0', 'prev_value': None, 'change': True}
+2024-12-08 08:44:22,198 : INFO : EventManager : Event: ======'machine_var_platform_system'====== Args={'value': 'Windows', 'prev_value': None, 'change': True}
+2024-12-08 08:44:22,198 : INFO : EventManager : Event: ======'machine_var_platform_release'====== Args={'value': '10', 'prev_value': None, 'change': True}
+2024-12-08 08:44:22,198 : INFO : EventManager : Event: ======'machine_var_platform_version'====== Args={'value': '10.0.19041', 'prev_value': None, 'change': True}
+2024-12-08 08:44:22,198 : INFO : EventManager : Event: ======'machine_var_platform_machine'====== Args={'value': 'AMD64', 'prev_value': None, 'change': True}
+2024-12-08 08:44:22,198 : INFO : EventManager : Event: ======'init_phase_1'====== Args={}
+2024-12-08 08:44:22,227 : INFO : EventManager : Event: ======'init_phase_2'====== Args={}
+2024-12-08 08:44:22,228 : INFO : SwitchController : Found active switch: ('0-0-8', <Platform.OPP>) <switch.s_trough1>
+2024-12-08 08:44:22,235 : INFO : EventManager : Event: ======'bcp_connection_attempt'====== Args={'name': 'local_display', 'host': 'localhost', 'port': 5050}
+2024-12-08 08:44:22,237 : INFO : BCPClientSocket : Connecting BCP to 'local_display' at localhost:5050...
+2024-12-08 08:44:24,280 : INFO : BCPClientSocket : Connected BCP to 'local_display' localhost:5050
+2024-12-08 08:44:24,282 : INFO : EventManager : Event: ======'bcp_clients_connected'====== Args={}
+2024-12-08 08:44:24,297 : INFO : EventManager : Event: ======'machine_var_mc_version'====== Args={'value': 'MPF-MC v0.55.0', 'prev_value': None, 'change': True}
+2024-12-08 08:44:24,297 : INFO : EventManager : Event: ======'machine_var_mc_extended_version'====== Args={'value': 'MPF-MC v0.55.0 (config_version=5, BCP v1.1, Requires MPF v0.55.0-dev.49)', 'prev_value': None, 'change': True}
+2024-12-08 08:44:24,299 : INFO : ball_device.bd_trough : BCH: Initial count: 1
+2024-12-08 08:44:24,315 : INFO : ball_device.bd_trough : State: idle
+2024-12-08 08:44:24,316 : INFO : ball_device.bd_plunger : BCH: Initial count: 0
+2024-12-08 08:44:24,316 : INFO : ball_device.bd_plunger : State: idle
+2024-12-08 08:44:24,383 : INFO : EventManager : Event: ======'init_phase_3'====== Args={}
+2024-12-08 08:44:24,388 : INFO : EventManager : Event: ======'init_phase_4'====== Args={}
+2024-12-08 08:44:24,388 : INFO : BallController : Initial balls found: 1
+2024-12-08 08:44:24,390 : INFO : EventManager : Event: ======'machine_var_audits_events_game_ended'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2024-12-08 08:44:24,390 : INFO : EventManager : Event: ======'machine_var_audits_events_game_started'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2024-12-08 08:44:24,391 : INFO : EventManager : Event: ======'machine_var_audits_player_score'====== Args={'value': {'average': 1800.0, 'top': [2000, 1900, 1500], 'total': 3}, 'prev_value': None, 'change': True}
+2024-12-08 08:44:24,391 : INFO : EventManager : Event: ======'machine_var_audits_shots_bonusLane_shot'====== Args={'value': 14, 'prev_value': None, 'change': True}
+2024-12-08 08:44:24,392 : INFO : EventManager : Event: ======'machine_var_audits_shots_medalL_shot'====== Args={'value': 174, 'prev_value': None, 'change': True}
+2024-12-08 08:44:24,392 : INFO : EventManager : Event: ======'machine_var_audits_shots_medalM_shot'====== Args={'value': 166, 'prev_value': None, 'change': True}
+2024-12-08 08:44:24,393 : INFO : EventManager : Event: ======'machine_var_audits_shots_medalR_shot'====== Args={'value': 165, 'prev_value': None, 'change': True}
+2024-12-08 08:44:24,393 : INFO : EventManager : Event: ======'machine_var_audits_shots_my_first_shot'====== Args={'value': 119, 'prev_value': None, 'change': True}
+2024-12-08 08:44:24,394 : INFO : EventManager : Event: ======'machine_var_audits_shots_my_first_shot_mode2'====== Args={'value': 72, 'prev_value': None, 'change': True}
+2024-12-08 08:44:24,394 : INFO : EventManager : Event: ======'machine_var_audits_shots_outLaneL_shot'====== Args={'value': 8, 'prev_value': None, 'change': True}
+2024-12-08 08:44:24,394 : INFO : EventManager : Event: ======'machine_var_audits_shots_outLaneR_shot'====== Args={'value': 22, 'prev_value': None, 'change': True}
+2024-12-08 08:44:24,395 : INFO : EventManager : Event: ======'machine_var_audits_shots_reentryL_shot'====== Args={'value': 473, 'prev_value': None, 'change': True}
+2024-12-08 08:44:24,395 : INFO : EventManager : Event: ======'machine_var_audits_shots_reentryM_shot'====== Args={'value': 432, 'prev_value': None, 'change': True}
+2024-12-08 08:44:24,396 : INFO : EventManager : Event: ======'machine_var_audits_shots_reentryR_shot'====== Args={'value': 410, 'prev_value': None, 'change': True}
+2024-12-08 08:44:24,396 : INFO : EventManager : Event: ======'machine_var_audits_shots_reentry_shot'====== Args={'value': 9, 'prev_value': None, 'change': True}
+2024-12-08 08:44:24,396 : INFO : EventManager : Event: ======'machine_var_audits_shots_returnLaneL_shot'====== Args={'value': 84, 'prev_value': None, 'change': True}
+2024-12-08 08:44:24,397 : INFO : EventManager : Event: ======'machine_var_audits_shots_returnLaneR_shot'====== Args={'value': 45, 'prev_value': None, 'change': True}
+2024-12-08 08:44:24,397 : INFO : EventManager : Event: ======'machine_var_audits_shots_spacewarp_rollover_shot'====== Args={'value': 23, 'prev_value': None, 'change': True}
+2024-12-08 08:44:24,397 : INFO : EventManager : Event: ======'machine_var_audits_shots_top_lane_A'====== Args={'value': 12, 'prev_value': None, 'change': True}
+2024-12-08 08:44:24,397 : INFO : EventManager : Event: ======'machine_var_audits_shots_top_lane_J'====== Args={'value': 12, 'prev_value': None, 'change': True}
+2024-12-08 08:44:24,397 : INFO : EventManager : Event: ======'machine_var_audits_shots_top_lane_M'====== Args={'value': 9, 'prev_value': None, 'change': True}
+2024-12-08 08:44:24,398 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_blackhole_kicker'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2024-12-08 08:44:24,399 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_bonus_lane'====== Args={'value': 27, 'prev_value': None, 'change': True}
+2024-12-08 08:44:24,400 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_booster_drop_target_1'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2024-12-08 08:44:24,400 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_booster_drop_target_2'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2024-12-08 08:44:24,401 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_booster_drop_target_3'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2024-12-08 08:44:24,401 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_comet_spot_1'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2024-12-08 08:44:24,402 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_comet_spot_2'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2024-12-08 08:44:24,402 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_comet_spot_3'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2024-12-08 08:44:24,402 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_engine_bumper_1'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2024-12-08 08:44:24,402 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_engine_bumper_2'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2024-12-08 08:44:24,403 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_engine_bumper_3'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2024-12-08 08:44:24,403 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_fuel_chute_1'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2024-12-08 08:44:24,403 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_fuel_chute_2'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2024-12-08 08:44:24,403 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_fuel_chute_3'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2024-12-08 08:44:24,404 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_fuel_chute_4'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2024-12-08 08:44:24,404 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_fuel_chute_5'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2024-12-08 08:44:24,404 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_fuel_chute_6'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2024-12-08 08:44:24,404 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_fuel_flag'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2024-12-08 08:44:24,404 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_fuel_spot_1'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2024-12-08 08:44:24,405 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_fuel_spot_2'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2024-12-08 08:44:24,406 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_fuel_spot_3'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2024-12-08 08:44:24,406 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_green_wormhole'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2024-12-08 08:44:24,406 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_hyperspace_flag'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2024-12-08 08:44:24,407 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_hyperspacekicker'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2024-12-08 08:44:24,407 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_launch_lane_1'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2024-12-08 08:44:24,407 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_launch_lane_2'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2024-12-08 08:44:24,407 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_launch_lane_3'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2024-12-08 08:44:24,408 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_launch_ramp'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2024-12-08 08:44:24,408 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_left_attack_bumper'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2024-12-08 08:44:24,408 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_left_flipper'====== Args={'value': 999, 'prev_value': None, 'change': True}
+2024-12-08 08:44:24,408 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_left_out_lane'====== Args={'value': 12, 'prev_value': None, 'change': True}
+2024-12-08 08:44:24,409 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_left_out_lane_kicker'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2024-12-08 08:44:24,409 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_left_return_lane'====== Args={'value': 91, 'prev_value': None, 'change': True}
+2024-12-08 08:44:24,409 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_lower_attack_bumper'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2024-12-08 08:44:24,410 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_lower_left_rebound'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2024-12-08 08:44:24,410 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_lower_left_slingshot'====== Args={'value': 44, 'prev_value': None, 'change': True}
+2024-12-08 08:44:24,410 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_lower_right_rebound'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2024-12-08 08:44:24,411 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_lower_right_slingshot'====== Args={'value': 43, 'prev_value': None, 'change': True}
+2024-12-08 08:44:24,411 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_medal_drop_left'====== Args={'value': 188, 'prev_value': None, 'change': True}
+2024-12-08 08:44:24,412 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_medal_drop_middle'====== Args={'value': 180, 'prev_value': None, 'change': True}
+2024-12-08 08:44:24,412 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_medal_drop_right'====== Args={'value': 179, 'prev_value': None, 'change': True}
+2024-12-08 08:44:24,413 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_mission_spot_1'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2024-12-08 08:44:24,413 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_mission_spot_2'====== Args={'value': 2, 'prev_value': None, 'change': True}
+2024-12-08 08:44:24,414 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_mission_spot_3'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2024-12-08 08:44:24,414 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_multiplier_left'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2024-12-08 08:44:24,414 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_multiplier_middle'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2024-12-08 08:44:24,415 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_multiplier_right'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2024-12-08 08:44:24,415 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_plunger'====== Args={'value': 164, 'prev_value': None, 'change': True}
+2024-12-08 08:44:24,415 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_radiationspot_1'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2024-12-08 08:44:24,416 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_radiationspot_2'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2024-12-08 08:44:24,416 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_radiationspot_3'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2024-12-08 08:44:24,416 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_red_wormhole'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2024-12-08 08:44:24,417 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_reentry_left'====== Args={'value': 831, 'prev_value': None, 'change': True}
+2024-12-08 08:44:24,417 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_reentry_middle'====== Args={'value': 506, 'prev_value': None, 'change': True}
+2024-12-08 08:44:24,417 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_reentry_right'====== Args={'value': 469, 'prev_value': None, 'change': True}
+2024-12-08 08:44:24,418 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_right_flipper'====== Args={'value': 774, 'prev_value': None, 'change': True}
+2024-12-08 08:44:24,418 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_right_inlane'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2024-12-08 08:44:24,418 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_right_out_lane'====== Args={'value': 48, 'prev_value': None, 'change': True}
+2024-12-08 08:44:24,419 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_right_out_lane_kicker'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2024-12-08 08:44:24,419 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_right_return_lane'====== Args={'value': 57, 'prev_value': None, 'change': True}
+2024-12-08 08:44:24,419 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_satellite_bumper'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2024-12-08 08:44:24,419 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_secondary_outlane_kicker'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2024-12-08 08:44:24,420 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_skill_shot_1'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2024-12-08 08:44:24,420 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_skill_shot_2'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2024-12-08 08:44:24,420 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_skill_shot_3'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2024-12-08 08:44:24,421 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_skill_shot_4'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2024-12-08 08:44:24,421 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_skill_shot_5'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2024-12-08 08:44:24,421 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_skill_shot_6'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2024-12-08 08:44:24,422 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_skill_shot_lane'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2024-12-08 08:44:24,422 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_spacewarp_rollover'====== Args={'value': 24, 'prev_value': None, 'change': True}
+2024-12-08 08:44:24,423 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_start'====== Args={'value': 7, 'prev_value': None, 'change': True}
+2024-12-08 08:44:24,424 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_trough1'====== Args={'value': 30, 'prev_value': None, 'change': True}
+2024-12-08 08:44:24,424 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_trough2'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2024-12-08 08:44:24,425 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_trough3'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2024-12-08 08:44:24,425 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_trough4'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2024-12-08 08:44:24,426 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_trough5'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2024-12-08 08:44:24,427 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_trough6'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2024-12-08 08:44:24,427 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_trough_jam'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2024-12-08 08:44:24,428 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_upper_attack_bumper'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2024-12-08 08:44:24,428 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_upper_left_rebound'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2024-12-08 08:44:24,429 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_upper_right_rebound'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2024-12-08 08:44:24,430 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_wormhole_target'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2024-12-08 08:44:24,430 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_yellow_wormhole'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2024-12-08 08:44:24,431 : INFO : EventManager : Event: ======'init_phase_5'====== Args={}
+2024-12-08 08:44:24,476 : INFO : EventManager : Event: ======'init_done'====== Args={}
+2024-12-08 08:44:24,478 : INFO : EventManager : Event: ======'machine_reset_phase_1'====== Args={}
+2024-12-08 08:44:24,488 : INFO : EventManager : Event: ======'slide_welcome_slide_removed'====== Args={'_from_bcp': True}
+2024-12-08 08:44:24,488 : INFO : EventManager : Event: ======'slide_welcome_slide_created'====== Args={'_from_bcp': True}
+2024-12-08 08:44:24,489 : INFO : EventManager : Event: ======'slide_welcome_slide_active'====== Args={'_from_bcp': True}
+2024-12-08 08:44:24,490 : INFO : EventManager : Event: ======'machine_reset_phase_2'====== Args={}
+2024-12-08 08:44:24,491 : INFO : EventManager : Event: ======'machine_reset_phase_3'====== Args={}
+2024-12-08 08:44:24,491 : INFO : EventManager : Event: ======'reset_complete'====== Args={}
+2024-12-08 08:44:24,492 : INFO : EventManager : Event: ======'mode_attract_will_start'====== Args={}
+2024-12-08 08:44:24,492 : INFO : EventManager : Event: ======'mode_attract_starting'====== Args={}
+2024-12-08 08:44:24,493 : INFO : Mode.attract : Started. Priority: 10
+2024-12-08 08:44:24,493 : INFO : EventManager : Event: ======'modes_active_modes_changed'====== Args={}
+2024-12-08 08:44:24,493 : INFO : EventManager : Event: ======'mode_attract_started'====== Args={}
+2024-12-08 08:44:24,494 : INFO : EventManager : Event: ======'collecting_balls_complete'====== Args={}
+2024-12-08 08:44:24,538 : INFO : EventManager : Event: ======'slide_awesome_slide_created'====== Args={'_from_bcp': True}
+2024-12-08 08:44:24,538 : INFO : EventManager : Event: ======'slide_awesome_slide_active'====== Args={'_from_bcp': True}
+2024-12-08 08:44:24,539 : INFO : Machine : Starting the main run loop.
+2024-12-08 08:44:24,565 : INFO : BcpServer : New client connected.
+2024-12-08 08:44:25,787 : INFO : SwitchController : <<<<<<< 's_trough1' inactive >>>>>>>
+2024-12-08 08:44:27,494 : INFO : EventManager : Event: ======'slide_press_start_created'====== Args={'_from_bcp': True}
+2024-12-08 08:44:27,495 : INFO : EventManager : Event: ======'slide_press_start_active'====== Args={'_from_bcp': True}
+2024-12-08 08:44:30,496 : INFO : EventManager : Event: ======'slide_mission_pinball_created'====== Args={'_from_bcp': True}
+2024-12-08 08:44:30,497 : INFO : EventManager : Event: ======'slide_mission_pinball_active'====== Args={'_from_bcp': True}
+2024-12-08 08:44:31,284 : INFO : EventManager : Event: ======'balldevice_bd_trough_ball_count_changed'====== Args={'balls': 0}
+2024-12-08 08:44:31,284 : WARNING : ball_device.bd_trough : Ball disappeared while idle. This should not normally happen.
+2024-12-08 08:44:31,285 : INFO : EventManager : Event: ======'balldevice_playfield_ball_enter'====== Args={'new_balls': 1, 'unclaimed_balls': 1, 'device': <playfield.playfield>}
+2024-12-08 08:44:31,285 : INFO : EventManager : Event: ======'playfield_ball_count_change'====== Args={'balls': 1, 'change': 1}
+2024-12-08 08:44:31,285 : INFO : ball_device.bd_trough : 1 ball(s) missing from device. Mechanical eject? False
+2024-12-08 08:44:31,285 : INFO : EventManager : Event: ======'balldevice_bd_trough_ball_missing'====== Args={'balls': 1}
+2024-12-08 08:44:31,286 : INFO : EventManager : Event: ======'balldevice_ball_missing'====== Args={'balls': 1, 'name': 'bd_trough'}
+2024-12-08 08:44:33,480 : INFO : EventManager : Event: ======'slide_last_game_score_slide_created'====== Args={'_from_bcp': True}
+2024-12-08 08:44:33,481 : INFO : EventManager : Event: ======'slide_last_game_score_slide_active'====== Args={'_from_bcp': True}
+2024-12-08 08:44:36,481 : INFO : EventManager : Event: ======'slide_awesome_slide_removed'====== Args={'_from_bcp': True}
+2024-12-08 08:44:36,483 : INFO : EventManager : Event: ======'slide_awesome_slide_created'====== Args={'_from_bcp': True}
+2024-12-08 08:44:36,484 : INFO : EventManager : Event: ======'slide_awesome_slide_active'====== Args={'_from_bcp': True}
+2024-12-08 08:44:39,479 : INFO : EventManager : Event: ======'slide_press_start_removed'====== Args={'_from_bcp': True}
+2024-12-08 08:44:39,481 : INFO : EventManager : Event: ======'slide_press_start_created'====== Args={'_from_bcp': True}
+2024-12-08 08:44:39,482 : INFO : EventManager : Event: ======'slide_press_start_active'====== Args={'_from_bcp': True}
+2024-12-08 08:44:42,489 : INFO : EventManager : Event: ======'slide_mission_pinball_removed'====== Args={'_from_bcp': True}
+2024-12-08 08:44:42,491 : INFO : EventManager : Event: ======'slide_mission_pinball_created'====== Args={'_from_bcp': True}
+2024-12-08 08:44:42,492 : INFO : EventManager : Event: ======'slide_mission_pinball_active'====== Args={'_from_bcp': True}
+2024-12-08 08:44:44,530 : INFO : SwitchController : <<<<<<< 's_start' active >>>>>>>
+2024-12-08 08:44:44,718 : INFO : SwitchController : <<<<<<< 's_start' inactive >>>>>>>
+2024-12-08 08:44:44,718 : INFO : EventManager : Event: ======'request_to_start_game'====== Args={}
+2024-12-08 08:44:44,718 : INFO : BallController : Known balls: 1
+2024-12-08 08:44:44,718 : INFO : BallController : bd_trough contains 0 balls. Tags ['trough', 'home', 'drain']
+2024-12-08 08:44:44,718 : INFO : BallController : bd_plunger contains 0 balls. Tags []
+2024-12-08 08:44:44,718 : INFO : BallController : playfield contains 1 balls. Tags ['default']
+2024-12-08 08:44:44,719 : WARNING : BallController : BallController denies game start. Not enough balls. 0 found. 1 required
+2024-12-08 08:44:44,719 : INFO : BallController : Triggering ball search.
+2024-12-08 08:44:45,485 : INFO : EventManager : Event: ======'slide_last_game_score_slide_removed'====== Args={'_from_bcp': True}
+2024-12-08 08:44:45,488 : INFO : EventManager : Event: ======'slide_last_game_score_slide_created'====== Args={'_from_bcp': True}
+2024-12-08 08:44:45,489 : INFO : EventManager : Event: ======'slide_last_game_score_slide_active'====== Args={'_from_bcp': True}
+2024-12-08 08:44:48,494 : INFO : EventManager : Event: ======'slide_awesome_slide_removed'====== Args={'_from_bcp': True}
+2024-12-08 08:44:48,497 : INFO : EventManager : Event: ======'slide_awesome_slide_created'====== Args={'_from_bcp': True}
+2024-12-08 08:44:48,498 : INFO : EventManager : Event: ======'slide_awesome_slide_active'====== Args={'_from_bcp': True}
+2024-12-08 08:44:49,851 : INFO : SwitchController : <<<<<<< 's_spacewarp_rollover' active >>>>>>>
+2024-12-08 08:44:50,021 : INFO : SwitchController : <<<<<<< 's_spacewarp_rollover' inactive >>>>>>>
+2024-12-08 08:44:51,503 : INFO : EventManager : Event: ======'slide_press_start_removed'====== Args={'_from_bcp': True}
+2024-12-08 08:44:51,505 : INFO : EventManager : Event: ======'slide_press_start_created'====== Args={'_from_bcp': True}
+2024-12-08 08:44:51,505 : INFO : EventManager : Event: ======'slide_press_start_active'====== Args={'_from_bcp': True}
+2024-12-08 08:44:54,486 : INFO : EventManager : Event: ======'slide_mission_pinball_removed'====== Args={'_from_bcp': True}
+2024-12-08 08:44:54,487 : INFO : EventManager : Event: ======'slide_mission_pinball_created'====== Args={'_from_bcp': True}
+2024-12-08 08:44:54,490 : INFO : EventManager : Event: ======'slide_mission_pinball_active'====== Args={'_from_bcp': True}
+2024-12-08 08:44:55,603 : INFO : SwitchController : <<<<<<< 's_start' active >>>>>>>
+2024-12-08 08:44:55,850 : INFO : SwitchController : <<<<<<< 's_start' inactive >>>>>>>
+2024-12-08 08:44:55,851 : INFO : EventManager : Event: ======'request_to_start_game'====== Args={}
+2024-12-08 08:44:55,854 : INFO : BallController : Known balls: 1
+2024-12-08 08:44:55,854 : INFO : BallController : bd_trough contains 0 balls. Tags ['trough', 'home', 'drain']
+2024-12-08 08:44:55,855 : INFO : BallController : bd_plunger contains 0 balls. Tags []
+2024-12-08 08:44:55,855 : INFO : BallController : playfield contains 1 balls. Tags ['default']
+2024-12-08 08:44:55,855 : WARNING : BallController : BallController denies game start. Not enough balls. 0 found. 1 required
+2024-12-08 08:44:55,855 : INFO : BallController : Triggering ball search.
+2024-12-08 08:44:57,474 : INFO : EventManager : Event: ======'slide_last_game_score_slide_removed'====== Args={'_from_bcp': True}
+2024-12-08 08:44:57,482 : INFO : EventManager : Event: ======'slide_last_game_score_slide_created'====== Args={'_from_bcp': True}
+2024-12-08 08:44:57,482 : INFO : EventManager : Event: ======'slide_last_game_score_slide_active'====== Args={'_from_bcp': True}
+2024-12-08 08:44:59,658 : INFO : SwitchController : <<<<<<< 's_start' active >>>>>>>
+2024-12-08 08:44:59,841 : INFO : SwitchController : <<<<<<< 's_start' inactive >>>>>>>
+2024-12-08 08:44:59,841 : INFO : EventManager : Event: ======'request_to_start_game'====== Args={}
+2024-12-08 08:44:59,843 : INFO : BallController : Known balls: 1
+2024-12-08 08:44:59,843 : INFO : BallController : bd_trough contains 0 balls. Tags ['trough', 'home', 'drain']
+2024-12-08 08:44:59,843 : INFO : BallController : bd_plunger contains 0 balls. Tags []
+2024-12-08 08:44:59,843 : INFO : BallController : playfield contains 1 balls. Tags ['default']
+2024-12-08 08:44:59,843 : WARNING : BallController : BallController denies game start. Not enough balls. 0 found. 1 required
+2024-12-08 08:44:59,843 : INFO : BallController : Triggering ball search.
+2024-12-08 08:45:00,083 : INFO : SwitchController : <<<<<<< 's_start' active >>>>>>>
+2024-12-08 08:45:00,221 : INFO : SwitchController : <<<<<<< 's_start' inactive >>>>>>>
+2024-12-08 08:45:00,221 : INFO : EventManager : Event: ======'request_to_start_game'====== Args={}
+2024-12-08 08:45:00,223 : INFO : BallController : Known balls: 1
+2024-12-08 08:45:00,223 : INFO : BallController : bd_trough contains 0 balls. Tags ['trough', 'home', 'drain']
+2024-12-08 08:45:00,223 : INFO : BallController : bd_plunger contains 0 balls. Tags []
+2024-12-08 08:45:00,223 : INFO : BallController : playfield contains 1 balls. Tags ['default']
+2024-12-08 08:45:00,223 : WARNING : BallController : BallController denies game start. Not enough balls. 0 found. 1 required
+2024-12-08 08:45:00,223 : INFO : BallController : Triggering ball search.
+2024-12-08 08:45:00,346 : INFO : SwitchController : <<<<<<< 's_start' active >>>>>>>
+2024-12-08 08:45:00,469 : INFO : SwitchController : <<<<<<< 's_start' inactive >>>>>>>
+2024-12-08 08:45:00,469 : INFO : EventManager : Event: ======'request_to_start_game'====== Args={}
+2024-12-08 08:45:00,471 : INFO : BallController : Known balls: 1
+2024-12-08 08:45:00,471 : INFO : BallController : bd_trough contains 0 balls. Tags ['trough', 'home', 'drain']
+2024-12-08 08:45:00,471 : INFO : BallController : bd_plunger contains 0 balls. Tags []
+2024-12-08 08:45:00,471 : INFO : BallController : playfield contains 1 balls. Tags ['default']
+2024-12-08 08:45:00,471 : WARNING : BallController : BallController denies game start. Not enough balls. 0 found. 1 required
+2024-12-08 08:45:00,471 : INFO : BallController : Triggering ball search.
+2024-12-08 08:45:00,482 : INFO : EventManager : Event: ======'slide_awesome_slide_removed'====== Args={'_from_bcp': True}
+2024-12-08 08:45:00,483 : INFO : EventManager : Event: ======'slide_awesome_slide_created'====== Args={'_from_bcp': True}
+2024-12-08 08:45:00,486 : INFO : EventManager : Event: ======'slide_awesome_slide_active'====== Args={'_from_bcp': True}
+2024-12-08 08:45:00,583 : INFO : SwitchController : <<<<<<< 's_start' active >>>>>>>
+2024-12-08 08:45:00,693 : INFO : SwitchController : <<<<<<< 's_start' inactive >>>>>>>
+2024-12-08 08:45:00,693 : INFO : EventManager : Event: ======'request_to_start_game'====== Args={}
+2024-12-08 08:45:00,694 : INFO : BallController : Known balls: 1
+2024-12-08 08:45:00,694 : INFO : BallController : bd_trough contains 0 balls. Tags ['trough', 'home', 'drain']
+2024-12-08 08:45:00,694 : INFO : BallController : bd_plunger contains 0 balls. Tags []
+2024-12-08 08:45:00,694 : INFO : BallController : playfield contains 1 balls. Tags ['default']
+2024-12-08 08:45:00,695 : WARNING : BallController : BallController denies game start. Not enough balls. 0 found. 1 required
+2024-12-08 08:45:00,695 : INFO : BallController : Triggering ball search.
+2024-12-08 08:45:00,781 : INFO : SwitchController : <<<<<<< 's_start' active >>>>>>>
+2024-12-08 08:45:00,920 : INFO : SwitchController : <<<<<<< 's_start' inactive >>>>>>>
+2024-12-08 08:45:00,921 : INFO : EventManager : Event: ======'request_to_start_game'====== Args={}
+2024-12-08 08:45:00,923 : INFO : BallController : Known balls: 1
+2024-12-08 08:45:00,924 : INFO : BallController : bd_trough contains 0 balls. Tags ['trough', 'home', 'drain']
+2024-12-08 08:45:00,924 : INFO : BallController : bd_plunger contains 0 balls. Tags []
+2024-12-08 08:45:00,924 : INFO : BallController : playfield contains 1 balls. Tags ['default']
+2024-12-08 08:45:00,924 : WARNING : BallController : BallController denies game start. Not enough balls. 0 found. 1 required
+2024-12-08 08:45:00,925 : INFO : BallController : Triggering ball search.
+2024-12-08 08:45:01,031 : INFO : SwitchController : <<<<<<< 's_start' active >>>>>>>
+2024-12-08 08:45:01,137 : INFO : SwitchController : <<<<<<< 's_start' inactive >>>>>>>
+2024-12-08 08:45:01,138 : INFO : EventManager : Event: ======'request_to_start_game'====== Args={}
+2024-12-08 08:45:01,140 : INFO : BallController : Known balls: 1
+2024-12-08 08:45:01,141 : INFO : BallController : bd_trough contains 0 balls. Tags ['trough', 'home', 'drain']
+2024-12-08 08:45:01,141 : INFO : BallController : bd_plunger contains 0 balls. Tags []
+2024-12-08 08:45:01,141 : INFO : BallController : playfield contains 1 balls. Tags ['default']
+2024-12-08 08:45:01,141 : WARNING : BallController : BallController denies game start. Not enough balls. 0 found. 1 required
+2024-12-08 08:45:01,142 : INFO : BallController : Triggering ball search.
+2024-12-08 08:45:01,609 : INFO : SwitchController : <<<<<<< 's_start' active >>>>>>>
+2024-12-08 08:45:01,767 : INFO : SwitchController : <<<<<<< 's_start' inactive >>>>>>>
+2024-12-08 08:45:01,767 : INFO : EventManager : Event: ======'request_to_start_game'====== Args={}
+2024-12-08 08:45:01,768 : INFO : BallController : Known balls: 1
+2024-12-08 08:45:01,769 : INFO : BallController : bd_trough contains 0 balls. Tags ['trough', 'home', 'drain']
+2024-12-08 08:45:01,769 : INFO : BallController : bd_plunger contains 0 balls. Tags []
+2024-12-08 08:45:01,769 : INFO : BallController : playfield contains 1 balls. Tags ['default']
+2024-12-08 08:45:01,769 : WARNING : BallController : BallController denies game start. Not enough balls. 0 found. 1 required
+2024-12-08 08:45:01,769 : INFO : BallController : Triggering ball search.
+2024-12-08 08:45:01,906 : INFO : SwitchController : <<<<<<< 's_start' active >>>>>>>
+2024-12-08 08:45:02,042 : INFO : SwitchController : <<<<<<< 's_start' inactive >>>>>>>
+2024-12-08 08:45:02,042 : INFO : EventManager : Event: ======'request_to_start_game'====== Args={}
+2024-12-08 08:45:02,044 : INFO : BallController : Known balls: 1
+2024-12-08 08:45:02,045 : INFO : BallController : bd_trough contains 0 balls. Tags ['trough', 'home', 'drain']
+2024-12-08 08:45:02,045 : INFO : BallController : bd_plunger contains 0 balls. Tags []
+2024-12-08 08:45:02,045 : INFO : BallController : playfield contains 1 balls. Tags ['default']
+2024-12-08 08:45:02,046 : WARNING : BallController : BallController denies game start. Not enough balls. 0 found. 1 required
+2024-12-08 08:45:02,046 : INFO : BallController : Triggering ball search.
+2024-12-08 08:45:02,374 : INFO : SwitchController : <<<<<<< 's_start' active >>>>>>>
+2024-12-08 08:45:02,516 : INFO : SwitchController : <<<<<<< 's_start' inactive >>>>>>>
+2024-12-08 08:45:02,516 : INFO : EventManager : Event: ======'request_to_start_game'====== Args={}
+2024-12-08 08:45:02,516 : INFO : BallController : Known balls: 1
+2024-12-08 08:45:02,516 : INFO : BallController : bd_trough contains 0 balls. Tags ['trough', 'home', 'drain']
+2024-12-08 08:45:02,516 : INFO : BallController : bd_plunger contains 0 balls. Tags []
+2024-12-08 08:45:02,517 : INFO : BallController : playfield contains 1 balls. Tags ['default']
+2024-12-08 08:45:02,517 : WARNING : BallController : BallController denies game start. Not enough balls. 0 found. 1 required
+2024-12-08 08:45:02,517 : INFO : BallController : Triggering ball search.
+2024-12-08 08:45:02,652 : INFO : SwitchController : <<<<<<< 's_start' active >>>>>>>
+2024-12-08 08:45:02,754 : INFO : SwitchController : <<<<<<< 's_start' inactive >>>>>>>
+2024-12-08 08:45:02,754 : INFO : EventManager : Event: ======'request_to_start_game'====== Args={}
+2024-12-08 08:45:02,755 : INFO : BallController : Known balls: 1
+2024-12-08 08:45:02,755 : INFO : BallController : bd_trough contains 0 balls. Tags ['trough', 'home', 'drain']
+2024-12-08 08:45:02,755 : INFO : BallController : bd_plunger contains 0 balls. Tags []
+2024-12-08 08:45:02,755 : INFO : BallController : playfield contains 1 balls. Tags ['default']
+2024-12-08 08:45:02,755 : WARNING : BallController : BallController denies game start. Not enough balls. 0 found. 1 required
+2024-12-08 08:45:02,755 : INFO : BallController : Triggering ball search.
+2024-12-08 08:45:02,866 : INFO : SwitchController : <<<<<<< 's_start' active >>>>>>>
+2024-12-08 08:45:02,989 : INFO : SwitchController : <<<<<<< 's_start' inactive >>>>>>>
+2024-12-08 08:45:02,989 : INFO : EventManager : Event: ======'request_to_start_game'====== Args={}
+2024-12-08 08:45:02,989 : INFO : BallController : Known balls: 1
+2024-12-08 08:45:02,989 : INFO : BallController : bd_trough contains 0 balls. Tags ['trough', 'home', 'drain']
+2024-12-08 08:45:02,990 : INFO : BallController : bd_plunger contains 0 balls. Tags []
+2024-12-08 08:45:02,990 : INFO : BallController : playfield contains 1 balls. Tags ['default']
+2024-12-08 08:45:02,990 : WARNING : BallController : BallController denies game start. Not enough balls. 0 found. 1 required
+2024-12-08 08:45:02,990 : INFO : BallController : Triggering ball search.
+2024-12-08 08:45:03,077 : INFO : SwitchController : <<<<<<< 's_start' active >>>>>>>
+2024-12-08 08:45:03,190 : INFO : SwitchController : <<<<<<< 's_start' inactive >>>>>>>
+2024-12-08 08:45:03,191 : INFO : EventManager : Event: ======'request_to_start_game'====== Args={}
+2024-12-08 08:45:03,193 : INFO : BallController : Known balls: 1
+2024-12-08 08:45:03,193 : INFO : BallController : bd_trough contains 0 balls. Tags ['trough', 'home', 'drain']
+2024-12-08 08:45:03,193 : INFO : BallController : bd_plunger contains 0 balls. Tags []
+2024-12-08 08:45:03,193 : INFO : BallController : playfield contains 1 balls. Tags ['default']
+2024-12-08 08:45:03,194 : WARNING : BallController : BallController denies game start. Not enough balls. 0 found. 1 required
+2024-12-08 08:45:03,194 : INFO : BallController : Triggering ball search.
+2024-12-08 08:45:03,304 : INFO : SwitchController : <<<<<<< 's_start' active >>>>>>>
+2024-12-08 08:45:03,393 : INFO : SwitchController : <<<<<<< 's_start' inactive >>>>>>>
+2024-12-08 08:45:03,393 : INFO : EventManager : Event: ======'request_to_start_game'====== Args={}
+2024-12-08 08:45:03,394 : INFO : BallController : Known balls: 1
+2024-12-08 08:45:03,394 : INFO : BallController : bd_trough contains 0 balls. Tags ['trough', 'home', 'drain']
+2024-12-08 08:45:03,394 : INFO : BallController : bd_plunger contains 0 balls. Tags []
+2024-12-08 08:45:03,394 : INFO : BallController : playfield contains 1 balls. Tags ['default']
+2024-12-08 08:45:03,394 : WARNING : BallController : BallController denies game start. Not enough balls. 0 found. 1 required
+2024-12-08 08:45:03,394 : INFO : BallController : Triggering ball search.
+2024-12-08 08:45:03,481 : INFO : EventManager : Event: ======'slide_press_start_removed'====== Args={'_from_bcp': True}
+2024-12-08 08:45:03,484 : INFO : EventManager : Event: ======'slide_press_start_created'====== Args={'_from_bcp': True}
+2024-12-08 08:45:03,485 : INFO : EventManager : Event: ======'slide_press_start_active'====== Args={'_from_bcp': True}
+2024-12-08 08:45:03,487 : INFO : SwitchController : <<<<<<< 's_start' active >>>>>>>
+2024-12-08 08:45:03,590 : INFO : SwitchController : <<<<<<< 's_start' inactive >>>>>>>
+2024-12-08 08:45:03,590 : INFO : EventManager : Event: ======'request_to_start_game'====== Args={}
+2024-12-08 08:45:03,592 : INFO : BallController : Known balls: 1
+2024-12-08 08:45:03,593 : INFO : BallController : bd_trough contains 0 balls. Tags ['trough', 'home', 'drain']
+2024-12-08 08:45:03,593 : INFO : BallController : bd_plunger contains 0 balls. Tags []
+2024-12-08 08:45:03,593 : INFO : BallController : playfield contains 1 balls. Tags ['default']
+2024-12-08 08:45:03,593 : WARNING : BallController : BallController denies game start. Not enough balls. 0 found. 1 required
+2024-12-08 08:45:03,593 : INFO : BallController : Triggering ball search.
+2024-12-08 08:45:05,666 : INFO : SwitchController : <<<<<<< 's_start' active >>>>>>>
+2024-12-08 08:45:05,951 : INFO : SwitchController : <<<<<<< 's_start' inactive >>>>>>>
+2024-12-08 08:45:05,951 : INFO : EventManager : Event: ======'request_to_start_game'====== Args={}
+2024-12-08 08:45:05,954 : INFO : BallController : Known balls: 1
+2024-12-08 08:45:05,954 : INFO : BallController : bd_trough contains 0 balls. Tags ['trough', 'home', 'drain']
+2024-12-08 08:45:05,955 : INFO : BallController : bd_plunger contains 0 balls. Tags []
+2024-12-08 08:45:05,955 : INFO : BallController : playfield contains 1 balls. Tags ['default']
+2024-12-08 08:45:05,955 : WARNING : BallController : BallController denies game start. Not enough balls. 0 found. 1 required
+2024-12-08 08:45:05,955 : INFO : BallController : Triggering ball search.
+2024-12-08 08:45:06,450 : INFO : SwitchController : <<<<<<< 's_start' active >>>>>>>
+2024-12-08 08:45:06,474 : INFO : EventManager : Event: ======'slide_mission_pinball_removed'====== Args={'_from_bcp': True}
+2024-12-08 08:45:06,476 : INFO : EventManager : Event: ======'slide_mission_pinball_created'====== Args={'_from_bcp': True}
+2024-12-08 08:45:06,477 : INFO : EventManager : Event: ======'slide_mission_pinball_active'====== Args={'_from_bcp': True}
+2024-12-08 08:45:06,601 : INFO : SwitchController : <<<<<<< 's_start' inactive >>>>>>>
+2024-12-08 08:45:06,602 : INFO : EventManager : Event: ======'request_to_start_game'====== Args={}
+2024-12-08 08:45:06,603 : INFO : BallController : Known balls: 1
+2024-12-08 08:45:06,603 : INFO : BallController : bd_trough contains 0 balls. Tags ['trough', 'home', 'drain']
+2024-12-08 08:45:06,603 : INFO : BallController : bd_plunger contains 0 balls. Tags []
+2024-12-08 08:45:06,603 : INFO : BallController : playfield contains 1 balls. Tags ['default']
+2024-12-08 08:45:06,603 : WARNING : BallController : BallController denies game start. Not enough balls. 0 found. 1 required
+2024-12-08 08:45:06,603 : INFO : BallController : Triggering ball search.
+2024-12-08 08:45:08,544 : INFO : SwitchController : <<<<<<< 's_start' active >>>>>>>
+2024-12-08 08:45:08,740 : INFO : SwitchController : <<<<<<< 's_start' inactive >>>>>>>
+2024-12-08 08:45:08,740 : INFO : EventManager : Event: ======'request_to_start_game'====== Args={}
+2024-12-08 08:45:08,741 : INFO : BallController : Known balls: 1
+2024-12-08 08:45:08,741 : INFO : BallController : bd_trough contains 0 balls. Tags ['trough', 'home', 'drain']
+2024-12-08 08:45:08,741 : INFO : BallController : bd_plunger contains 0 balls. Tags []
+2024-12-08 08:45:08,741 : INFO : BallController : playfield contains 1 balls. Tags ['default']
+2024-12-08 08:45:08,741 : WARNING : BallController : BallController denies game start. Not enough balls. 0 found. 1 required
+2024-12-08 08:45:08,741 : INFO : BallController : Triggering ball search.
+2024-12-08 08:45:08,829 : INFO : SwitchController : <<<<<<< 's_start' active >>>>>>>
+2024-12-08 08:45:08,976 : INFO : SwitchController : <<<<<<< 's_start' inactive >>>>>>>
+2024-12-08 08:45:08,976 : INFO : EventManager : Event: ======'request_to_start_game'====== Args={}
+2024-12-08 08:45:08,976 : INFO : BallController : Known balls: 1
+2024-12-08 08:45:08,976 : INFO : BallController : bd_trough contains 0 balls. Tags ['trough', 'home', 'drain']
+2024-12-08 08:45:08,976 : INFO : BallController : bd_plunger contains 0 balls. Tags []
+2024-12-08 08:45:08,976 : INFO : BallController : playfield contains 1 balls. Tags ['default']
+2024-12-08 08:45:08,977 : WARNING : BallController : BallController denies game start. Not enough balls. 0 found. 1 required
+2024-12-08 08:45:08,977 : INFO : BallController : Triggering ball search.
+2024-12-08 08:45:09,103 : INFO : SwitchController : <<<<<<< 's_start' active >>>>>>>
+2024-12-08 08:45:09,190 : INFO : SwitchController : <<<<<<< 's_start' inactive >>>>>>>
+2024-12-08 08:45:09,191 : INFO : EventManager : Event: ======'request_to_start_game'====== Args={}
+2024-12-08 08:45:09,193 : INFO : BallController : Known balls: 1
+2024-12-08 08:45:09,193 : INFO : BallController : bd_trough contains 0 balls. Tags ['trough', 'home', 'drain']
+2024-12-08 08:45:09,193 : INFO : BallController : bd_plunger contains 0 balls. Tags []
+2024-12-08 08:45:09,193 : INFO : BallController : playfield contains 1 balls. Tags ['default']
+2024-12-08 08:45:09,194 : WARNING : BallController : BallController denies game start. Not enough balls. 0 found. 1 required
+2024-12-08 08:45:09,194 : INFO : BallController : Triggering ball search.
+2024-12-08 08:45:09,330 : INFO : SwitchController : <<<<<<< 's_start' active >>>>>>>
+2024-12-08 08:45:09,441 : INFO : SwitchController : <<<<<<< 's_start' inactive >>>>>>>
+2024-12-08 08:45:09,441 : INFO : EventManager : Event: ======'request_to_start_game'====== Args={}
+2024-12-08 08:45:09,443 : INFO : BallController : Known balls: 1
+2024-12-08 08:45:09,444 : INFO : BallController : bd_trough contains 0 balls. Tags ['trough', 'home', 'drain']
+2024-12-08 08:45:09,444 : INFO : BallController : bd_plunger contains 0 balls. Tags []
+2024-12-08 08:45:09,444 : INFO : BallController : playfield contains 1 balls. Tags ['default']
+2024-12-08 08:45:09,444 : WARNING : BallController : BallController denies game start. Not enough balls. 0 found. 1 required
+2024-12-08 08:45:09,444 : INFO : BallController : Triggering ball search.
+2024-12-08 08:45:09,481 : INFO : EventManager : Event: ======'slide_last_game_score_slide_removed'====== Args={'_from_bcp': True}
+2024-12-08 08:45:09,482 : INFO : EventManager : Event: ======'slide_last_game_score_slide_created'====== Args={'_from_bcp': True}
+2024-12-08 08:45:09,482 : INFO : EventManager : Event: ======'slide_last_game_score_slide_active'====== Args={'_from_bcp': True}
+2024-12-08 08:45:09,549 : INFO : SwitchController : <<<<<<< 's_start' active >>>>>>>
+2024-12-08 08:45:09,685 : INFO : SwitchController : <<<<<<< 's_start' inactive >>>>>>>
+2024-12-08 08:45:09,685 : INFO : EventManager : Event: ======'request_to_start_game'====== Args={}
+2024-12-08 08:45:09,687 : INFO : BallController : Known balls: 1
+2024-12-08 08:45:09,687 : INFO : BallController : bd_trough contains 0 balls. Tags ['trough', 'home', 'drain']
+2024-12-08 08:45:09,687 : INFO : BallController : bd_plunger contains 0 balls. Tags []
+2024-12-08 08:45:09,687 : INFO : BallController : playfield contains 1 balls. Tags ['default']
+2024-12-08 08:45:09,687 : WARNING : BallController : BallController denies game start. Not enough balls. 0 found. 1 required
+2024-12-08 08:45:09,687 : INFO : BallController : Triggering ball search.
+2024-12-08 08:45:09,773 : INFO : SwitchController : <<<<<<< 's_start' active >>>>>>>
+2024-12-08 08:45:09,910 : INFO : SwitchController : <<<<<<< 's_start' inactive >>>>>>>
+2024-12-08 08:45:09,910 : INFO : EventManager : Event: ======'request_to_start_game'====== Args={}
+2024-12-08 08:45:09,911 : INFO : BallController : Known balls: 1
+2024-12-08 08:45:09,911 : INFO : BallController : bd_trough contains 0 balls. Tags ['trough', 'home', 'drain']
+2024-12-08 08:45:09,911 : INFO : BallController : bd_plunger contains 0 balls. Tags []
+2024-12-08 08:45:09,912 : INFO : BallController : playfield contains 1 balls. Tags ['default']
+2024-12-08 08:45:09,912 : WARNING : BallController : BallController denies game start. Not enough balls. 0 found. 1 required
+2024-12-08 08:45:09,912 : INFO : BallController : Triggering ball search.
+2024-12-08 08:45:09,999 : INFO : SwitchController : <<<<<<< 's_start' active >>>>>>>
+2024-12-08 08:45:10,136 : INFO : SwitchController : <<<<<<< 's_start' inactive >>>>>>>
+2024-12-08 08:45:10,136 : INFO : EventManager : Event: ======'request_to_start_game'====== Args={}
+2024-12-08 08:45:10,137 : INFO : BallController : Known balls: 1
+2024-12-08 08:45:10,137 : INFO : BallController : bd_trough contains 0 balls. Tags ['trough', 'home', 'drain']
+2024-12-08 08:45:10,138 : INFO : BallController : bd_plunger contains 0 balls. Tags []
+2024-12-08 08:45:10,138 : INFO : BallController : playfield contains 1 balls. Tags ['default']
+2024-12-08 08:45:10,138 : WARNING : BallController : BallController denies game start. Not enough balls. 0 found. 1 required
+2024-12-08 08:45:10,138 : INFO : BallController : Triggering ball search.
+2024-12-08 08:45:10,252 : INFO : SwitchController : <<<<<<< 's_start' active >>>>>>>
+2024-12-08 08:45:10,362 : INFO : SwitchController : <<<<<<< 's_start' inactive >>>>>>>
+2024-12-08 08:45:10,363 : INFO : EventManager : Event: ======'request_to_start_game'====== Args={}
+2024-12-08 08:45:10,363 : INFO : BallController : Known balls: 1
+2024-12-08 08:45:10,363 : INFO : BallController : bd_trough contains 0 balls. Tags ['trough', 'home', 'drain']
+2024-12-08 08:45:10,363 : INFO : BallController : bd_plunger contains 0 balls. Tags []
+2024-12-08 08:45:10,363 : INFO : BallController : playfield contains 1 balls. Tags ['default']
+2024-12-08 08:45:10,364 : WARNING : BallController : BallController denies game start. Not enough balls. 0 found. 1 required
+2024-12-08 08:45:10,364 : INFO : BallController : Triggering ball search.
+2024-12-08 08:45:10,503 : INFO : SwitchController : <<<<<<< 's_start' active >>>>>>>
+2024-12-08 08:45:10,615 : INFO : SwitchController : <<<<<<< 's_start' inactive >>>>>>>
+2024-12-08 08:45:10,615 : INFO : EventManager : Event: ======'request_to_start_game'====== Args={}
+2024-12-08 08:45:10,617 : INFO : BallController : Known balls: 1
+2024-12-08 08:45:10,617 : INFO : BallController : bd_trough contains 0 balls. Tags ['trough', 'home', 'drain']
+2024-12-08 08:45:10,618 : INFO : BallController : bd_plunger contains 0 balls. Tags []
+2024-12-08 08:45:10,618 : INFO : BallController : playfield contains 1 balls. Tags ['default']
+2024-12-08 08:45:10,618 : WARNING : BallController : BallController denies game start. Not enough balls. 0 found. 1 required
+2024-12-08 08:45:10,618 : INFO : BallController : Triggering ball search.
+2024-12-08 08:45:10,730 : INFO : SwitchController : <<<<<<< 's_start' active >>>>>>>
+2024-12-08 08:45:10,831 : INFO : SwitchController : <<<<<<< 's_start' inactive >>>>>>>
+2024-12-08 08:45:10,832 : INFO : EventManager : Event: ======'request_to_start_game'====== Args={}
+2024-12-08 08:45:10,832 : INFO : BallController : Known balls: 1
+2024-12-08 08:45:10,832 : INFO : BallController : bd_trough contains 0 balls. Tags ['trough', 'home', 'drain']
+2024-12-08 08:45:10,833 : INFO : BallController : bd_plunger contains 0 balls. Tags []
+2024-12-08 08:45:10,833 : INFO : BallController : playfield contains 1 balls. Tags ['default']
+2024-12-08 08:45:10,833 : WARNING : BallController : BallController denies game start. Not enough balls. 0 found. 1 required
+2024-12-08 08:45:10,833 : INFO : BallController : Triggering ball search.
+2024-12-08 08:45:10,946 : INFO : SwitchController : <<<<<<< 's_start' active >>>>>>>
+2024-12-08 08:45:11,059 : INFO : SwitchController : <<<<<<< 's_start' inactive >>>>>>>
+2024-12-08 08:45:11,059 : INFO : EventManager : Event: ======'request_to_start_game'====== Args={}
+2024-12-08 08:45:11,061 : INFO : BallController : Known balls: 1
+2024-12-08 08:45:11,062 : INFO : BallController : bd_trough contains 0 balls. Tags ['trough', 'home', 'drain']
+2024-12-08 08:45:11,062 : INFO : BallController : bd_plunger contains 0 balls. Tags []
+2024-12-08 08:45:11,062 : INFO : BallController : playfield contains 1 balls. Tags ['default']
+2024-12-08 08:45:11,062 : WARNING : BallController : BallController denies game start. Not enough balls. 0 found. 1 required
+2024-12-08 08:45:11,062 : INFO : BallController : Triggering ball search.
+2024-12-08 08:45:11,172 : INFO : SwitchController : <<<<<<< 's_start' active >>>>>>>
+2024-12-08 08:45:11,328 : INFO : SwitchController : <<<<<<< 's_start' inactive >>>>>>>
+2024-12-08 08:45:11,328 : INFO : EventManager : Event: ======'request_to_start_game'====== Args={}
+2024-12-08 08:45:11,331 : INFO : BallController : Known balls: 1
+2024-12-08 08:45:11,331 : INFO : BallController : bd_trough contains 0 balls. Tags ['trough', 'home', 'drain']
+2024-12-08 08:45:11,331 : INFO : BallController : bd_plunger contains 0 balls. Tags []
+2024-12-08 08:45:11,331 : INFO : BallController : playfield contains 1 balls. Tags ['default']
+2024-12-08 08:45:11,332 : WARNING : BallController : BallController denies game start. Not enough balls. 0 found. 1 required
+2024-12-08 08:45:11,332 : INFO : BallController : Triggering ball search.
+2024-12-08 08:45:12,493 : INFO : EventManager : Event: ======'slide_awesome_slide_removed'====== Args={'_from_bcp': True}
+2024-12-08 08:45:12,495 : INFO : EventManager : Event: ======'slide_awesome_slide_created'====== Args={'_from_bcp': True}
+2024-12-08 08:45:12,496 : INFO : EventManager : Event: ======'slide_awesome_slide_active'====== Args={'_from_bcp': True}
+2024-12-08 08:45:15,482 : INFO : EventManager : Event: ======'slide_press_start_removed'====== Args={'_from_bcp': True}
+2024-12-08 08:45:15,487 : INFO : EventManager : Event: ======'slide_press_start_created'====== Args={'_from_bcp': True}
+2024-12-08 08:45:15,490 : INFO : EventManager : Event: ======'slide_press_start_active'====== Args={'_from_bcp': True}
+2024-12-08 08:45:15,963 : INFO : SwitchController : <<<<<<< 's_start' active >>>>>>>
+2024-12-08 08:45:16,126 : INFO : SwitchController : <<<<<<< 's_start' inactive >>>>>>>
+2024-12-08 08:45:16,126 : INFO : EventManager : Event: ======'request_to_start_game'====== Args={}
+2024-12-08 08:45:16,129 : INFO : BallController : Known balls: 1
+2024-12-08 08:45:16,129 : INFO : BallController : bd_trough contains 0 balls. Tags ['trough', 'home', 'drain']
+2024-12-08 08:45:16,129 : INFO : BallController : bd_plunger contains 0 balls. Tags []
+2024-12-08 08:45:16,130 : INFO : BallController : playfield contains 1 balls. Tags ['default']
+2024-12-08 08:45:16,130 : WARNING : BallController : BallController denies game start. Not enough balls. 0 found. 1 required
+2024-12-08 08:45:16,130 : INFO : BallController : Triggering ball search.
+2024-12-08 08:45:16,235 : INFO : SwitchController : <<<<<<< 's_start' active >>>>>>>
+2024-12-08 08:45:16,370 : INFO : SwitchController : <<<<<<< 's_start' inactive >>>>>>>
+2024-12-08 08:45:16,370 : INFO : EventManager : Event: ======'request_to_start_game'====== Args={}
+2024-12-08 08:45:16,372 : INFO : BallController : Known balls: 1
+2024-12-08 08:45:16,372 : INFO : BallController : bd_trough contains 0 balls. Tags ['trough', 'home', 'drain']
+2024-12-08 08:45:16,372 : INFO : BallController : bd_plunger contains 0 balls. Tags []
+2024-12-08 08:45:16,372 : INFO : BallController : playfield contains 1 balls. Tags ['default']
+2024-12-08 08:45:16,372 : WARNING : BallController : BallController denies game start. Not enough balls. 0 found. 1 required
+2024-12-08 08:45:16,373 : INFO : BallController : Triggering ball search.
+2024-12-08 08:45:16,507 : INFO : SwitchController : <<<<<<< 's_start' active >>>>>>>
+2024-12-08 08:45:16,645 : INFO : SwitchController : <<<<<<< 's_start' inactive >>>>>>>
+2024-12-08 08:45:16,646 : INFO : EventManager : Event: ======'request_to_start_game'====== Args={}
+2024-12-08 08:45:16,649 : INFO : BallController : Known balls: 1
+2024-12-08 08:45:16,649 : INFO : BallController : bd_trough contains 0 balls. Tags ['trough', 'home', 'drain']
+2024-12-08 08:45:16,649 : INFO : BallController : bd_plunger contains 0 balls. Tags []
+2024-12-08 08:45:16,649 : INFO : BallController : playfield contains 1 balls. Tags ['default']
+2024-12-08 08:45:16,650 : WARNING : BallController : BallController denies game start. Not enough balls. 0 found. 1 required
+2024-12-08 08:45:16,650 : INFO : BallController : Triggering ball search.
+2024-12-08 08:45:16,759 : INFO : SwitchController : <<<<<<< 's_start' active >>>>>>>
+2024-12-08 08:45:16,896 : INFO : SwitchController : <<<<<<< 's_start' inactive >>>>>>>
+2024-12-08 08:45:16,896 : INFO : EventManager : Event: ======'request_to_start_game'====== Args={}
+2024-12-08 08:45:16,897 : INFO : BallController : Known balls: 1
+2024-12-08 08:45:16,897 : INFO : BallController : bd_trough contains 0 balls. Tags ['trough', 'home', 'drain']
+2024-12-08 08:45:16,897 : INFO : BallController : bd_plunger contains 0 balls. Tags []
+2024-12-08 08:45:16,897 : INFO : BallController : playfield contains 1 balls. Tags ['default']
+2024-12-08 08:45:16,897 : WARNING : BallController : BallController denies game start. Not enough balls. 0 found. 1 required
+2024-12-08 08:45:16,897 : INFO : BallController : Triggering ball search.
+2024-12-08 08:45:16,997 : INFO : SwitchController : <<<<<<< 's_start' active >>>>>>>
+2024-12-08 08:45:17,113 : INFO : SwitchController : <<<<<<< 's_start' inactive >>>>>>>
+2024-12-08 08:45:17,114 : INFO : EventManager : Event: ======'request_to_start_game'====== Args={}
+2024-12-08 08:45:17,116 : INFO : BallController : Known balls: 1
+2024-12-08 08:45:17,116 : INFO : BallController : bd_trough contains 0 balls. Tags ['trough', 'home', 'drain']
+2024-12-08 08:45:17,117 : INFO : BallController : bd_plunger contains 0 balls. Tags []
+2024-12-08 08:45:17,117 : INFO : BallController : playfield contains 1 balls. Tags ['default']
+2024-12-08 08:45:17,117 : WARNING : BallController : BallController denies game start. Not enough balls. 0 found. 1 required
+2024-12-08 08:45:17,117 : INFO : BallController : Triggering ball search.
+2024-12-08 08:45:17,224 : INFO : SwitchController : <<<<<<< 's_start' active >>>>>>>
+2024-12-08 08:45:17,360 : INFO : SwitchController : <<<<<<< 's_start' inactive >>>>>>>
+2024-12-08 08:45:17,361 : INFO : EventManager : Event: ======'request_to_start_game'====== Args={}
+2024-12-08 08:45:17,363 : INFO : BallController : Known balls: 1
+2024-12-08 08:45:17,363 : INFO : BallController : bd_trough contains 0 balls. Tags ['trough', 'home', 'drain']
+2024-12-08 08:45:17,363 : INFO : BallController : bd_plunger contains 0 balls. Tags []
+2024-12-08 08:45:17,363 : INFO : BallController : playfield contains 1 balls. Tags ['default']
+2024-12-08 08:45:17,364 : WARNING : BallController : BallController denies game start. Not enough balls. 0 found. 1 required
+2024-12-08 08:45:17,364 : INFO : BallController : Triggering ball search.
+2024-12-08 08:45:17,493 : INFO : SwitchController : <<<<<<< 's_start' active >>>>>>>
+2024-12-08 08:45:17,681 : INFO : SwitchController : <<<<<<< 's_start' inactive >>>>>>>
+2024-12-08 08:45:17,682 : INFO : EventManager : Event: ======'request_to_start_game'====== Args={}
+2024-12-08 08:45:17,684 : INFO : BallController : Known balls: 1
+2024-12-08 08:45:17,684 : INFO : BallController : bd_trough contains 0 balls. Tags ['trough', 'home', 'drain']
+2024-12-08 08:45:17,684 : INFO : BallController : bd_plunger contains 0 balls. Tags []
+2024-12-08 08:45:17,684 : INFO : BallController : playfield contains 1 balls. Tags ['default']
+2024-12-08 08:45:17,684 : WARNING : BallController : BallController denies game start. Not enough balls. 0 found. 1 required
+2024-12-08 08:45:17,685 : INFO : BallController : Triggering ball search.
+2024-12-08 08:45:18,485 : INFO : EventManager : Event: ======'slide_mission_pinball_removed'====== Args={'_from_bcp': True}
+2024-12-08 08:45:18,488 : INFO : EventManager : Event: ======'slide_mission_pinball_created'====== Args={'_from_bcp': True}
+2024-12-08 08:45:18,489 : INFO : EventManager : Event: ======'slide_mission_pinball_active'====== Args={'_from_bcp': True}
+2024-12-08 08:45:21,498 : INFO : EventManager : Event: ======'slide_last_game_score_slide_removed'====== Args={'_from_bcp': True}
+2024-12-08 08:45:21,500 : INFO : EventManager : Event: ======'slide_last_game_score_slide_created'====== Args={'_from_bcp': True}
+2024-12-08 08:45:21,501 : INFO : EventManager : Event: ======'slide_last_game_score_slide_active'====== Args={'_from_bcp': True}
+2024-12-08 08:45:22,464 : INFO : Machine : Shutting down...
+2024-12-08 08:45:22,464 : INFO : EventManager : Event: ======'shutdown'====== Args={}
+2024-12-08 08:45:22,472 : ERROR : OPP : Stop called on serial connection com5
+2024-12-08 08:45:22,472 : ERROR : OPP : Stop called on serial connection com4
+2024-12-08 08:45:22,475 : INFO : root : MPF run loop ended.

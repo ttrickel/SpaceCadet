@@ -1,0 +1,986 @@
+2025-01-17 12:00:24,729 : INFO : root : Loading config.
+2025-01-17 12:00:24,776 : INFO : ConfigProcessor : Config spec file cache created: C:\Users\student\AppData\Local\Temp\config_spec.mpf_cache
+2025-01-17 12:00:24,776 : INFO : YamlMultifileConfigLoader : Machine config file #1: config.yaml
+2025-01-17 12:00:24,776 : INFO : ConfigProcessor : Loading config from file C:\Users\student\mpfenv3\Lib\site-packages\mpf\mpfconfig.yaml.
+2025-01-17 12:00:24,788 : INFO : ConfigProcessor : Loading config: C:\Users\student\mpfenv3\Lib\site-packages\mpf\mpfconfig.yaml
+2025-01-17 12:00:24,788 : INFO : ConfigProcessor : Loading config from file C:\Users\student\pinball\cobraPinTest1\config\config.yaml.
+2025-01-17 12:00:24,795 : INFO : ConfigProcessor : Loading config: C:\Users\student\pinball\cobraPinTest1\config\config.yaml
+2025-01-17 12:00:24,796 : INFO : ConfigProcessor : Config file cache created: C:\Users\student\AppData\Local\Temp\a20d2796aecf24feaad48747be24652a.mpf_cache
+2025-01-17 12:00:24,875 : INFO : ConfigProcessor : Loading config from file C:\Users\student\mpfenv3\Lib\site-packages\mpf\modes\attract\config\attract.yaml.
+2025-01-17 12:00:24,875 : INFO : ConfigProcessor : Loading config: C:\Users\student\mpfenv3\Lib\site-packages\mpf\modes\attract\config\attract.yaml
+2025-01-17 12:00:24,875 : INFO : ConfigProcessor : Loading config from file C:\Users\student\pinball\cobraPinTest1\modes\attract\config\attract.yaml.
+2025-01-17 12:00:24,876 : INFO : ConfigProcessor : Loading config: C:\Users\student\pinball\cobraPinTest1\modes\attract\config\attract.yaml
+2025-01-17 12:00:24,877 : INFO : ConfigProcessor : Config file cache created: C:\Users\student\AppData\Local\Temp\0196918bccd620e51d3c4d2630650aa0.mpf_cache
+2025-01-17 12:00:24,877 : INFO : ConfigProcessor : Loading config from file C:\Users\student\mpfenv3\Lib\site-packages\mpf\modes\game\config\game.yaml.
+2025-01-17 12:00:24,878 : INFO : ConfigProcessor : Loading config: C:\Users\student\mpfenv3\Lib\site-packages\mpf\modes\game\config\game.yaml
+2025-01-17 12:00:24,878 : INFO : ConfigProcessor : Config file cache created: C:\Users\student\AppData\Local\Temp\511dcc6b491b0fa2d7aa9abdf6497e9c.mpf_cache
+2025-01-17 12:00:24,879 : INFO : ConfigProcessor : Loading config from file C:\Users\student\pinball\cobraPinTest1\modes\base\config\base.yaml.
+2025-01-17 12:00:24,880 : INFO : ConfigProcessor : Loading config: C:\Users\student\pinball\cobraPinTest1\modes\base\config\base.yaml
+2025-01-17 12:00:24,880 : INFO : ConfigProcessor : Config file cache created: C:\Users\student\AppData\Local\Temp\4675a535c8328a9c278c807d999ed109.mpf_cache
+2025-01-17 12:00:24,881 : INFO : ConfigProcessor : Loading config from file C:\Users\student\pinball\cobraPinTest1\modes\reentry\config\reentry.yaml.
+2025-01-17 12:00:24,884 : INFO : ConfigProcessor : Loading config: C:\Users\student\pinball\cobraPinTest1\modes\reentry\config\reentry.yaml
+2025-01-17 12:00:24,884 : INFO : ConfigProcessor : Config file cache created: C:\Users\student\AppData\Local\Temp\0c8438cab3480347c0c749fa494946a2.mpf_cache
+2025-01-17 12:00:24,885 : INFO : ConfigProcessor : Loading config from file C:\Users\student\pinball\cobraPinTest1\modes\lowerlanes\config\lowerlanes.yaml.
+2025-01-17 12:00:24,887 : INFO : ConfigProcessor : Loading config: C:\Users\student\pinball\cobraPinTest1\modes\lowerlanes\config\lowerlanes.yaml
+2025-01-17 12:00:24,887 : INFO : ConfigProcessor : Config file cache created: C:\Users\student\AppData\Local\Temp\5052615755bdf1309b248cf8695ad4ff.mpf_cache
+2025-01-17 12:00:24,888 : INFO : ConfigProcessor : Loading config from file C:\Users\student\pinball\cobraPinTest1\modes\attract\shows\.\attract_display_loop.yaml.
+2025-01-17 12:00:24,890 : INFO : ConfigProcessor : Loading config: C:\Users\student\pinball\cobraPinTest1\modes\attract\shows\.\attract_display_loop.yaml
+2025-01-17 12:00:24,890 : INFO : ConfigProcessor : Config file cache created: C:\Users\student\AppData\Local\Temp\f8d2c2cf3ea01f085365ea23fa51a701.mpf_cache
+2025-01-17 12:00:24,891 : INFO : ConfigProcessor : Loading config from file C:\Users\student\pinball\cobraPinTest1\modes\attract\shows\.\attract_light_show.yaml.
+2025-01-17 12:00:24,892 : INFO : ConfigProcessor : Loading config: C:\Users\student\pinball\cobraPinTest1\modes\attract\shows\.\attract_light_show.yaml
+2025-01-17 12:00:24,892 : INFO : ConfigProcessor : Config file cache created: C:\Users\student\AppData\Local\Temp\30bd992f4b62a9b099207aebeb59554c.mpf_cache
+2025-01-17 12:00:24,893 : INFO : Machine : Mission Pinball Framework Core Engine v0.57.3
+2025-01-17 12:00:24,893 : INFO : Machine : Command line arguments: {'no_load_cache': True, 'create_config_cache': True, 'bcp': True, 'configfile': ['config.yaml'], 'force_assets_load': False, 'platform_integration_test': False, 'jsonlogging': False, 'logfile': 'logs\\2025-01-17-12-00-24-mpf-DESKTOP-0JH7ARL.log', 'pause': False, 'production': False, 'text_ui': True, 'loglevel': 15, 'consoleloglevel': 20, 'force_platform': None, 'syslog_address': None, 'mc_file_name': None, 'no_sound': False}
+2025-01-17 12:00:24,893 : INFO : Machine : MPF path: C:\Users\student\mpfenv3\Lib\site-packages\mpf
+2025-01-17 12:00:24,893 : INFO : Machine : Machine path: C:\Users\student\pinball\cobraPinTest1
+2025-01-17 12:00:24,893 : INFO : Machine : Platform: win32
+2025-01-17 12:00:24,893 : INFO : Machine : Python executable location: C:\Users\student\mpfenv3\Scripts\python.exe
+2025-01-17 12:00:24,893 : INFO : Machine : Python version: 3.11.8 (64-bit)
+2025-01-17 12:00:24,895 : INFO : Machine : Initializing MPF...
+2025-01-17 12:00:25,132 : INFO : OPP : Connecting to com4 at 115200bps
+2025-01-17 12:00:25,246 : INFO : OPP : Init of OPP board 0 done
+2025-01-17 12:00:25,246 : INFO : OPP : Connecting to com5 at 115200bps
+2025-01-17 12:00:25,433 : INFO : OPP : Init of OPP board 1 done
+2025-01-17 12:00:25,434 : INFO : EventManager : Event: ======'machine_var_credits_string'====== Args={'value': 'FREE PLAY', 'prev_value': None, 'change': True}
+2025-01-17 12:00:25,503 : INFO : EventManager : Event: ======'machine_var_master_volume'====== Args={'value': 0.5, 'prev_value': None, 'change': True}
+2025-01-17 12:00:25,503 : INFO : EventManager : Event: ======'machine_var_player1_score'====== Args={'value': 1500, 'prev_value': None, 'change': True}
+2025-01-17 12:00:25,503 : INFO : EventManager : Event: ======'machine_var_mpf_version'====== Args={'value': 'Mission Pinball Framework v0.57.3', 'prev_value': None, 'change': True}
+2025-01-17 12:00:25,503 : INFO : EventManager : Event: ======'machine_var_mpf_extended_version'====== Args={'value': 'Mission Pinball Framework v0.57.3, Config version:6, Show version: 6, BCP version:1.1', 'prev_value': None, 'change': True}
+2025-01-17 12:00:25,503 : INFO : EventManager : Event: ======'machine_var_python_version'====== Args={'value': '3.11.8', 'prev_value': None, 'change': True}
+2025-01-17 12:00:25,513 : INFO : EventManager : Event: ======'machine_var_platform'====== Args={'value': 'Windows-10-10.0.19045-SP0', 'prev_value': None, 'change': True}
+2025-01-17 12:00:25,513 : INFO : EventManager : Event: ======'machine_var_platform_system'====== Args={'value': 'Windows', 'prev_value': None, 'change': True}
+2025-01-17 12:00:25,513 : INFO : EventManager : Event: ======'machine_var_platform_release'====== Args={'value': '10', 'prev_value': None, 'change': True}
+2025-01-17 12:00:25,513 : INFO : EventManager : Event: ======'machine_var_platform_version'====== Args={'value': '10.0.19045', 'prev_value': None, 'change': True}
+2025-01-17 12:00:25,513 : INFO : EventManager : Event: ======'machine_var_platform_machine'====== Args={'value': 'AMD64', 'prev_value': None, 'change': True}
+2025-01-17 12:00:25,513 : INFO : EventManager : Event: ======'init_phase_1'====== Args={}
+2025-01-17 12:00:25,534 : INFO : EventManager : Event: ======'init_phase_2'====== Args={}
+2025-01-17 12:00:25,535 : INFO : SwitchController : Found active switch: ('0-0-8', <Platform.OPP>) <switch.s_trough1>
+2025-01-17 12:00:25,539 : INFO : EventManager : Event: ======'bcp_connection_attempt'====== Args={'name': 'local_display', 'host': 'localhost', 'port': 5050}
+2025-01-17 12:00:25,541 : INFO : BCPClientSocket : Connecting BCP to 'local_display' at localhost:5050...
+2025-01-17 12:00:27,580 : INFO : BCPClientSocket : Connected BCP to 'local_display' localhost:5050
+2025-01-17 12:00:27,582 : INFO : EventManager : Event: ======'bcp_clients_connected'====== Args={}
+2025-01-17 12:00:27,767 : INFO : EventManager : Event: ======'machine_var_mc_version'====== Args={'value': 'MPF-MC v0.57.1', 'prev_value': None, 'change': True}
+2025-01-17 12:00:27,767 : INFO : EventManager : Event: ======'machine_var_mc_extended_version'====== Args={'value': 'MPF-MC v0.57.1 (config_version=6, BCP v1.1,                      Requires MPF API compatibility v0.57.0 or newer)', 'prev_value': None, 'change': True}
+2025-01-17 12:00:27,768 : INFO : ball_device.bd_trough : BCH: Initial count: 1
+2025-01-17 12:00:27,803 : INFO : ball_device.bd_trough : State: idle
+2025-01-17 12:00:27,804 : INFO : ball_device.bd_plunger : BCH: Initial count: 0
+2025-01-17 12:00:27,804 : INFO : ball_device.bd_plunger : State: idle
+2025-01-17 12:00:27,823 : INFO : EventManager : Event: ======'init_phase_3'====== Args={}
+2025-01-17 12:00:27,828 : INFO : EventManager : Event: ======'init_phase_4'====== Args={}
+2025-01-17 12:00:27,828 : INFO : BallController : Initial balls found: 1
+2025-01-17 12:00:27,829 : INFO : EventManager : Event: ======'machine_var_audits_events_game_ended'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2025-01-17 12:00:27,830 : INFO : EventManager : Event: ======'machine_var_audits_events_game_started'====== Args={'value': 39, 'prev_value': None, 'change': True}
+2025-01-17 12:00:27,830 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_bonus_lane'====== Args={'value': 8, 'prev_value': None, 'change': True}
+2025-01-17 12:00:27,830 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_left_flipper'====== Args={'value': 2, 'prev_value': None, 'change': True}
+2025-01-17 12:00:27,830 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_left_out_lane'====== Args={'value': 13, 'prev_value': None, 'change': True}
+2025-01-17 12:00:27,830 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_left_return_lane'====== Args={'value': 8, 'prev_value': None, 'change': True}
+2025-01-17 12:00:27,830 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_lower_right_slingshot'====== Args={'value': 2, 'prev_value': None, 'change': True}
+2025-01-17 12:00:27,830 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_plunger'====== Args={'value': 37, 'prev_value': None, 'change': True}
+2025-01-17 12:00:27,830 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_reentry_left'====== Args={'value': 1, 'prev_value': None, 'change': True}
+2025-01-17 12:00:27,830 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_reentry_middle'====== Args={'value': 2, 'prev_value': None, 'change': True}
+2025-01-17 12:00:27,831 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_reentry_right'====== Args={'value': 1, 'prev_value': None, 'change': True}
+2025-01-17 12:00:27,831 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_right_flipper'====== Args={'value': 2, 'prev_value': None, 'change': True}
+2025-01-17 12:00:27,831 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_right_out_lane'====== Args={'value': 13, 'prev_value': None, 'change': True}
+2025-01-17 12:00:27,831 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_right_return_lane'====== Args={'value': 13, 'prev_value': None, 'change': True}
+2025-01-17 12:00:27,831 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_spacewarp_rollover'====== Args={'value': 21, 'prev_value': None, 'change': True}
+2025-01-17 12:00:27,831 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_start'====== Args={'value': 38, 'prev_value': None, 'change': True}
+2025-01-17 12:00:27,831 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_trough1'====== Args={'value': 38, 'prev_value': None, 'change': True}
+2025-01-17 12:00:27,831 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_wormhole_target'====== Args={'value': 13, 'prev_value': None, 'change': True}
+2025-01-17 12:00:27,831 : INFO : EventManager : Event: ======'machine_var_audits_player_score'====== Args={'value': {'average': 1800.0, 'top': [2000, 1900, 1500], 'total': 3}, 'prev_value': None, 'change': True}
+2025-01-17 12:00:27,831 : INFO : EventManager : Event: ======'machine_var_audits_shots_bonusLane_shot'====== Args={'value': 56, 'prev_value': None, 'change': True}
+2025-01-17 12:00:27,832 : INFO : EventManager : Event: ======'machine_var_audits_shots_medalL_shot'====== Args={'value': 174, 'prev_value': None, 'change': True}
+2025-01-17 12:00:27,832 : INFO : EventManager : Event: ======'machine_var_audits_shots_medalM_shot'====== Args={'value': 166, 'prev_value': None, 'change': True}
+2025-01-17 12:00:27,832 : INFO : EventManager : Event: ======'machine_var_audits_shots_medalR_shot'====== Args={'value': 165, 'prev_value': None, 'change': True}
+2025-01-17 12:00:27,832 : INFO : EventManager : Event: ======'machine_var_audits_shots_my_first_shot'====== Args={'value': 119, 'prev_value': None, 'change': True}
+2025-01-17 12:00:27,832 : INFO : EventManager : Event: ======'machine_var_audits_shots_my_first_shot_mode2'====== Args={'value': 72, 'prev_value': None, 'change': True}
+2025-01-17 12:00:27,832 : INFO : EventManager : Event: ======'machine_var_audits_shots_outLaneL_shot'====== Args={'value': 18, 'prev_value': None, 'change': True}
+2025-01-17 12:00:27,832 : INFO : EventManager : Event: ======'machine_var_audits_shots_outLaneR_shot'====== Args={'value': 72, 'prev_value': None, 'change': True}
+2025-01-17 12:00:27,832 : INFO : EventManager : Event: ======'machine_var_audits_shots_reentryL_shot'====== Args={'value': 524, 'prev_value': None, 'change': True}
+2025-01-17 12:00:27,832 : INFO : EventManager : Event: ======'machine_var_audits_shots_reentryM_shot'====== Args={'value': 480, 'prev_value': None, 'change': True}
+2025-01-17 12:00:27,833 : INFO : EventManager : Event: ======'machine_var_audits_shots_reentryR_shot'====== Args={'value': 468, 'prev_value': None, 'change': True}
+2025-01-17 12:00:27,833 : INFO : EventManager : Event: ======'machine_var_audits_shots_reentry_shot'====== Args={'value': 9, 'prev_value': None, 'change': True}
+2025-01-17 12:00:27,833 : INFO : EventManager : Event: ======'machine_var_audits_shots_returnLaneL_shot'====== Args={'value': 169, 'prev_value': None, 'change': True}
+2025-01-17 12:00:27,833 : INFO : EventManager : Event: ======'machine_var_audits_shots_returnLaneR_shot'====== Args={'value': 115, 'prev_value': None, 'change': True}
+2025-01-17 12:00:27,833 : INFO : EventManager : Event: ======'machine_var_audits_shots_spacewarp_rollover_shot'====== Args={'value': 47, 'prev_value': None, 'change': True}
+2025-01-17 12:00:27,833 : INFO : EventManager : Event: ======'machine_var_audits_shots_top_lane_A'====== Args={'value': 12, 'prev_value': None, 'change': True}
+2025-01-17 12:00:27,833 : INFO : EventManager : Event: ======'machine_var_audits_shots_top_lane_J'====== Args={'value': 12, 'prev_value': None, 'change': True}
+2025-01-17 12:00:27,833 : INFO : EventManager : Event: ======'machine_var_audits_shots_top_lane_M'====== Args={'value': 9, 'prev_value': None, 'change': True}
+2025-01-17 12:00:27,834 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_blackhole_kicker'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2025-01-17 12:00:27,834 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_bonus_lane'====== Args={'value': 69, 'prev_value': None, 'change': True}
+2025-01-17 12:00:27,834 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_booster_drop_target_1'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2025-01-17 12:00:27,834 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_booster_drop_target_2'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2025-01-17 12:00:27,834 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_booster_drop_target_3'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2025-01-17 12:00:27,834 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_comet_spot_1'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2025-01-17 12:00:27,834 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_comet_spot_2'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2025-01-17 12:00:27,834 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_comet_spot_3'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2025-01-17 12:00:27,835 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_engine_bumper_1'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2025-01-17 12:00:27,835 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_engine_bumper_2'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2025-01-17 12:00:27,835 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_engine_bumper_3'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2025-01-17 12:00:27,835 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_fuel_chute_1'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2025-01-17 12:00:27,835 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_fuel_chute_2'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2025-01-17 12:00:27,835 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_fuel_chute_3'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2025-01-17 12:00:27,835 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_fuel_chute_4'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2025-01-17 12:00:27,836 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_fuel_chute_5'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2025-01-17 12:00:27,836 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_fuel_chute_6'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2025-01-17 12:00:27,836 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_fuel_flag'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2025-01-17 12:00:27,836 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_fuel_spot_1'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2025-01-17 12:00:27,836 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_fuel_spot_2'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2025-01-17 12:00:27,836 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_fuel_spot_3'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2025-01-17 12:00:27,836 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_green_wormhole'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2025-01-17 12:00:27,837 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_hyperspace_flag'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2025-01-17 12:00:27,837 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_hyperspacekicker'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2025-01-17 12:00:27,837 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_launch_lane_1'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2025-01-17 12:00:27,837 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_launch_lane_2'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2025-01-17 12:00:27,837 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_launch_lane_3'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2025-01-17 12:00:27,837 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_launch_ramp'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2025-01-17 12:00:27,837 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_left_attack_bumper'====== Args={'value': 210, 'prev_value': None, 'change': True}
+2025-01-17 12:00:27,838 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_left_flipper'====== Args={'value': 1589, 'prev_value': None, 'change': True}
+2025-01-17 12:00:27,838 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_left_out_lane'====== Args={'value': 22, 'prev_value': None, 'change': True}
+2025-01-17 12:00:27,838 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_left_out_lane_kicker'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2025-01-17 12:00:27,838 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_left_return_lane'====== Args={'value': 176, 'prev_value': None, 'change': True}
+2025-01-17 12:00:27,838 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_lower_attack_bumper'====== Args={'value': 147, 'prev_value': None, 'change': True}
+2025-01-17 12:00:27,838 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_lower_left_rebound'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2025-01-17 12:00:27,838 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_lower_left_slingshot'====== Args={'value': 177, 'prev_value': None, 'change': True}
+2025-01-17 12:00:27,839 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_lower_right_rebound'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2025-01-17 12:00:27,839 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_lower_right_slingshot'====== Args={'value': 178, 'prev_value': None, 'change': True}
+2025-01-17 12:00:27,839 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_medal_drop_left'====== Args={'value': 188, 'prev_value': None, 'change': True}
+2025-01-17 12:00:27,839 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_medal_drop_middle'====== Args={'value': 180, 'prev_value': None, 'change': True}
+2025-01-17 12:00:27,839 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_medal_drop_right'====== Args={'value': 179, 'prev_value': None, 'change': True}
+2025-01-17 12:00:27,840 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_mission_spot_1'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2025-01-17 12:00:27,840 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_mission_spot_2'====== Args={'value': 2, 'prev_value': None, 'change': True}
+2025-01-17 12:00:27,840 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_mission_spot_3'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2025-01-17 12:00:27,840 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_multiplier_left'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2025-01-17 12:00:27,840 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_multiplier_middle'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2025-01-17 12:00:27,841 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_multiplier_right'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2025-01-17 12:00:27,841 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_plunger'====== Args={'value': 177, 'prev_value': None, 'change': True}
+2025-01-17 12:00:27,841 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_radiationspot_1'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2025-01-17 12:00:27,841 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_radiationspot_2'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2025-01-17 12:00:27,841 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_radiationspot_3'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2025-01-17 12:00:27,841 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_red_wormhole'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2025-01-17 12:00:27,842 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_reentry_left'====== Args={'value': 882, 'prev_value': None, 'change': True}
+2025-01-17 12:00:27,842 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_reentry_middle'====== Args={'value': 554, 'prev_value': None, 'change': True}
+2025-01-17 12:00:27,842 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_reentry_right'====== Args={'value': 527, 'prev_value': None, 'change': True}
+2025-01-17 12:00:27,842 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_right_flipper'====== Args={'value': 1909, 'prev_value': None, 'change': True}
+2025-01-17 12:00:27,842 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_right_inlane'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2025-01-17 12:00:27,843 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_right_out_lane'====== Args={'value': 98, 'prev_value': None, 'change': True}
+2025-01-17 12:00:27,843 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_right_out_lane_kicker'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2025-01-17 12:00:27,843 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_right_return_lane'====== Args={'value': 127, 'prev_value': None, 'change': True}
+2025-01-17 12:00:27,843 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_satellite_bumper'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2025-01-17 12:00:27,843 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_secondary_outlane_kicker'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2025-01-17 12:00:27,843 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_skill_shot_1'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2025-01-17 12:00:27,844 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_skill_shot_2'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2025-01-17 12:00:27,844 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_skill_shot_3'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2025-01-17 12:00:27,844 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_skill_shot_4'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2025-01-17 12:00:27,844 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_skill_shot_5'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2025-01-17 12:00:27,844 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_skill_shot_6'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2025-01-17 12:00:27,845 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_skill_shot_lane'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2025-01-17 12:00:27,845 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_spacewarp_rollover'====== Args={'value': 48, 'prev_value': None, 'change': True}
+2025-01-17 12:00:27,845 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_start'====== Args={'value': 7, 'prev_value': None, 'change': True}
+2025-01-17 12:00:27,845 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_trough1'====== Args={'value': 30, 'prev_value': None, 'change': True}
+2025-01-17 12:00:27,845 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_trough2'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2025-01-17 12:00:27,846 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_trough3'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2025-01-17 12:00:27,846 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_trough4'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2025-01-17 12:00:27,846 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_trough5'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2025-01-17 12:00:27,846 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_trough6'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2025-01-17 12:00:27,846 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_trough_jam'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2025-01-17 12:00:27,847 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_upper_attack_bumper'====== Args={'value': 238, 'prev_value': None, 'change': True}
+2025-01-17 12:00:27,847 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_upper_left_rebound'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2025-01-17 12:00:27,847 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_upper_right_rebound'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2025-01-17 12:00:27,847 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_wormhole_target'====== Args={'value': 2, 'prev_value': None, 'change': True}
+2025-01-17 12:00:27,847 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_yellow_wormhole'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2025-01-17 12:00:27,848 : INFO : EventManager : Event: ======'init_phase_5'====== Args={}
+2025-01-17 12:00:27,879 : INFO : EventManager : Event: ======'init_done'====== Args={}
+2025-01-17 12:00:27,880 : INFO : EventManager : Event: ======'machine_reset_phase_1'====== Args={}
+2025-01-17 12:00:27,891 : INFO : EventManager : Event: ======'slide_welcome_slide_removed'====== Args={'_from_bcp': True}
+2025-01-17 12:00:27,893 : INFO : EventManager : Event: ======'slide_welcome_slide_created'====== Args={'_from_bcp': True}
+2025-01-17 12:00:27,894 : INFO : EventManager : Event: ======'machine_reset_phase_2'====== Args={}
+2025-01-17 12:00:27,895 : INFO : EventManager : Event: ======'machine_reset_phase_3'====== Args={}
+2025-01-17 12:00:27,895 : INFO : EventManager : Event: ======'slide_welcome_slide_active'====== Args={'_from_bcp': True}
+2025-01-17 12:00:27,895 : INFO : EventManager : Event: ======'reset_complete'====== Args={}
+2025-01-17 12:00:27,896 : INFO : EventManager : Event: ======'mode_attract_will_start'====== Args={}
+2025-01-17 12:00:27,897 : INFO : EventManager : Event: ======'mode_attract_starting'====== Args={}
+2025-01-17 12:00:27,897 : INFO : Mode.attract : Started. Priority: 10
+2025-01-17 12:00:27,897 : INFO : EventManager : Event: ======'modes_active_modes_changed'====== Args={}
+2025-01-17 12:00:27,897 : INFO : EventManager : Event: ======'mode_attract_started'====== Args={}
+2025-01-17 12:00:27,897 : INFO : EventManager : Event: ======'collecting_balls_complete'====== Args={}
+2025-01-17 12:00:27,927 : INFO : EventManager : Event: ======'slide_awesome_slide_created'====== Args={'_from_bcp': True}
+2025-01-17 12:00:27,928 : INFO : EventManager : Event: ======'slide_awesome_slide_active'====== Args={'_from_bcp': True}
+2025-01-17 12:00:27,936 : INFO : Machine : Starting the main run loop with active modes: [<Mode.attract>]
+2025-01-17 12:00:30,895 : INFO : EventManager : Event: ======'slide_press_start_created'====== Args={'_from_bcp': True}
+2025-01-17 12:00:30,897 : INFO : EventManager : Event: ======'slide_press_start_active'====== Args={'_from_bcp': True}
+2025-01-17 12:00:33,020 : INFO : SwitchController : <<<<<<< 's_start' active >>>>>>>
+2025-01-17 12:00:33,119 : INFO : SwitchController : <<<<<<< 's_start' inactive >>>>>>>
+2025-01-17 12:00:33,119 : INFO : EventManager : Event: ======'request_to_start_game'====== Args={}
+2025-01-17 12:00:33,120 : INFO : EventManager : Event: ======'game_start'====== Args={'buttons': [], 'hold_time': 0.0940000000409782}
+2025-01-17 12:00:33,120 : INFO : EventManager : Event: ======'mode_game_will_start'====== Args={'buttons': [], 'hold_time': 0.0940000000409782}
+2025-01-17 12:00:33,120 : INFO : EventManager : Event: ======'mode_game_starting'====== Args={'buttons': [], 'hold_time': 0.0940000000409782}
+2025-01-17 12:00:33,120 : INFO : EventManager : Event: ======'mode_attract_will_stop'====== Args={}
+2025-01-17 12:00:33,120 : INFO : EventManager : Event: ======'mode_attract_stopping'====== Args={}
+2025-01-17 12:00:33,120 : INFO : Mode.attract : Stopped.
+2025-01-17 12:00:33,120 : INFO : EventManager : Event: ======'modes_active_modes_changed'====== Args={}
+2025-01-17 12:00:33,121 : INFO : EventManager : Event: ======'mode_attract_stopped'====== Args={}
+2025-01-17 12:00:33,121 : INFO : EventManager : Event: ======'clear'====== Args={'key': 'attract'}
+2025-01-17 12:00:33,121 : INFO : Mode.game : Started. Priority: 20
+2025-01-17 12:00:33,121 : INFO : EventManager : Event: ======'modes_active_modes_changed'====== Args={}
+2025-01-17 12:00:33,121 : INFO : EventManager : Event: ======'mode_game_started'====== Args={'buttons': [], 'hold_time': 0.0940000000409782}
+2025-01-17 12:00:33,126 : INFO : EventManager : Event: ======'game_will_start'====== Args={}
+2025-01-17 12:00:33,127 : INFO : EventManager : Event: ======'game_starting'====== Args={'game': <Mode.game>}
+2025-01-17 12:00:33,128 : INFO : EventManager : Unordered handler for class <Auditor> on event game_ended with priority 1. Handlers: [RegisteredHandler(callback=<bound method Auditor.disable of <Auditor>>, priority=1, kwargs={}, key=UUID('3c31ea58-8c64-49f9-9fb6-5659e2e183ee'), condition=None, blocking_facility=None), RegisteredHandler(callback=<bound method Auditor._save_audits of <Auditor>>, priority=1, kwargs={}, key=UUID('1f6df75e-7d6f-4a5c-8fd4-88ccdc15e85b'), condition=None, blocking_facility=None)]. The order of those handlers is not defined and they will be executed in random order. This might lead to race conditions and potential bugs.
+2025-01-17 12:00:33,128 : INFO : EventManager : Event: ======'player_add_request'====== Args={}
+2025-01-17 12:00:33,128 : INFO : EventManager : Event: ======'player_will_add'====== Args={'number': 1}
+2025-01-17 12:00:33,128 : INFO : EventManager : Event: ======'player_adding'====== Args={'player': <Player 1>, 'number': 1}
+2025-01-17 12:00:33,128 : INFO : EventManager : Event: ======'player_added'====== Args={'player': <Player 1>, 'num': 1}
+2025-01-17 12:00:33,128 : INFO : Mode.game : Player added successfully. Total players: 1
+2025-01-17 12:00:33,128 : INFO : EventManager : Event: ======'player_index'====== Args={'value': 0, 'prev_value': 0, 'change': 0, 'player_num': 1}
+2025-01-17 12:00:33,129 : INFO : EventManager : Event: ======'player_number'====== Args={'value': 1, 'prev_value': 1, 'change': 0, 'player_num': 1}
+2025-01-17 12:00:33,129 : INFO : EventManager : Event: ======'player_score'====== Args={'value': 0, 'prev_value': 0, 'change': 0, 'player_num': 1}
+2025-01-17 12:00:33,129 : INFO : EventManager : Event: ======'game_started'====== Args={}
+2025-01-17 12:00:33,136 : INFO : EventManager : Event: ======'player_turn_will_start'====== Args={'player': <Player 1>, 'number': 1}
+2025-01-17 12:00:33,141 : INFO : EventManager : Event: ======'slide_awesome_slide_removed'====== Args={'_from_bcp': True}
+2025-01-17 12:00:33,141 : INFO : EventManager : Event: ======'slide_press_start_removed'====== Args={'_from_bcp': True}
+2025-01-17 12:00:33,141 : INFO : EventManager : Event: ======'slide_welcome_slide_active'====== Args={'_from_bcp': True}
+2025-01-17 12:00:33,141 : INFO : EventManager : Event: ======'player_turn_starting'====== Args={'player': <Player 1>, 'number': 1}
+2025-01-17 12:00:33,142 : INFO : EventManager : Event: ======'player_ball'====== Args={'value': 1, 'prev_value': 0, 'change': 1, 'player_num': 1}
+2025-01-17 12:00:33,142 : INFO : EventManager : Event: ======'player_turn_started'====== Args={'player': <Player 1>, 'number': 1}
+2025-01-17 12:00:33,143 : INFO : EventManager : Event: ======'ball_will_start'====== Args={'player': 1, 'ball': 1, 'balls_remaining': 2, 'is_extra_ball': False}
+2025-01-17 12:00:33,145 : INFO : EventManager : Event: ======'ball_starting'====== Args={'player': 1, 'ball': 1, 'balls_remaining': 2, 'is_extra_ball': False}
+2025-01-17 12:00:33,146 : INFO : EventManager : Event: ======'mode_base_will_start'====== Args={'queue': <QueuedEvent>, 'player': 1, 'ball': 1, 'balls_remaining': 2, 'is_extra_ball': False}
+2025-01-17 12:00:33,146 : INFO : EventManager : Event: ======'mode_base_starting'====== Args={'queue': <QueuedEvent>, 'player': 1, 'ball': 1, 'balls_remaining': 2, 'is_extra_ball': False}
+2025-01-17 12:00:33,147 : INFO : Mode.base : Started. Priority: 100
+2025-01-17 12:00:33,147 : INFO : EventManager : Event: ======'modes_active_modes_changed'====== Args={}
+2025-01-17 12:00:33,147 : INFO : EventManager : Event: ======'mode_base_started'====== Args={'queue': <QueuedEvent>, 'player': 1, 'ball': 1, 'balls_remaining': 2, 'is_extra_ball': False}
+2025-01-17 12:00:33,147 : INFO : EventManager : Event: ======'balls_in_play'====== Args={'balls': 1}
+2025-01-17 12:00:33,147 : INFO : EventManager : Event: ======'ball_started'====== Args={'player': 1, 'ball': 1, 'balls_remaining': 2, 'is_extra_ball': False}
+2025-01-17 12:00:33,147 : INFO : EventManager : Event: ======'mode_lowerlanes_will_start'====== Args={'player': 1, 'ball': 1, 'balls_remaining': 2, 'is_extra_ball': False}
+2025-01-17 12:00:33,148 : INFO : EventManager : Event: ======'player_shot_returnLaneL_shot_enabled'====== Args={'value': True, 'prev_value': 0, 'change': 1, 'player_num': 1}
+2025-01-17 12:00:33,148 : INFO : EventManager : Event: ======'player_shot_bonusLane_shot_enabled'====== Args={'value': True, 'prev_value': 0, 'change': 1, 'player_num': 1}
+2025-01-17 12:00:33,148 : INFO : EventManager : Event: ======'player_shot_outLaneL_shot_enabled'====== Args={'value': True, 'prev_value': 0, 'change': 1, 'player_num': 1}
+2025-01-17 12:00:33,148 : INFO : EventManager : Event: ======'player_shot_returnLaneR_shot_enabled'====== Args={'value': True, 'prev_value': 0, 'change': 1, 'player_num': 1}
+2025-01-17 12:00:33,148 : INFO : EventManager : Event: ======'player_shot_outLaneR_shot_enabled'====== Args={'value': True, 'prev_value': 0, 'change': 1, 'player_num': 1}
+2025-01-17 12:00:33,149 : INFO : EventManager : Event: ======'player_shot_spacewarp_rollover_shot_enabled'====== Args={'value': True, 'prev_value': 0, 'change': 1, 'player_num': 1}
+2025-01-17 12:00:33,149 : INFO : EventManager : Event: ======'returnLane_shot_complete'====== Args={'state': 'unlit'}
+2025-01-17 12:00:33,149 : INFO : EventManager : Event: ======'returnLane_shot_unlit_complete'====== Args={}
+2025-01-17 12:00:33,149 : INFO : EventManager : Event: ======'outLane_shot_complete'====== Args={'state': 'unlit'}
+2025-01-17 12:00:33,149 : INFO : EventManager : Event: ======'outLane_shot_unlit_complete'====== Args={}
+2025-01-17 12:00:33,150 : INFO : EventManager : Event: ======'mode_lowerlanes_starting'====== Args={'player': 1, 'ball': 1, 'balls_remaining': 2, 'is_extra_ball': False}
+2025-01-17 12:00:33,150 : INFO : EventManager : Event: ======'mode_reentry_will_start'====== Args={'player': 1, 'ball': 1, 'balls_remaining': 2, 'is_extra_ball': False}
+2025-01-17 12:00:33,150 : INFO : EventManager : Event: ======'player_shot_reentryL_shot_enabled'====== Args={'value': True, 'prev_value': 0, 'change': 1, 'player_num': 1}
+2025-01-17 12:00:33,150 : INFO : EventManager : Event: ======'player_shot_reentryM_shot_enabled'====== Args={'value': True, 'prev_value': 0, 'change': 1, 'player_num': 1}
+2025-01-17 12:00:33,151 : INFO : EventManager : Event: ======'player_shot_reentryR_shot_enabled'====== Args={'value': True, 'prev_value': 0, 'change': 1, 'player_num': 1}
+2025-01-17 12:00:33,151 : INFO : EventManager : Event: ======'reentry_shot_complete'====== Args={'state': 'off'}
+2025-01-17 12:00:33,151 : INFO : EventManager : Event: ======'reentry_shot_off_complete'====== Args={}
+2025-01-17 12:00:33,152 : INFO : EventManager : Event: ======'mode_reentry_starting'====== Args={'player': 1, 'ball': 1, 'balls_remaining': 2, 'is_extra_ball': False}
+2025-01-17 12:00:33,153 : INFO : Mode.lowerlanes : Started. Priority: 200
+2025-01-17 12:00:33,153 : INFO : EventManager : Event: ======'modes_active_modes_changed'====== Args={}
+2025-01-17 12:00:33,153 : INFO : EventManager : Event: ======'mode_lowerlanes_started'====== Args={'player': 1, 'ball': 1, 'balls_remaining': 2, 'is_extra_ball': False}
+2025-01-17 12:00:33,177 : INFO : EventManager : Event: ======'logicblock_reentry_shot_complete_count_updated'====== Args={'value': 1, 'enabled': True}
+2025-01-17 12:00:33,177 : INFO : EventManager : Event: ======'logicblock_reentry_shot_complete_count_updated'====== Args={'value': 1, 'enabled': True}
+2025-01-17 12:00:33,177 : INFO : Mode.reentry : Started. Priority: 200
+2025-01-17 12:00:33,177 : INFO : EventManager : Event: ======'modes_active_modes_changed'====== Args={}
+2025-01-17 12:00:33,177 : INFO : EventManager : Event: ======'mode_reentry_started'====== Args={'player': 1, 'ball': 1, 'balls_remaining': 2, 'is_extra_ball': False}
+2025-01-17 12:00:33,177 : INFO : EventManager : Event: ======'player_attack_bumper_count'====== Args={'value': 1, 'prev_value': 0, 'change': 1, 'player_num': 1, 'source': 'reentry'}
+2025-01-17 12:00:33,177 : INFO : EventManager : Event: ======'single_player_ball_started'====== Args={}
+2025-01-17 12:00:33,178 : INFO : EventManager : Event: ======'slide_base.slide_player-mode_base_started_created'====== Args={'_from_bcp': True}
+2025-01-17 12:00:33,179 : INFO : EventManager : Event: ======'slide__global.slide_player-ball_started_created'====== Args={'_from_bcp': True}
+2025-01-17 12:00:33,179 : INFO : EventManager : Event: ======'slide_base.slide_player-mode_base_started_active'====== Args={'_from_bcp': True}
+2025-01-17 12:00:33,199 : INFO : EventManager : Event: ======'ball_start_target'====== Args={'target': 'playfield'}
+2025-01-17 12:00:33,200 : INFO : ball_device.bd_plunger : Setting up player-controlled eject. Balls: 1, Target: <playfield.playfield>, player_controlled_eject_event: None
+2025-01-17 12:00:33,200 : INFO : EventManager : Event: ======'balldevice_balls_available'====== Args={}
+2025-01-17 12:00:33,202 : INFO : ball_device.bd_trough : State: waiting_for_target_ready
+2025-01-17 12:00:33,202 : INFO : EventManager : Event: ======'balldevice_bd_trough_ball_eject_attempt'====== Args={'balls': 1, 'target': <ball_device.bd_plunger>, 'source': <ball_device.bd_trough>, 'mechanical_eject': True, 'num_attempts': 0}
+2025-01-17 12:00:33,202 : INFO : ball_device.bd_plunger : State: waiting_for_ball
+2025-01-17 12:00:33,203 : INFO : ball_device.bd_trough : State: ejecting
+2025-01-17 12:00:33,203 : INFO : ball_device.bd_trough : Ejecting ball to <ball_device.bd_plunger>
+2025-01-17 12:00:33,203 : INFO : EventManager : Event: ======'balldevice_bd_trough_ejecting_ball'====== Args={'balls': 1, 'target': <ball_device.bd_plunger>, 'source': <ball_device.bd_trough>, 'mechanical_eject': True, 'num_attempts': 0}
+2025-01-17 12:00:33,204 : INFO : ball_device.bd_trough : Wait for ball to leave device
+2025-01-17 12:00:33,204 : INFO : coil.c_trough_eject : Pulsing Driver for 10ms (1.0 pulse_power)
+2025-01-17 12:00:36,690 : INFO : SwitchController : <<<<<<< 's_left_attack_bumper' active >>>>>>>
+2025-01-17 12:00:36,690 : INFO : EventManager : Event: ======'playfield_active'====== Args={'source': 'left_attack_bumper'}
+2025-01-17 12:00:36,690 : INFO : EventManager : Event: ======'unexpected_ball_on_playfield'====== Args={}
+2025-01-17 12:00:36,691 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_left_attack_bumper'====== Args={'value': 211, 'prev_value': 210, 'change': 1}
+2025-01-17 12:00:36,722 : INFO : SwitchController : <<<<<<< 's_left_attack_bumper' inactive >>>>>>>
+2025-01-17 12:00:36,755 : INFO : SwitchController : <<<<<<< 's_lower_attack_bumper' active >>>>>>>
+2025-01-17 12:00:36,755 : INFO : EventManager : Event: ======'playfield_active'====== Args={'source': 'lower_attack_bumper'}
+2025-01-17 12:00:36,755 : INFO : EventManager : Event: ======'unexpected_ball_on_playfield'====== Args={}
+2025-01-17 12:00:36,755 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_lower_attack_bumper'====== Args={'value': 148, 'prev_value': 147, 'change': 1}
+2025-01-17 12:00:36,771 : INFO : SwitchController : <<<<<<< 's_lower_attack_bumper' inactive >>>>>>>
+2025-01-17 12:00:43,204 : INFO : EventManager : Event: ======'balldevice_bd_trough_ball_eject_failed'====== Args={'target': <ball_device.bd_plunger>, 'balls': 1, 'retry': True, 'num_attempts': 1}
+2025-01-17 12:00:43,206 : INFO : ball_device.bd_trough : State: waiting_for_target_ready
+2025-01-17 12:00:43,207 : INFO : EventManager : Event: ======'balldevice_bd_trough_ball_eject_attempt'====== Args={'balls': 1, 'target': <ball_device.bd_plunger>, 'source': <ball_device.bd_trough>, 'mechanical_eject': True, 'num_attempts': 1}
+2025-01-17 12:00:43,207 : INFO : ball_device.bd_trough : State: ejecting
+2025-01-17 12:00:43,207 : INFO : ball_device.bd_trough : Ejecting ball to <ball_device.bd_plunger>
+2025-01-17 12:00:43,208 : INFO : EventManager : Event: ======'balldevice_bd_trough_ejecting_ball'====== Args={'balls': 1, 'target': <ball_device.bd_plunger>, 'source': <ball_device.bd_trough>, 'mechanical_eject': True, 'num_attempts': 1}
+2025-01-17 12:00:43,210 : INFO : ball_device.bd_trough : Wait for ball to leave device
+2025-01-17 12:00:43,210 : INFO : coil.c_trough_eject : Pulsing Driver for 10ms (1.0 pulse_power)
+2025-01-17 12:00:45,417 : INFO : SwitchController : <<<<<<< 's_upper_attack_bumper' active >>>>>>>
+2025-01-17 12:00:45,417 : INFO : EventManager : Event: ======'playfield_active'====== Args={'source': 'upper_attack_bumper'}
+2025-01-17 12:00:45,418 : INFO : EventManager : Event: ======'unexpected_ball_on_playfield'====== Args={}
+2025-01-17 12:00:45,418 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_upper_attack_bumper'====== Args={'value': 239, 'prev_value': 238, 'change': 1}
+2025-01-17 12:00:45,451 : INFO : SwitchController : <<<<<<< 's_upper_attack_bumper' inactive >>>>>>>
+2025-01-17 12:00:45,513 : INFO : SwitchController : <<<<<<< 's_left_attack_bumper' active >>>>>>>
+2025-01-17 12:00:45,513 : INFO : EventManager : Event: ======'playfield_active'====== Args={'source': 'left_attack_bumper'}
+2025-01-17 12:00:45,513 : INFO : EventManager : Event: ======'unexpected_ball_on_playfield'====== Args={}
+2025-01-17 12:00:45,513 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_left_attack_bumper'====== Args={'value': 212, 'prev_value': 211, 'change': 1}
+2025-01-17 12:00:45,558 : INFO : SwitchController : <<<<<<< 's_left_attack_bumper' inactive >>>>>>>
+2025-01-17 12:00:45,573 : INFO : SwitchController : <<<<<<< 's_lower_attack_bumper' active >>>>>>>
+2025-01-17 12:00:45,573 : INFO : EventManager : Event: ======'playfield_active'====== Args={'source': 'lower_attack_bumper'}
+2025-01-17 12:00:45,573 : INFO : EventManager : Event: ======'unexpected_ball_on_playfield'====== Args={}
+2025-01-17 12:00:45,574 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_lower_attack_bumper'====== Args={'value': 149, 'prev_value': 148, 'change': 1}
+2025-01-17 12:00:45,620 : INFO : SwitchController : <<<<<<< 's_lower_attack_bumper' inactive >>>>>>>
+2025-01-17 12:00:46,238 : INFO : SwitchController : <<<<<<< 's_left_attack_bumper' active >>>>>>>
+2025-01-17 12:00:46,238 : INFO : EventManager : Event: ======'playfield_active'====== Args={'source': 'left_attack_bumper'}
+2025-01-17 12:00:46,238 : INFO : EventManager : Event: ======'unexpected_ball_on_playfield'====== Args={}
+2025-01-17 12:00:46,238 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_left_attack_bumper'====== Args={'value': 213, 'prev_value': 212, 'change': 1}
+2025-01-17 12:00:46,253 : INFO : SwitchController : <<<<<<< 's_left_attack_bumper' inactive >>>>>>>
+2025-01-17 12:00:46,331 : INFO : SwitchController : <<<<<<< 's_reentry_left' active >>>>>>>
+2025-01-17 12:00:46,331 : INFO : EventManager : Event: ======'playfield_active'====== Args={'source': 'reentryL_shot'}
+2025-01-17 12:00:46,331 : INFO : EventManager : Event: ======'unexpected_ball_on_playfield'====== Args={}
+2025-01-17 12:00:46,331 : INFO : EventManager : Event: ======'s_reentry_left_active'====== Args={}
+2025-01-17 12:00:46,331 : INFO : EventManager : Event: ======'sw_playfield_active'====== Args={}
+2025-01-17 12:00:46,331 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_reentry_left'====== Args={'value': 883, 'prev_value': 882, 'change': 1}
+2025-01-17 12:00:46,333 : INFO : EventManager : Event: ======'player_shot_reentryL_shot'====== Args={'value': 1, 'prev_value': 0, 'change': 1, 'player_num': 1}
+2025-01-17 12:00:46,333 : INFO : EventManager : Event: ======'machine_var_audits_shots_reentryL_shot'====== Args={'value': 525, 'prev_value': 524, 'change': 1}
+2025-01-17 12:00:46,334 : INFO : EventManager : Event: ======'reentryL_shot_hit'====== Args={'profile': 'reentry', 'state': 'off', 'advancing': True}
+2025-01-17 12:00:46,334 : INFO : EventManager : Event: ======'reentryL_shot_reentry_hit'====== Args={'profile': 'reentry', 'state': 'off', 'advancing': True}
+2025-01-17 12:00:46,334 : INFO : EventManager : Event: ======'reentryL_shot_reentry_off_hit'====== Args={'profile': 'reentry', 'state': 'off', 'advancing': True}
+2025-01-17 12:00:46,334 : INFO : EventManager : Event: ======'reentryL_shot_off_hit'====== Args={'profile': 'reentry', 'state': 'off', 'advancing': True}
+2025-01-17 12:00:46,334 : INFO : EventManager : Event: ======'reentry_shot_hit'====== Args={}
+2025-01-17 12:00:46,334 : INFO : EventManager : Event: ======'reentry_shot_off_hit'====== Args={}
+2025-01-17 12:00:46,334 : INFO : EventManager : Event: ======'player_score'====== Args={'value': 1000, 'prev_value': 0, 'change': 1000, 'player_num': 1, 'source': 'reentry'}
+2025-01-17 12:00:46,335 : INFO : EventManager : Event: ======'playfield_active'====== Args={'source': None}
+2025-01-17 12:00:46,336 : INFO : EventManager : Event: ======'unexpected_ball_on_playfield'====== Args={}
+2025-01-17 12:00:46,408 : INFO : SwitchController : <<<<<<< 's_reentry_left' inactive >>>>>>>
+2025-01-17 12:00:47,910 : INFO : SwitchController : <<<<<<< 's_reentry_left' active >>>>>>>
+2025-01-17 12:00:47,910 : INFO : EventManager : Event: ======'playfield_active'====== Args={'source': 'reentryL_shot'}
+2025-01-17 12:00:47,910 : INFO : EventManager : Event: ======'unexpected_ball_on_playfield'====== Args={}
+2025-01-17 12:00:47,910 : INFO : EventManager : Event: ======'s_reentry_left_active'====== Args={}
+2025-01-17 12:00:47,910 : INFO : EventManager : Event: ======'sw_playfield_active'====== Args={}
+2025-01-17 12:00:47,910 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_reentry_left'====== Args={'value': 884, 'prev_value': 883, 'change': 1}
+2025-01-17 12:00:47,911 : INFO : EventManager : Event: ======'player_shot_reentryL_shot'====== Args={'value': 0, 'prev_value': 1, 'change': -1, 'player_num': 1}
+2025-01-17 12:00:47,912 : INFO : EventManager : Event: ======'machine_var_audits_shots_reentryL_shot'====== Args={'value': 526, 'prev_value': 525, 'change': 1}
+2025-01-17 12:00:47,912 : INFO : EventManager : Event: ======'reentryL_shot_hit'====== Args={'profile': 'reentry', 'state': 'lit', 'advancing': True}
+2025-01-17 12:00:47,912 : INFO : EventManager : Event: ======'reentryL_shot_reentry_hit'====== Args={'profile': 'reentry', 'state': 'lit', 'advancing': True}
+2025-01-17 12:00:47,912 : INFO : EventManager : Event: ======'reentryL_shot_reentry_lit_hit'====== Args={'profile': 'reentry', 'state': 'lit', 'advancing': True}
+2025-01-17 12:00:47,912 : INFO : EventManager : Event: ======'reentryL_shot_lit_hit'====== Args={'profile': 'reentry', 'state': 'lit', 'advancing': True}
+2025-01-17 12:00:47,912 : INFO : EventManager : Event: ======'reentry_shot_complete'====== Args={'state': 'off'}
+2025-01-17 12:00:47,912 : INFO : EventManager : Event: ======'reentry_shot_off_complete'====== Args={}
+2025-01-17 12:00:47,913 : INFO : EventManager : Event: ======'reentry_shot_hit'====== Args={}
+2025-01-17 12:00:47,913 : INFO : EventManager : Event: ======'reentry_shot_lit_hit'====== Args={}
+2025-01-17 12:00:47,913 : INFO : EventManager : Event: ======'player_score'====== Args={'value': 3000, 'prev_value': 1000, 'change': 2000, 'player_num': 1, 'source': 'reentry'}
+2025-01-17 12:00:47,913 : INFO : EventManager : Event: ======'playfield_active'====== Args={'source': None}
+2025-01-17 12:00:47,913 : INFO : EventManager : Event: ======'unexpected_ball_on_playfield'====== Args={}
+2025-01-17 12:00:48,117 : INFO : SwitchController : <<<<<<< 's_reentry_left' inactive >>>>>>>
+2025-01-17 12:00:48,388 : INFO : SwitchController : <<<<<<< 's_left_attack_bumper' active >>>>>>>
+2025-01-17 12:00:48,388 : INFO : EventManager : Event: ======'playfield_active'====== Args={'source': 'left_attack_bumper'}
+2025-01-17 12:00:48,388 : INFO : EventManager : Event: ======'unexpected_ball_on_playfield'====== Args={}
+2025-01-17 12:00:48,388 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_left_attack_bumper'====== Args={'value': 214, 'prev_value': 213, 'change': 1}
+2025-01-17 12:00:48,419 : INFO : SwitchController : <<<<<<< 's_left_attack_bumper' inactive >>>>>>>
+2025-01-17 12:00:50,707 : INFO : SwitchController : <<<<<<< 's_left_attack_bumper' active >>>>>>>
+2025-01-17 12:00:50,707 : INFO : EventManager : Event: ======'playfield_active'====== Args={'source': 'left_attack_bumper'}
+2025-01-17 12:00:50,707 : INFO : EventManager : Event: ======'unexpected_ball_on_playfield'====== Args={}
+2025-01-17 12:00:50,708 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_left_attack_bumper'====== Args={'value': 215, 'prev_value': 214, 'change': 1}
+2025-01-17 12:00:50,720 : INFO : SwitchController : <<<<<<< 's_left_attack_bumper' inactive >>>>>>>
+2025-01-17 12:00:50,770 : INFO : SwitchController : <<<<<<< 's_upper_attack_bumper' active >>>>>>>
+2025-01-17 12:00:50,771 : INFO : EventManager : Event: ======'playfield_active'====== Args={'source': 'upper_attack_bumper'}
+2025-01-17 12:00:50,771 : INFO : EventManager : Event: ======'unexpected_ball_on_playfield'====== Args={}
+2025-01-17 12:00:50,771 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_upper_attack_bumper'====== Args={'value': 240, 'prev_value': 239, 'change': 1}
+2025-01-17 12:00:50,800 : INFO : SwitchController : <<<<<<< 's_upper_attack_bumper' inactive >>>>>>>
+2025-01-17 12:00:51,923 : INFO : SwitchController : <<<<<<< 's_lower_right_slingshot' active >>>>>>>
+2025-01-17 12:00:51,923 : INFO : EventManager : Event: ======'playfield_active'====== Args={'source': 'lower_right_slingshot'}
+2025-01-17 12:00:51,923 : INFO : EventManager : Event: ======'unexpected_ball_on_playfield'====== Args={}
+2025-01-17 12:00:51,923 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_lower_right_slingshot'====== Args={'value': 179, 'prev_value': 178, 'change': 1}
+2025-01-17 12:00:51,938 : INFO : SwitchController : <<<<<<< 's_lower_right_slingshot' inactive >>>>>>>
+2025-01-17 12:00:53,215 : INFO : EventManager : Event: ======'balldevice_bd_trough_ball_eject_failed'====== Args={'target': <ball_device.bd_plunger>, 'balls': 1, 'retry': True, 'num_attempts': 2}
+2025-01-17 12:00:53,216 : INFO : ball_device.bd_trough : State: waiting_for_target_ready
+2025-01-17 12:00:53,216 : INFO : EventManager : Event: ======'balldevice_bd_trough_ball_eject_attempt'====== Args={'balls': 1, 'target': <ball_device.bd_plunger>, 'source': <ball_device.bd_trough>, 'mechanical_eject': True, 'num_attempts': 2}
+2025-01-17 12:00:53,217 : INFO : ball_device.bd_trough : State: ejecting
+2025-01-17 12:00:53,217 : INFO : ball_device.bd_trough : Ejecting ball to <ball_device.bd_plunger>
+2025-01-17 12:00:53,217 : INFO : EventManager : Event: ======'balldevice_bd_trough_ejecting_ball'====== Args={'balls': 1, 'target': <ball_device.bd_plunger>, 'source': <ball_device.bd_trough>, 'mechanical_eject': True, 'num_attempts': 2}
+2025-01-17 12:00:53,218 : INFO : ball_device.bd_trough : Wait for ball to leave device
+2025-01-17 12:00:53,218 : INFO : coil.c_trough_eject : Pulsing Driver for 10ms (1.0 pulse_power)
+2025-01-17 12:00:55,541 : INFO : SwitchController : <<<<<<< 's_left_attack_bumper' active >>>>>>>
+2025-01-17 12:00:55,541 : INFO : EventManager : Event: ======'playfield_active'====== Args={'source': 'left_attack_bumper'}
+2025-01-17 12:00:55,541 : INFO : EventManager : Event: ======'unexpected_ball_on_playfield'====== Args={}
+2025-01-17 12:00:55,541 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_left_attack_bumper'====== Args={'value': 216, 'prev_value': 215, 'change': 1}
+2025-01-17 12:00:55,570 : INFO : SwitchController : <<<<<<< 's_left_attack_bumper' inactive >>>>>>>
+2025-01-17 12:00:55,586 : INFO : SwitchController : <<<<<<< 's_left_attack_bumper' active >>>>>>>
+2025-01-17 12:00:55,586 : INFO : EventManager : Event: ======'playfield_active'====== Args={'source': 'left_attack_bumper'}
+2025-01-17 12:00:55,586 : INFO : EventManager : Event: ======'unexpected_ball_on_playfield'====== Args={}
+2025-01-17 12:00:55,586 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_left_attack_bumper'====== Args={'value': 217, 'prev_value': 216, 'change': 1}
+2025-01-17 12:00:55,618 : INFO : SwitchController : <<<<<<< 's_left_attack_bumper' inactive >>>>>>>
+2025-01-17 12:00:55,634 : INFO : SwitchController : <<<<<<< 's_lower_attack_bumper' active >>>>>>>
+2025-01-17 12:00:55,634 : INFO : EventManager : Event: ======'playfield_active'====== Args={'source': 'lower_attack_bumper'}
+2025-01-17 12:00:55,634 : INFO : EventManager : Event: ======'unexpected_ball_on_playfield'====== Args={}
+2025-01-17 12:00:55,634 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_lower_attack_bumper'====== Args={'value': 150, 'prev_value': 149, 'change': 1}
+2025-01-17 12:00:55,651 : INFO : SwitchController : <<<<<<< 's_lower_attack_bumper' inactive >>>>>>>
+2025-01-17 12:00:55,651 : INFO : SwitchController : <<<<<<< 's_left_attack_bumper' active >>>>>>>
+2025-01-17 12:00:55,651 : INFO : EventManager : Event: ======'playfield_active'====== Args={'source': 'left_attack_bumper'}
+2025-01-17 12:00:55,651 : INFO : EventManager : Event: ======'unexpected_ball_on_playfield'====== Args={}
+2025-01-17 12:00:55,652 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_left_attack_bumper'====== Args={'value': 218, 'prev_value': 217, 'change': 1}
+2025-01-17 12:00:55,698 : INFO : SwitchController : <<<<<<< 's_left_attack_bumper' inactive >>>>>>>
+2025-01-17 12:00:55,726 : INFO : SwitchController : <<<<<<< 's_left_attack_bumper' active >>>>>>>
+2025-01-17 12:00:55,726 : INFO : EventManager : Event: ======'playfield_active'====== Args={'source': 'left_attack_bumper'}
+2025-01-17 12:00:55,727 : INFO : EventManager : Event: ======'unexpected_ball_on_playfield'====== Args={}
+2025-01-17 12:00:55,727 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_left_attack_bumper'====== Args={'value': 219, 'prev_value': 218, 'change': 1}
+2025-01-17 12:00:55,745 : INFO : SwitchController : <<<<<<< 's_left_attack_bumper' inactive >>>>>>>
+2025-01-17 12:00:57,407 : INFO : SwitchController : <<<<<<< 's_upper_attack_bumper' active >>>>>>>
+2025-01-17 12:00:57,407 : INFO : EventManager : Event: ======'playfield_active'====== Args={'source': 'upper_attack_bumper'}
+2025-01-17 12:00:57,407 : INFO : EventManager : Event: ======'unexpected_ball_on_playfield'====== Args={}
+2025-01-17 12:00:57,407 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_upper_attack_bumper'====== Args={'value': 241, 'prev_value': 240, 'change': 1}
+2025-01-17 12:00:57,422 : INFO : SwitchController : <<<<<<< 's_upper_attack_bumper' inactive >>>>>>>
+2025-01-17 12:01:03,208 : INFO : EventManager : Event: ======'balldevice_bd_trough_ball_eject_failed'====== Args={'target': <ball_device.bd_plunger>, 'balls': 1, 'retry': True, 'num_attempts': 3}
+2025-01-17 12:01:03,210 : INFO : ball_device.bd_trough : State: waiting_for_target_ready
+2025-01-17 12:01:03,210 : INFO : EventManager : Event: ======'balldevice_bd_trough_ball_eject_attempt'====== Args={'balls': 1, 'target': <ball_device.bd_plunger>, 'source': <ball_device.bd_trough>, 'mechanical_eject': True, 'num_attempts': 3}
+2025-01-17 12:01:03,211 : INFO : ball_device.bd_trough : State: ejecting
+2025-01-17 12:01:03,211 : INFO : ball_device.bd_trough : Ejecting ball to <ball_device.bd_plunger>
+2025-01-17 12:01:03,211 : INFO : EventManager : Event: ======'balldevice_bd_trough_ejecting_ball'====== Args={'balls': 1, 'target': <ball_device.bd_plunger>, 'source': <ball_device.bd_trough>, 'mechanical_eject': True, 'num_attempts': 3}
+2025-01-17 12:01:03,213 : INFO : ball_device.bd_trough : Wait for ball to leave device
+2025-01-17 12:01:03,213 : INFO : coil.c_trough_eject : Pulsing Driver for 10ms (1.0 pulse_power)
+2025-01-17 12:01:03,271 : INFO : SwitchController : <<<<<<< 's_left_flipper' active >>>>>>>
+2025-01-17 12:01:03,271 : INFO : EventManager : Event: ======'s_left_flipper_active'====== Args={}
+2025-01-17 12:01:03,271 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_left_flipper'====== Args={'value': 1590, 'prev_value': 1589, 'change': 1}
+2025-01-17 12:01:03,526 : INFO : SwitchController : <<<<<<< 's_left_flipper' inactive >>>>>>>
+2025-01-17 12:01:03,892 : INFO : SwitchController : <<<<<<< 's_left_flipper' active >>>>>>>
+2025-01-17 12:01:03,892 : INFO : EventManager : Event: ======'s_left_flipper_active'====== Args={}
+2025-01-17 12:01:03,892 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_left_flipper'====== Args={'value': 1591, 'prev_value': 1590, 'change': 1}
+2025-01-17 12:01:04,005 : INFO : SwitchController : <<<<<<< 's_left_flipper' inactive >>>>>>>
+2025-01-17 12:01:10,830 : INFO : SwitchController : <<<<<<< 's_left_flipper' active >>>>>>>
+2025-01-17 12:01:10,830 : INFO : EventManager : Event: ======'s_left_flipper_active'====== Args={}
+2025-01-17 12:01:10,831 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_left_flipper'====== Args={'value': 1592, 'prev_value': 1591, 'change': 1}
+2025-01-17 12:01:13,206 : INFO : EventManager : Event: ======'balldevice_bd_trough_ball_eject_failed'====== Args={'target': <ball_device.bd_plunger>, 'balls': 1, 'retry': True, 'num_attempts': 4}
+2025-01-17 12:01:13,207 : INFO : ball_device.bd_trough : State: waiting_for_target_ready
+2025-01-17 12:01:13,208 : INFO : EventManager : Event: ======'balldevice_bd_trough_ball_eject_attempt'====== Args={'balls': 1, 'target': <ball_device.bd_plunger>, 'source': <ball_device.bd_trough>, 'mechanical_eject': True, 'num_attempts': 4}
+2025-01-17 12:01:13,208 : INFO : ball_device.bd_trough : State: ejecting
+2025-01-17 12:01:13,208 : INFO : ball_device.bd_trough : Ejecting ball to <ball_device.bd_plunger>
+2025-01-17 12:01:13,208 : INFO : EventManager : Event: ======'balldevice_bd_trough_ejecting_ball'====== Args={'balls': 1, 'target': <ball_device.bd_plunger>, 'source': <ball_device.bd_trough>, 'mechanical_eject': True, 'num_attempts': 4}
+2025-01-17 12:01:13,210 : INFO : ball_device.bd_trough : Wait for ball to leave device
+2025-01-17 12:01:13,210 : INFO : coil.c_trough_eject : Pulsing Driver for 10ms (1.0 pulse_power)
+2025-01-17 12:01:13,318 : INFO : SwitchController : <<<<<<< 's_left_flipper' inactive >>>>>>>
+2025-01-17 12:01:14,269 : INFO : SwitchController : <<<<<<< 's_left_flipper' active >>>>>>>
+2025-01-17 12:01:14,269 : INFO : EventManager : Event: ======'s_left_flipper_active'====== Args={}
+2025-01-17 12:01:14,269 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_left_flipper'====== Args={'value': 1593, 'prev_value': 1592, 'change': 1}
+2025-01-17 12:01:14,568 : INFO : SwitchController : <<<<<<< 's_left_flipper' inactive >>>>>>>
+2025-01-17 12:01:17,209 : INFO : SwitchController : <<<<<<< 's_lower_right_slingshot' active >>>>>>>
+2025-01-17 12:01:17,209 : INFO : EventManager : Event: ======'playfield_active'====== Args={'source': 'lower_right_slingshot'}
+2025-01-17 12:01:17,209 : INFO : EventManager : Event: ======'unexpected_ball_on_playfield'====== Args={}
+2025-01-17 12:01:17,209 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_lower_right_slingshot'====== Args={'value': 180, 'prev_value': 179, 'change': 1}
+2025-01-17 12:01:17,219 : INFO : SwitchController : <<<<<<< 's_lower_right_slingshot' inactive >>>>>>>
+2025-01-17 12:01:17,448 : INFO : SwitchController : <<<<<<< 's_left_flipper' active >>>>>>>
+2025-01-17 12:01:17,448 : INFO : EventManager : Event: ======'s_left_flipper_active'====== Args={}
+2025-01-17 12:01:17,448 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_left_flipper'====== Args={'value': 1594, 'prev_value': 1593, 'change': 1}
+2025-01-17 12:01:18,748 : INFO : SwitchController : <<<<<<< 's_left_flipper' inactive >>>>>>>
+2025-01-17 12:01:19,693 : INFO : SwitchController : <<<<<<< 's_left_flipper' active >>>>>>>
+2025-01-17 12:01:19,693 : INFO : EventManager : Event: ======'s_left_flipper_active'====== Args={}
+2025-01-17 12:01:19,694 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_left_flipper'====== Args={'value': 1595, 'prev_value': 1594, 'change': 1}
+2025-01-17 12:01:19,873 : INFO : SwitchController : <<<<<<< 's_left_flipper' inactive >>>>>>>
+2025-01-17 12:01:21,392 : INFO : SwitchController : <<<<<<< 's_left_flipper' active >>>>>>>
+2025-01-17 12:01:21,392 : INFO : EventManager : Event: ======'s_left_flipper_active'====== Args={}
+2025-01-17 12:01:21,392 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_left_flipper'====== Args={'value': 1596, 'prev_value': 1595, 'change': 1}
+2025-01-17 12:01:21,851 : INFO : SwitchController : <<<<<<< 's_left_flipper' inactive >>>>>>>
+2025-01-17 12:01:22,704 : INFO : SwitchController : <<<<<<< 's_left_flipper' active >>>>>>>
+2025-01-17 12:01:22,704 : INFO : EventManager : Event: ======'s_left_flipper_active'====== Args={}
+2025-01-17 12:01:22,704 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_left_flipper'====== Args={'value': 1597, 'prev_value': 1596, 'change': 1}
+2025-01-17 12:01:23,023 : INFO : SwitchController : <<<<<<< 's_left_flipper' inactive >>>>>>>
+2025-01-17 12:01:23,211 : INFO : EventManager : Event: ======'balldevice_bd_trough_ball_eject_failed'====== Args={'target': <ball_device.bd_plunger>, 'balls': 1, 'retry': True, 'num_attempts': 5}
+2025-01-17 12:01:23,211 : INFO : ball_device.bd_trough : State: waiting_for_target_ready
+2025-01-17 12:01:23,211 : INFO : EventManager : Event: ======'balldevice_bd_trough_ball_eject_attempt'====== Args={'balls': 1, 'target': <ball_device.bd_plunger>, 'source': <ball_device.bd_trough>, 'mechanical_eject': True, 'num_attempts': 5}
+2025-01-17 12:01:23,212 : INFO : ball_device.bd_trough : State: ejecting
+2025-01-17 12:01:23,212 : INFO : ball_device.bd_trough : Ejecting ball to <ball_device.bd_plunger>
+2025-01-17 12:01:23,212 : INFO : EventManager : Event: ======'balldevice_bd_trough_ejecting_ball'====== Args={'balls': 1, 'target': <ball_device.bd_plunger>, 'source': <ball_device.bd_trough>, 'mechanical_eject': True, 'num_attempts': 5}
+2025-01-17 12:01:23,212 : INFO : ball_device.bd_trough : Wait for ball to leave device
+2025-01-17 12:01:23,213 : INFO : coil.c_trough_eject : Pulsing Driver for 10ms (1.0 pulse_power)
+2025-01-17 12:01:23,763 : INFO : SwitchController : <<<<<<< 's_right_flipper' active >>>>>>>
+2025-01-17 12:01:23,764 : INFO : EventManager : Event: ======'s_right_flipper_active'====== Args={}
+2025-01-17 12:01:23,764 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_right_flipper'====== Args={'value': 1910, 'prev_value': 1909, 'change': 1}
+2025-01-17 12:01:25,079 : INFO : SwitchController : <<<<<<< 's_right_flipper' inactive >>>>>>>
+2025-01-17 12:01:25,744 : INFO : SwitchController : <<<<<<< 's_right_flipper' active >>>>>>>
+2025-01-17 12:01:25,744 : INFO : EventManager : Event: ======'s_right_flipper_active'====== Args={}
+2025-01-17 12:01:25,744 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_right_flipper'====== Args={'value': 1911, 'prev_value': 1910, 'change': 1}
+2025-01-17 12:01:25,887 : INFO : SwitchController : <<<<<<< 's_right_flipper' inactive >>>>>>>
+2025-01-17 12:01:26,505 : INFO : SwitchController : <<<<<<< 's_upper_attack_bumper' active >>>>>>>
+2025-01-17 12:01:26,506 : INFO : EventManager : Event: ======'playfield_active'====== Args={'source': 'upper_attack_bumper'}
+2025-01-17 12:01:26,506 : INFO : EventManager : Event: ======'unexpected_ball_on_playfield'====== Args={}
+2025-01-17 12:01:26,506 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_upper_attack_bumper'====== Args={'value': 242, 'prev_value': 241, 'change': 1}
+2025-01-17 12:01:26,520 : INFO : SwitchController : <<<<<<< 's_upper_attack_bumper' inactive >>>>>>>
+2025-01-17 12:01:28,166 : INFO : SwitchController : <<<<<<< 's_left_flipper' active >>>>>>>
+2025-01-17 12:01:28,166 : INFO : EventManager : Event: ======'s_left_flipper_active'====== Args={}
+2025-01-17 12:01:28,166 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_left_flipper'====== Args={'value': 1598, 'prev_value': 1597, 'change': 1}
+2025-01-17 12:01:28,276 : INFO : SwitchController : <<<<<<< 's_lower_left_slingshot' active >>>>>>>
+2025-01-17 12:01:28,276 : INFO : EventManager : Event: ======'playfield_active'====== Args={'source': 'lower_left_slingshot'}
+2025-01-17 12:01:28,276 : INFO : EventManager : Event: ======'unexpected_ball_on_playfield'====== Args={}
+2025-01-17 12:01:28,276 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_lower_left_slingshot'====== Args={'value': 178, 'prev_value': 177, 'change': 1}
+2025-01-17 12:01:28,307 : INFO : SwitchController : <<<<<<< 's_lower_left_slingshot' inactive >>>>>>>
+2025-01-17 12:01:28,483 : INFO : SwitchController : <<<<<<< 's_left_flipper' inactive >>>>>>>
+2025-01-17 12:01:28,609 : INFO : SwitchController : <<<<<<< 's_right_flipper' active >>>>>>>
+2025-01-17 12:01:28,609 : INFO : EventManager : Event: ======'s_right_flipper_active'====== Args={}
+2025-01-17 12:01:28,610 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_right_flipper'====== Args={'value': 1912, 'prev_value': 1911, 'change': 1}
+2025-01-17 12:01:29,208 : INFO : SwitchController : <<<<<<< 's_right_flipper' inactive >>>>>>>
+2025-01-17 12:01:29,384 : INFO : SwitchController : <<<<<<< 's_left_flipper' active >>>>>>>
+2025-01-17 12:01:29,384 : INFO : EventManager : Event: ======'s_left_flipper_active'====== Args={}
+2025-01-17 12:01:29,384 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_left_flipper'====== Args={'value': 1599, 'prev_value': 1598, 'change': 1}
+2025-01-17 12:01:29,617 : INFO : SwitchController : <<<<<<< 's_left_flipper' inactive >>>>>>>
+2025-01-17 12:01:32,787 : INFO : SwitchController : <<<<<<< 's_left_flipper' active >>>>>>>
+2025-01-17 12:01:32,787 : INFO : EventManager : Event: ======'s_left_flipper_active'====== Args={}
+2025-01-17 12:01:32,787 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_left_flipper'====== Args={'value': 1600, 'prev_value': 1599, 'change': 1}
+2025-01-17 12:01:33,212 : INFO : EventManager : Event: ======'balldevice_bd_trough_ball_eject_failed'====== Args={'target': <ball_device.bd_plunger>, 'balls': 1, 'retry': True, 'num_attempts': 6}
+2025-01-17 12:01:33,213 : INFO : ball_device.bd_trough : State: waiting_for_target_ready
+2025-01-17 12:01:33,213 : INFO : EventManager : Event: ======'balldevice_bd_trough_ball_eject_attempt'====== Args={'balls': 1, 'target': <ball_device.bd_plunger>, 'source': <ball_device.bd_trough>, 'mechanical_eject': True, 'num_attempts': 6}
+2025-01-17 12:01:33,214 : INFO : ball_device.bd_trough : State: ejecting
+2025-01-17 12:01:33,214 : INFO : ball_device.bd_trough : Ejecting ball to <ball_device.bd_plunger>
+2025-01-17 12:01:33,214 : INFO : EventManager : Event: ======'balldevice_bd_trough_ejecting_ball'====== Args={'balls': 1, 'target': <ball_device.bd_plunger>, 'source': <ball_device.bd_trough>, 'mechanical_eject': True, 'num_attempts': 6}
+2025-01-17 12:01:33,215 : INFO : ball_device.bd_trough : Wait for ball to leave device
+2025-01-17 12:01:33,215 : INFO : coil.c_trough_eject : Pulsing Driver for 10ms (1.0 pulse_power)
+2025-01-17 12:01:33,245 : INFO : SwitchController : <<<<<<< 's_left_flipper' inactive >>>>>>>
+2025-01-17 12:01:34,301 : INFO : SwitchController : <<<<<<< 's_left_flipper' active >>>>>>>
+2025-01-17 12:01:34,301 : INFO : EventManager : Event: ======'s_left_flipper_active'====== Args={}
+2025-01-17 12:01:34,301 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_left_flipper'====== Args={'value': 1601, 'prev_value': 1600, 'change': 1}
+2025-01-17 12:01:34,682 : INFO : SwitchController : <<<<<<< 's_left_flipper' inactive >>>>>>>
+2025-01-17 12:01:34,950 : INFO : SwitchController : <<<<<<< 's_right_flipper' active >>>>>>>
+2025-01-17 12:01:34,951 : INFO : EventManager : Event: ======'s_right_flipper_active'====== Args={}
+2025-01-17 12:01:34,951 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_right_flipper'====== Args={'value': 1913, 'prev_value': 1912, 'change': 1}
+2025-01-17 12:01:36,392 : INFO : SwitchController : <<<<<<< 's_right_flipper' inactive >>>>>>>
+2025-01-17 12:01:36,948 : INFO : SwitchController : <<<<<<< 's_right_flipper' active >>>>>>>
+2025-01-17 12:01:36,948 : INFO : EventManager : Event: ======'s_right_flipper_active'====== Args={}
+2025-01-17 12:01:36,948 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_right_flipper'====== Args={'value': 1914, 'prev_value': 1913, 'change': 1}
+2025-01-17 12:01:37,110 : INFO : SwitchController : <<<<<<< 's_right_flipper' inactive >>>>>>>
+2025-01-17 12:01:39,037 : INFO : SwitchController : <<<<<<< 's_left_flipper' active >>>>>>>
+2025-01-17 12:01:39,037 : INFO : EventManager : Event: ======'s_left_flipper_active'====== Args={}
+2025-01-17 12:01:39,037 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_left_flipper'====== Args={'value': 1602, 'prev_value': 1601, 'change': 1}
+2025-01-17 12:01:39,549 : INFO : SwitchController : <<<<<<< 's_left_flipper' inactive >>>>>>>
+2025-01-17 12:01:39,670 : INFO : SwitchController : <<<<<<< 's_right_flipper' active >>>>>>>
+2025-01-17 12:01:39,670 : INFO : EventManager : Event: ======'s_right_flipper_active'====== Args={}
+2025-01-17 12:01:39,670 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_right_flipper'====== Args={'value': 1915, 'prev_value': 1914, 'change': 1}
+2025-01-17 12:01:40,661 : INFO : SwitchController : <<<<<<< 's_right_flipper' inactive >>>>>>>
+2025-01-17 12:01:41,289 : INFO : SwitchController : <<<<<<< 's_right_flipper' active >>>>>>>
+2025-01-17 12:01:41,289 : INFO : EventManager : Event: ======'s_right_flipper_active'====== Args={}
+2025-01-17 12:01:41,289 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_right_flipper'====== Args={'value': 1916, 'prev_value': 1915, 'change': 1}
+2025-01-17 12:01:41,367 : INFO : SwitchController : <<<<<<< 's_right_flipper' inactive >>>>>>>
+2025-01-17 12:01:41,574 : INFO : SwitchController : <<<<<<< 's_upper_attack_bumper' active >>>>>>>
+2025-01-17 12:01:41,574 : INFO : EventManager : Event: ======'playfield_active'====== Args={'source': 'upper_attack_bumper'}
+2025-01-17 12:01:41,574 : INFO : EventManager : Event: ======'unexpected_ball_on_playfield'====== Args={}
+2025-01-17 12:01:41,575 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_upper_attack_bumper'====== Args={'value': 243, 'prev_value': 242, 'change': 1}
+2025-01-17 12:01:41,585 : INFO : SwitchController : <<<<<<< 's_upper_attack_bumper' inactive >>>>>>>
+2025-01-17 12:01:42,487 : INFO : SwitchController : <<<<<<< 's_right_flipper' active >>>>>>>
+2025-01-17 12:01:42,487 : INFO : EventManager : Event: ======'s_right_flipper_active'====== Args={}
+2025-01-17 12:01:42,487 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_right_flipper'====== Args={'value': 1917, 'prev_value': 1916, 'change': 1}
+2025-01-17 12:01:42,496 : INFO : SwitchController : <<<<<<< 's_left_flipper' active >>>>>>>
+2025-01-17 12:01:42,497 : INFO : EventManager : Event: ======'s_left_flipper_active'====== Args={}
+2025-01-17 12:01:42,497 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_left_flipper'====== Args={'value': 1603, 'prev_value': 1602, 'change': 1}
+2025-01-17 12:01:42,638 : INFO : SwitchController : <<<<<<< 's_right_flipper' inactive >>>>>>>
+2025-01-17 12:01:42,775 : INFO : SwitchController : <<<<<<< 's_left_flipper' inactive >>>>>>>
+2025-01-17 12:01:42,799 : INFO : SwitchController : <<<<<<< 's_lower_right_slingshot' active >>>>>>>
+2025-01-17 12:01:42,800 : INFO : EventManager : Event: ======'playfield_active'====== Args={'source': 'lower_right_slingshot'}
+2025-01-17 12:01:42,800 : INFO : EventManager : Event: ======'unexpected_ball_on_playfield'====== Args={}
+2025-01-17 12:01:42,800 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_lower_right_slingshot'====== Args={'value': 181, 'prev_value': 180, 'change': 1}
+2025-01-17 12:01:42,807 : INFO : SwitchController : <<<<<<< 's_lower_right_slingshot' inactive >>>>>>>
+2025-01-17 12:01:43,215 : INFO : EventManager : Event: ======'balldevice_bd_trough_ball_eject_failed'====== Args={'target': <ball_device.bd_plunger>, 'balls': 1, 'retry': True, 'num_attempts': 7}
+2025-01-17 12:01:43,216 : INFO : ball_device.bd_trough : State: waiting_for_target_ready
+2025-01-17 12:01:43,217 : INFO : EventManager : Event: ======'balldevice_bd_trough_ball_eject_attempt'====== Args={'balls': 1, 'target': <ball_device.bd_plunger>, 'source': <ball_device.bd_trough>, 'mechanical_eject': True, 'num_attempts': 7}
+2025-01-17 12:01:43,217 : INFO : ball_device.bd_trough : State: ejecting
+2025-01-17 12:01:43,217 : INFO : ball_device.bd_trough : Ejecting ball to <ball_device.bd_plunger>
+2025-01-17 12:01:43,218 : INFO : EventManager : Event: ======'balldevice_bd_trough_ejecting_ball'====== Args={'balls': 1, 'target': <ball_device.bd_plunger>, 'source': <ball_device.bd_trough>, 'mechanical_eject': True, 'num_attempts': 7}
+2025-01-17 12:01:43,219 : INFO : ball_device.bd_trough : Wait for ball to leave device
+2025-01-17 12:01:43,219 : INFO : coil.c_trough_eject : Pulsing Driver for 10ms (1.0 pulse_power)
+2025-01-17 12:01:43,801 : INFO : SwitchController : <<<<<<< 's_left_flipper' active >>>>>>>
+2025-01-17 12:01:43,801 : INFO : EventManager : Event: ======'s_left_flipper_active'====== Args={}
+2025-01-17 12:01:43,801 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_left_flipper'====== Args={'value': 1604, 'prev_value': 1603, 'change': 1}
+2025-01-17 12:01:43,958 : INFO : SwitchController : <<<<<<< 's_left_flipper' inactive >>>>>>>
+2025-01-17 12:01:44,207 : INFO : SwitchController : <<<<<<< 's_right_flipper' active >>>>>>>
+2025-01-17 12:01:44,207 : INFO : EventManager : Event: ======'s_right_flipper_active'====== Args={}
+2025-01-17 12:01:44,207 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_right_flipper'====== Args={'value': 1918, 'prev_value': 1917, 'change': 1}
+2025-01-17 12:01:44,371 : INFO : SwitchController : <<<<<<< 's_lower_left_slingshot' active >>>>>>>
+2025-01-17 12:01:44,371 : INFO : EventManager : Event: ======'playfield_active'====== Args={'source': 'lower_left_slingshot'}
+2025-01-17 12:01:44,371 : INFO : EventManager : Event: ======'unexpected_ball_on_playfield'====== Args={}
+2025-01-17 12:01:44,371 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_lower_left_slingshot'====== Args={'value': 179, 'prev_value': 178, 'change': 1}
+2025-01-17 12:01:44,383 : INFO : SwitchController : <<<<<<< 's_lower_left_slingshot' inactive >>>>>>>
+2025-01-17 12:01:44,511 : INFO : SwitchController : <<<<<<< 's_right_flipper' inactive >>>>>>>
+2025-01-17 12:01:46,058 : INFO : SwitchController : <<<<<<< 's_lower_left_slingshot' active >>>>>>>
+2025-01-17 12:01:46,058 : INFO : EventManager : Event: ======'playfield_active'====== Args={'source': 'lower_left_slingshot'}
+2025-01-17 12:01:46,058 : INFO : EventManager : Event: ======'unexpected_ball_on_playfield'====== Args={}
+2025-01-17 12:01:46,058 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_lower_left_slingshot'====== Args={'value': 180, 'prev_value': 179, 'change': 1}
+2025-01-17 12:01:46,074 : INFO : SwitchController : <<<<<<< 's_left_flipper' active >>>>>>>
+2025-01-17 12:01:46,074 : INFO : EventManager : Event: ======'s_left_flipper_active'====== Args={}
+2025-01-17 12:01:46,074 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_left_flipper'====== Args={'value': 1605, 'prev_value': 1604, 'change': 1}
+2025-01-17 12:01:46,074 : INFO : SwitchController : <<<<<<< 's_lower_left_slingshot' inactive >>>>>>>
+2025-01-17 12:01:46,248 : INFO : SwitchController : <<<<<<< 's_left_flipper' inactive >>>>>>>
+2025-01-17 12:01:46,297 : INFO : SwitchController : <<<<<<< 's_right_flipper' active >>>>>>>
+2025-01-17 12:01:46,297 : INFO : EventManager : Event: ======'s_right_flipper_active'====== Args={}
+2025-01-17 12:01:46,297 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_right_flipper'====== Args={'value': 1919, 'prev_value': 1918, 'change': 1}
+2025-01-17 12:01:46,492 : INFO : SwitchController : <<<<<<< 's_right_flipper' inactive >>>>>>>
+2025-01-17 12:01:46,708 : INFO : SwitchController : <<<<<<< 's_right_out_lane' active >>>>>>>
+2025-01-17 12:01:46,708 : INFO : EventManager : Event: ======'playfield_active'====== Args={'source': 'outLaneR_shot'}
+2025-01-17 12:01:46,708 : INFO : EventManager : Event: ======'unexpected_ball_on_playfield'====== Args={}
+2025-01-17 12:01:46,708 : INFO : EventManager : Event: ======'s_right_out_lane_active'====== Args={}
+2025-01-17 12:01:46,708 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_right_out_lane'====== Args={'value': 99, 'prev_value': 98, 'change': 1}
+2025-01-17 12:01:46,709 : INFO : EventManager : Event: ======'machine_var_audits_shots_outLaneR_shot'====== Args={'value': 73, 'prev_value': 72, 'change': 1}
+2025-01-17 12:01:46,709 : INFO : EventManager : Event: ======'outLaneR_shot_hit'====== Args={'profile': 'outLane', 'state': 'unlit', 'advancing': False}
+2025-01-17 12:01:46,709 : INFO : EventManager : Event: ======'outLaneR_shot_outLane_hit'====== Args={'profile': 'outLane', 'state': 'unlit', 'advancing': False}
+2025-01-17 12:01:46,709 : INFO : EventManager : Event: ======'outLaneR_shot_outLane_unlit_hit'====== Args={'profile': 'outLane', 'state': 'unlit', 'advancing': False}
+2025-01-17 12:01:46,709 : INFO : EventManager : Event: ======'outLaneR_shot_unlit_hit'====== Args={'profile': 'outLane', 'state': 'unlit', 'advancing': False}
+2025-01-17 12:01:46,710 : INFO : EventManager : Event: ======'outLane_shot_hit'====== Args={}
+2025-01-17 12:01:46,710 : INFO : EventManager : Event: ======'outLane_shot_unlit_hit'====== Args={}
+2025-01-17 12:01:46,710 : INFO : EventManager : Event: ======'player_score'====== Args={'value': 23000, 'prev_value': 3000, 'change': 20000, 'player_num': 1, 'source': 'lowerlanes'}
+2025-01-17 12:01:46,852 : INFO : SwitchController : <<<<<<< 's_right_out_lane' inactive >>>>>>>
+2025-01-17 12:01:50,370 : INFO : SwitchController : <<<<<<< 's_right_flipper' active >>>>>>>
+2025-01-17 12:01:50,370 : INFO : EventManager : Event: ======'s_right_flipper_active'====== Args={}
+2025-01-17 12:01:50,370 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_right_flipper'====== Args={'value': 1920, 'prev_value': 1919, 'change': 1}
+2025-01-17 12:01:51,294 : INFO : SwitchController : <<<<<<< 's_right_flipper' inactive >>>>>>>
+2025-01-17 12:01:51,971 : INFO : SwitchController : <<<<<<< 's_right_flipper' active >>>>>>>
+2025-01-17 12:01:51,971 : INFO : EventManager : Event: ======'s_right_flipper_active'====== Args={}
+2025-01-17 12:01:51,971 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_right_flipper'====== Args={'value': 1921, 'prev_value': 1920, 'change': 1}
+2025-01-17 12:01:52,063 : INFO : SwitchController : <<<<<<< 's_right_flipper' inactive >>>>>>>
+2025-01-17 12:01:52,583 : INFO : SwitchController : <<<<<<< 's_left_flipper' active >>>>>>>
+2025-01-17 12:01:52,583 : INFO : EventManager : Event: ======'s_left_flipper_active'====== Args={}
+2025-01-17 12:01:52,583 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_left_flipper'====== Args={'value': 1606, 'prev_value': 1605, 'change': 1}
+2025-01-17 12:01:52,754 : INFO : SwitchController : <<<<<<< 's_left_flipper' inactive >>>>>>>
+2025-01-17 12:01:53,228 : INFO : EventManager : Event: ======'balldevice_bd_trough_ball_eject_failed'====== Args={'target': <ball_device.bd_plunger>, 'balls': 1, 'retry': True, 'num_attempts': 8}
+2025-01-17 12:01:53,229 : INFO : ball_device.bd_trough : State: waiting_for_target_ready
+2025-01-17 12:01:53,229 : INFO : EventManager : Event: ======'balldevice_bd_trough_ball_eject_attempt'====== Args={'balls': 1, 'target': <ball_device.bd_plunger>, 'source': <ball_device.bd_trough>, 'mechanical_eject': True, 'num_attempts': 8}
+2025-01-17 12:01:53,230 : INFO : ball_device.bd_trough : State: ejecting
+2025-01-17 12:01:53,230 : INFO : ball_device.bd_trough : Ejecting ball to <ball_device.bd_plunger>
+2025-01-17 12:01:53,230 : INFO : EventManager : Event: ======'balldevice_bd_trough_ejecting_ball'====== Args={'balls': 1, 'target': <ball_device.bd_plunger>, 'source': <ball_device.bd_trough>, 'mechanical_eject': True, 'num_attempts': 8}
+2025-01-17 12:01:53,231 : INFO : ball_device.bd_trough : Wait for ball to leave device
+2025-01-17 12:01:53,231 : INFO : coil.c_trough_eject : Pulsing Driver for 10ms (1.0 pulse_power)
+2025-01-17 12:01:53,819 : INFO : SwitchController : <<<<<<< 's_right_out_lane' active >>>>>>>
+2025-01-17 12:01:53,819 : INFO : EventManager : Event: ======'playfield_active'====== Args={'source': 'outLaneR_shot'}
+2025-01-17 12:01:53,819 : INFO : EventManager : Event: ======'unexpected_ball_on_playfield'====== Args={}
+2025-01-17 12:01:53,820 : INFO : EventManager : Event: ======'s_right_out_lane_active'====== Args={}
+2025-01-17 12:01:53,820 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_right_out_lane'====== Args={'value': 100, 'prev_value': 99, 'change': 1}
+2025-01-17 12:01:53,822 : INFO : EventManager : Event: ======'machine_var_audits_shots_outLaneR_shot'====== Args={'value': 74, 'prev_value': 73, 'change': 1}
+2025-01-17 12:01:53,823 : INFO : EventManager : Event: ======'outLaneR_shot_hit'====== Args={'profile': 'outLane', 'state': 'unlit', 'advancing': False}
+2025-01-17 12:01:53,823 : INFO : EventManager : Event: ======'outLaneR_shot_outLane_hit'====== Args={'profile': 'outLane', 'state': 'unlit', 'advancing': False}
+2025-01-17 12:01:53,823 : INFO : EventManager : Event: ======'outLaneR_shot_outLane_unlit_hit'====== Args={'profile': 'outLane', 'state': 'unlit', 'advancing': False}
+2025-01-17 12:01:53,823 : INFO : EventManager : Event: ======'outLaneR_shot_unlit_hit'====== Args={'profile': 'outLane', 'state': 'unlit', 'advancing': False}
+2025-01-17 12:01:53,824 : INFO : EventManager : Event: ======'outLane_shot_hit'====== Args={}
+2025-01-17 12:01:53,824 : INFO : EventManager : Event: ======'outLane_shot_unlit_hit'====== Args={}
+2025-01-17 12:01:53,824 : INFO : EventManager : Event: ======'player_score'====== Args={'value': 43000, 'prev_value': 23000, 'change': 20000, 'player_num': 1, 'source': 'lowerlanes'}
+2025-01-17 12:01:53,976 : INFO : SwitchController : <<<<<<< 's_right_out_lane' inactive >>>>>>>
+2025-01-17 12:01:54,804 : INFO : SwitchController : <<<<<<< 's_right_flipper' active >>>>>>>
+2025-01-17 12:01:54,804 : INFO : EventManager : Event: ======'s_right_flipper_active'====== Args={}
+2025-01-17 12:01:54,804 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_right_flipper'====== Args={'value': 1922, 'prev_value': 1921, 'change': 1}
+2025-01-17 12:01:56,157 : INFO : SwitchController : <<<<<<< 's_right_flipper' inactive >>>>>>>
+2025-01-17 12:01:56,888 : INFO : SwitchController : <<<<<<< 's_right_flipper' active >>>>>>>
+2025-01-17 12:01:56,889 : INFO : EventManager : Event: ======'s_right_flipper_active'====== Args={}
+2025-01-17 12:01:56,889 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_right_flipper'====== Args={'value': 1923, 'prev_value': 1922, 'change': 1}
+2025-01-17 12:01:57,156 : INFO : SwitchController : <<<<<<< 's_right_flipper' inactive >>>>>>>
+2025-01-17 12:02:00,580 : INFO : SwitchController : <<<<<<< 's_left_flipper' active >>>>>>>
+2025-01-17 12:02:00,580 : INFO : EventManager : Event: ======'s_left_flipper_active'====== Args={}
+2025-01-17 12:02:00,580 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_left_flipper'====== Args={'value': 1607, 'prev_value': 1606, 'change': 1}
+2025-01-17 12:02:00,770 : INFO : SwitchController : <<<<<<< 's_left_flipper' inactive >>>>>>>
+2025-01-17 12:02:02,449 : INFO : SwitchController : <<<<<<< 's_left_flipper' active >>>>>>>
+2025-01-17 12:02:02,450 : INFO : EventManager : Event: ======'s_left_flipper_active'====== Args={}
+2025-01-17 12:02:02,450 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_left_flipper'====== Args={'value': 1608, 'prev_value': 1607, 'change': 1}
+2025-01-17 12:02:02,622 : INFO : SwitchController : <<<<<<< 's_left_flipper' inactive >>>>>>>
+2025-01-17 12:02:03,206 : INFO : SwitchController : <<<<<<< 's_left_flipper' active >>>>>>>
+2025-01-17 12:02:03,206 : INFO : EventManager : Event: ======'s_left_flipper_active'====== Args={}
+2025-01-17 12:02:03,207 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_left_flipper'====== Args={'value': 1609, 'prev_value': 1608, 'change': 1}
+2025-01-17 12:02:03,223 : INFO : EventManager : Event: ======'balldevice_bd_trough_ball_eject_failed'====== Args={'target': <ball_device.bd_plunger>, 'balls': 1, 'retry': True, 'num_attempts': 9}
+2025-01-17 12:02:03,223 : INFO : ball_device.bd_trough : State: waiting_for_target_ready
+2025-01-17 12:02:03,223 : INFO : EventManager : Event: ======'balldevice_bd_trough_ball_eject_attempt'====== Args={'balls': 1, 'target': <ball_device.bd_plunger>, 'source': <ball_device.bd_trough>, 'mechanical_eject': True, 'num_attempts': 9}
+2025-01-17 12:02:03,224 : INFO : ball_device.bd_trough : State: ejecting
+2025-01-17 12:02:03,224 : INFO : ball_device.bd_trough : Ejecting ball to <ball_device.bd_plunger>
+2025-01-17 12:02:03,224 : INFO : EventManager : Event: ======'balldevice_bd_trough_ejecting_ball'====== Args={'balls': 1, 'target': <ball_device.bd_plunger>, 'source': <ball_device.bd_trough>, 'mechanical_eject': True, 'num_attempts': 9}
+2025-01-17 12:02:03,224 : INFO : ball_device.bd_trough : Wait for ball to leave device
+2025-01-17 12:02:03,225 : INFO : coil.c_trough_eject : Pulsing Driver for 10ms (1.0 pulse_power)
+2025-01-17 12:02:03,399 : INFO : SwitchController : <<<<<<< 's_right_flipper' active >>>>>>>
+2025-01-17 12:02:03,399 : INFO : EventManager : Event: ======'s_right_flipper_active'====== Args={}
+2025-01-17 12:02:03,400 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_right_flipper'====== Args={'value': 1924, 'prev_value': 1923, 'change': 1}
+2025-01-17 12:02:03,430 : INFO : SwitchController : <<<<<<< 's_left_flipper' inactive >>>>>>>
+2025-01-17 12:02:03,744 : INFO : SwitchController : <<<<<<< 's_right_flipper' inactive >>>>>>>
+2025-01-17 12:02:05,673 : INFO : SwitchController : <<<<<<< 's_right_flipper' active >>>>>>>
+2025-01-17 12:02:05,673 : INFO : EventManager : Event: ======'s_right_flipper_active'====== Args={}
+2025-01-17 12:02:05,673 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_right_flipper'====== Args={'value': 1925, 'prev_value': 1924, 'change': 1}
+2025-01-17 12:02:05,848 : INFO : SwitchController : <<<<<<< 's_lower_left_slingshot' active >>>>>>>
+2025-01-17 12:02:05,848 : INFO : EventManager : Event: ======'playfield_active'====== Args={'source': 'lower_left_slingshot'}
+2025-01-17 12:02:05,848 : INFO : EventManager : Event: ======'unexpected_ball_on_playfield'====== Args={}
+2025-01-17 12:02:05,848 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_lower_left_slingshot'====== Args={'value': 181, 'prev_value': 180, 'change': 1}
+2025-01-17 12:02:05,856 : INFO : SwitchController : <<<<<<< 's_lower_left_slingshot' inactive >>>>>>>
+2025-01-17 12:02:06,204 : INFO : SwitchController : <<<<<<< 's_right_flipper' inactive >>>>>>>
+2025-01-17 12:02:08,105 : INFO : SwitchController : <<<<<<< 's_left_flipper' active >>>>>>>
+2025-01-17 12:02:08,105 : INFO : EventManager : Event: ======'s_left_flipper_active'====== Args={}
+2025-01-17 12:02:08,105 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_left_flipper'====== Args={'value': 1610, 'prev_value': 1609, 'change': 1}
+2025-01-17 12:02:08,143 : INFO : SwitchController : <<<<<<< 's_left_return_lane' active >>>>>>>
+2025-01-17 12:02:08,144 : INFO : EventManager : Event: ======'playfield_active'====== Args={'source': 'returnLaneL_shot'}
+2025-01-17 12:02:08,144 : INFO : EventManager : Event: ======'unexpected_ball_on_playfield'====== Args={}
+2025-01-17 12:02:08,144 : INFO : EventManager : Event: ======'s_left_return_lane_active'====== Args={}
+2025-01-17 12:02:08,144 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_left_return_lane'====== Args={'value': 177, 'prev_value': 176, 'change': 1}
+2025-01-17 12:02:08,145 : INFO : EventManager : Event: ======'machine_var_audits_shots_returnLaneL_shot'====== Args={'value': 170, 'prev_value': 169, 'change': 1}
+2025-01-17 12:02:08,145 : INFO : EventManager : Event: ======'returnLaneL_shot_hit'====== Args={'profile': 'returnLane', 'state': 'unlit', 'advancing': False}
+2025-01-17 12:02:08,145 : INFO : EventManager : Event: ======'returnLaneL_shot_returnLane_hit'====== Args={'profile': 'returnLane', 'state': 'unlit', 'advancing': False}
+2025-01-17 12:02:08,145 : INFO : EventManager : Event: ======'returnLaneL_shot_returnLane_unlit_hit'====== Args={'profile': 'returnLane', 'state': 'unlit', 'advancing': False}
+2025-01-17 12:02:08,145 : INFO : EventManager : Event: ======'returnLaneL_shot_unlit_hit'====== Args={'profile': 'returnLane', 'state': 'unlit', 'advancing': False}
+2025-01-17 12:02:08,145 : INFO : EventManager : Event: ======'returnLane_shot_hit'====== Args={}
+2025-01-17 12:02:08,145 : INFO : EventManager : Event: ======'returnLane_shot_unlit_hit'====== Args={}
+2025-01-17 12:02:08,145 : INFO : EventManager : Event: ======'player_score'====== Args={'value': 48000, 'prev_value': 43000, 'change': 5000, 'player_num': 1, 'source': 'lowerlanes'}
+2025-01-17 12:02:08,271 : INFO : SwitchController : <<<<<<< 's_left_return_lane' inactive >>>>>>>
+2025-01-17 12:02:10,123 : INFO : SwitchController : <<<<<<< 's_left_flipper' inactive >>>>>>>
+2025-01-17 12:02:10,916 : INFO : SwitchController : <<<<<<< 's_left_flipper' active >>>>>>>
+2025-01-17 12:02:10,917 : INFO : EventManager : Event: ======'s_left_flipper_active'====== Args={}
+2025-01-17 12:02:10,917 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_left_flipper'====== Args={'value': 1611, 'prev_value': 1610, 'change': 1}
+2025-01-17 12:02:11,221 : INFO : SwitchController : <<<<<<< 's_left_flipper' inactive >>>>>>>
+2025-01-17 12:02:11,599 : INFO : SwitchController : <<<<<<< 's_right_flipper' active >>>>>>>
+2025-01-17 12:02:11,599 : INFO : EventManager : Event: ======'s_right_flipper_active'====== Args={}
+2025-01-17 12:02:11,600 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_right_flipper'====== Args={'value': 1926, 'prev_value': 1925, 'change': 1}
+2025-01-17 12:02:11,712 : INFO : SwitchController : <<<<<<< 's_lower_left_slingshot' active >>>>>>>
+2025-01-17 12:02:11,712 : INFO : EventManager : Event: ======'playfield_active'====== Args={'source': 'lower_left_slingshot'}
+2025-01-17 12:02:11,712 : INFO : EventManager : Event: ======'unexpected_ball_on_playfield'====== Args={}
+2025-01-17 12:02:11,712 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_lower_left_slingshot'====== Args={'value': 182, 'prev_value': 181, 'change': 1}
+2025-01-17 12:02:11,720 : INFO : SwitchController : <<<<<<< 's_lower_left_slingshot' inactive >>>>>>>
+2025-01-17 12:02:11,979 : INFO : SwitchController : <<<<<<< 's_right_flipper' inactive >>>>>>>
+2025-01-17 12:02:12,452 : INFO : SwitchController : <<<<<<< 's_left_flipper' active >>>>>>>
+2025-01-17 12:02:12,452 : INFO : EventManager : Event: ======'s_left_flipper_active'====== Args={}
+2025-01-17 12:02:12,452 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_left_flipper'====== Args={'value': 1612, 'prev_value': 1611, 'change': 1}
+2025-01-17 12:02:12,722 : INFO : SwitchController : <<<<<<< 's_right_flipper' active >>>>>>>
+2025-01-17 12:02:12,722 : INFO : EventManager : Event: ======'s_right_flipper_active'====== Args={}
+2025-01-17 12:02:12,722 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_right_flipper'====== Args={'value': 1927, 'prev_value': 1926, 'change': 1}
+2025-01-17 12:02:12,754 : INFO : SwitchController : <<<<<<< 's_left_flipper' inactive >>>>>>>
+2025-01-17 12:02:13,228 : INFO : EventManager : Event: ======'balldevice_bd_trough_ball_eject_failed'====== Args={'target': <ball_device.bd_plunger>, 'balls': 1, 'retry': True, 'num_attempts': 10}
+2025-01-17 12:02:13,230 : INFO : ball_device.bd_trough : State: waiting_for_target_ready
+2025-01-17 12:02:13,230 : INFO : EventManager : Event: ======'balldevice_bd_trough_ball_eject_attempt'====== Args={'balls': 1, 'target': <ball_device.bd_plunger>, 'source': <ball_device.bd_trough>, 'mechanical_eject': True, 'num_attempts': 10}
+2025-01-17 12:02:13,231 : INFO : ball_device.bd_trough : State: ejecting
+2025-01-17 12:02:13,231 : INFO : ball_device.bd_trough : Ejecting ball to <ball_device.bd_plunger>
+2025-01-17 12:02:13,231 : INFO : EventManager : Event: ======'balldevice_bd_trough_ejecting_ball'====== Args={'balls': 1, 'target': <ball_device.bd_plunger>, 'source': <ball_device.bd_trough>, 'mechanical_eject': True, 'num_attempts': 10}
+2025-01-17 12:02:13,232 : INFO : ball_device.bd_trough : Wait for ball to leave device
+2025-01-17 12:02:13,232 : INFO : coil.c_trough_eject : Pulsing Driver for 10ms (1.0 pulse_power)
+2025-01-17 12:02:16,006 : INFO : SwitchController : <<<<<<< 's_right_flipper' inactive >>>>>>>
+2025-01-17 12:02:16,562 : INFO : SwitchController : <<<<<<< 's_right_flipper' active >>>>>>>
+2025-01-17 12:02:16,562 : INFO : EventManager : Event: ======'s_right_flipper_active'====== Args={}
+2025-01-17 12:02:16,562 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_right_flipper'====== Args={'value': 1928, 'prev_value': 1927, 'change': 1}
+2025-01-17 12:02:16,758 : INFO : SwitchController : <<<<<<< 's_right_flipper' inactive >>>>>>>
+2025-01-17 12:02:20,171 : INFO : SwitchController : <<<<<<< 's_right_flipper' active >>>>>>>
+2025-01-17 12:02:20,171 : INFO : EventManager : Event: ======'s_right_flipper_active'====== Args={}
+2025-01-17 12:02:20,171 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_right_flipper'====== Args={'value': 1929, 'prev_value': 1928, 'change': 1}
+2025-01-17 12:02:20,441 : INFO : SwitchController : <<<<<<< 's_right_flipper' inactive >>>>>>>
+2025-01-17 12:02:20,501 : INFO : SwitchController : <<<<<<< 's_left_flipper' active >>>>>>>
+2025-01-17 12:02:20,501 : INFO : EventManager : Event: ======'s_left_flipper_active'====== Args={}
+2025-01-17 12:02:20,501 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_left_flipper'====== Args={'value': 1613, 'prev_value': 1612, 'change': 1}
+2025-01-17 12:02:20,725 : INFO : SwitchController : <<<<<<< 's_left_flipper' inactive >>>>>>>
+2025-01-17 12:02:21,374 : INFO : SwitchController : <<<<<<< 's_right_flipper' active >>>>>>>
+2025-01-17 12:02:21,374 : INFO : EventManager : Event: ======'s_right_flipper_active'====== Args={}
+2025-01-17 12:02:21,374 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_right_flipper'====== Args={'value': 1930, 'prev_value': 1929, 'change': 1}
+2025-01-17 12:02:22,594 : INFO : SwitchController : <<<<<<< 's_right_flipper' inactive >>>>>>>
+2025-01-17 12:02:22,831 : INFO : SwitchController : <<<<<<< 's_left_flipper' active >>>>>>>
+2025-01-17 12:02:22,831 : INFO : EventManager : Event: ======'s_left_flipper_active'====== Args={}
+2025-01-17 12:02:22,831 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_left_flipper'====== Args={'value': 1614, 'prev_value': 1613, 'change': 1}
+2025-01-17 12:02:23,131 : INFO : SwitchController : <<<<<<< 's_left_flipper' inactive >>>>>>>
+2025-01-17 12:02:23,225 : INFO : EventManager : Event: ======'balldevice_bd_trough_ball_eject_failed'====== Args={'target': <ball_device.bd_plunger>, 'balls': 1, 'retry': True, 'num_attempts': 11}
+2025-01-17 12:02:23,227 : INFO : ball_device.bd_trough : State: waiting_for_target_ready
+2025-01-17 12:02:23,227 : INFO : EventManager : Event: ======'balldevice_bd_trough_ball_eject_attempt'====== Args={'balls': 1, 'target': <ball_device.bd_plunger>, 'source': <ball_device.bd_trough>, 'mechanical_eject': True, 'num_attempts': 11}
+2025-01-17 12:02:23,227 : INFO : ball_device.bd_trough : State: ejecting
+2025-01-17 12:02:23,227 : INFO : ball_device.bd_trough : Ejecting ball to <ball_device.bd_plunger>
+2025-01-17 12:02:23,227 : INFO : EventManager : Event: ======'balldevice_bd_trough_ejecting_ball'====== Args={'balls': 1, 'target': <ball_device.bd_plunger>, 'source': <ball_device.bd_trough>, 'mechanical_eject': True, 'num_attempts': 11}
+2025-01-17 12:02:23,229 : INFO : ball_device.bd_trough : Wait for ball to leave device
+2025-01-17 12:02:23,229 : INFO : coil.c_trough_eject : Pulsing Driver for 10ms (1.0 pulse_power)
+2025-01-17 12:02:29,415 : INFO : SwitchController : <<<<<<< 's_left_attack_bumper' active >>>>>>>
+2025-01-17 12:02:29,415 : INFO : EventManager : Event: ======'playfield_active'====== Args={'source': 'left_attack_bumper'}
+2025-01-17 12:02:29,415 : INFO : EventManager : Event: ======'unexpected_ball_on_playfield'====== Args={}
+2025-01-17 12:02:29,416 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_left_attack_bumper'====== Args={'value': 220, 'prev_value': 219, 'change': 1}
+2025-01-17 12:02:29,432 : INFO : SwitchController : <<<<<<< 's_left_attack_bumper' inactive >>>>>>>
+2025-01-17 12:02:29,651 : INFO : SwitchController : <<<<<<< 's_upper_attack_bumper' active >>>>>>>
+2025-01-17 12:02:29,651 : INFO : EventManager : Event: ======'playfield_active'====== Args={'source': 'upper_attack_bumper'}
+2025-01-17 12:02:29,652 : INFO : EventManager : Event: ======'unexpected_ball_on_playfield'====== Args={}
+2025-01-17 12:02:29,652 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_upper_attack_bumper'====== Args={'value': 244, 'prev_value': 243, 'change': 1}
+2025-01-17 12:02:29,662 : INFO : SwitchController : <<<<<<< 's_upper_attack_bumper' inactive >>>>>>>
+2025-01-17 12:02:33,219 : INFO : EventManager : Event: ======'balldevice_bd_trough_ball_eject_failed'====== Args={'target': <ball_device.bd_plunger>, 'balls': 1, 'retry': True, 'num_attempts': 12}
+2025-01-17 12:02:33,220 : INFO : ball_device.bd_trough : State: waiting_for_target_ready
+2025-01-17 12:02:33,220 : INFO : EventManager : Event: ======'balldevice_bd_trough_ball_eject_attempt'====== Args={'balls': 1, 'target': <ball_device.bd_plunger>, 'source': <ball_device.bd_trough>, 'mechanical_eject': True, 'num_attempts': 12}
+2025-01-17 12:02:33,220 : INFO : ball_device.bd_trough : State: ejecting
+2025-01-17 12:02:33,220 : INFO : ball_device.bd_trough : Ejecting ball to <ball_device.bd_plunger>
+2025-01-17 12:02:33,220 : INFO : EventManager : Event: ======'balldevice_bd_trough_ejecting_ball'====== Args={'balls': 1, 'target': <ball_device.bd_plunger>, 'source': <ball_device.bd_trough>, 'mechanical_eject': True, 'num_attempts': 12}
+2025-01-17 12:02:33,221 : INFO : ball_device.bd_trough : Wait for ball to leave device
+2025-01-17 12:02:33,221 : INFO : coil.c_trough_eject : Pulsing Driver for 10ms (1.0 pulse_power)
+2025-01-17 12:02:35,133 : INFO : SwitchController : <<<<<<< 's_upper_attack_bumper' active >>>>>>>
+2025-01-17 12:02:35,133 : INFO : EventManager : Event: ======'playfield_active'====== Args={'source': 'upper_attack_bumper'}
+2025-01-17 12:02:35,134 : INFO : EventManager : Event: ======'unexpected_ball_on_playfield'====== Args={}
+2025-01-17 12:02:35,134 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_upper_attack_bumper'====== Args={'value': 245, 'prev_value': 244, 'change': 1}
+2025-01-17 12:02:35,149 : INFO : SwitchController : <<<<<<< 's_upper_attack_bumper' inactive >>>>>>>
+2025-01-17 12:02:35,229 : INFO : SwitchController : <<<<<<< 's_left_attack_bumper' active >>>>>>>
+2025-01-17 12:02:35,229 : INFO : EventManager : Event: ======'playfield_active'====== Args={'source': 'left_attack_bumper'}
+2025-01-17 12:02:35,229 : INFO : EventManager : Event: ======'unexpected_ball_on_playfield'====== Args={}
+2025-01-17 12:02:35,230 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_left_attack_bumper'====== Args={'value': 221, 'prev_value': 220, 'change': 1}
+2025-01-17 12:02:35,260 : INFO : SwitchController : <<<<<<< 's_left_attack_bumper' inactive >>>>>>>
+2025-01-17 12:02:35,286 : INFO : SwitchController : <<<<<<< 's_lower_attack_bumper' active >>>>>>>
+2025-01-17 12:02:35,286 : INFO : EventManager : Event: ======'playfield_active'====== Args={'source': 'lower_attack_bumper'}
+2025-01-17 12:02:35,286 : INFO : EventManager : Event: ======'unexpected_ball_on_playfield'====== Args={}
+2025-01-17 12:02:35,287 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_lower_attack_bumper'====== Args={'value': 151, 'prev_value': 150, 'change': 1}
+2025-01-17 12:02:35,324 : INFO : SwitchController : <<<<<<< 's_lower_attack_bumper' inactive >>>>>>>
+2025-01-17 12:02:35,377 : INFO : SwitchController : <<<<<<< 's_upper_attack_bumper' active >>>>>>>
+2025-01-17 12:02:35,378 : INFO : EventManager : Event: ======'playfield_active'====== Args={'source': 'upper_attack_bumper'}
+2025-01-17 12:02:35,378 : INFO : EventManager : Event: ======'unexpected_ball_on_playfield'====== Args={}
+2025-01-17 12:02:35,378 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_upper_attack_bumper'====== Args={'value': 246, 'prev_value': 245, 'change': 1}
+2025-01-17 12:02:35,405 : INFO : SwitchController : <<<<<<< 's_upper_attack_bumper' inactive >>>>>>>
+2025-01-17 12:02:35,529 : INFO : SwitchController : <<<<<<< 's_lower_attack_bumper' active >>>>>>>
+2025-01-17 12:02:35,529 : INFO : EventManager : Event: ======'playfield_active'====== Args={'source': 'lower_attack_bumper'}
+2025-01-17 12:02:35,529 : INFO : EventManager : Event: ======'unexpected_ball_on_playfield'====== Args={}
+2025-01-17 12:02:35,530 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_lower_attack_bumper'====== Args={'value': 152, 'prev_value': 151, 'change': 1}
+2025-01-17 12:02:35,545 : INFO : SwitchController : <<<<<<< 's_lower_attack_bumper' inactive >>>>>>>
+2025-01-17 12:02:35,845 : INFO : SwitchController : <<<<<<< 's_upper_attack_bumper' active >>>>>>>
+2025-01-17 12:02:35,845 : INFO : EventManager : Event: ======'playfield_active'====== Args={'source': 'upper_attack_bumper'}
+2025-01-17 12:02:35,845 : INFO : EventManager : Event: ======'unexpected_ball_on_playfield'====== Args={}
+2025-01-17 12:02:35,845 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_upper_attack_bumper'====== Args={'value': 247, 'prev_value': 246, 'change': 1}
+2025-01-17 12:02:35,862 : INFO : SwitchController : <<<<<<< 's_upper_attack_bumper' inactive >>>>>>>
+2025-01-17 12:02:35,936 : INFO : SwitchController : <<<<<<< 's_lower_attack_bumper' active >>>>>>>
+2025-01-17 12:02:35,936 : INFO : EventManager : Event: ======'playfield_active'====== Args={'source': 'lower_attack_bumper'}
+2025-01-17 12:02:35,936 : INFO : EventManager : Event: ======'unexpected_ball_on_playfield'====== Args={}
+2025-01-17 12:02:35,936 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_lower_attack_bumper'====== Args={'value': 153, 'prev_value': 152, 'change': 1}
+2025-01-17 12:02:35,958 : INFO : SwitchController : <<<<<<< 's_lower_attack_bumper' inactive >>>>>>>
+2025-01-17 12:02:36,021 : INFO : SwitchController : <<<<<<< 's_left_attack_bumper' active >>>>>>>
+2025-01-17 12:02:36,021 : INFO : EventManager : Event: ======'playfield_active'====== Args={'source': 'left_attack_bumper'}
+2025-01-17 12:02:36,021 : INFO : EventManager : Event: ======'unexpected_ball_on_playfield'====== Args={}
+2025-01-17 12:02:36,022 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_left_attack_bumper'====== Args={'value': 222, 'prev_value': 221, 'change': 1}
+2025-01-17 12:02:36,050 : INFO : SwitchController : <<<<<<< 's_left_attack_bumper' inactive >>>>>>>
+2025-01-17 12:02:36,100 : INFO : SwitchController : <<<<<<< 's_left_attack_bumper' active >>>>>>>
+2025-01-17 12:02:36,100 : INFO : EventManager : Event: ======'playfield_active'====== Args={'source': 'left_attack_bumper'}
+2025-01-17 12:02:36,100 : INFO : EventManager : Event: ======'unexpected_ball_on_playfield'====== Args={}
+2025-01-17 12:02:36,100 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_left_attack_bumper'====== Args={'value': 223, 'prev_value': 222, 'change': 1}
+2025-01-17 12:02:36,114 : INFO : SwitchController : <<<<<<< 's_left_attack_bumper' inactive >>>>>>>
+2025-01-17 12:02:40,772 : INFO : SwitchController : <<<<<<< 's_reentry_right' active >>>>>>>
+2025-01-17 12:02:40,773 : INFO : EventManager : Event: ======'playfield_active'====== Args={'source': 'reentryR_shot'}
+2025-01-17 12:02:40,773 : INFO : EventManager : Event: ======'unexpected_ball_on_playfield'====== Args={}
+2025-01-17 12:02:40,773 : INFO : EventManager : Event: ======'s_reentry_right_active'====== Args={}
+2025-01-17 12:02:40,773 : INFO : EventManager : Event: ======'sw_playfield_active'====== Args={}
+2025-01-17 12:02:40,773 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_reentry_right'====== Args={'value': 528, 'prev_value': 527, 'change': 1}
+2025-01-17 12:02:40,775 : INFO : EventManager : Event: ======'player_shot_reentryR_shot'====== Args={'value': 1, 'prev_value': 0, 'change': 1, 'player_num': 1}
+2025-01-17 12:02:40,775 : INFO : EventManager : Event: ======'machine_var_audits_shots_reentryR_shot'====== Args={'value': 469, 'prev_value': 468, 'change': 1}
+2025-01-17 12:02:40,776 : INFO : EventManager : Event: ======'reentryR_shot_hit'====== Args={'profile': 'reentry', 'state': 'off', 'advancing': True}
+2025-01-17 12:02:40,776 : INFO : EventManager : Event: ======'reentryR_shot_reentry_hit'====== Args={'profile': 'reentry', 'state': 'off', 'advancing': True}
+2025-01-17 12:02:40,776 : INFO : EventManager : Event: ======'reentryR_shot_reentry_off_hit'====== Args={'profile': 'reentry', 'state': 'off', 'advancing': True}
+2025-01-17 12:02:40,776 : INFO : EventManager : Event: ======'reentryR_shot_off_hit'====== Args={'profile': 'reentry', 'state': 'off', 'advancing': True}
+2025-01-17 12:02:40,777 : INFO : EventManager : Event: ======'reentry_shot_hit'====== Args={}
+2025-01-17 12:02:40,777 : INFO : EventManager : Event: ======'reentry_shot_off_hit'====== Args={}
+2025-01-17 12:02:40,777 : INFO : EventManager : Event: ======'player_score'====== Args={'value': 49000, 'prev_value': 48000, 'change': 1000, 'player_num': 1, 'source': 'reentry'}
+2025-01-17 12:02:40,778 : INFO : EventManager : Event: ======'playfield_active'====== Args={'source': None}
+2025-01-17 12:02:40,778 : INFO : EventManager : Event: ======'unexpected_ball_on_playfield'====== Args={}
+2025-01-17 12:02:40,964 : INFO : SwitchController : <<<<<<< 's_reentry_right' inactive >>>>>>>
+2025-01-17 12:02:41,139 : INFO : SwitchController : <<<<<<< 's_upper_attack_bumper' active >>>>>>>
+2025-01-17 12:02:41,139 : INFO : EventManager : Event: ======'playfield_active'====== Args={'source': 'upper_attack_bumper'}
+2025-01-17 12:02:41,139 : INFO : EventManager : Event: ======'unexpected_ball_on_playfield'====== Args={}
+2025-01-17 12:02:41,139 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_upper_attack_bumper'====== Args={'value': 248, 'prev_value': 247, 'change': 1}
+2025-01-17 12:02:41,170 : INFO : SwitchController : <<<<<<< 's_upper_attack_bumper' inactive >>>>>>>
+2025-01-17 12:02:41,392 : INFO : SwitchController : <<<<<<< 's_upper_attack_bumper' active >>>>>>>
+2025-01-17 12:02:41,393 : INFO : EventManager : Event: ======'playfield_active'====== Args={'source': 'upper_attack_bumper'}
+2025-01-17 12:02:41,393 : INFO : EventManager : Event: ======'unexpected_ball_on_playfield'====== Args={}
+2025-01-17 12:02:41,393 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_upper_attack_bumper'====== Args={'value': 249, 'prev_value': 248, 'change': 1}
+2025-01-17 12:02:41,439 : INFO : SwitchController : <<<<<<< 's_upper_attack_bumper' inactive >>>>>>>
+2025-01-17 12:02:41,488 : INFO : SwitchController : <<<<<<< 's_upper_attack_bumper' active >>>>>>>
+2025-01-17 12:02:41,488 : INFO : EventManager : Event: ======'playfield_active'====== Args={'source': 'upper_attack_bumper'}
+2025-01-17 12:02:41,488 : INFO : EventManager : Event: ======'unexpected_ball_on_playfield'====== Args={}
+2025-01-17 12:02:41,488 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_upper_attack_bumper'====== Args={'value': 250, 'prev_value': 249, 'change': 1}
+2025-01-17 12:02:41,520 : INFO : SwitchController : <<<<<<< 's_upper_attack_bumper' inactive >>>>>>>
+2025-01-17 12:02:41,736 : INFO : SwitchController : <<<<<<< 's_left_attack_bumper' active >>>>>>>
+2025-01-17 12:02:41,736 : INFO : EventManager : Event: ======'playfield_active'====== Args={'source': 'left_attack_bumper'}
+2025-01-17 12:02:41,736 : INFO : EventManager : Event: ======'unexpected_ball_on_playfield'====== Args={}
+2025-01-17 12:02:41,738 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_left_attack_bumper'====== Args={'value': 224, 'prev_value': 223, 'change': 1}
+2025-01-17 12:02:41,759 : INFO : SwitchController : <<<<<<< 's_left_attack_bumper' inactive >>>>>>>
+2025-01-17 12:02:41,949 : INFO : SwitchController : <<<<<<< 's_upper_attack_bumper' active >>>>>>>
+2025-01-17 12:02:41,949 : INFO : EventManager : Event: ======'playfield_active'====== Args={'source': 'upper_attack_bumper'}
+2025-01-17 12:02:41,949 : INFO : EventManager : Event: ======'unexpected_ball_on_playfield'====== Args={}
+2025-01-17 12:02:41,949 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_upper_attack_bumper'====== Args={'value': 251, 'prev_value': 250, 'change': 1}
+2025-01-17 12:02:41,995 : INFO : SwitchController : <<<<<<< 's_upper_attack_bumper' inactive >>>>>>>
+2025-01-17 12:02:42,074 : INFO : SwitchController : <<<<<<< 's_upper_attack_bumper' active >>>>>>>
+2025-01-17 12:02:42,075 : INFO : EventManager : Event: ======'playfield_active'====== Args={'source': 'upper_attack_bumper'}
+2025-01-17 12:02:42,075 : INFO : EventManager : Event: ======'unexpected_ball_on_playfield'====== Args={}
+2025-01-17 12:02:42,075 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_upper_attack_bumper'====== Args={'value': 252, 'prev_value': 251, 'change': 1}
+2025-01-17 12:02:42,105 : INFO : SwitchController : <<<<<<< 's_upper_attack_bumper' inactive >>>>>>>
+2025-01-17 12:02:42,215 : INFO : SwitchController : <<<<<<< 's_reentry_right' active >>>>>>>
+2025-01-17 12:02:42,216 : INFO : EventManager : Event: ======'playfield_active'====== Args={'source': 'reentryR_shot'}
+2025-01-17 12:02:42,216 : INFO : EventManager : Event: ======'unexpected_ball_on_playfield'====== Args={}
+2025-01-17 12:02:42,216 : INFO : EventManager : Event: ======'s_reentry_right_active'====== Args={}
+2025-01-17 12:02:42,216 : INFO : EventManager : Event: ======'sw_playfield_active'====== Args={}
+2025-01-17 12:02:42,216 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_reentry_right'====== Args={'value': 529, 'prev_value': 528, 'change': 1}
+2025-01-17 12:02:42,217 : INFO : EventManager : Event: ======'player_shot_reentryR_shot'====== Args={'value': 0, 'prev_value': 1, 'change': -1, 'player_num': 1}
+2025-01-17 12:02:42,217 : INFO : EventManager : Event: ======'machine_var_audits_shots_reentryR_shot'====== Args={'value': 470, 'prev_value': 469, 'change': 1}
+2025-01-17 12:02:42,217 : INFO : EventManager : Event: ======'reentryR_shot_hit'====== Args={'profile': 'reentry', 'state': 'lit', 'advancing': True}
+2025-01-17 12:02:42,217 : INFO : EventManager : Event: ======'reentryR_shot_reentry_hit'====== Args={'profile': 'reentry', 'state': 'lit', 'advancing': True}
+2025-01-17 12:02:42,217 : INFO : EventManager : Event: ======'reentryR_shot_reentry_lit_hit'====== Args={'profile': 'reentry', 'state': 'lit', 'advancing': True}
+2025-01-17 12:02:42,217 : INFO : EventManager : Event: ======'reentryR_shot_lit_hit'====== Args={'profile': 'reentry', 'state': 'lit', 'advancing': True}
+2025-01-17 12:02:42,218 : INFO : EventManager : Event: ======'reentry_shot_complete'====== Args={'state': 'off'}
+2025-01-17 12:02:42,218 : INFO : EventManager : Event: ======'reentry_shot_off_complete'====== Args={}
+2025-01-17 12:02:42,218 : INFO : EventManager : Event: ======'reentry_shot_hit'====== Args={}
+2025-01-17 12:02:42,218 : INFO : EventManager : Event: ======'reentry_shot_lit_hit'====== Args={}
+2025-01-17 12:02:42,218 : INFO : EventManager : Event: ======'player_score'====== Args={'value': 51000, 'prev_value': 49000, 'change': 2000, 'player_num': 1, 'source': 'reentry'}
+2025-01-17 12:02:42,219 : INFO : EventManager : Event: ======'playfield_active'====== Args={'source': None}
+2025-01-17 12:02:42,219 : INFO : EventManager : Event: ======'unexpected_ball_on_playfield'====== Args={}
+2025-01-17 12:02:42,381 : INFO : SwitchController : <<<<<<< 's_reentry_right' inactive >>>>>>>
+2025-01-17 12:02:42,673 : INFO : SwitchController : <<<<<<< 's_upper_attack_bumper' active >>>>>>>
+2025-01-17 12:02:42,673 : INFO : EventManager : Event: ======'playfield_active'====== Args={'source': 'upper_attack_bumper'}
+2025-01-17 12:02:42,673 : INFO : EventManager : Event: ======'unexpected_ball_on_playfield'====== Args={}
+2025-01-17 12:02:42,673 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_upper_attack_bumper'====== Args={'value': 253, 'prev_value': 252, 'change': 1}
+2025-01-17 12:02:42,704 : INFO : SwitchController : <<<<<<< 's_upper_attack_bumper' inactive >>>>>>>
+2025-01-17 12:02:42,959 : INFO : SwitchController : <<<<<<< 's_upper_attack_bumper' active >>>>>>>
+2025-01-17 12:02:42,959 : INFO : EventManager : Event: ======'playfield_active'====== Args={'source': 'upper_attack_bumper'}
+2025-01-17 12:02:42,959 : INFO : EventManager : Event: ======'unexpected_ball_on_playfield'====== Args={}
+2025-01-17 12:02:42,959 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_upper_attack_bumper'====== Args={'value': 254, 'prev_value': 253, 'change': 1}
+2025-01-17 12:02:42,989 : INFO : SwitchController : <<<<<<< 's_upper_attack_bumper' inactive >>>>>>>
+2025-01-17 12:02:43,070 : INFO : SwitchController : <<<<<<< 's_upper_attack_bumper' active >>>>>>>
+2025-01-17 12:02:43,070 : INFO : EventManager : Event: ======'playfield_active'====== Args={'source': 'upper_attack_bumper'}
+2025-01-17 12:02:43,070 : INFO : EventManager : Event: ======'unexpected_ball_on_playfield'====== Args={}
+2025-01-17 12:02:43,070 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_upper_attack_bumper'====== Args={'value': 255, 'prev_value': 254, 'change': 1}
+2025-01-17 12:02:43,100 : INFO : SwitchController : <<<<<<< 's_upper_attack_bumper' inactive >>>>>>>
+2025-01-17 12:02:43,228 : INFO : EventManager : Event: ======'balldevice_bd_trough_ball_eject_failed'====== Args={'target': <ball_device.bd_plunger>, 'balls': 1, 'retry': True, 'num_attempts': 13}
+2025-01-17 12:02:43,229 : INFO : ball_device.bd_trough : State: waiting_for_target_ready
+2025-01-17 12:02:43,230 : INFO : EventManager : Event: ======'balldevice_bd_trough_ball_eject_attempt'====== Args={'balls': 1, 'target': <ball_device.bd_plunger>, 'source': <ball_device.bd_trough>, 'mechanical_eject': True, 'num_attempts': 13}
+2025-01-17 12:02:43,230 : INFO : ball_device.bd_trough : State: ejecting
+2025-01-17 12:02:43,230 : INFO : ball_device.bd_trough : Ejecting ball to <ball_device.bd_plunger>
+2025-01-17 12:02:43,230 : INFO : EventManager : Event: ======'balldevice_bd_trough_ejecting_ball'====== Args={'balls': 1, 'target': <ball_device.bd_plunger>, 'source': <ball_device.bd_trough>, 'mechanical_eject': True, 'num_attempts': 13}
+2025-01-17 12:02:43,231 : INFO : ball_device.bd_trough : Wait for ball to leave device
+2025-01-17 12:02:43,232 : INFO : coil.c_trough_eject : Pulsing Driver for 10ms (1.0 pulse_power)
+2025-01-17 12:02:50,181 : INFO : Machine : Shutting down...
+2025-01-17 12:02:50,181 : INFO : EventManager : Event: ======'shutdown'====== Args={}
+2025-01-17 12:02:50,185 : INFO : EventManager : Event: ======'mode_game_will_stop'====== Args={}
+2025-01-17 12:02:50,185 : INFO : EventManager : Event: ======'mode_game_stopping'====== Args={}
+2025-01-17 12:02:50,186 : INFO : EventManager : Event: ======'mode_base_will_stop'====== Args={}
+2025-01-17 12:02:50,186 : INFO : EventManager : Event: ======'mode_base_stopping'====== Args={}
+2025-01-17 12:02:50,186 : INFO : EventManager : Event: ======'mode_lowerlanes_will_stop'====== Args={}
+2025-01-17 12:02:50,186 : INFO : EventManager : Event: ======'mode_lowerlanes_stopping'====== Args={}
+2025-01-17 12:02:50,186 : INFO : EventManager : Event: ======'mode_reentry_will_stop'====== Args={}
+2025-01-17 12:02:50,186 : INFO : EventManager : Event: ======'mode_reentry_stopping'====== Args={}
+2025-01-17 12:02:50,187 : INFO : Mode.reentry : Stopped.
+2025-01-17 12:02:50,187 : INFO : EventManager : Event: ======'modes_active_modes_changed'====== Args={}
+2025-01-17 12:02:50,187 : INFO : EventManager : Event: ======'mode_reentry_stopped'====== Args={}
+2025-01-17 12:02:50,187 : INFO : EventManager : Event: ======'clear'====== Args={'key': 'reentry'}
+2025-01-17 12:02:50,187 : INFO : Mode.lowerlanes : Stopped.
+2025-01-17 12:02:50,187 : INFO : EventManager : Event: ======'modes_active_modes_changed'====== Args={}
+2025-01-17 12:02:50,187 : INFO : EventManager : Event: ======'mode_lowerlanes_stopped'====== Args={}
+2025-01-17 12:02:50,188 : INFO : EventManager : Event: ======'clear'====== Args={'key': 'lowerlanes'}
+2025-01-17 12:02:50,188 : INFO : Mode.base : Stopped.
+2025-01-17 12:02:50,188 : INFO : EventManager : Event: ======'modes_active_modes_changed'====== Args={}
+2025-01-17 12:02:50,188 : INFO : EventManager : Event: ======'mode_base_stopped'====== Args={}
+2025-01-17 12:02:50,188 : INFO : EventManager : Event: ======'clear'====== Args={'key': 'base'}
+2025-01-17 12:02:50,189 : INFO : Mode.game : Stopped.
+2025-01-17 12:02:50,189 : INFO : EventManager : Event: ======'modes_active_modes_changed'====== Args={}
+2025-01-17 12:02:50,189 : INFO : EventManager : Event: ======'mode_game_stopped'====== Args={}
+2025-01-17 12:02:50,189 : INFO : EventManager : Event: ======'clear'====== Args={'key': 'game'}
+2025-01-17 12:02:50,190 : ERROR : OPP : Stop called on serial connection com5
+2025-01-17 12:02:50,193 : ERROR : OPP : Stop called on serial connection com4
+2025-01-17 12:02:50,193 : ERROR : asyncio : Exception in callback Util.raise_exceptions(<Task finishe...ection lost')>) at C:\Users\student\mpfenv3\Lib\site-packages\mpf\core\utility_functions.py:790
+handle: <Handle Util.raise_exceptions(<Task finishe...ection lost')>) at C:\Users\student\mpfenv3\Lib\site-packages\mpf\core\utility_functions.py:790>
+Traceback (most recent call last):
+  File "C:\Program Files\Python311\Lib\asyncio\events.py", line 84, in _run
+    self._context.run(self._callback, *self._args)
+  File "C:\Users\student\mpfenv3\Lib\site-packages\mpf\core\utility_functions.py", line 798, in raise_exceptions
+    future.result()
+  File "C:\Users\student\mpfenv3\Lib\site-packages\mpf\platforms\opp\opp.py", line 971, in _poll_sender
+    await self.opp_connection[chain_serial].writer.drain()
+  File "C:\Program Files\Python311\Lib\asyncio\streams.py", line 392, in drain
+    await self._protocol._drain_helper()
+  File "C:\Program Files\Python311\Lib\asyncio\streams.py", line 166, in _drain_helper
+    raise ConnectionResetError('Connection lost')
+ConnectionResetError: Connection lost
+2025-01-17 12:02:50,460 : WARNING : OPP : Poll took more than 250.0ms for 0
+2025-01-17 12:02:50,460 : ERROR : asyncio : Exception in callback Util.raise_exceptions(<Task finishe...ute 'write'")>) at C:\Users\student\mpfenv3\Lib\site-packages\mpf\core\utility_functions.py:790
+handle: <Handle Util.raise_exceptions(<Task finishe...ute 'write'")>) at C:\Users\student\mpfenv3\Lib\site-packages\mpf\core\utility_functions.py:790>
+Traceback (most recent call last):
+  File "C:\Program Files\Python311\Lib\asyncio\events.py", line 84, in _run
+    self._context.run(self._callback, *self._args)
+  File "C:\Users\student\mpfenv3\Lib\site-packages\mpf\core\utility_functions.py", line 798, in raise_exceptions
+    future.result()
+  File "C:\Users\student\mpfenv3\Lib\site-packages\mpf\platforms\opp\opp.py", line 970, in _poll_sender
+    self.send_to_processor(chain_serial, self.read_input_msg[chain_serial])
+  File "C:\Users\student\mpfenv3\Lib\site-packages\mpf\platforms\opp\opp.py", line 349, in send_to_processor
+    self.opp_connection[chain_serial].send(msg)
+  File "C:\Users\student\mpfenv3\Lib\site-packages\mpf\platforms\base_serial_communicator.py", line 161, in send
+    self.writer.write(msg)
+    ^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'write'
+2025-01-17 12:02:50,461 : INFO : root : MPF run loop ended.

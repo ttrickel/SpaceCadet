@@ -1,0 +1,6 @@
+2023-02-10 11:29:14,652 : INFO : root : Loading config.
+2023-02-10 11:29:14,652 : INFO : YamlMultifileConfigLoader : Machine config file #1: config.yaml
+2023-02-10 11:29:14,667 : INFO : ConfigProcessor : Loading config from cache: C:\Users\student\AppData\Local\Temp\f1427cd4cbc9163bc2263f349f0fb463.mpf_cache
+2023-02-10 11:29:14,730 : INFO : ConfigProcessor : Loading config from cache: C:\Users\student\AppData\Local\Temp\7315f14db5aa651883463bde45465327.mpf_cache
+2023-02-10 11:29:14,730 : INFO : ConfigProcessor : Loading config from cache: C:\Users\student\AppData\Local\Temp\8696bd5a5a040ff67990be11cb4d3c0c.mpf_cache
+2023-02-10 11:29:14,730 : INFO : ConfigProcessor : Loading config from file C:\Users\student\pinball\cobraPinTest1\modes\base\config\base.yaml.

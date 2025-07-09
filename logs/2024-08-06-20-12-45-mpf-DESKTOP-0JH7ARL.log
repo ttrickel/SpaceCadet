@@ -1,0 +1,937 @@
+2024-08-06 20:12:45,292 : INFO : root : Loading config.
+2024-08-06 20:12:45,303 : INFO : YamlMultifileConfigLoader : Machine config file #1: config.yaml
+2024-08-06 20:12:45,303 : WARNING : ConfigProcessor : Config file in cache changed: C:\Users\student\pinball\cobraPinTest1\config\config.yaml
+2024-08-06 20:12:45,303 : INFO : ConfigProcessor : Loading config from file c:\users\student\mpfenv\lib\site-packages\mpf\mpfconfig.yaml.
+2024-08-06 20:12:45,364 : INFO : ConfigProcessor : Loading config: c:\users\student\mpfenv\lib\site-packages\mpf\mpfconfig.yaml
+2024-08-06 20:12:45,365 : INFO : ConfigProcessor : Loading config from file C:\Users\student\pinball\cobraPinTest1\config\config.yaml.
+2024-08-06 20:12:45,405 : INFO : ConfigProcessor : Loading config: C:\Users\student\pinball\cobraPinTest1\config\config.yaml
+2024-08-06 20:12:45,407 : INFO : ConfigProcessor : Config file cache created: C:\Users\student\AppData\Local\Temp\f1427cd4cbc9163bc2263f349f0fb463.mpf_cache
+2024-08-06 20:12:45,473 : INFO : ConfigProcessor : Loading config from cache: C:\Users\student\AppData\Local\Temp\32ed7ad340ce8029344f8b9ff63edc80.mpf_cache
+2024-08-06 20:12:45,473 : INFO : ConfigProcessor : Loading config from cache: C:\Users\student\AppData\Local\Temp\8696bd5a5a040ff67990be11cb4d3c0c.mpf_cache
+2024-08-06 20:12:45,474 : INFO : ConfigProcessor : Loading config from cache: C:\Users\student\AppData\Local\Temp\4675a535c8328a9c278c807d999ed109.mpf_cache
+2024-08-06 20:12:45,475 : INFO : ConfigProcessor : Loading config from cache: C:\Users\student\AppData\Local\Temp\0c8438cab3480347c0c749fa494946a2.mpf_cache
+2024-08-06 20:12:45,476 : INFO : ConfigProcessor : Loading config from cache: C:\Users\student\AppData\Local\Temp\edae2e0e7aeda847f5007d89f37fc8de.mpf_cache
+2024-08-06 20:12:45,477 : INFO : ConfigProcessor : Loading config from cache: C:\Users\student\AppData\Local\Temp\f8d2c2cf3ea01f085365ea23fa51a701.mpf_cache
+2024-08-06 20:12:45,477 : INFO : ConfigProcessor : Loading config from cache: C:\Users\student\AppData\Local\Temp\30bd992f4b62a9b099207aebeb59554c.mpf_cache
+2024-08-06 20:12:45,478 : INFO : Machine : Mission Pinball Framework Core Engine v0.55.0
+2024-08-06 20:12:45,478 : INFO : Machine : Command line arguments: {'no_load_cache': False, 'create_config_cache': True, 'bcp': False, 'configfile': ['config.yaml'], 'force_assets_load': False, 'jsonlogging': False, 'logfile': 'logs\\2024-08-06-20-12-45-mpf-DESKTOP-0JH7ARL.log', 'pause': False, 'production': False, 'text_ui': True, 'loglevel': 15, 'consoleloglevel': 20, 'force_platform': None, 'syslog_address': None, 'mc_file_name': None, 'no_sound': False}
+2024-08-06 20:12:45,479 : INFO : Machine : MPF path: c:\users\student\mpfenv\lib\site-packages\mpf
+2024-08-06 20:12:45,479 : INFO : Machine : Machine path: C:\Users\student\pinball\cobraPinTest1
+2024-08-06 20:12:45,479 : INFO : Machine : Platform: win32
+2024-08-06 20:12:45,479 : INFO : Machine : Python executable location: c:\users\student\mpfenv\scripts\python.exe
+2024-08-06 20:12:45,479 : INFO : Machine : Python version: 3.7.8 (64-bit)
+2024-08-06 20:12:45,481 : INFO : Machine : Initialise MPF.
+2024-08-06 20:12:45,726 : INFO : OPP : Connecting to com4 at 115200bps
+2024-08-06 20:12:45,826 : INFO : OPP : Init of OPP board 0 done
+2024-08-06 20:12:45,827 : INFO : OPP : Connecting to com5 at 115200bps
+2024-08-06 20:12:45,996 : INFO : OPP : Init of OPP board 1 done
+2024-08-06 20:12:45,996 : INFO : EventManager : Event: ======'machine_var_credits_string'====== Args={'value': 'FREE PLAY', 'prev_value': None, 'change': True}
+2024-08-06 20:12:46,039 : INFO : EventManager : Event: ======'machine_var_master_volume'====== Args={'value': 0.5, 'prev_value': None, 'change': True}
+2024-08-06 20:12:46,040 : INFO : EventManager : Event: ======'machine_var_player1_score'====== Args={'value': 1500, 'prev_value': None, 'change': True}
+2024-08-06 20:12:46,040 : INFO : EventManager : Event: ======'machine_var_mpf_version'====== Args={'value': 'MPF v0.55.0', 'prev_value': None, 'change': True}
+2024-08-06 20:12:46,040 : INFO : EventManager : Event: ======'machine_var_mpf_extended_version'====== Args={'value': 'MPF v0.55.0, Config version:5, Show version: 5, BCP version:1.1', 'prev_value': None, 'change': True}
+2024-08-06 20:12:46,040 : INFO : EventManager : Event: ======'machine_var_python_version'====== Args={'value': '3.7.8', 'prev_value': None, 'change': True}
+2024-08-06 20:12:46,040 : INFO : EventManager : Event: ======'machine_var_platform'====== Args={'value': 'Windows-10-10.0.19041-SP0', 'prev_value': None, 'change': True}
+2024-08-06 20:12:46,040 : INFO : EventManager : Event: ======'machine_var_platform_system'====== Args={'value': 'Windows', 'prev_value': None, 'change': True}
+2024-08-06 20:12:46,040 : INFO : EventManager : Event: ======'machine_var_platform_release'====== Args={'value': '10', 'prev_value': None, 'change': True}
+2024-08-06 20:12:46,040 : INFO : EventManager : Event: ======'machine_var_platform_version'====== Args={'value': '10.0.19041', 'prev_value': None, 'change': True}
+2024-08-06 20:12:46,040 : INFO : EventManager : Event: ======'machine_var_platform_machine'====== Args={'value': 'AMD64', 'prev_value': None, 'change': True}
+2024-08-06 20:12:46,040 : INFO : EventManager : Event: ======'init_phase_1'====== Args={}
+2024-08-06 20:12:46,063 : INFO : EventManager : Event: ======'init_phase_2'====== Args={}
+2024-08-06 20:12:46,064 : INFO : SwitchController : Found active switch: ('0-0-3', <Platform.OPP>) <switch.s_reentry_left>
+2024-08-06 20:12:46,064 : INFO : SwitchController : Found active switch: ('0-0-8', <Platform.OPP>) <switch.s_trough1>
+2024-08-06 20:12:46,069 : INFO : ball_device.bd_trough : BCH: Initial count: 1
+2024-08-06 20:12:46,069 : INFO : ball_device.bd_trough : State: idle
+2024-08-06 20:12:46,070 : INFO : ball_device.bd_plunger : BCH: Initial count: 0
+2024-08-06 20:12:46,071 : INFO : ball_device.bd_plunger : State: idle
+2024-08-06 20:12:46,135 : INFO : EventManager : Event: ======'init_phase_3'====== Args={}
+2024-08-06 20:12:46,141 : INFO : EventManager : Event: ======'init_phase_4'====== Args={}
+2024-08-06 20:12:46,141 : INFO : BallController : Initial balls found: 1
+2024-08-06 20:12:46,142 : INFO : EventManager : Event: ======'machine_var_audits_events_game_ended'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2024-08-06 20:12:46,142 : INFO : EventManager : Event: ======'machine_var_audits_events_game_started'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2024-08-06 20:12:46,142 : INFO : EventManager : Event: ======'machine_var_audits_player_score'====== Args={'value': {'average': 1800.0, 'top': [2000, 1900, 1500], 'total': 3}, 'prev_value': None, 'change': True}
+2024-08-06 20:12:46,143 : INFO : EventManager : Event: ======'machine_var_audits_shots_medalL_shot'====== Args={'value': 162, 'prev_value': None, 'change': True}
+2024-08-06 20:12:46,143 : INFO : EventManager : Event: ======'machine_var_audits_shots_medalM_shot'====== Args={'value': 158, 'prev_value': None, 'change': True}
+2024-08-06 20:12:46,143 : INFO : EventManager : Event: ======'machine_var_audits_shots_medalR_shot'====== Args={'value': 159, 'prev_value': None, 'change': True}
+2024-08-06 20:12:46,143 : INFO : EventManager : Event: ======'machine_var_audits_shots_my_first_shot'====== Args={'value': 119, 'prev_value': None, 'change': True}
+2024-08-06 20:12:46,143 : INFO : EventManager : Event: ======'machine_var_audits_shots_my_first_shot_mode2'====== Args={'value': 72, 'prev_value': None, 'change': True}
+2024-08-06 20:12:46,143 : INFO : EventManager : Event: ======'machine_var_audits_shots_reentryL_shot'====== Args={'value': 397, 'prev_value': None, 'change': True}
+2024-08-06 20:12:46,143 : INFO : EventManager : Event: ======'machine_var_audits_shots_reentryM_shot'====== Args={'value': 373, 'prev_value': None, 'change': True}
+2024-08-06 20:12:46,143 : INFO : EventManager : Event: ======'machine_var_audits_shots_reentryR_shot'====== Args={'value': 341, 'prev_value': None, 'change': True}
+2024-08-06 20:12:46,143 : INFO : EventManager : Event: ======'machine_var_audits_shots_reentry_shot'====== Args={'value': 9, 'prev_value': None, 'change': True}
+2024-08-06 20:12:46,144 : INFO : EventManager : Event: ======'machine_var_audits_shots_top_lane_A'====== Args={'value': 12, 'prev_value': None, 'change': True}
+2024-08-06 20:12:46,144 : INFO : EventManager : Event: ======'machine_var_audits_shots_top_lane_J'====== Args={'value': 12, 'prev_value': None, 'change': True}
+2024-08-06 20:12:46,144 : INFO : EventManager : Event: ======'machine_var_audits_shots_top_lane_M'====== Args={'value': 9, 'prev_value': None, 'change': True}
+2024-08-06 20:12:46,144 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_blackhole_kicker'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2024-08-06 20:12:46,145 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_bonus_lane'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2024-08-06 20:12:46,145 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_booster_drop_target_1'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2024-08-06 20:12:46,145 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_booster_drop_target_2'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2024-08-06 20:12:46,145 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_booster_drop_target_3'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2024-08-06 20:12:46,145 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_comet_spot_1'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2024-08-06 20:12:46,145 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_comet_spot_2'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2024-08-06 20:12:46,146 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_comet_spot_3'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2024-08-06 20:12:46,146 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_engine_bumper_1'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2024-08-06 20:12:46,146 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_engine_bumper_2'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2024-08-06 20:12:46,146 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_engine_bumper_3'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2024-08-06 20:12:46,146 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_fuel_chute_1'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2024-08-06 20:12:46,146 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_fuel_chute_2'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2024-08-06 20:12:46,147 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_fuel_chute_3'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2024-08-06 20:12:46,147 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_fuel_chute_4'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2024-08-06 20:12:46,147 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_fuel_chute_5'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2024-08-06 20:12:46,147 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_fuel_chute_6'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2024-08-06 20:12:46,147 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_fuel_flag'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2024-08-06 20:12:46,147 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_fuel_spot_1'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2024-08-06 20:12:46,148 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_fuel_spot_2'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2024-08-06 20:12:46,148 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_fuel_spot_3'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2024-08-06 20:12:46,148 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_green_wormhole'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2024-08-06 20:12:46,148 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_hyperspace_flag'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2024-08-06 20:12:46,148 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_hyperspacekicker'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2024-08-06 20:12:46,148 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_launch_lane_1'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2024-08-06 20:12:46,149 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_launch_lane_2'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2024-08-06 20:12:46,149 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_launch_lane_3'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2024-08-06 20:12:46,149 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_launch_ramp'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2024-08-06 20:12:46,150 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_left_attack_bumper'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2024-08-06 20:12:46,150 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_left_flipper'====== Args={'value': 467, 'prev_value': None, 'change': True}
+2024-08-06 20:12:46,150 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_left_out_lane'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2024-08-06 20:12:46,150 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_left_out_lane_kicker'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2024-08-06 20:12:46,150 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_left_return_lane'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2024-08-06 20:12:46,151 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_lower_attack_bumper'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2024-08-06 20:12:46,151 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_lower_left_rebound'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2024-08-06 20:12:46,151 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_lower_left_slingshot'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2024-08-06 20:12:46,151 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_lower_right_rebound'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2024-08-06 20:12:46,151 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_lower_right_slingshot'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2024-08-06 20:12:46,152 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_medal_drop_left'====== Args={'value': 176, 'prev_value': None, 'change': True}
+2024-08-06 20:12:46,152 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_medal_drop_middle'====== Args={'value': 172, 'prev_value': None, 'change': True}
+2024-08-06 20:12:46,152 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_medal_drop_right'====== Args={'value': 173, 'prev_value': None, 'change': True}
+2024-08-06 20:12:46,152 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_mission_spot_1'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2024-08-06 20:12:46,153 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_mission_spot_2'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2024-08-06 20:12:46,153 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_mission_spot_3'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2024-08-06 20:12:46,153 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_multiplier_left'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2024-08-06 20:12:46,153 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_multiplier_middle'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2024-08-06 20:12:46,153 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_multiplier_right'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2024-08-06 20:12:46,154 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_plunger'====== Args={'value': 162, 'prev_value': None, 'change': True}
+2024-08-06 20:12:46,154 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_radiationspot_1'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2024-08-06 20:12:46,154 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_radiationspot_2'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2024-08-06 20:12:46,154 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_radiationspot_3'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2024-08-06 20:12:46,155 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_red_wormhole'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2024-08-06 20:12:46,155 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_reentry_left'====== Args={'value': 752, 'prev_value': None, 'change': True}
+2024-08-06 20:12:46,155 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_reentry_middle'====== Args={'value': 447, 'prev_value': None, 'change': True}
+2024-08-06 20:12:46,155 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_reentry_right'====== Args={'value': 400, 'prev_value': None, 'change': True}
+2024-08-06 20:12:46,156 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_right_flipper'====== Args={'value': 191, 'prev_value': None, 'change': True}
+2024-08-06 20:12:46,156 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_right_inlane'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2024-08-06 20:12:46,156 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_right_out_lane'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2024-08-06 20:12:46,156 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_right_out_lane_kicker'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2024-08-06 20:12:46,157 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_right_return_lane'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2024-08-06 20:12:46,157 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_satellite_bumper'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2024-08-06 20:12:46,157 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_secondary_outlane_kicker'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2024-08-06 20:12:46,157 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_skill_shot_1'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2024-08-06 20:12:46,158 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_skill_shot_2'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2024-08-06 20:12:46,158 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_skill_shot_3'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2024-08-06 20:12:46,158 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_skill_shot_4'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2024-08-06 20:12:46,158 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_skill_shot_5'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2024-08-06 20:12:46,159 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_skill_shot_6'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2024-08-06 20:12:46,159 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_skill_shot_lane'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2024-08-06 20:12:46,159 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_spacewarp_rollover'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2024-08-06 20:12:46,159 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_start'====== Args={'value': 6, 'prev_value': None, 'change': True}
+2024-08-06 20:12:46,160 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_trough1'====== Args={'value': 30, 'prev_value': None, 'change': True}
+2024-08-06 20:12:46,160 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_trough2'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2024-08-06 20:12:46,160 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_trough3'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2024-08-06 20:12:46,161 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_trough4'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2024-08-06 20:12:46,161 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_trough5'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2024-08-06 20:12:46,162 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_trough6'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2024-08-06 20:12:46,162 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_trough_jam'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2024-08-06 20:12:46,162 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_upper_attack_bumper'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2024-08-06 20:12:46,163 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_upper_left_rebound'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2024-08-06 20:12:46,163 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_upper_right_rebound'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2024-08-06 20:12:46,164 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_wormhole_target'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2024-08-06 20:12:46,164 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_yellow_wormhole'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2024-08-06 20:12:46,165 : INFO : EventManager : Event: ======'init_phase_5'====== Args={}
+2024-08-06 20:12:46,220 : INFO : EventManager : Event: ======'init_done'====== Args={}
+2024-08-06 20:12:46,221 : INFO : EventManager : Event: ======'machine_reset_phase_1'====== Args={}
+2024-08-06 20:12:46,222 : INFO : EventManager : Event: ======'machine_reset_phase_2'====== Args={}
+2024-08-06 20:12:46,223 : INFO : EventManager : Event: ======'machine_reset_phase_3'====== Args={}
+2024-08-06 20:12:46,224 : INFO : EventManager : Event: ======'reset_complete'====== Args={}
+2024-08-06 20:12:46,225 : INFO : EventManager : Event: ======'mode_attract_will_start'====== Args={}
+2024-08-06 20:12:46,225 : INFO : EventManager : Event: ======'mode_attract_starting'====== Args={}
+2024-08-06 20:12:46,225 : INFO : Mode.attract : Started. Priority: 10
+2024-08-06 20:12:46,225 : INFO : EventManager : Event: ======'modes_active_modes_changed'====== Args={}
+2024-08-06 20:12:46,225 : INFO : EventManager : Event: ======'mode_attract_started'====== Args={}
+2024-08-06 20:12:46,226 : INFO : EventManager : Event: ======'collecting_balls_complete'====== Args={}
+2024-08-06 20:12:46,258 : INFO : Machine : Starting the main run loop.
+2024-08-06 20:12:57,957 : INFO : SwitchController : <<<<<<< 's_reentry_left' inactive >>>>>>>
+2024-08-06 20:12:58,576 : INFO : SwitchController : <<<<<<< 's_reentry_left' active >>>>>>>
+2024-08-06 20:12:58,576 : INFO : EventManager : Event: ======'playfield_active'====== Args={}
+2024-08-06 20:12:58,576 : INFO : EventManager : Event: ======'unexpected_ball_on_playfield'====== Args={}
+2024-08-06 20:12:58,576 : INFO : EventManager : Event: ======'s_reentry_left_active'====== Args={}
+2024-08-06 20:12:58,577 : INFO : EventManager : Event: ======'sw_playfield_active'====== Args={}
+2024-08-06 20:12:58,578 : INFO : EventManager : Event: ======'playfield_active'====== Args={}
+2024-08-06 20:12:58,578 : INFO : EventManager : Event: ======'unexpected_ball_on_playfield'====== Args={}
+2024-08-06 20:12:59,141 : INFO : SwitchController : <<<<<<< 's_reentry_left' inactive >>>>>>>
+2024-08-06 20:12:59,980 : INFO : SwitchController : <<<<<<< 's_reentry_left' active >>>>>>>
+2024-08-06 20:12:59,980 : INFO : EventManager : Event: ======'playfield_active'====== Args={}
+2024-08-06 20:12:59,981 : INFO : EventManager : Event: ======'unexpected_ball_on_playfield'====== Args={}
+2024-08-06 20:12:59,981 : INFO : EventManager : Event: ======'s_reentry_left_active'====== Args={}
+2024-08-06 20:12:59,981 : INFO : EventManager : Event: ======'sw_playfield_active'====== Args={}
+2024-08-06 20:12:59,982 : INFO : EventManager : Event: ======'playfield_active'====== Args={}
+2024-08-06 20:12:59,983 : INFO : EventManager : Event: ======'unexpected_ball_on_playfield'====== Args={}
+2024-08-06 20:13:00,755 : INFO : SwitchController : <<<<<<< 's_reentry_left' inactive >>>>>>>
+2024-08-06 20:13:01,080 : INFO : SwitchController : <<<<<<< 's_reentry_left' active >>>>>>>
+2024-08-06 20:13:01,080 : INFO : EventManager : Event: ======'playfield_active'====== Args={}
+2024-08-06 20:13:01,080 : INFO : EventManager : Event: ======'unexpected_ball_on_playfield'====== Args={}
+2024-08-06 20:13:01,080 : INFO : EventManager : Event: ======'s_reentry_left_active'====== Args={}
+2024-08-06 20:13:01,081 : INFO : EventManager : Event: ======'sw_playfield_active'====== Args={}
+2024-08-06 20:13:01,082 : INFO : EventManager : Event: ======'playfield_active'====== Args={}
+2024-08-06 20:13:01,083 : INFO : EventManager : Event: ======'unexpected_ball_on_playfield'====== Args={}
+2024-08-06 20:13:01,393 : INFO : SwitchController : <<<<<<< 's_reentry_left' inactive >>>>>>>
+2024-08-06 20:13:01,721 : INFO : SwitchController : <<<<<<< 's_reentry_left' active >>>>>>>
+2024-08-06 20:13:01,721 : INFO : EventManager : Event: ======'playfield_active'====== Args={}
+2024-08-06 20:13:01,721 : INFO : EventManager : Event: ======'unexpected_ball_on_playfield'====== Args={}
+2024-08-06 20:13:01,721 : INFO : EventManager : Event: ======'s_reentry_left_active'====== Args={}
+2024-08-06 20:13:01,722 : INFO : EventManager : Event: ======'sw_playfield_active'====== Args={}
+2024-08-06 20:13:01,722 : INFO : EventManager : Event: ======'playfield_active'====== Args={}
+2024-08-06 20:13:01,722 : INFO : EventManager : Event: ======'unexpected_ball_on_playfield'====== Args={}
+2024-08-06 20:13:01,970 : INFO : SwitchController : <<<<<<< 's_reentry_left' inactive >>>>>>>
+2024-08-06 20:13:02,328 : INFO : SwitchController : <<<<<<< 's_reentry_left' active >>>>>>>
+2024-08-06 20:13:02,329 : INFO : EventManager : Event: ======'playfield_active'====== Args={}
+2024-08-06 20:13:02,329 : INFO : EventManager : Event: ======'unexpected_ball_on_playfield'====== Args={}
+2024-08-06 20:13:02,329 : INFO : EventManager : Event: ======'s_reentry_left_active'====== Args={}
+2024-08-06 20:13:02,329 : INFO : EventManager : Event: ======'sw_playfield_active'====== Args={}
+2024-08-06 20:13:02,330 : INFO : EventManager : Event: ======'playfield_active'====== Args={}
+2024-08-06 20:13:02,331 : INFO : EventManager : Event: ======'unexpected_ball_on_playfield'====== Args={}
+2024-08-06 20:13:02,546 : INFO : SwitchController : <<<<<<< 's_reentry_left' inactive >>>>>>>
+2024-08-06 20:13:02,919 : INFO : SwitchController : <<<<<<< 's_reentry_left' active >>>>>>>
+2024-08-06 20:13:02,919 : INFO : EventManager : Event: ======'playfield_active'====== Args={}
+2024-08-06 20:13:02,919 : INFO : EventManager : Event: ======'unexpected_ball_on_playfield'====== Args={}
+2024-08-06 20:13:02,920 : INFO : EventManager : Event: ======'s_reentry_left_active'====== Args={}
+2024-08-06 20:13:02,920 : INFO : EventManager : Event: ======'sw_playfield_active'====== Args={}
+2024-08-06 20:13:02,922 : INFO : EventManager : Event: ======'playfield_active'====== Args={}
+2024-08-06 20:13:02,922 : INFO : EventManager : Event: ======'unexpected_ball_on_playfield'====== Args={}
+2024-08-06 20:13:03,119 : INFO : SwitchController : <<<<<<< 's_reentry_left' inactive >>>>>>>
+2024-08-06 20:13:03,681 : INFO : SwitchController : <<<<<<< 's_reentry_left' active >>>>>>>
+2024-08-06 20:13:03,681 : INFO : EventManager : Event: ======'playfield_active'====== Args={}
+2024-08-06 20:13:03,681 : INFO : EventManager : Event: ======'unexpected_ball_on_playfield'====== Args={}
+2024-08-06 20:13:03,681 : INFO : EventManager : Event: ======'s_reentry_left_active'====== Args={}
+2024-08-06 20:13:03,681 : INFO : EventManager : Event: ======'sw_playfield_active'====== Args={}
+2024-08-06 20:13:03,683 : INFO : EventManager : Event: ======'playfield_active'====== Args={}
+2024-08-06 20:13:03,683 : INFO : EventManager : Event: ======'unexpected_ball_on_playfield'====== Args={}
+2024-08-06 20:13:04,210 : INFO : SwitchController : <<<<<<< 's_reentry_left' inactive >>>>>>>
+2024-08-06 20:13:04,440 : INFO : SwitchController : <<<<<<< 's_reentry_left' active >>>>>>>
+2024-08-06 20:13:04,440 : INFO : EventManager : Event: ======'playfield_active'====== Args={}
+2024-08-06 20:13:04,440 : INFO : EventManager : Event: ======'unexpected_ball_on_playfield'====== Args={}
+2024-08-06 20:13:04,440 : INFO : EventManager : Event: ======'s_reentry_left_active'====== Args={}
+2024-08-06 20:13:04,441 : INFO : EventManager : Event: ======'sw_playfield_active'====== Args={}
+2024-08-06 20:13:04,441 : INFO : EventManager : Event: ======'playfield_active'====== Args={}
+2024-08-06 20:13:04,441 : INFO : EventManager : Event: ======'unexpected_ball_on_playfield'====== Args={}
+2024-08-06 20:15:47,526 : INFO : SwitchController : <<<<<<< 's_reentry_left' inactive >>>>>>>
+2024-08-06 20:15:47,589 : INFO : SwitchController : <<<<<<< 's_reentry_left' active >>>>>>>
+2024-08-06 20:15:47,589 : INFO : EventManager : Event: ======'playfield_active'====== Args={}
+2024-08-06 20:15:47,590 : INFO : EventManager : Event: ======'unexpected_ball_on_playfield'====== Args={}
+2024-08-06 20:15:47,590 : INFO : EventManager : Event: ======'s_reentry_left_active'====== Args={}
+2024-08-06 20:15:47,590 : INFO : EventManager : Event: ======'sw_playfield_active'====== Args={}
+2024-08-06 20:15:47,590 : INFO : EventManager : Event: ======'playfield_active'====== Args={}
+2024-08-06 20:15:47,590 : INFO : EventManager : Event: ======'unexpected_ball_on_playfield'====== Args={}
+2024-08-06 20:15:48,927 : INFO : SwitchController : <<<<<<< 's_reentry_left' inactive >>>>>>>
+2024-08-06 20:15:49,083 : INFO : SwitchController : <<<<<<< 's_reentry_left' active >>>>>>>
+2024-08-06 20:15:49,083 : INFO : EventManager : Event: ======'playfield_active'====== Args={}
+2024-08-06 20:15:49,083 : INFO : EventManager : Event: ======'unexpected_ball_on_playfield'====== Args={}
+2024-08-06 20:15:49,083 : INFO : EventManager : Event: ======'s_reentry_left_active'====== Args={}
+2024-08-06 20:15:49,083 : INFO : EventManager : Event: ======'sw_playfield_active'====== Args={}
+2024-08-06 20:15:49,085 : INFO : EventManager : Event: ======'playfield_active'====== Args={}
+2024-08-06 20:15:49,085 : INFO : EventManager : Event: ======'unexpected_ball_on_playfield'====== Args={}
+2024-08-06 20:15:49,193 : INFO : SwitchController : <<<<<<< 's_reentry_left' inactive >>>>>>>
+2024-08-06 20:15:49,531 : INFO : SwitchController : <<<<<<< 's_reentry_left' active >>>>>>>
+2024-08-06 20:15:49,531 : INFO : EventManager : Event: ======'playfield_active'====== Args={}
+2024-08-06 20:15:49,531 : INFO : EventManager : Event: ======'unexpected_ball_on_playfield'====== Args={}
+2024-08-06 20:15:49,531 : INFO : EventManager : Event: ======'s_reentry_left_active'====== Args={}
+2024-08-06 20:15:49,531 : INFO : EventManager : Event: ======'sw_playfield_active'====== Args={}
+2024-08-06 20:15:49,531 : INFO : EventManager : Event: ======'playfield_active'====== Args={}
+2024-08-06 20:15:49,531 : INFO : EventManager : Event: ======'unexpected_ball_on_playfield'====== Args={}
+2024-08-06 20:15:49,859 : INFO : SwitchController : <<<<<<< 's_reentry_left' inactive >>>>>>>
+2024-08-06 20:15:50,264 : INFO : SwitchController : <<<<<<< 's_reentry_left' active >>>>>>>
+2024-08-06 20:15:50,265 : INFO : EventManager : Event: ======'playfield_active'====== Args={}
+2024-08-06 20:15:50,265 : INFO : EventManager : Event: ======'unexpected_ball_on_playfield'====== Args={}
+2024-08-06 20:15:50,266 : INFO : EventManager : Event: ======'s_reentry_left_active'====== Args={}
+2024-08-06 20:15:50,266 : INFO : EventManager : Event: ======'sw_playfield_active'====== Args={}
+2024-08-06 20:15:50,268 : INFO : EventManager : Event: ======'playfield_active'====== Args={}
+2024-08-06 20:15:50,268 : INFO : EventManager : Event: ======'unexpected_ball_on_playfield'====== Args={}
+2024-08-06 20:15:53,960 : INFO : SwitchController : <<<<<<< 's_reentry_left' inactive >>>>>>>
+2024-08-06 20:16:04,597 : INFO : SwitchController : <<<<<<< 's_reentry_left' active >>>>>>>
+2024-08-06 20:16:04,597 : INFO : EventManager : Event: ======'playfield_active'====== Args={}
+2024-08-06 20:16:04,597 : INFO : EventManager : Event: ======'unexpected_ball_on_playfield'====== Args={}
+2024-08-06 20:16:04,597 : INFO : EventManager : Event: ======'s_reentry_left_active'====== Args={}
+2024-08-06 20:16:04,597 : INFO : EventManager : Event: ======'sw_playfield_active'====== Args={}
+2024-08-06 20:16:04,599 : INFO : EventManager : Event: ======'playfield_active'====== Args={}
+2024-08-06 20:16:04,599 : INFO : EventManager : Event: ======'unexpected_ball_on_playfield'====== Args={}
+2024-08-06 20:16:11,412 : INFO : SwitchController : <<<<<<< 's_reentry_left' inactive >>>>>>>
+2024-08-06 20:16:33,435 : INFO : SwitchController : <<<<<<< 's_reentry_left' active >>>>>>>
+2024-08-06 20:16:33,436 : INFO : EventManager : Event: ======'playfield_active'====== Args={}
+2024-08-06 20:16:33,436 : INFO : EventManager : Event: ======'unexpected_ball_on_playfield'====== Args={}
+2024-08-06 20:16:33,436 : INFO : EventManager : Event: ======'s_reentry_left_active'====== Args={}
+2024-08-06 20:16:33,436 : INFO : EventManager : Event: ======'sw_playfield_active'====== Args={}
+2024-08-06 20:16:33,437 : INFO : EventManager : Event: ======'playfield_active'====== Args={}
+2024-08-06 20:16:33,437 : INFO : EventManager : Event: ======'unexpected_ball_on_playfield'====== Args={}
+2024-08-06 20:16:33,888 : INFO : SwitchController : <<<<<<< 's_reentry_left' inactive >>>>>>>
+2024-08-06 20:16:34,400 : INFO : SwitchController : <<<<<<< 's_reentry_left' active >>>>>>>
+2024-08-06 20:16:34,400 : INFO : EventManager : Event: ======'playfield_active'====== Args={}
+2024-08-06 20:16:34,400 : INFO : EventManager : Event: ======'unexpected_ball_on_playfield'====== Args={}
+2024-08-06 20:16:34,400 : INFO : EventManager : Event: ======'s_reentry_left_active'====== Args={}
+2024-08-06 20:16:34,400 : INFO : EventManager : Event: ======'sw_playfield_active'====== Args={}
+2024-08-06 20:16:34,401 : INFO : EventManager : Event: ======'playfield_active'====== Args={}
+2024-08-06 20:16:34,401 : INFO : EventManager : Event: ======'unexpected_ball_on_playfield'====== Args={}
+2024-08-06 20:16:34,850 : INFO : SwitchController : <<<<<<< 's_reentry_left' inactive >>>>>>>
+2024-08-06 20:16:35,284 : INFO : SwitchController : <<<<<<< 's_reentry_left' active >>>>>>>
+2024-08-06 20:16:35,285 : INFO : EventManager : Event: ======'playfield_active'====== Args={}
+2024-08-06 20:16:35,285 : INFO : EventManager : Event: ======'unexpected_ball_on_playfield'====== Args={}
+2024-08-06 20:16:35,285 : INFO : EventManager : Event: ======'s_reentry_left_active'====== Args={}
+2024-08-06 20:16:35,285 : INFO : EventManager : Event: ======'sw_playfield_active'====== Args={}
+2024-08-06 20:16:35,286 : INFO : EventManager : Event: ======'playfield_active'====== Args={}
+2024-08-06 20:16:35,286 : INFO : EventManager : Event: ======'unexpected_ball_on_playfield'====== Args={}
+2024-08-06 20:16:35,783 : INFO : SwitchController : <<<<<<< 's_reentry_left' inactive >>>>>>>
+2024-08-06 20:16:36,094 : INFO : SwitchController : <<<<<<< 's_reentry_left' active >>>>>>>
+2024-08-06 20:16:36,095 : INFO : EventManager : Event: ======'playfield_active'====== Args={}
+2024-08-06 20:16:36,095 : INFO : EventManager : Event: ======'unexpected_ball_on_playfield'====== Args={}
+2024-08-06 20:16:36,095 : INFO : EventManager : Event: ======'s_reentry_left_active'====== Args={}
+2024-08-06 20:16:36,095 : INFO : EventManager : Event: ======'sw_playfield_active'====== Args={}
+2024-08-06 20:16:36,095 : INFO : EventManager : Event: ======'playfield_active'====== Args={}
+2024-08-06 20:16:36,096 : INFO : EventManager : Event: ======'unexpected_ball_on_playfield'====== Args={}
+2024-08-06 20:16:36,547 : INFO : SwitchController : <<<<<<< 's_reentry_left' inactive >>>>>>>
+2024-08-06 20:16:36,856 : INFO : SwitchController : <<<<<<< 's_reentry_left' active >>>>>>>
+2024-08-06 20:16:36,856 : INFO : EventManager : Event: ======'playfield_active'====== Args={}
+2024-08-06 20:16:36,856 : INFO : EventManager : Event: ======'unexpected_ball_on_playfield'====== Args={}
+2024-08-06 20:16:36,856 : INFO : EventManager : Event: ======'s_reentry_left_active'====== Args={}
+2024-08-06 20:16:36,857 : INFO : EventManager : Event: ======'sw_playfield_active'====== Args={}
+2024-08-06 20:16:36,857 : INFO : EventManager : Event: ======'playfield_active'====== Args={}
+2024-08-06 20:16:36,858 : INFO : EventManager : Event: ======'unexpected_ball_on_playfield'====== Args={}
+2024-08-06 20:16:37,323 : INFO : SwitchController : <<<<<<< 's_reentry_left' inactive >>>>>>>
+2024-08-06 20:16:37,589 : INFO : SwitchController : <<<<<<< 's_reentry_left' active >>>>>>>
+2024-08-06 20:16:37,589 : INFO : EventManager : Event: ======'playfield_active'====== Args={}
+2024-08-06 20:16:37,589 : INFO : EventManager : Event: ======'unexpected_ball_on_playfield'====== Args={}
+2024-08-06 20:16:37,589 : INFO : EventManager : Event: ======'s_reentry_left_active'====== Args={}
+2024-08-06 20:16:37,589 : INFO : EventManager : Event: ======'sw_playfield_active'====== Args={}
+2024-08-06 20:16:37,590 : INFO : EventManager : Event: ======'playfield_active'====== Args={}
+2024-08-06 20:16:37,590 : INFO : EventManager : Event: ======'unexpected_ball_on_playfield'====== Args={}
+2024-08-06 20:16:38,054 : INFO : SwitchController : <<<<<<< 's_reentry_left' inactive >>>>>>>
+2024-08-06 20:16:40,285 : INFO : SwitchController : <<<<<<< 's_reentry_left' active >>>>>>>
+2024-08-06 20:16:40,286 : INFO : EventManager : Event: ======'playfield_active'====== Args={}
+2024-08-06 20:16:40,286 : INFO : EventManager : Event: ======'unexpected_ball_on_playfield'====== Args={}
+2024-08-06 20:16:40,286 : INFO : EventManager : Event: ======'s_reentry_left_active'====== Args={}
+2024-08-06 20:16:40,286 : INFO : EventManager : Event: ======'sw_playfield_active'====== Args={}
+2024-08-06 20:16:40,287 : INFO : EventManager : Event: ======'playfield_active'====== Args={}
+2024-08-06 20:16:40,287 : INFO : EventManager : Event: ======'unexpected_ball_on_playfield'====== Args={}
+2024-08-06 20:16:40,766 : INFO : SwitchController : <<<<<<< 's_reentry_left' inactive >>>>>>>
+2024-08-06 20:16:41,389 : INFO : SwitchController : <<<<<<< 's_reentry_left' active >>>>>>>
+2024-08-06 20:16:41,389 : INFO : EventManager : Event: ======'playfield_active'====== Args={}
+2024-08-06 20:16:41,390 : INFO : EventManager : Event: ======'unexpected_ball_on_playfield'====== Args={}
+2024-08-06 20:16:41,390 : INFO : EventManager : Event: ======'s_reentry_left_active'====== Args={}
+2024-08-06 20:16:41,390 : INFO : EventManager : Event: ======'sw_playfield_active'====== Args={}
+2024-08-06 20:16:41,391 : INFO : EventManager : Event: ======'playfield_active'====== Args={}
+2024-08-06 20:16:41,391 : INFO : EventManager : Event: ======'unexpected_ball_on_playfield'====== Args={}
+2024-08-06 20:16:41,810 : INFO : SwitchController : <<<<<<< 's_reentry_left' inactive >>>>>>>
+2024-08-06 20:16:42,166 : INFO : SwitchController : <<<<<<< 's_reentry_left' active >>>>>>>
+2024-08-06 20:16:42,167 : INFO : EventManager : Event: ======'playfield_active'====== Args={}
+2024-08-06 20:16:42,167 : INFO : EventManager : Event: ======'unexpected_ball_on_playfield'====== Args={}
+2024-08-06 20:16:42,167 : INFO : EventManager : Event: ======'s_reentry_left_active'====== Args={}
+2024-08-06 20:16:42,167 : INFO : EventManager : Event: ======'sw_playfield_active'====== Args={}
+2024-08-06 20:16:42,167 : INFO : EventManager : Event: ======'playfield_active'====== Args={}
+2024-08-06 20:16:42,167 : INFO : EventManager : Event: ======'unexpected_ball_on_playfield'====== Args={}
+2024-08-06 20:16:42,461 : INFO : SwitchController : <<<<<<< 's_reentry_left' inactive >>>>>>>
+2024-08-06 20:16:42,694 : INFO : SwitchController : <<<<<<< 's_reentry_left' active >>>>>>>
+2024-08-06 20:16:42,694 : INFO : EventManager : Event: ======'playfield_active'====== Args={}
+2024-08-06 20:16:42,695 : INFO : EventManager : Event: ======'unexpected_ball_on_playfield'====== Args={}
+2024-08-06 20:16:42,695 : INFO : EventManager : Event: ======'s_reentry_left_active'====== Args={}
+2024-08-06 20:16:42,695 : INFO : EventManager : Event: ======'sw_playfield_active'====== Args={}
+2024-08-06 20:16:42,696 : INFO : EventManager : Event: ======'playfield_active'====== Args={}
+2024-08-06 20:16:42,696 : INFO : EventManager : Event: ======'unexpected_ball_on_playfield'====== Args={}
+2024-08-06 20:16:43,037 : INFO : SwitchController : <<<<<<< 's_reentry_left' inactive >>>>>>>
+2024-08-06 20:16:43,332 : INFO : SwitchController : <<<<<<< 's_reentry_left' active >>>>>>>
+2024-08-06 20:16:43,332 : INFO : EventManager : Event: ======'playfield_active'====== Args={}
+2024-08-06 20:16:43,332 : INFO : EventManager : Event: ======'unexpected_ball_on_playfield'====== Args={}
+2024-08-06 20:16:43,332 : INFO : EventManager : Event: ======'s_reentry_left_active'====== Args={}
+2024-08-06 20:16:43,332 : INFO : EventManager : Event: ======'sw_playfield_active'====== Args={}
+2024-08-06 20:16:43,333 : INFO : EventManager : Event: ======'playfield_active'====== Args={}
+2024-08-06 20:16:43,333 : INFO : EventManager : Event: ======'unexpected_ball_on_playfield'====== Args={}
+2024-08-06 20:16:43,723 : INFO : SwitchController : <<<<<<< 's_reentry_left' inactive >>>>>>>
+2024-08-06 20:16:44,004 : INFO : SwitchController : <<<<<<< 's_reentry_left' active >>>>>>>
+2024-08-06 20:16:44,005 : INFO : EventManager : Event: ======'playfield_active'====== Args={}
+2024-08-06 20:16:44,005 : INFO : EventManager : Event: ======'unexpected_ball_on_playfield'====== Args={}
+2024-08-06 20:16:44,005 : INFO : EventManager : Event: ======'s_reentry_left_active'====== Args={}
+2024-08-06 20:16:44,005 : INFO : EventManager : Event: ======'sw_playfield_active'====== Args={}
+2024-08-06 20:16:44,006 : INFO : EventManager : Event: ======'playfield_active'====== Args={}
+2024-08-06 20:16:44,006 : INFO : EventManager : Event: ======'unexpected_ball_on_playfield'====== Args={}
+2024-08-06 20:16:44,410 : INFO : SwitchController : <<<<<<< 's_reentry_left' inactive >>>>>>>
+2024-08-06 20:16:44,659 : INFO : SwitchController : <<<<<<< 's_reentry_left' active >>>>>>>
+2024-08-06 20:16:44,659 : INFO : EventManager : Event: ======'playfield_active'====== Args={}
+2024-08-06 20:16:44,659 : INFO : EventManager : Event: ======'unexpected_ball_on_playfield'====== Args={}
+2024-08-06 20:16:44,659 : INFO : EventManager : Event: ======'s_reentry_left_active'====== Args={}
+2024-08-06 20:16:44,659 : INFO : EventManager : Event: ======'sw_playfield_active'====== Args={}
+2024-08-06 20:16:44,660 : INFO : EventManager : Event: ======'playfield_active'====== Args={}
+2024-08-06 20:16:44,660 : INFO : EventManager : Event: ======'unexpected_ball_on_playfield'====== Args={}
+2024-08-06 20:16:45,030 : INFO : SwitchController : <<<<<<< 's_reentry_left' inactive >>>>>>>
+2024-08-06 20:16:45,294 : INFO : SwitchController : <<<<<<< 's_reentry_left' active >>>>>>>
+2024-08-06 20:16:45,294 : INFO : EventManager : Event: ======'playfield_active'====== Args={}
+2024-08-06 20:16:45,294 : INFO : EventManager : Event: ======'unexpected_ball_on_playfield'====== Args={}
+2024-08-06 20:16:45,294 : INFO : EventManager : Event: ======'s_reentry_left_active'====== Args={}
+2024-08-06 20:16:45,294 : INFO : EventManager : Event: ======'sw_playfield_active'====== Args={}
+2024-08-06 20:16:45,295 : INFO : EventManager : Event: ======'playfield_active'====== Args={}
+2024-08-06 20:16:45,295 : INFO : EventManager : Event: ======'unexpected_ball_on_playfield'====== Args={}
+2024-08-06 20:16:45,639 : INFO : SwitchController : <<<<<<< 's_reentry_left' inactive >>>>>>>
+2024-08-06 20:16:59,661 : INFO : BcpServer : New client connected.
+2024-08-06 20:17:03,535 : INFO : SwitchController : <<<<<<< 's_reentry_left' active >>>>>>>
+2024-08-06 20:17:03,535 : INFO : EventManager : Event: ======'playfield_active'====== Args={}
+2024-08-06 20:17:03,536 : INFO : EventManager : Event: ======'unexpected_ball_on_playfield'====== Args={}
+2024-08-06 20:17:03,536 : INFO : EventManager : Event: ======'s_reentry_left_active'====== Args={}
+2024-08-06 20:17:03,537 : INFO : EventManager : Event: ======'sw_playfield_active'====== Args={}
+2024-08-06 20:17:03,537 : INFO : EventManager : Event: ======'playfield_active'====== Args={}
+2024-08-06 20:17:03,537 : INFO : EventManager : Event: ======'unexpected_ball_on_playfield'====== Args={}
+2024-08-06 20:17:03,642 : INFO : SwitchController : <<<<<<< 's_reentry_left' inactive >>>>>>>
+2024-08-06 20:17:04,450 : INFO : SwitchController : <<<<<<< 's_reentry_left' active >>>>>>>
+2024-08-06 20:17:04,450 : INFO : EventManager : Event: ======'playfield_active'====== Args={}
+2024-08-06 20:17:04,451 : INFO : EventManager : Event: ======'unexpected_ball_on_playfield'====== Args={}
+2024-08-06 20:17:04,451 : INFO : EventManager : Event: ======'s_reentry_left_active'====== Args={}
+2024-08-06 20:17:04,451 : INFO : EventManager : Event: ======'sw_playfield_active'====== Args={}
+2024-08-06 20:17:04,452 : INFO : EventManager : Event: ======'playfield_active'====== Args={}
+2024-08-06 20:17:04,453 : INFO : EventManager : Event: ======'unexpected_ball_on_playfield'====== Args={}
+2024-08-06 20:17:04,636 : INFO : SwitchController : <<<<<<< 's_reentry_left' inactive >>>>>>>
+2024-08-06 20:17:04,887 : INFO : SwitchController : <<<<<<< 's_reentry_left' active >>>>>>>
+2024-08-06 20:17:04,887 : INFO : EventManager : Event: ======'playfield_active'====== Args={}
+2024-08-06 20:17:04,887 : INFO : EventManager : Event: ======'unexpected_ball_on_playfield'====== Args={}
+2024-08-06 20:17:04,887 : INFO : EventManager : Event: ======'s_reentry_left_active'====== Args={}
+2024-08-06 20:17:04,888 : INFO : EventManager : Event: ======'sw_playfield_active'====== Args={}
+2024-08-06 20:17:04,888 : INFO : EventManager : Event: ======'playfield_active'====== Args={}
+2024-08-06 20:17:04,889 : INFO : EventManager : Event: ======'unexpected_ball_on_playfield'====== Args={}
+2024-08-06 20:17:05,229 : INFO : SwitchController : <<<<<<< 's_reentry_left' inactive >>>>>>>
+2024-08-06 20:17:05,556 : INFO : SwitchController : <<<<<<< 's_reentry_left' active >>>>>>>
+2024-08-06 20:17:05,557 : INFO : EventManager : Event: ======'playfield_active'====== Args={}
+2024-08-06 20:17:05,557 : INFO : EventManager : Event: ======'unexpected_ball_on_playfield'====== Args={}
+2024-08-06 20:17:05,558 : INFO : EventManager : Event: ======'s_reentry_left_active'====== Args={}
+2024-08-06 20:17:05,558 : INFO : EventManager : Event: ======'sw_playfield_active'====== Args={}
+2024-08-06 20:17:05,559 : INFO : EventManager : Event: ======'playfield_active'====== Args={}
+2024-08-06 20:17:05,559 : INFO : EventManager : Event: ======'unexpected_ball_on_playfield'====== Args={}
+2024-08-06 20:17:05,896 : INFO : SwitchController : <<<<<<< 's_reentry_left' inactive >>>>>>>
+2024-08-06 20:17:06,113 : INFO : SwitchController : <<<<<<< 's_reentry_left' active >>>>>>>
+2024-08-06 20:17:06,114 : INFO : EventManager : Event: ======'playfield_active'====== Args={}
+2024-08-06 20:17:06,114 : INFO : EventManager : Event: ======'unexpected_ball_on_playfield'====== Args={}
+2024-08-06 20:17:06,114 : INFO : EventManager : Event: ======'s_reentry_left_active'====== Args={}
+2024-08-06 20:17:06,114 : INFO : EventManager : Event: ======'sw_playfield_active'====== Args={}
+2024-08-06 20:17:06,115 : INFO : EventManager : Event: ======'playfield_active'====== Args={}
+2024-08-06 20:17:06,115 : INFO : EventManager : Event: ======'unexpected_ball_on_playfield'====== Args={}
+2024-08-06 20:17:06,378 : INFO : SwitchController : <<<<<<< 's_reentry_left' inactive >>>>>>>
+2024-08-06 20:17:15,250 : INFO : SwitchController : <<<<<<< 's_reentry_left' active >>>>>>>
+2024-08-06 20:17:15,251 : INFO : EventManager : Event: ======'playfield_active'====== Args={}
+2024-08-06 20:17:15,251 : INFO : EventManager : Event: ======'unexpected_ball_on_playfield'====== Args={}
+2024-08-06 20:17:15,251 : INFO : EventManager : Event: ======'s_reentry_left_active'====== Args={}
+2024-08-06 20:17:15,251 : INFO : EventManager : Event: ======'sw_playfield_active'====== Args={}
+2024-08-06 20:17:15,252 : INFO : EventManager : Event: ======'playfield_active'====== Args={}
+2024-08-06 20:17:15,252 : INFO : EventManager : Event: ======'unexpected_ball_on_playfield'====== Args={}
+2024-08-06 20:17:15,749 : INFO : SwitchController : <<<<<<< 's_reentry_left' inactive >>>>>>>
+2024-08-06 20:17:16,291 : INFO : SwitchController : <<<<<<< 's_reentry_left' active >>>>>>>
+2024-08-06 20:17:16,292 : INFO : EventManager : Event: ======'playfield_active'====== Args={}
+2024-08-06 20:17:16,292 : INFO : EventManager : Event: ======'unexpected_ball_on_playfield'====== Args={}
+2024-08-06 20:17:16,292 : INFO : EventManager : Event: ======'s_reentry_left_active'====== Args={}
+2024-08-06 20:17:16,292 : INFO : EventManager : Event: ======'sw_playfield_active'====== Args={}
+2024-08-06 20:17:16,293 : INFO : EventManager : Event: ======'playfield_active'====== Args={}
+2024-08-06 20:17:16,293 : INFO : EventManager : Event: ======'unexpected_ball_on_playfield'====== Args={}
+2024-08-06 20:17:16,833 : INFO : SwitchController : <<<<<<< 's_reentry_left' inactive >>>>>>>
+2024-08-06 20:17:17,671 : INFO : SwitchController : <<<<<<< 's_reentry_left' active >>>>>>>
+2024-08-06 20:17:17,672 : INFO : EventManager : Event: ======'playfield_active'====== Args={}
+2024-08-06 20:17:17,672 : INFO : EventManager : Event: ======'unexpected_ball_on_playfield'====== Args={}
+2024-08-06 20:17:17,672 : INFO : EventManager : Event: ======'s_reentry_left_active'====== Args={}
+2024-08-06 20:17:17,672 : INFO : EventManager : Event: ======'sw_playfield_active'====== Args={}
+2024-08-06 20:17:17,673 : INFO : EventManager : Event: ======'playfield_active'====== Args={}
+2024-08-06 20:17:17,673 : INFO : EventManager : Event: ======'unexpected_ball_on_playfield'====== Args={}
+2024-08-06 20:17:17,982 : INFO : SwitchController : <<<<<<< 's_reentry_left' inactive >>>>>>>
+2024-08-06 20:17:18,370 : INFO : SwitchController : <<<<<<< 's_reentry_left' active >>>>>>>
+2024-08-06 20:17:18,371 : INFO : EventManager : Event: ======'playfield_active'====== Args={}
+2024-08-06 20:17:18,371 : INFO : EventManager : Event: ======'unexpected_ball_on_playfield'====== Args={}
+2024-08-06 20:17:18,371 : INFO : EventManager : Event: ======'s_reentry_left_active'====== Args={}
+2024-08-06 20:17:18,371 : INFO : EventManager : Event: ======'sw_playfield_active'====== Args={}
+2024-08-06 20:17:18,372 : INFO : EventManager : Event: ======'playfield_active'====== Args={}
+2024-08-06 20:17:18,372 : INFO : EventManager : Event: ======'unexpected_ball_on_playfield'====== Args={}
+2024-08-06 20:17:18,742 : INFO : SwitchController : <<<<<<< 's_reentry_left' inactive >>>>>>>
+2024-08-06 20:17:19,022 : INFO : SwitchController : <<<<<<< 's_reentry_left' active >>>>>>>
+2024-08-06 20:17:19,023 : INFO : EventManager : Event: ======'playfield_active'====== Args={}
+2024-08-06 20:17:19,023 : INFO : EventManager : Event: ======'unexpected_ball_on_playfield'====== Args={}
+2024-08-06 20:17:19,023 : INFO : EventManager : Event: ======'s_reentry_left_active'====== Args={}
+2024-08-06 20:17:19,023 : INFO : EventManager : Event: ======'sw_playfield_active'====== Args={}
+2024-08-06 20:17:19,024 : INFO : EventManager : Event: ======'playfield_active'====== Args={}
+2024-08-06 20:17:19,024 : INFO : EventManager : Event: ======'unexpected_ball_on_playfield'====== Args={}
+2024-08-06 20:17:19,380 : INFO : SwitchController : <<<<<<< 's_reentry_left' inactive >>>>>>>
+2024-08-06 20:17:19,819 : INFO : SwitchController : <<<<<<< 's_reentry_left' active >>>>>>>
+2024-08-06 20:17:19,819 : INFO : EventManager : Event: ======'playfield_active'====== Args={}
+2024-08-06 20:17:19,819 : INFO : EventManager : Event: ======'unexpected_ball_on_playfield'====== Args={}
+2024-08-06 20:17:19,819 : INFO : EventManager : Event: ======'s_reentry_left_active'====== Args={}
+2024-08-06 20:17:19,819 : INFO : EventManager : Event: ======'sw_playfield_active'====== Args={}
+2024-08-06 20:17:19,820 : INFO : EventManager : Event: ======'playfield_active'====== Args={}
+2024-08-06 20:17:19,821 : INFO : EventManager : Event: ======'unexpected_ball_on_playfield'====== Args={}
+2024-08-06 20:17:20,176 : INFO : SwitchController : <<<<<<< 's_reentry_left' inactive >>>>>>>
+2024-08-06 20:17:37,604 : INFO : SwitchController : <<<<<<< 's_reentry_left' active >>>>>>>
+2024-08-06 20:17:37,604 : INFO : EventManager : Event: ======'playfield_active'====== Args={}
+2024-08-06 20:17:37,604 : INFO : EventManager : Event: ======'unexpected_ball_on_playfield'====== Args={}
+2024-08-06 20:17:37,604 : INFO : EventManager : Event: ======'s_reentry_left_active'====== Args={}
+2024-08-06 20:17:37,604 : INFO : EventManager : Event: ======'sw_playfield_active'====== Args={}
+2024-08-06 20:17:37,605 : INFO : EventManager : Event: ======'playfield_active'====== Args={}
+2024-08-06 20:17:37,605 : INFO : EventManager : Event: ======'unexpected_ball_on_playfield'====== Args={}
+2024-08-06 20:17:38,025 : INFO : SwitchController : <<<<<<< 's_reentry_left' inactive >>>>>>>
+2024-08-06 20:17:38,689 : INFO : SwitchController : <<<<<<< 's_reentry_left' active >>>>>>>
+2024-08-06 20:17:38,690 : INFO : EventManager : Event: ======'playfield_active'====== Args={}
+2024-08-06 20:17:38,690 : INFO : EventManager : Event: ======'unexpected_ball_on_playfield'====== Args={}
+2024-08-06 20:17:38,690 : INFO : EventManager : Event: ======'s_reentry_left_active'====== Args={}
+2024-08-06 20:17:38,690 : INFO : EventManager : Event: ======'sw_playfield_active'====== Args={}
+2024-08-06 20:17:38,691 : INFO : EventManager : Event: ======'playfield_active'====== Args={}
+2024-08-06 20:17:38,691 : INFO : EventManager : Event: ======'unexpected_ball_on_playfield'====== Args={}
+2024-08-06 20:17:39,171 : INFO : SwitchController : <<<<<<< 's_reentry_left' inactive >>>>>>>
+2024-08-06 20:17:39,640 : INFO : SwitchController : <<<<<<< 's_reentry_left' active >>>>>>>
+2024-08-06 20:17:39,640 : INFO : EventManager : Event: ======'playfield_active'====== Args={}
+2024-08-06 20:17:39,640 : INFO : EventManager : Event: ======'unexpected_ball_on_playfield'====== Args={}
+2024-08-06 20:17:39,640 : INFO : EventManager : Event: ======'s_reentry_left_active'====== Args={}
+2024-08-06 20:17:39,641 : INFO : EventManager : Event: ======'sw_playfield_active'====== Args={}
+2024-08-06 20:17:39,642 : INFO : EventManager : Event: ======'playfield_active'====== Args={}
+2024-08-06 20:17:39,642 : INFO : EventManager : Event: ======'unexpected_ball_on_playfield'====== Args={}
+2024-08-06 20:17:40,107 : INFO : SwitchController : <<<<<<< 's_reentry_left' inactive >>>>>>>
+2024-08-06 20:17:40,530 : INFO : SwitchController : <<<<<<< 's_reentry_left' active >>>>>>>
+2024-08-06 20:17:40,530 : INFO : EventManager : Event: ======'playfield_active'====== Args={}
+2024-08-06 20:17:40,531 : INFO : EventManager : Event: ======'unexpected_ball_on_playfield'====== Args={}
+2024-08-06 20:17:40,532 : INFO : EventManager : Event: ======'s_reentry_left_active'====== Args={}
+2024-08-06 20:17:40,534 : INFO : EventManager : Event: ======'sw_playfield_active'====== Args={}
+2024-08-06 20:17:40,535 : INFO : EventManager : Event: ======'playfield_active'====== Args={}
+2024-08-06 20:17:40,537 : INFO : EventManager : Event: ======'unexpected_ball_on_playfield'====== Args={}
+2024-08-06 20:17:41,011 : INFO : SwitchController : <<<<<<< 's_reentry_left' inactive >>>>>>>
+2024-08-06 20:17:41,388 : INFO : SwitchController : <<<<<<< 's_reentry_left' active >>>>>>>
+2024-08-06 20:17:41,388 : INFO : EventManager : Event: ======'playfield_active'====== Args={}
+2024-08-06 20:17:41,389 : INFO : EventManager : Event: ======'unexpected_ball_on_playfield'====== Args={}
+2024-08-06 20:17:41,390 : INFO : EventManager : Event: ======'s_reentry_left_active'====== Args={}
+2024-08-06 20:17:41,390 : INFO : EventManager : Event: ======'sw_playfield_active'====== Args={}
+2024-08-06 20:17:41,392 : INFO : EventManager : Event: ======'playfield_active'====== Args={}
+2024-08-06 20:17:41,392 : INFO : EventManager : Event: ======'unexpected_ball_on_playfield'====== Args={}
+2024-08-06 20:17:41,809 : INFO : SwitchController : <<<<<<< 's_reentry_left' inactive >>>>>>>
+2024-08-06 20:17:42,185 : INFO : SwitchController : <<<<<<< 's_reentry_left' active >>>>>>>
+2024-08-06 20:17:42,185 : INFO : EventManager : Event: ======'playfield_active'====== Args={}
+2024-08-06 20:17:42,185 : INFO : EventManager : Event: ======'unexpected_ball_on_playfield'====== Args={}
+2024-08-06 20:17:42,185 : INFO : EventManager : Event: ======'s_reentry_left_active'====== Args={}
+2024-08-06 20:17:42,185 : INFO : EventManager : Event: ======'sw_playfield_active'====== Args={}
+2024-08-06 20:17:42,186 : INFO : EventManager : Event: ======'playfield_active'====== Args={}
+2024-08-06 20:17:42,186 : INFO : EventManager : Event: ======'unexpected_ball_on_playfield'====== Args={}
+2024-08-06 20:17:42,761 : INFO : SwitchController : <<<<<<< 's_reentry_left' inactive >>>>>>>
+2024-08-06 20:17:43,053 : INFO : SwitchController : <<<<<<< 's_reentry_left' active >>>>>>>
+2024-08-06 20:17:43,054 : INFO : EventManager : Event: ======'playfield_active'====== Args={}
+2024-08-06 20:17:43,054 : INFO : EventManager : Event: ======'unexpected_ball_on_playfield'====== Args={}
+2024-08-06 20:17:43,054 : INFO : EventManager : Event: ======'s_reentry_left_active'====== Args={}
+2024-08-06 20:17:43,054 : INFO : EventManager : Event: ======'sw_playfield_active'====== Args={}
+2024-08-06 20:17:43,055 : INFO : EventManager : Event: ======'playfield_active'====== Args={}
+2024-08-06 20:17:43,055 : INFO : EventManager : Event: ======'unexpected_ball_on_playfield'====== Args={}
+2024-08-06 20:17:43,460 : INFO : SwitchController : <<<<<<< 's_reentry_left' inactive >>>>>>>
+2024-08-06 20:17:43,724 : INFO : SwitchController : <<<<<<< 's_reentry_left' active >>>>>>>
+2024-08-06 20:17:43,724 : INFO : EventManager : Event: ======'playfield_active'====== Args={}
+2024-08-06 20:17:43,725 : INFO : EventManager : Event: ======'unexpected_ball_on_playfield'====== Args={}
+2024-08-06 20:17:43,725 : INFO : EventManager : Event: ======'s_reentry_left_active'====== Args={}
+2024-08-06 20:17:43,726 : INFO : EventManager : Event: ======'sw_playfield_active'====== Args={}
+2024-08-06 20:17:43,727 : INFO : EventManager : Event: ======'playfield_active'====== Args={}
+2024-08-06 20:17:43,727 : INFO : EventManager : Event: ======'unexpected_ball_on_playfield'====== Args={}
+2024-08-06 20:17:44,005 : INFO : SwitchController : <<<<<<< 's_reentry_left' inactive >>>>>>>
+2024-08-06 20:17:44,272 : INFO : SwitchController : <<<<<<< 's_reentry_left' active >>>>>>>
+2024-08-06 20:17:44,272 : INFO : EventManager : Event: ======'playfield_active'====== Args={}
+2024-08-06 20:17:44,272 : INFO : EventManager : Event: ======'unexpected_ball_on_playfield'====== Args={}
+2024-08-06 20:17:44,272 : INFO : EventManager : Event: ======'s_reentry_left_active'====== Args={}
+2024-08-06 20:17:44,273 : INFO : EventManager : Event: ======'sw_playfield_active'====== Args={}
+2024-08-06 20:17:44,273 : INFO : EventManager : Event: ======'playfield_active'====== Args={}
+2024-08-06 20:17:44,273 : INFO : EventManager : Event: ======'unexpected_ball_on_playfield'====== Args={}
+2024-08-06 20:17:44,472 : INFO : SwitchController : <<<<<<< 's_reentry_left' inactive >>>>>>>
+2024-08-06 20:17:44,656 : INFO : SwitchController : <<<<<<< 's_reentry_left' active >>>>>>>
+2024-08-06 20:17:44,656 : INFO : EventManager : Event: ======'playfield_active'====== Args={}
+2024-08-06 20:17:44,657 : INFO : EventManager : Event: ======'unexpected_ball_on_playfield'====== Args={}
+2024-08-06 20:17:44,657 : INFO : EventManager : Event: ======'s_reentry_left_active'====== Args={}
+2024-08-06 20:17:44,657 : INFO : EventManager : Event: ======'sw_playfield_active'====== Args={}
+2024-08-06 20:17:44,657 : INFO : EventManager : Event: ======'playfield_active'====== Args={}
+2024-08-06 20:17:44,658 : INFO : EventManager : Event: ======'unexpected_ball_on_playfield'====== Args={}
+2024-08-06 20:17:44,811 : INFO : SwitchController : <<<<<<< 's_reentry_left' inactive >>>>>>>
+2024-08-06 20:17:44,998 : INFO : SwitchController : <<<<<<< 's_reentry_left' active >>>>>>>
+2024-08-06 20:17:44,998 : INFO : EventManager : Event: ======'playfield_active'====== Args={}
+2024-08-06 20:17:44,999 : INFO : EventManager : Event: ======'unexpected_ball_on_playfield'====== Args={}
+2024-08-06 20:17:44,999 : INFO : EventManager : Event: ======'s_reentry_left_active'====== Args={}
+2024-08-06 20:17:44,999 : INFO : EventManager : Event: ======'sw_playfield_active'====== Args={}
+2024-08-06 20:17:44,999 : INFO : EventManager : Event: ======'playfield_active'====== Args={}
+2024-08-06 20:17:45,000 : INFO : EventManager : Event: ======'unexpected_ball_on_playfield'====== Args={}
+2024-08-06 20:17:45,168 : INFO : SwitchController : <<<<<<< 's_reentry_left' inactive >>>>>>>
+2024-08-06 20:17:45,340 : INFO : SwitchController : <<<<<<< 's_reentry_left' active >>>>>>>
+2024-08-06 20:17:45,340 : INFO : EventManager : Event: ======'playfield_active'====== Args={}
+2024-08-06 20:17:45,341 : INFO : EventManager : Event: ======'unexpected_ball_on_playfield'====== Args={}
+2024-08-06 20:17:45,341 : INFO : EventManager : Event: ======'s_reentry_left_active'====== Args={}
+2024-08-06 20:17:45,341 : INFO : EventManager : Event: ======'sw_playfield_active'====== Args={}
+2024-08-06 20:17:45,342 : INFO : EventManager : Event: ======'playfield_active'====== Args={}
+2024-08-06 20:17:45,343 : INFO : EventManager : Event: ======'unexpected_ball_on_playfield'====== Args={}
+2024-08-06 20:17:45,496 : INFO : SwitchController : <<<<<<< 's_reentry_left' inactive >>>>>>>
+2024-08-06 20:17:45,899 : INFO : SwitchController : <<<<<<< 's_reentry_left' active >>>>>>>
+2024-08-06 20:17:45,900 : INFO : EventManager : Event: ======'playfield_active'====== Args={}
+2024-08-06 20:17:45,900 : INFO : EventManager : Event: ======'unexpected_ball_on_playfield'====== Args={}
+2024-08-06 20:17:45,900 : INFO : EventManager : Event: ======'s_reentry_left_active'====== Args={}
+2024-08-06 20:17:45,900 : INFO : EventManager : Event: ======'sw_playfield_active'====== Args={}
+2024-08-06 20:17:45,901 : INFO : EventManager : Event: ======'playfield_active'====== Args={}
+2024-08-06 20:17:45,901 : INFO : EventManager : Event: ======'unexpected_ball_on_playfield'====== Args={}
+2024-08-06 20:17:46,088 : INFO : SwitchController : <<<<<<< 's_reentry_left' inactive >>>>>>>
+2024-08-06 20:17:46,369 : INFO : SwitchController : <<<<<<< 's_reentry_left' active >>>>>>>
+2024-08-06 20:17:46,369 : INFO : EventManager : Event: ======'playfield_active'====== Args={}
+2024-08-06 20:17:46,370 : INFO : EventManager : Event: ======'unexpected_ball_on_playfield'====== Args={}
+2024-08-06 20:17:46,370 : INFO : EventManager : Event: ======'s_reentry_left_active'====== Args={}
+2024-08-06 20:17:46,371 : INFO : EventManager : Event: ======'sw_playfield_active'====== Args={}
+2024-08-06 20:17:46,371 : INFO : EventManager : Event: ======'playfield_active'====== Args={}
+2024-08-06 20:17:46,372 : INFO : EventManager : Event: ======'unexpected_ball_on_playfield'====== Args={}
+2024-08-06 20:17:46,637 : INFO : SwitchController : <<<<<<< 's_reentry_left' inactive >>>>>>>
+2024-08-06 20:17:46,857 : INFO : SwitchController : <<<<<<< 's_reentry_left' active >>>>>>>
+2024-08-06 20:17:46,857 : INFO : EventManager : Event: ======'playfield_active'====== Args={}
+2024-08-06 20:17:46,857 : INFO : EventManager : Event: ======'unexpected_ball_on_playfield'====== Args={}
+2024-08-06 20:17:46,857 : INFO : EventManager : Event: ======'s_reentry_left_active'====== Args={}
+2024-08-06 20:17:46,858 : INFO : EventManager : Event: ======'sw_playfield_active'====== Args={}
+2024-08-06 20:17:46,859 : INFO : EventManager : Event: ======'playfield_active'====== Args={}
+2024-08-06 20:17:46,859 : INFO : EventManager : Event: ======'unexpected_ball_on_playfield'====== Args={}
+2024-08-06 20:17:47,088 : INFO : SwitchController : <<<<<<< 's_reentry_left' inactive >>>>>>>
+2024-08-06 20:17:47,259 : INFO : SwitchController : <<<<<<< 's_reentry_left' active >>>>>>>
+2024-08-06 20:17:47,259 : INFO : EventManager : Event: ======'playfield_active'====== Args={}
+2024-08-06 20:17:47,259 : INFO : EventManager : Event: ======'unexpected_ball_on_playfield'====== Args={}
+2024-08-06 20:17:47,259 : INFO : EventManager : Event: ======'s_reentry_left_active'====== Args={}
+2024-08-06 20:17:47,259 : INFO : EventManager : Event: ======'sw_playfield_active'====== Args={}
+2024-08-06 20:17:47,260 : INFO : EventManager : Event: ======'playfield_active'====== Args={}
+2024-08-06 20:17:47,260 : INFO : EventManager : Event: ======'unexpected_ball_on_playfield'====== Args={}
+2024-08-06 20:17:47,459 : INFO : SwitchController : <<<<<<< 's_reentry_left' inactive >>>>>>>
+2024-08-06 20:17:47,631 : INFO : SwitchController : <<<<<<< 's_reentry_left' active >>>>>>>
+2024-08-06 20:17:47,631 : INFO : EventManager : Event: ======'playfield_active'====== Args={}
+2024-08-06 20:17:47,632 : INFO : EventManager : Event: ======'unexpected_ball_on_playfield'====== Args={}
+2024-08-06 20:17:47,632 : INFO : EventManager : Event: ======'s_reentry_left_active'====== Args={}
+2024-08-06 20:17:47,633 : INFO : EventManager : Event: ======'sw_playfield_active'====== Args={}
+2024-08-06 20:17:47,633 : INFO : EventManager : Event: ======'playfield_active'====== Args={}
+2024-08-06 20:17:47,633 : INFO : EventManager : Event: ======'unexpected_ball_on_playfield'====== Args={}
+2024-08-06 20:17:47,781 : INFO : SwitchController : <<<<<<< 's_reentry_left' inactive >>>>>>>
+2024-08-06 20:17:48,048 : INFO : SwitchController : <<<<<<< 's_reentry_left' active >>>>>>>
+2024-08-06 20:17:48,048 : INFO : EventManager : Event: ======'playfield_active'====== Args={}
+2024-08-06 20:17:48,048 : INFO : EventManager : Event: ======'unexpected_ball_on_playfield'====== Args={}
+2024-08-06 20:17:48,048 : INFO : EventManager : Event: ======'s_reentry_left_active'====== Args={}
+2024-08-06 20:17:48,049 : INFO : EventManager : Event: ======'sw_playfield_active'====== Args={}
+2024-08-06 20:17:48,049 : INFO : EventManager : Event: ======'playfield_active'====== Args={}
+2024-08-06 20:17:48,050 : INFO : EventManager : Event: ======'unexpected_ball_on_playfield'====== Args={}
+2024-08-06 20:17:48,311 : INFO : SwitchController : <<<<<<< 's_reentry_left' inactive >>>>>>>
+2024-08-06 20:17:48,575 : INFO : SwitchController : <<<<<<< 's_reentry_left' active >>>>>>>
+2024-08-06 20:17:48,575 : INFO : EventManager : Event: ======'playfield_active'====== Args={}
+2024-08-06 20:17:48,576 : INFO : EventManager : Event: ======'unexpected_ball_on_playfield'====== Args={}
+2024-08-06 20:17:48,576 : INFO : EventManager : Event: ======'s_reentry_left_active'====== Args={}
+2024-08-06 20:17:48,576 : INFO : EventManager : Event: ======'sw_playfield_active'====== Args={}
+2024-08-06 20:17:48,577 : INFO : EventManager : Event: ======'playfield_active'====== Args={}
+2024-08-06 20:17:48,577 : INFO : EventManager : Event: ======'unexpected_ball_on_playfield'====== Args={}
+2024-08-06 20:17:48,760 : INFO : SwitchController : <<<<<<< 's_reentry_left' inactive >>>>>>>
+2024-08-06 20:17:48,931 : INFO : SwitchController : <<<<<<< 's_reentry_left' active >>>>>>>
+2024-08-06 20:17:48,931 : INFO : EventManager : Event: ======'playfield_active'====== Args={}
+2024-08-06 20:17:48,931 : INFO : EventManager : Event: ======'unexpected_ball_on_playfield'====== Args={}
+2024-08-06 20:17:48,931 : INFO : EventManager : Event: ======'s_reentry_left_active'====== Args={}
+2024-08-06 20:17:48,932 : INFO : EventManager : Event: ======'sw_playfield_active'====== Args={}
+2024-08-06 20:17:48,932 : INFO : EventManager : Event: ======'playfield_active'====== Args={}
+2024-08-06 20:17:48,932 : INFO : EventManager : Event: ======'unexpected_ball_on_playfield'====== Args={}
+2024-08-06 20:17:49,272 : INFO : SwitchController : <<<<<<< 's_reentry_left' inactive >>>>>>>
+2024-08-06 20:17:49,350 : INFO : SwitchController : <<<<<<< 's_reentry_left' active >>>>>>>
+2024-08-06 20:17:49,350 : INFO : EventManager : Event: ======'playfield_active'====== Args={}
+2024-08-06 20:17:49,351 : INFO : EventManager : Event: ======'unexpected_ball_on_playfield'====== Args={}
+2024-08-06 20:17:49,351 : INFO : EventManager : Event: ======'s_reentry_left_active'====== Args={}
+2024-08-06 20:17:49,351 : INFO : EventManager : Event: ======'sw_playfield_active'====== Args={}
+2024-08-06 20:17:49,352 : INFO : EventManager : Event: ======'playfield_active'====== Args={}
+2024-08-06 20:17:49,352 : INFO : EventManager : Event: ======'unexpected_ball_on_playfield'====== Args={}
+2024-08-06 20:17:49,649 : INFO : SwitchController : <<<<<<< 's_reentry_left' inactive >>>>>>>
+2024-08-06 20:17:49,867 : INFO : SwitchController : <<<<<<< 's_reentry_left' active >>>>>>>
+2024-08-06 20:17:49,867 : INFO : EventManager : Event: ======'playfield_active'====== Args={}
+2024-08-06 20:17:49,868 : INFO : EventManager : Event: ======'unexpected_ball_on_playfield'====== Args={}
+2024-08-06 20:17:49,868 : INFO : EventManager : Event: ======'s_reentry_left_active'====== Args={}
+2024-08-06 20:17:49,868 : INFO : EventManager : Event: ======'sw_playfield_active'====== Args={}
+2024-08-06 20:17:49,869 : INFO : EventManager : Event: ======'playfield_active'====== Args={}
+2024-08-06 20:17:49,869 : INFO : EventManager : Event: ======'unexpected_ball_on_playfield'====== Args={}
+2024-08-06 20:17:50,132 : INFO : SwitchController : <<<<<<< 's_reentry_left' inactive >>>>>>>
+2024-08-06 20:17:50,333 : INFO : SwitchController : <<<<<<< 's_reentry_left' active >>>>>>>
+2024-08-06 20:17:50,333 : INFO : EventManager : Event: ======'playfield_active'====== Args={}
+2024-08-06 20:17:50,334 : INFO : EventManager : Event: ======'unexpected_ball_on_playfield'====== Args={}
+2024-08-06 20:17:50,334 : INFO : EventManager : Event: ======'s_reentry_left_active'====== Args={}
+2024-08-06 20:17:50,335 : INFO : EventManager : Event: ======'sw_playfield_active'====== Args={}
+2024-08-06 20:17:50,336 : INFO : EventManager : Event: ======'playfield_active'====== Args={}
+2024-08-06 20:17:50,336 : INFO : EventManager : Event: ======'unexpected_ball_on_playfield'====== Args={}
+2024-08-06 20:17:50,583 : INFO : SwitchController : <<<<<<< 's_reentry_left' inactive >>>>>>>
+2024-08-06 20:17:50,859 : INFO : SwitchController : <<<<<<< 's_reentry_left' active >>>>>>>
+2024-08-06 20:17:50,860 : INFO : EventManager : Event: ======'playfield_active'====== Args={}
+2024-08-06 20:17:50,860 : INFO : EventManager : Event: ======'unexpected_ball_on_playfield'====== Args={}
+2024-08-06 20:17:50,860 : INFO : EventManager : Event: ======'s_reentry_left_active'====== Args={}
+2024-08-06 20:17:50,860 : INFO : EventManager : Event: ======'sw_playfield_active'====== Args={}
+2024-08-06 20:17:50,860 : INFO : EventManager : Event: ======'playfield_active'====== Args={}
+2024-08-06 20:17:50,861 : INFO : EventManager : Event: ======'unexpected_ball_on_playfield'====== Args={}
+2024-08-06 20:17:51,171 : INFO : SwitchController : <<<<<<< 's_reentry_left' inactive >>>>>>>
+2024-08-06 20:17:51,420 : INFO : SwitchController : <<<<<<< 's_reentry_left' active >>>>>>>
+2024-08-06 20:17:51,420 : INFO : EventManager : Event: ======'playfield_active'====== Args={}
+2024-08-06 20:17:51,421 : INFO : EventManager : Event: ======'unexpected_ball_on_playfield'====== Args={}
+2024-08-06 20:17:51,421 : INFO : EventManager : Event: ======'s_reentry_left_active'====== Args={}
+2024-08-06 20:17:51,421 : INFO : EventManager : Event: ======'sw_playfield_active'====== Args={}
+2024-08-06 20:17:51,422 : INFO : EventManager : Event: ======'playfield_active'====== Args={}
+2024-08-06 20:17:51,422 : INFO : EventManager : Event: ======'unexpected_ball_on_playfield'====== Args={}
+2024-08-06 20:17:51,716 : INFO : SwitchController : <<<<<<< 's_reentry_left' inactive >>>>>>>
+2024-08-06 20:17:51,968 : INFO : SwitchController : <<<<<<< 's_reentry_left' active >>>>>>>
+2024-08-06 20:17:51,968 : INFO : EventManager : Event: ======'playfield_active'====== Args={}
+2024-08-06 20:17:51,968 : INFO : EventManager : Event: ======'unexpected_ball_on_playfield'====== Args={}
+2024-08-06 20:17:51,968 : INFO : EventManager : Event: ======'s_reentry_left_active'====== Args={}
+2024-08-06 20:17:51,968 : INFO : EventManager : Event: ======'sw_playfield_active'====== Args={}
+2024-08-06 20:17:51,968 : INFO : EventManager : Event: ======'playfield_active'====== Args={}
+2024-08-06 20:17:51,968 : INFO : EventManager : Event: ======'unexpected_ball_on_playfield'====== Args={}
+2024-08-06 20:17:52,280 : INFO : SwitchController : <<<<<<< 's_reentry_left' inactive >>>>>>>
+2024-08-06 20:17:52,528 : INFO : SwitchController : <<<<<<< 's_reentry_left' active >>>>>>>
+2024-08-06 20:17:52,528 : INFO : EventManager : Event: ======'playfield_active'====== Args={}
+2024-08-06 20:17:52,529 : INFO : EventManager : Event: ======'unexpected_ball_on_playfield'====== Args={}
+2024-08-06 20:17:52,529 : INFO : EventManager : Event: ======'s_reentry_left_active'====== Args={}
+2024-08-06 20:17:52,529 : INFO : EventManager : Event: ======'sw_playfield_active'====== Args={}
+2024-08-06 20:17:52,530 : INFO : EventManager : Event: ======'playfield_active'====== Args={}
+2024-08-06 20:17:52,530 : INFO : EventManager : Event: ======'unexpected_ball_on_playfield'====== Args={}
+2024-08-06 20:17:52,790 : INFO : SwitchController : <<<<<<< 's_reentry_left' inactive >>>>>>>
+2024-08-06 20:17:53,025 : INFO : SwitchController : <<<<<<< 's_reentry_left' active >>>>>>>
+2024-08-06 20:17:53,026 : INFO : EventManager : Event: ======'playfield_active'====== Args={}
+2024-08-06 20:17:53,026 : INFO : EventManager : Event: ======'unexpected_ball_on_playfield'====== Args={}
+2024-08-06 20:17:53,026 : INFO : EventManager : Event: ======'s_reentry_left_active'====== Args={}
+2024-08-06 20:17:53,026 : INFO : EventManager : Event: ======'sw_playfield_active'====== Args={}
+2024-08-06 20:17:53,027 : INFO : EventManager : Event: ======'playfield_active'====== Args={}
+2024-08-06 20:17:53,027 : INFO : EventManager : Event: ======'unexpected_ball_on_playfield'====== Args={}
+2024-08-06 20:17:53,289 : INFO : SwitchController : <<<<<<< 's_reentry_left' inactive >>>>>>>
+2024-08-06 20:17:53,495 : INFO : SwitchController : <<<<<<< 's_reentry_left' active >>>>>>>
+2024-08-06 20:17:53,496 : INFO : EventManager : Event: ======'playfield_active'====== Args={}
+2024-08-06 20:17:53,496 : INFO : EventManager : Event: ======'unexpected_ball_on_playfield'====== Args={}
+2024-08-06 20:17:53,496 : INFO : EventManager : Event: ======'s_reentry_left_active'====== Args={}
+2024-08-06 20:17:53,496 : INFO : EventManager : Event: ======'sw_playfield_active'====== Args={}
+2024-08-06 20:17:53,496 : INFO : EventManager : Event: ======'playfield_active'====== Args={}
+2024-08-06 20:17:53,497 : INFO : EventManager : Event: ======'unexpected_ball_on_playfield'====== Args={}
+2024-08-06 20:17:53,712 : INFO : SwitchController : <<<<<<< 's_reentry_left' inactive >>>>>>>
+2024-08-06 20:17:53,882 : INFO : SwitchController : <<<<<<< 's_reentry_left' active >>>>>>>
+2024-08-06 20:17:53,883 : INFO : EventManager : Event: ======'playfield_active'====== Args={}
+2024-08-06 20:17:53,883 : INFO : EventManager : Event: ======'unexpected_ball_on_playfield'====== Args={}
+2024-08-06 20:17:53,883 : INFO : EventManager : Event: ======'s_reentry_left_active'====== Args={}
+2024-08-06 20:17:53,883 : INFO : EventManager : Event: ======'sw_playfield_active'====== Args={}
+2024-08-06 20:17:53,884 : INFO : EventManager : Event: ======'playfield_active'====== Args={}
+2024-08-06 20:17:53,885 : INFO : EventManager : Event: ======'unexpected_ball_on_playfield'====== Args={}
+2024-08-06 20:17:54,100 : INFO : SwitchController : <<<<<<< 's_reentry_left' inactive >>>>>>>
+2024-08-06 20:17:54,287 : INFO : SwitchController : <<<<<<< 's_reentry_left' active >>>>>>>
+2024-08-06 20:17:54,288 : INFO : EventManager : Event: ======'playfield_active'====== Args={}
+2024-08-06 20:17:54,288 : INFO : EventManager : Event: ======'unexpected_ball_on_playfield'====== Args={}
+2024-08-06 20:17:54,288 : INFO : EventManager : Event: ======'s_reentry_left_active'====== Args={}
+2024-08-06 20:17:54,288 : INFO : EventManager : Event: ======'sw_playfield_active'====== Args={}
+2024-08-06 20:17:54,289 : INFO : EventManager : Event: ======'playfield_active'====== Args={}
+2024-08-06 20:17:54,289 : INFO : EventManager : Event: ======'unexpected_ball_on_playfield'====== Args={}
+2024-08-06 20:17:54,396 : INFO : SwitchController : <<<<<<< 's_reentry_left' inactive >>>>>>>
+2024-08-06 20:17:54,597 : INFO : SwitchController : <<<<<<< 's_reentry_left' active >>>>>>>
+2024-08-06 20:17:54,598 : INFO : EventManager : Event: ======'playfield_active'====== Args={}
+2024-08-06 20:17:54,598 : INFO : EventManager : Event: ======'unexpected_ball_on_playfield'====== Args={}
+2024-08-06 20:17:54,598 : INFO : EventManager : Event: ======'s_reentry_left_active'====== Args={}
+2024-08-06 20:17:54,598 : INFO : EventManager : Event: ======'sw_playfield_active'====== Args={}
+2024-08-06 20:17:54,599 : INFO : EventManager : Event: ======'playfield_active'====== Args={}
+2024-08-06 20:17:54,600 : INFO : EventManager : Event: ======'unexpected_ball_on_playfield'====== Args={}
+2024-08-06 20:17:54,723 : INFO : SwitchController : <<<<<<< 's_reentry_left' inactive >>>>>>>
+2024-08-06 20:17:54,876 : INFO : SwitchController : <<<<<<< 's_reentry_left' active >>>>>>>
+2024-08-06 20:17:54,876 : INFO : EventManager : Event: ======'playfield_active'====== Args={}
+2024-08-06 20:17:54,876 : INFO : EventManager : Event: ======'unexpected_ball_on_playfield'====== Args={}
+2024-08-06 20:17:54,877 : INFO : EventManager : Event: ======'s_reentry_left_active'====== Args={}
+2024-08-06 20:17:54,877 : INFO : EventManager : Event: ======'sw_playfield_active'====== Args={}
+2024-08-06 20:17:54,877 : INFO : EventManager : Event: ======'playfield_active'====== Args={}
+2024-08-06 20:17:54,877 : INFO : EventManager : Event: ======'unexpected_ball_on_playfield'====== Args={}
+2024-08-06 20:17:54,986 : INFO : SwitchController : <<<<<<< 's_reentry_left' inactive >>>>>>>
+2024-08-06 20:17:55,125 : INFO : SwitchController : <<<<<<< 's_reentry_left' active >>>>>>>
+2024-08-06 20:17:55,126 : INFO : EventManager : Event: ======'playfield_active'====== Args={}
+2024-08-06 20:17:55,126 : INFO : EventManager : Event: ======'unexpected_ball_on_playfield'====== Args={}
+2024-08-06 20:17:55,126 : INFO : EventManager : Event: ======'s_reentry_left_active'====== Args={}
+2024-08-06 20:17:55,126 : INFO : EventManager : Event: ======'sw_playfield_active'====== Args={}
+2024-08-06 20:17:55,127 : INFO : EventManager : Event: ======'playfield_active'====== Args={}
+2024-08-06 20:17:55,127 : INFO : EventManager : Event: ======'unexpected_ball_on_playfield'====== Args={}
+2024-08-06 20:17:55,249 : INFO : SwitchController : <<<<<<< 's_reentry_left' inactive >>>>>>>
+2024-08-06 20:17:55,404 : INFO : SwitchController : <<<<<<< 's_reentry_left' active >>>>>>>
+2024-08-06 20:17:55,404 : INFO : EventManager : Event: ======'playfield_active'====== Args={}
+2024-08-06 20:17:55,404 : INFO : EventManager : Event: ======'unexpected_ball_on_playfield'====== Args={}
+2024-08-06 20:17:55,404 : INFO : EventManager : Event: ======'s_reentry_left_active'====== Args={}
+2024-08-06 20:17:55,404 : INFO : EventManager : Event: ======'sw_playfield_active'====== Args={}
+2024-08-06 20:17:55,405 : INFO : EventManager : Event: ======'playfield_active'====== Args={}
+2024-08-06 20:17:55,406 : INFO : EventManager : Event: ======'unexpected_ball_on_playfield'====== Args={}
+2024-08-06 20:17:55,520 : INFO : SwitchController : <<<<<<< 's_reentry_left' inactive >>>>>>>
+2024-08-06 20:17:55,637 : INFO : SwitchController : <<<<<<< 's_reentry_left' active >>>>>>>
+2024-08-06 20:17:55,638 : INFO : EventManager : Event: ======'playfield_active'====== Args={}
+2024-08-06 20:17:55,638 : INFO : EventManager : Event: ======'unexpected_ball_on_playfield'====== Args={}
+2024-08-06 20:17:55,638 : INFO : EventManager : Event: ======'s_reentry_left_active'====== Args={}
+2024-08-06 20:17:55,638 : INFO : EventManager : Event: ======'sw_playfield_active'====== Args={}
+2024-08-06 20:17:55,640 : INFO : EventManager : Event: ======'playfield_active'====== Args={}
+2024-08-06 20:17:55,640 : INFO : EventManager : Event: ======'unexpected_ball_on_playfield'====== Args={}
+2024-08-06 20:17:55,764 : INFO : SwitchController : <<<<<<< 's_reentry_left' inactive >>>>>>>
+2024-08-06 20:17:55,889 : INFO : SwitchController : <<<<<<< 's_reentry_left' active >>>>>>>
+2024-08-06 20:17:55,889 : INFO : EventManager : Event: ======'playfield_active'====== Args={}
+2024-08-06 20:17:55,889 : INFO : EventManager : Event: ======'unexpected_ball_on_playfield'====== Args={}
+2024-08-06 20:17:55,889 : INFO : EventManager : Event: ======'s_reentry_left_active'====== Args={}
+2024-08-06 20:17:55,889 : INFO : EventManager : Event: ======'sw_playfield_active'====== Args={}
+2024-08-06 20:17:55,890 : INFO : EventManager : Event: ======'playfield_active'====== Args={}
+2024-08-06 20:17:55,890 : INFO : EventManager : Event: ======'unexpected_ball_on_playfield'====== Args={}
+2024-08-06 20:17:55,981 : INFO : SwitchController : <<<<<<< 's_reentry_left' inactive >>>>>>>
+2024-08-06 20:17:56,106 : INFO : SwitchController : <<<<<<< 's_reentry_left' active >>>>>>>
+2024-08-06 20:17:56,106 : INFO : EventManager : Event: ======'playfield_active'====== Args={}
+2024-08-06 20:17:56,106 : INFO : EventManager : Event: ======'unexpected_ball_on_playfield'====== Args={}
+2024-08-06 20:17:56,107 : INFO : EventManager : Event: ======'s_reentry_left_active'====== Args={}
+2024-08-06 20:17:56,107 : INFO : EventManager : Event: ======'sw_playfield_active'====== Args={}
+2024-08-06 20:17:56,107 : INFO : EventManager : Event: ======'playfield_active'====== Args={}
+2024-08-06 20:17:56,107 : INFO : EventManager : Event: ======'unexpected_ball_on_playfield'====== Args={}
+2024-08-06 20:17:56,185 : INFO : SwitchController : <<<<<<< 's_reentry_left' inactive >>>>>>>
+2024-08-06 20:17:56,324 : INFO : SwitchController : <<<<<<< 's_reentry_left' active >>>>>>>
+2024-08-06 20:17:56,324 : INFO : EventManager : Event: ======'playfield_active'====== Args={}
+2024-08-06 20:17:56,325 : INFO : EventManager : Event: ======'unexpected_ball_on_playfield'====== Args={}
+2024-08-06 20:17:56,325 : INFO : EventManager : Event: ======'s_reentry_left_active'====== Args={}
+2024-08-06 20:17:56,325 : INFO : EventManager : Event: ======'sw_playfield_active'====== Args={}
+2024-08-06 20:17:56,325 : INFO : EventManager : Event: ======'playfield_active'====== Args={}
+2024-08-06 20:17:56,326 : INFO : EventManager : Event: ======'unexpected_ball_on_playfield'====== Args={}
+2024-08-06 20:17:56,416 : INFO : SwitchController : <<<<<<< 's_reentry_left' inactive >>>>>>>
+2024-08-06 20:17:56,555 : INFO : SwitchController : <<<<<<< 's_reentry_left' active >>>>>>>
+2024-08-06 20:17:56,556 : INFO : EventManager : Event: ======'playfield_active'====== Args={}
+2024-08-06 20:17:56,556 : INFO : EventManager : Event: ======'unexpected_ball_on_playfield'====== Args={}
+2024-08-06 20:17:56,556 : INFO : EventManager : Event: ======'s_reentry_left_active'====== Args={}
+2024-08-06 20:17:56,556 : INFO : EventManager : Event: ======'sw_playfield_active'====== Args={}
+2024-08-06 20:17:56,556 : INFO : EventManager : Event: ======'playfield_active'====== Args={}
+2024-08-06 20:17:56,556 : INFO : EventManager : Event: ======'unexpected_ball_on_playfield'====== Args={}
+2024-08-06 20:17:56,632 : INFO : SwitchController : <<<<<<< 's_reentry_left' inactive >>>>>>>
+2024-08-06 20:18:21,988 : INFO : SwitchController : <<<<<<< 's_reentry_left' active >>>>>>>
+2024-08-06 20:18:21,988 : INFO : EventManager : Event: ======'playfield_active'====== Args={}
+2024-08-06 20:18:21,989 : INFO : EventManager : Event: ======'unexpected_ball_on_playfield'====== Args={}
+2024-08-06 20:18:21,989 : INFO : EventManager : Event: ======'s_reentry_left_active'====== Args={}
+2024-08-06 20:18:21,989 : INFO : EventManager : Event: ======'sw_playfield_active'====== Args={}
+2024-08-06 20:18:21,990 : INFO : EventManager : Event: ======'playfield_active'====== Args={}
+2024-08-06 20:18:21,990 : INFO : EventManager : Event: ======'unexpected_ball_on_playfield'====== Args={}
+2024-08-06 20:18:22,578 : INFO : SwitchController : <<<<<<< 's_reentry_left' inactive >>>>>>>
+2024-08-06 20:18:23,030 : INFO : SwitchController : <<<<<<< 's_reentry_left' active >>>>>>>
+2024-08-06 20:18:23,030 : INFO : EventManager : Event: ======'playfield_active'====== Args={}
+2024-08-06 20:18:23,031 : INFO : EventManager : Event: ======'unexpected_ball_on_playfield'====== Args={}
+2024-08-06 20:18:23,031 : INFO : EventManager : Event: ======'s_reentry_left_active'====== Args={}
+2024-08-06 20:18:23,032 : INFO : EventManager : Event: ======'sw_playfield_active'====== Args={}
+2024-08-06 20:18:23,032 : INFO : EventManager : Event: ======'playfield_active'====== Args={}
+2024-08-06 20:18:23,033 : INFO : EventManager : Event: ======'unexpected_ball_on_playfield'====== Args={}
+2024-08-06 20:18:23,385 : INFO : SwitchController : <<<<<<< 's_reentry_left' inactive >>>>>>>
+2024-08-06 20:18:23,604 : INFO : SwitchController : <<<<<<< 's_reentry_left' active >>>>>>>
+2024-08-06 20:18:23,605 : INFO : EventManager : Event: ======'playfield_active'====== Args={}
+2024-08-06 20:18:23,605 : INFO : EventManager : Event: ======'unexpected_ball_on_playfield'====== Args={}
+2024-08-06 20:18:23,605 : INFO : EventManager : Event: ======'s_reentry_left_active'====== Args={}
+2024-08-06 20:18:23,605 : INFO : EventManager : Event: ======'sw_playfield_active'====== Args={}
+2024-08-06 20:18:23,606 : INFO : EventManager : Event: ======'playfield_active'====== Args={}
+2024-08-06 20:18:23,606 : INFO : EventManager : Event: ======'unexpected_ball_on_playfield'====== Args={}
+2024-08-06 20:18:23,836 : INFO : SwitchController : <<<<<<< 's_reentry_left' inactive >>>>>>>
+2024-08-06 20:18:23,959 : INFO : SwitchController : <<<<<<< 's_reentry_left' active >>>>>>>
+2024-08-06 20:18:23,959 : INFO : EventManager : Event: ======'playfield_active'====== Args={}
+2024-08-06 20:18:23,959 : INFO : EventManager : Event: ======'unexpected_ball_on_playfield'====== Args={}
+2024-08-06 20:18:23,959 : INFO : EventManager : Event: ======'s_reentry_left_active'====== Args={}
+2024-08-06 20:18:23,960 : INFO : EventManager : Event: ======'sw_playfield_active'====== Args={}
+2024-08-06 20:18:23,961 : INFO : EventManager : Event: ======'playfield_active'====== Args={}
+2024-08-06 20:18:23,961 : INFO : EventManager : Event: ======'unexpected_ball_on_playfield'====== Args={}
+2024-08-06 20:18:24,067 : INFO : SwitchController : <<<<<<< 's_reentry_left' inactive >>>>>>>
+2024-08-06 20:18:24,192 : INFO : SwitchController : <<<<<<< 's_reentry_left' active >>>>>>>
+2024-08-06 20:18:24,193 : INFO : EventManager : Event: ======'playfield_active'====== Args={}
+2024-08-06 20:18:24,193 : INFO : EventManager : Event: ======'unexpected_ball_on_playfield'====== Args={}
+2024-08-06 20:18:24,193 : INFO : EventManager : Event: ======'s_reentry_left_active'====== Args={}
+2024-08-06 20:18:24,193 : INFO : EventManager : Event: ======'sw_playfield_active'====== Args={}
+2024-08-06 20:18:24,194 : INFO : EventManager : Event: ======'playfield_active'====== Args={}
+2024-08-06 20:18:24,194 : INFO : EventManager : Event: ======'unexpected_ball_on_playfield'====== Args={}
+2024-08-06 20:18:24,332 : INFO : SwitchController : <<<<<<< 's_reentry_left' inactive >>>>>>>
+2024-08-06 20:18:54,348 : INFO : SwitchController : <<<<<<< 's_reentry_left' active >>>>>>>
+2024-08-06 20:18:54,348 : INFO : EventManager : Event: ======'playfield_active'====== Args={}
+2024-08-06 20:18:54,348 : INFO : EventManager : Event: ======'unexpected_ball_on_playfield'====== Args={}
+2024-08-06 20:18:54,348 : INFO : EventManager : Event: ======'s_reentry_left_active'====== Args={}
+2024-08-06 20:18:54,349 : INFO : EventManager : Event: ======'sw_playfield_active'====== Args={}
+2024-08-06 20:18:54,349 : INFO : EventManager : Event: ======'playfield_active'====== Args={}
+2024-08-06 20:18:54,349 : INFO : EventManager : Event: ======'unexpected_ball_on_playfield'====== Args={}
+2024-08-06 20:18:54,747 : INFO : SwitchController : <<<<<<< 's_reentry_left' inactive >>>>>>>
+2024-08-06 20:18:55,056 : INFO : SwitchController : <<<<<<< 's_reentry_left' active >>>>>>>
+2024-08-06 20:18:55,057 : INFO : EventManager : Event: ======'playfield_active'====== Args={}
+2024-08-06 20:18:55,057 : INFO : EventManager : Event: ======'unexpected_ball_on_playfield'====== Args={}
+2024-08-06 20:18:55,057 : INFO : EventManager : Event: ======'s_reentry_left_active'====== Args={}
+2024-08-06 20:18:55,057 : INFO : EventManager : Event: ======'sw_playfield_active'====== Args={}
+2024-08-06 20:18:55,057 : INFO : EventManager : Event: ======'playfield_active'====== Args={}
+2024-08-06 20:18:55,058 : INFO : EventManager : Event: ======'unexpected_ball_on_playfield'====== Args={}
+2024-08-06 20:18:55,385 : INFO : SwitchController : <<<<<<< 's_reentry_left' inactive >>>>>>>
+2024-08-06 20:18:55,621 : INFO : SwitchController : <<<<<<< 's_reentry_left' active >>>>>>>
+2024-08-06 20:18:55,622 : INFO : EventManager : Event: ======'playfield_active'====== Args={}
+2024-08-06 20:18:55,622 : INFO : EventManager : Event: ======'unexpected_ball_on_playfield'====== Args={}
+2024-08-06 20:18:55,622 : INFO : EventManager : Event: ======'s_reentry_left_active'====== Args={}
+2024-08-06 20:18:55,623 : INFO : EventManager : Event: ======'sw_playfield_active'====== Args={}
+2024-08-06 20:18:55,623 : INFO : EventManager : Event: ======'playfield_active'====== Args={}
+2024-08-06 20:18:55,623 : INFO : EventManager : Event: ======'unexpected_ball_on_playfield'====== Args={}
+2024-08-06 20:18:55,980 : INFO : SwitchController : <<<<<<< 's_reentry_left' inactive >>>>>>>
+2024-08-06 20:18:56,231 : INFO : SwitchController : <<<<<<< 's_reentry_left' active >>>>>>>
+2024-08-06 20:18:56,231 : INFO : EventManager : Event: ======'playfield_active'====== Args={}
+2024-08-06 20:18:56,232 : INFO : EventManager : Event: ======'unexpected_ball_on_playfield'====== Args={}
+2024-08-06 20:18:56,232 : INFO : EventManager : Event: ======'s_reentry_left_active'====== Args={}
+2024-08-06 20:18:56,233 : INFO : EventManager : Event: ======'sw_playfield_active'====== Args={}
+2024-08-06 20:18:56,234 : INFO : EventManager : Event: ======'playfield_active'====== Args={}
+2024-08-06 20:18:56,234 : INFO : EventManager : Event: ======'unexpected_ball_on_playfield'====== Args={}
+2024-08-06 20:18:56,545 : INFO : SwitchController : <<<<<<< 's_reentry_left' inactive >>>>>>>
+2024-08-06 20:18:56,747 : INFO : SwitchController : <<<<<<< 's_reentry_left' active >>>>>>>
+2024-08-06 20:18:56,747 : INFO : EventManager : Event: ======'playfield_active'====== Args={}
+2024-08-06 20:18:56,748 : INFO : EventManager : Event: ======'unexpected_ball_on_playfield'====== Args={}
+2024-08-06 20:18:56,748 : INFO : EventManager : Event: ======'s_reentry_left_active'====== Args={}
+2024-08-06 20:18:56,749 : INFO : EventManager : Event: ======'sw_playfield_active'====== Args={}
+2024-08-06 20:18:56,750 : INFO : EventManager : Event: ======'playfield_active'====== Args={}
+2024-08-06 20:18:56,750 : INFO : EventManager : Event: ======'unexpected_ball_on_playfield'====== Args={}
+2024-08-06 20:18:57,056 : INFO : SwitchController : <<<<<<< 's_reentry_left' inactive >>>>>>>
+2024-08-06 20:19:10,500 : INFO : SwitchController : <<<<<<< 's_reentry_left' active >>>>>>>
+2024-08-06 20:19:10,500 : INFO : EventManager : Event: ======'playfield_active'====== Args={}
+2024-08-06 20:19:10,501 : INFO : EventManager : Event: ======'unexpected_ball_on_playfield'====== Args={}
+2024-08-06 20:19:10,501 : INFO : EventManager : Event: ======'s_reentry_left_active'====== Args={}
+2024-08-06 20:19:10,501 : INFO : EventManager : Event: ======'sw_playfield_active'====== Args={}
+2024-08-06 20:19:10,502 : INFO : EventManager : Event: ======'playfield_active'====== Args={}
+2024-08-06 20:19:10,502 : INFO : EventManager : Event: ======'unexpected_ball_on_playfield'====== Args={}
+2024-08-06 20:19:10,950 : INFO : SwitchController : <<<<<<< 's_reentry_left' inactive >>>>>>>
+2024-08-06 20:19:12,130 : INFO : SwitchController : <<<<<<< 's_reentry_left' active >>>>>>>
+2024-08-06 20:19:12,131 : INFO : EventManager : Event: ======'playfield_active'====== Args={}
+2024-08-06 20:19:12,131 : INFO : EventManager : Event: ======'unexpected_ball_on_playfield'====== Args={}
+2024-08-06 20:19:12,131 : INFO : EventManager : Event: ======'s_reentry_left_active'====== Args={}
+2024-08-06 20:19:12,131 : INFO : EventManager : Event: ======'sw_playfield_active'====== Args={}
+2024-08-06 20:19:12,132 : INFO : EventManager : Event: ======'playfield_active'====== Args={}
+2024-08-06 20:19:12,132 : INFO : EventManager : Event: ======'unexpected_ball_on_playfield'====== Args={}
+2024-08-06 20:19:12,377 : INFO : SwitchController : <<<<<<< 's_reentry_left' inactive >>>>>>>
+2024-08-06 20:19:13,336 : INFO : SwitchController : <<<<<<< 's_reentry_left' active >>>>>>>
+2024-08-06 20:19:13,337 : INFO : EventManager : Event: ======'playfield_active'====== Args={}
+2024-08-06 20:19:13,337 : INFO : EventManager : Event: ======'unexpected_ball_on_playfield'====== Args={}
+2024-08-06 20:19:13,337 : INFO : EventManager : Event: ======'s_reentry_left_active'====== Args={}
+2024-08-06 20:19:13,337 : INFO : EventManager : Event: ======'sw_playfield_active'====== Args={}
+2024-08-06 20:19:13,338 : INFO : EventManager : Event: ======'playfield_active'====== Args={}
+2024-08-06 20:19:13,338 : INFO : EventManager : Event: ======'unexpected_ball_on_playfield'====== Args={}
+2024-08-06 20:19:13,585 : INFO : SwitchController : <<<<<<< 's_reentry_left' inactive >>>>>>>
+2024-08-06 20:19:31,834 : INFO : SwitchController : <<<<<<< 's_reentry_left' active >>>>>>>
+2024-08-06 20:19:31,834 : INFO : EventManager : Event: ======'playfield_active'====== Args={}
+2024-08-06 20:19:31,834 : INFO : EventManager : Event: ======'unexpected_ball_on_playfield'====== Args={}
+2024-08-06 20:19:31,834 : INFO : EventManager : Event: ======'s_reentry_left_active'====== Args={}
+2024-08-06 20:19:31,834 : INFO : EventManager : Event: ======'sw_playfield_active'====== Args={}
+2024-08-06 20:19:31,835 : INFO : EventManager : Event: ======'playfield_active'====== Args={}
+2024-08-06 20:19:31,835 : INFO : EventManager : Event: ======'unexpected_ball_on_playfield'====== Args={}
+2024-08-06 20:19:32,717 : INFO : SwitchController : <<<<<<< 's_reentry_left' inactive >>>>>>>
+2024-08-06 20:19:33,515 : INFO : SwitchController : <<<<<<< 's_reentry_left' active >>>>>>>
+2024-08-06 20:19:33,515 : INFO : EventManager : Event: ======'playfield_active'====== Args={}
+2024-08-06 20:19:33,516 : INFO : EventManager : Event: ======'unexpected_ball_on_playfield'====== Args={}
+2024-08-06 20:19:33,516 : INFO : EventManager : Event: ======'s_reentry_left_active'====== Args={}
+2024-08-06 20:19:33,516 : INFO : EventManager : Event: ======'sw_playfield_active'====== Args={}
+2024-08-06 20:19:33,517 : INFO : EventManager : Event: ======'playfield_active'====== Args={}
+2024-08-06 20:19:33,517 : INFO : EventManager : Event: ======'unexpected_ball_on_playfield'====== Args={}
+2024-08-06 20:19:35,451 : INFO : SwitchController : <<<<<<< 's_reentry_left' inactive >>>>>>>
+2024-08-06 20:19:36,960 : INFO : SwitchController : <<<<<<< 's_reentry_left' active >>>>>>>
+2024-08-06 20:19:36,960 : INFO : EventManager : Event: ======'playfield_active'====== Args={}
+2024-08-06 20:19:36,960 : INFO : EventManager : Event: ======'unexpected_ball_on_playfield'====== Args={}
+2024-08-06 20:19:36,960 : INFO : EventManager : Event: ======'s_reentry_left_active'====== Args={}
+2024-08-06 20:19:36,960 : INFO : EventManager : Event: ======'sw_playfield_active'====== Args={}
+2024-08-06 20:19:36,961 : INFO : EventManager : Event: ======'playfield_active'====== Args={}
+2024-08-06 20:19:36,961 : INFO : EventManager : Event: ======'unexpected_ball_on_playfield'====== Args={}
+2024-08-06 20:19:37,213 : INFO : SwitchController : <<<<<<< 's_reentry_left' inactive >>>>>>>
+2024-08-06 20:21:14,489 : INFO : SwitchController : <<<<<<< 's_reentry_left' active >>>>>>>
+2024-08-06 20:21:14,489 : INFO : EventManager : Event: ======'playfield_active'====== Args={}
+2024-08-06 20:21:14,489 : INFO : EventManager : Event: ======'unexpected_ball_on_playfield'====== Args={}
+2024-08-06 20:21:14,489 : INFO : EventManager : Event: ======'s_reentry_left_active'====== Args={}
+2024-08-06 20:21:14,490 : INFO : EventManager : Event: ======'sw_playfield_active'====== Args={}
+2024-08-06 20:21:14,490 : INFO : EventManager : Event: ======'playfield_active'====== Args={}
+2024-08-06 20:21:14,490 : INFO : EventManager : Event: ======'unexpected_ball_on_playfield'====== Args={}
+2024-08-06 20:21:14,831 : INFO : SwitchController : <<<<<<< 's_reentry_left' inactive >>>>>>>
+2024-08-06 20:21:15,093 : INFO : SwitchController : <<<<<<< 's_reentry_left' active >>>>>>>
+2024-08-06 20:21:15,093 : INFO : EventManager : Event: ======'playfield_active'====== Args={}
+2024-08-06 20:21:15,093 : INFO : EventManager : Event: ======'unexpected_ball_on_playfield'====== Args={}
+2024-08-06 20:21:15,094 : INFO : EventManager : Event: ======'s_reentry_left_active'====== Args={}
+2024-08-06 20:21:15,094 : INFO : EventManager : Event: ======'sw_playfield_active'====== Args={}
+2024-08-06 20:21:15,094 : INFO : EventManager : Event: ======'playfield_active'====== Args={}
+2024-08-06 20:21:15,094 : INFO : EventManager : Event: ======'unexpected_ball_on_playfield'====== Args={}
+2024-08-06 20:21:15,418 : INFO : SwitchController : <<<<<<< 's_reentry_left' inactive >>>>>>>
+2024-08-06 20:23:11,088 : INFO : Machine : Shutting down...
+2024-08-06 20:23:11,089 : INFO : EventManager : Event: ======'shutdown'====== Args={}
+2024-08-06 20:23:11,097 : ERROR : OPP : Stop called on serial connection com4
+2024-08-06 20:23:11,098 : ERROR : OPP : Stop called on serial connection com5
+2024-08-06 20:23:11,101 : ERROR : asyncio : Task was destroyed but it is pending!
+task: <Task pending coro=<Event.wait() running at C:\Program Files\Python37\lib\asyncio\locks.py:293> wait_for=<Future cancelled>>
+2024-08-06 20:23:11,101 : INFO : root : MPF run loop ended.

@@ -1,0 +1,35 @@
+#config_version=5
+# mission config file
+
+mode:
+  start_events: ball_started #reentry_start   #, device.shots.my_first_shot_mode2.state:0
+  stop_events: ball_stopped #reentry_stop
+  priority: 200
+
+s_mission_spot_1
+
+variable_player:
+  mission_shot_off_hit:
+    score: 1000
+  mission_shot_lit_hit:
+    score: 1000
+
+shots:
+  mission_spot_1_shot:
+    switch: s_mission_spot_1
+    show_tokens:
+      led: l_mission_spot_1
+    profile: mission
+ 
+   mission_spot_2_shot:
+    switch: s_mission_spot_2
+    show_tokens:
+      led: l_mission_spot_2
+    profile: mission
+ 
+   mission_spot_3_shot:
+    switch: s_mission_spot_3
+    show_tokens:
+      led: l_mission_spot_3
+    profile: mission
+ 

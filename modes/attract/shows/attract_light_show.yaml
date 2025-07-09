@@ -1,0 +1,54 @@
+#show_version=6
+
+- duration: 1
+  lights:
+    l_re-entry_left: red
+    l_re-entry_middle: red
+    l_re-entry_right: red
+    l_attack_bumper_left: red
+    l_attack_bumper_lower: red
+    l_attack_bumper_right: red
+    l_multiplier_drop_target_1: red
+    l_multiplier_drop_target_2: red
+    l_multiplier_drop_target_3: red
+    l_multiplier_drop_target_4: red
+    
+- duration: 1
+  lights:
+    l_re-entry_left: green
+    l_re-entry_middle: green
+    l_re-entry_right: green
+    l_attack_bumper_left: green
+    l_attack_bumper_lower: green
+    l_attack_bumper_right: green
+    l_multiplier_drop_target_1: green
+    l_multiplier_drop_target_2: green
+    l_multiplier_drop_target_3: green
+    l_multiplier_drop_target_4: green
+    
+- duration: 1
+  lights:
+    l_re-entry_left: blue
+    l_re-entry_middle: blue
+    l_re-entry_right: blue
+    l_attack_bumper_left: blue
+    l_attack_bumper_lower: blue
+    l_attack_bumper_right: blue
+    l_multiplier_drop_target_1: blue
+    l_multiplier_drop_target_2: blue
+    l_multiplier_drop_target_3: blue
+    l_multiplier_drop_target_4: blue
+    
+- duration: 1
+  lights:
+    l_re-entry_left: off
+    l_re-entry_middle: off
+    l_re-entry_right: off
+    l_attack_bumper_left: off
+    l_attack_bumper_lower: off
+    l_attack_bumper_right: off
+    l_multiplier_drop_target_1: off
+    l_multiplier_drop_target_2: off
+    l_multiplier_drop_target_3: off
+    l_multiplier_drop_target_4: off
+     

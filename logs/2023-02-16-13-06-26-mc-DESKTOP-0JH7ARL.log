@@ -1,0 +1,11 @@
+2023-02-16 13:06:26,577 : kivy : Factory: 186 symbols loaded
+2023-02-16 13:06:26,689 : kivy : ImageLoaderFFPy: Using ffpyplayer 4.3.2
+2023-02-16 13:06:26,689 : kivy : Image: Providers: img_tex, img_dds, img_sdl2, img_pil, img_ffpyplayer 
+2023-02-16 13:06:26,731 : kivy : VideoGstplayer: Using Gstreamer 1.18.0.0
+2023-02-16 13:06:26,731 : kivy : Video: Provider: gstplayer
+2023-02-16 13:06:26,879 : kivy : Loading MPF-MC controller
+2023-02-16 13:06:27,202 : ConfigProcessor : Config spec file cache created: C:\Users\student\AppData\Local\Temp\config_spec.mpf_cache
+2023-02-16 13:06:27,216 : YamlMultifileConfigLoader : Machine config file #1: config
+2023-02-16 13:06:27,216 : ConfigProcessor : Loading config from file c:\users\student\mpfenv\lib\site-packages\mpfmc\mcconfig.yaml.
+2023-02-16 13:06:27,244 : ConfigProcessor : Loading config: c:\users\student\mpfenv\lib\site-packages\mpfmc\mcconfig.yaml
+2023-02-16 13:06:27,245 : ConfigProcessor : Loading config from file C:\Users\student\pinball\cobraPinTest1\config\config.

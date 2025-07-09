@@ -1,0 +1,97 @@
+2024-12-02 09:55:33,077 : INFO : root : Loading config.
+2024-12-02 09:55:33,089 : INFO : YamlMultifileConfigLoader : Machine config file #1: config.yaml
+2024-12-02 09:55:33,090 : WARNING : ConfigProcessor : Config file in cache changed: C:\Users\student\pinball\cobraPinTest1\config\config.yaml
+2024-12-02 09:55:33,090 : INFO : ConfigProcessor : Loading config from file c:\users\student\mpfenv\lib\site-packages\mpf\mpfconfig.yaml.
+2024-12-02 09:55:33,161 : INFO : ConfigProcessor : Loading config: c:\users\student\mpfenv\lib\site-packages\mpf\mpfconfig.yaml
+2024-12-02 09:55:33,162 : INFO : ConfigProcessor : Loading config from file C:\Users\student\pinball\cobraPinTest1\config\config.yaml.
+2024-12-02 09:55:33,210 : INFO : ConfigProcessor : Loading config: C:\Users\student\pinball\cobraPinTest1\config\config.yaml
+2024-12-02 09:55:33,211 : INFO : ConfigProcessor : Config file cache created: C:\Users\student\AppData\Local\Temp\f1427cd4cbc9163bc2263f349f0fb463.mpf_cache
+2024-12-02 09:55:33,306 : INFO : ConfigProcessor : Loading config from cache: C:\Users\student\AppData\Local\Temp\32ed7ad340ce8029344f8b9ff63edc80.mpf_cache
+2024-12-02 09:55:33,313 : INFO : ConfigProcessor : Loading config from cache: C:\Users\student\AppData\Local\Temp\8696bd5a5a040ff67990be11cb4d3c0c.mpf_cache
+2024-12-02 09:55:33,319 : INFO : ConfigProcessor : Loading config from cache: C:\Users\student\AppData\Local\Temp\4675a535c8328a9c278c807d999ed109.mpf_cache
+2024-12-02 09:55:33,325 : INFO : ConfigProcessor : Loading config from cache: C:\Users\student\AppData\Local\Temp\0c8438cab3480347c0c749fa494946a2.mpf_cache
+2024-12-02 09:55:33,331 : INFO : ConfigProcessor : Loading config from cache: C:\Users\student\AppData\Local\Temp\edae2e0e7aeda847f5007d89f37fc8de.mpf_cache
+2024-12-02 09:55:33,338 : INFO : ConfigProcessor : Loading config from cache: C:\Users\student\AppData\Local\Temp\f8d2c2cf3ea01f085365ea23fa51a701.mpf_cache
+2024-12-02 09:55:33,345 : INFO : ConfigProcessor : Loading config from cache: C:\Users\student\AppData\Local\Temp\30bd992f4b62a9b099207aebeb59554c.mpf_cache
+2024-12-02 09:55:33,351 : INFO : Machine : Mission Pinball Framework Core Engine v0.55.0
+2024-12-02 09:55:33,351 : INFO : Machine : Command line arguments: {'no_load_cache': False, 'create_config_cache': True, 'bcp': True, 'configfile': ['config.yaml'], 'force_assets_load': False, 'jsonlogging': False, 'logfile': 'logs\\2024-12-02-09-55-33-mpf-DESKTOP-0JH7ARL.log', 'pause': False, 'production': False, 'text_ui': True, 'loglevel': 15, 'consoleloglevel': 20, 'force_platform': None, 'syslog_address': None, 'mc_file_name': None, 'no_sound': False}
+2024-12-02 09:55:33,351 : INFO : Machine : MPF path: c:\users\student\mpfenv\lib\site-packages\mpf
+2024-12-02 09:55:33,351 : INFO : Machine : Machine path: C:\Users\student\pinball\cobraPinTest1
+2024-12-02 09:55:33,351 : INFO : Machine : Platform: win32
+2024-12-02 09:55:33,351 : INFO : Machine : Python executable location: c:\users\student\mpfenv\scripts\python.exe
+2024-12-02 09:55:33,351 : INFO : Machine : Python version: 3.7.8 (64-bit)
+2024-12-02 09:55:33,353 : INFO : Machine : Initialise MPF.
+2024-12-02 09:55:33,657 : INFO : OPP : Connecting to com4 at 115200bps
+2024-12-02 09:55:33,659 : INFO : Machine : Shutting down...
+2024-12-02 09:55:33,659 : INFO : EventManager : Event: ======'shutdown'====== Args={}
+2024-12-02 09:55:33,659 : ERROR : Machine : Failed to initialise MPF
+Traceback (most recent call last):
+  File "c:\users\student\mpfenv\lib\site-packages\mpf\core\machine.py", line 673, in initialise_mpf
+    raise init.exception()
+  File "c:\users\student\mpfenv\lib\site-packages\mpf\core\machine.py", line 244, in initialise
+    await self.initialise_core_and_hardware()
+  File "c:\users\student\mpfenv\lib\site-packages\mpf\core\machine.py", line 240, in initialise_core_and_hardware
+    await self._initialize_platforms()
+  File "c:\users\student\mpfenv\lib\site-packages\mpf\core\machine.py", line 331, in _initialize_platforms
+    result.result()
+  File "c:\users\student\mpfenv\lib\site-packages\mpf\platforms\opp\opp.py", line 105, in initialize
+    await self._connect_to_hardware()
+  File "c:\users\student\mpfenv\lib\site-packages\mpf\platforms\opp\opp.py", line 278, in _connect_to_hardware
+    await comm.connect()
+  File "c:\users\student\mpfenv\lib\site-packages\mpf\platforms\base_serial_communicator.py", line 45, in connect
+    await self._connect_to_hardware(self.port, self.baud, self.xonxoff)
+  File "c:\users\student\mpfenv\lib\site-packages\mpf\platforms\base_serial_communicator.py", line 54, in _connect_to_hardware
+    self.reader, self.writer = await connector
+  File "c:\users\student\mpfenv\lib\site-packages\mpf\core\clock.py", line 155, in open_serial_connection
+    **kwargs)
+  File "C:\Program Files\Python37\lib\asyncio\coroutines.py", line 120, in coro
+    res = func(*args, **kw)
+  File "c:\users\student\mpfenv\lib\site-packages\serial_asyncio\__init__.py", line 410, in create_serial_connection
+    ser = serial.serial_for_url(*args, **kwargs)
+  File "c:\users\student\mpfenv\lib\site-packages\serial\__init__.py", line 90, in serial_for_url
+    instance.open()
+  File "c:\users\student\mpfenv\lib\site-packages\serial\serialwin32.py", line 64, in open
+    raise SerialException("could not open port {!r}: {!r}".format(self.portstr, ctypes.WinError()))
+serial.serialutil.SerialException: could not open port 'com4': FileNotFoundError(2, 'The system cannot find the file specified.', None, 2)
+2024-12-02 09:55:52,352 : ERROR : root : 
+Traceback (most recent call last):
+  File "c:\users\student\mpfenv\lib\site-packages\mpf\core\machine.py", line 673, in initialise_mpf
+    raise init.exception()
+  File "c:\users\student\mpfenv\lib\site-packages\mpf\core\machine.py", line 244, in initialise
+    await self.initialise_core_and_hardware()
+  File "c:\users\student\mpfenv\lib\site-packages\mpf\core\machine.py", line 240, in initialise_core_and_hardware
+    await self._initialize_platforms()
+  File "c:\users\student\mpfenv\lib\site-packages\mpf\core\machine.py", line 331, in _initialize_platforms
+    result.result()
+  File "c:\users\student\mpfenv\lib\site-packages\mpf\platforms\opp\opp.py", line 105, in initialize
+    await self._connect_to_hardware()
+  File "c:\users\student\mpfenv\lib\site-packages\mpf\platforms\opp\opp.py", line 278, in _connect_to_hardware
+    await comm.connect()
+  File "c:\users\student\mpfenv\lib\site-packages\mpf\platforms\base_serial_communicator.py", line 45, in connect
+    await self._connect_to_hardware(self.port, self.baud, self.xonxoff)
+  File "c:\users\student\mpfenv\lib\site-packages\mpf\platforms\base_serial_communicator.py", line 54, in _connect_to_hardware
+    self.reader, self.writer = await connector
+  File "c:\users\student\mpfenv\lib\site-packages\mpf\core\clock.py", line 155, in open_serial_connection
+    **kwargs)
+  File "C:\Program Files\Python37\lib\asyncio\coroutines.py", line 120, in coro
+    res = func(*args, **kw)
+  File "c:\users\student\mpfenv\lib\site-packages\serial_asyncio\__init__.py", line 410, in create_serial_connection
+    ser = serial.serial_for_url(*args, **kwargs)
+  File "c:\users\student\mpfenv\lib\site-packages\serial\__init__.py", line 90, in serial_for_url
+    instance.open()
+  File "c:\users\student\mpfenv\lib\site-packages\serial\serialwin32.py", line 64, in open
+    raise SerialException("could not open port {!r}: {!r}".format(self.portstr, ctypes.WinError()))
+serial.serialutil.SerialException: could not open port 'com4': FileNotFoundError(2, 'The system cannot find the file specified.', None, 2)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "c:\users\student\mpfenv\lib\site-packages\mpf\commands\game.py", line 239, in __init__
+    self.machine.run()
+  File "c:\users\student\mpfenv\lib\site-packages\mpf\core\machine.py", line 683, in run
+    if not self.initialise_mpf():
+  File "c:\users\student\mpfenv\lib\site-packages\mpf\core\machine.py", line 676, in initialise_mpf
+    report_crash(init.exception(), "init_exception", self.config)
+  File "c:\users\student\mpfenv\lib\site-packages\mpf\core\crash_reporter.py", line 236, in report_crash
+    response = input("Do you want to report the crash to the MPF team (yes/no/show)? ")
+EOFError
