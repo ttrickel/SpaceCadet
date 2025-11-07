@@ -1,23 +1,27 @@
 events:
   game_ended: 0
-  game_started: 164
+  game_started: 454
 missing_switches:
-  s_bonus_lane: 7
-  s_hyperspacekicker: 7
-  s_left_flipper: 7
-  s_left_out_lane: 7
-  s_left_return_lane: 7
-  s_lower_left_slingshot: 7
-  s_lower_right_slingshot: 7
-  s_plunger: 4
-  s_right_flipper: 7
-  s_right_out_lane: 7
-  s_right_return_lane: 7
-  s_spacewarp_rollover: 146
-  s_start: 163
-  s_trough1: 163
+  s_bonus_lane: 1
+  s_hyperspacekicker: 3
+  s_left_out_lane: 3
+  s_left_return_lane: 3
+  s_mission_spot_1: 1
+  s_mission_spot_3: 6
+  s_plunger: 44
+  s_radiation_spot_1: 1
+  s_radiation_spot_2: 1
+  s_reentry_left: 5
+  s_reentry_right: 3
+  s_right_attack_bumper: 1
+  s_right_out_lane: 3
+  s_right_return_lane: 3
+  s_spacewarp_rollover: 26
+  s_start: 7
+  s_trough1: 44
   s_upper_attack_bumper: 3
-  s_wormhole_target: 7
+  s_urreboundkicker: 1
+  s_wormhole_target: 1
 player:
   score:
     average: 1800.0
@@ -27,31 +31,37 @@ player:
     - 1500
     total: 3
 shots:
-  attack_bumper_left_shot: 362
-  attack_bumper_lower_shot: 578
-  attack_bumper_right_shot: 152
+  attack_bumper_left_shot: 662
+  attack_bumper_lower_shot: 954
+  attack_bumper_right_shot: 415
   attack_bumper_upper_shot: 41
-  bonusLane_shot: 97
+  bonusLane_shot: 125
   medalL_shot: 174
   medalM_shot: 166
   medalR_shot: 165
+  mission_spot_1_shot: 1450
+  mission_spot_2_shot: 536
+  mission_spot_3_shot: 386
   my_first_shot: 119
   my_first_shot_mode2: 72
-  outLaneL_shot: 32
-  outLaneR_shot: 108
-  reentryL_shot: 648
-  reentryM_shot: 603
-  reentryR_shot: 596
+  outLaneL_shot: 49
+  outLaneR_shot: 148
+  radiation_spot_1_shot: 31
+  radiation_spot_2_shot: 35
+  radiation_spot_3_shot: 31
+  reentryL_shot: 730
+  reentryM_shot: 693
+  reentryR_shot: 663
   reentry_shot: 9
-  returnLaneL_shot: 202
-  returnLaneR_shot: 148
-  spacewarp_rollover_shot: 47
+  returnLaneL_shot: 232
+  returnLaneR_shot: 177
+  spacewarp_rollover_shot: 57
   top_lane_A: 12
   top_lane_J: 12
   top_lane_M: 9
 switches:
   s_blackhole_kicker: 0
-  s_bonus_lane: 110
+  s_bonus_lane: 138
   s_booster_drop_target_1: 0
   s_booster_drop_target_2: 0
   s_booster_drop_target_3: 0
@@ -73,44 +83,47 @@ switches:
   s_fuel_spot_3: 0
   s_green_wormhole: 0
   s_hyperspace_flag: 0
-  s_hyperspacekicker: 702
+  s_hyperspacekicker: 824
   s_launch_lane_1: 0
   s_launch_lane_2: 0
   s_launch_lane_3: 0
   s_launch_ramp: 0
-  s_left_attack_bumper: 1099
-  s_left_flipper: 2666
-  s_left_out_lane: 36
+  s_left_attack_bumper: 1399
+  s_left_flipper: 3493
+  s_left_out_lane: 53
   s_left_out_lane_kicker: 0
-  s_left_return_lane: 209
-  s_lower_attack_bumper: 828
+  s_left_return_lane: 239
+  s_lower_attack_bumper: 1204
   s_lower_left_rebound: 0
-  s_lower_left_slingshot: 284
+  s_lower_left_slingshot: 432
   s_lower_right_rebound: 0
-  s_lower_right_slingshot: 300
+  s_lower_right_slingshot: 419
   s_medal_drop_left: 188
   s_medal_drop_middle: 180
   s_medal_drop_right: 179
-  s_mission_spot_1: 0
-  s_mission_spot_2: 2
-  s_mission_spot_3: 0
+  s_mission_spot_1: 1471
+  s_mission_spot_2: 574
+  s_mission_spot_3: 401
   s_multiplier_left: 0
   s_multiplier_middle: 0
   s_multiplier_right: 0
-  s_plunger: 180
-  s_radiationspot_1: 0
-  s_radiationspot_2: 0
-  s_radiationspot_3: 0
+  s_plunger: 250
+  s_radiation_spot_1: 25
+  s_radiation_spot_2: 19
+  s_radiation_spot_3: 22
+  s_radiationspot_1: 14
+  s_radiationspot_2: 36
+  s_radiationspot_3: 58
   s_red_wormhole: 0
-  s_reentry_left: 1006
-  s_reentry_middle: 677
-  s_reentry_right: 655
-  s_right_attack_bumper: 154
-  s_right_flipper: 2796
+  s_reentry_left: 1088
+  s_reentry_middle: 767
+  s_reentry_right: 722
+  s_right_attack_bumper: 417
+  s_right_flipper: 3452
   s_right_inlane: 0
-  s_right_out_lane: 134
+  s_right_out_lane: 174
   s_right_out_lane_kicker: 0
-  s_right_return_lane: 160
+  s_right_return_lane: 189
   s_satellite_bumper: 0
   s_secondary_outlane_kicker: 0
   s_skill_shot_1: 0
@@ -120,9 +133,9 @@ switches:
   s_skill_shot_5: 0
   s_skill_shot_6: 0
   s_skill_shot_lane: 0
-  s_spacewarp_rollover: 48
-  s_start: 7
-  s_trough1: 30
+  s_spacewarp_rollover: 58
+  s_start: 13
+  s_trough1: 34
   s_trough2: 0
   s_trough3: 0
   s_trough4: 0
@@ -132,5 +145,6 @@ switches:
   s_upper_attack_bumper: 415
   s_upper_left_rebound: 0
   s_upper_right_rebound: 0
-  s_wormhole_target: 105
+  s_urreboundkicker: 14
+  s_wormhole_target: 179
   s_yellow_wormhole: 0

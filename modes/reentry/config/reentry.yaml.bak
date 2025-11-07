@@ -41,14 +41,14 @@ shows:
         - lights:
             (led): yellow
 
-    on_abl_blue:
+    flash_attack_bumper_blue:
         - duration: 50ms
           shows:
             flash_color:
                 show_tokens:
                     color: blue
                     leds: (leds)
-    on_abl_green:
+    flash_attack_bumper_green:
         - duration: 50ms
           shows:
             flash_color:
@@ -56,7 +56,7 @@ shows:
                     color: green
                     leds: (leds)
 
-    on_abl_yellow:
+    flash_attack_bumper_yellow:
         - duration: 50ms
           shows:
             flash_color:
@@ -64,21 +64,13 @@ shows:
                     color: yellow
                     leds: (leds)
 
-    on_abl_red:
+    flash_attack_bumper_red:
         - duration: 50ms
           shows:
             flash_color:
                 show_tokens:
                     color: red
                     leds: (leds)
-        # - duration: 2
-          # shows:
-            # on:
-              # show_tokens:
-                # color: yellow
-                # leds: (led)
-              # speed: 4
-              # priority: 10
 
 show_player:
   reentry_shot_lit_complete:
@@ -86,64 +78,64 @@ show_player:
       loops: 0
  
   attack_bumper_lower_shot_hit{device.counters.reentry_shot_complete_count.value == 1}: 
-    on_abl_blue:
+    flash_attack_bumper_blue:
         loops: 0
         show_tokens: 
             leds: l_attack_bumper_lower
   attack_bumper_lower_shot_hit{device.counters.reentry_shot_complete_count.value == 2}: 
-    on_abl_green:
+    flash_attack_bumper_green:
         loops: 0
         show_tokens: 
             leds: l_attack_bumper_lower
   attack_bumper_lower_shot_hit{device.counters.reentry_shot_complete_count.value == 3}: 
-    on_abl_yellow:
+    flash_attack_bumper_yellow:
         loops: 0
         show_tokens: 
             leds: l_attack_bumper_lower
   attack_bumper_lower_shot_hit{device.counters.reentry_shot_complete_count.value >= 4}: 
-    on_abl_red:
+    flash_attack_bumper_red:
         loops: 0
         show_tokens: 
             leds: l_attack_bumper_lower
 
   attack_bumper_right_shot_hit{device.counters.reentry_shot_complete_count.value == 1}: 
-    on_abl_blue:
+    flash_attack_bumper_blue:
         loops: 0
         show_tokens: 
             leds: l_attack_bumper_right
   attack_bumper_right_shot_hit{device.counters.reentry_shot_complete_count.value == 2}: 
-    on_abl_green:
+    flash_attack_bumper_green:
         loops: 0
         show_tokens: 
             leds: l_attack_bumper_right
   attack_bumper_right_shot_hit{device.counters.reentry_shot_complete_count.value == 3}: 
-    on_abl_yellow:
+    flash_attack_bumper_yellow:
         loops: 0
         show_tokens: 
             leds: l_attack_bumper_right
   attack_bumper_right_shot_hit{device.counters.reentry_shot_complete_count.value >= 4}: 
-    on_abl_red:
+    flash_attack_bumper_red:
         loops: 0
         show_tokens: 
             leds: l_attack_bumper_right
     
   attack_bumper_left_shot_hit{device.counters.reentry_shot_complete_count.value == 1}: 
-    on_abl_blue:
+    flash_attack_bumper_blue:
         loops: 0
         show_tokens: 
             leds: l_attack_bumper_left
   attack_bumper_left_shot_hit{device.counters.reentry_shot_complete_count.value == 2}: 
-    on_abl_green:
+    flash_attack_bumper_green:
         loops: 0
         show_tokens: 
             leds: l_attack_bumper_left
   attack_bumper_left_shot_hit{device.counters.reentry_shot_complete_count.value == 3}: 
-    on_abl_yellow:
+    flash_attack_bumper_yellow:
         loops: 0
         show_tokens: 
             leds: l_attack_bumper_left
   attack_bumper_left_shot_hit{device.counters.reentry_shot_complete_count.value >= 4}: 
-    on_abl_red:
+    flash_attack_bumper_red:
         loops: 0
         show_tokens: 
             leds: l_attack_bumper_left
@@ -158,23 +150,8 @@ variable_player:
     score: 2000
   reentry_shot_lit_complete:
     score: 5000
-  # mode_reentry_started:
-    # attack_bumper_count:
-      # int: 1
-      # action: set
-  # reentry_shot_done{count==2}:
-    # attack_bumper_count:
-      # int: 2
-      # action: set
-  # reentry_shot_done{count==3}:
-    # attack_bumper_count:
-      # int: 3
-      # action: set
-  # reentry_shot_done{count==4}:
-    # attack_bumper_count:
-      # int: 4
-      # action: set
 
+#attack bumper scores
 #Blue   – 500 points
 #Green  – 1000 points
 #Yellow – 1500 points
@@ -219,39 +196,27 @@ shots:
     show_tokens:
       led: l_re-entry_left
     profile: reentry
- #   restart_events: mode_reentry_started
-
+ 
   reentryM_shot:
     switch: s_reentry_middle
     show_tokens:
       led: l_re-entry_middle
     profile: reentry
-#    restart_events: mode_reentry_started
  
   reentryR_shot:
     switch: s_reentry_right
     show_tokens:
       led: l_re-entry_right
     profile: reentry
-#    restart_events: mode_reentry_started
 
   attack_bumper_left_shot:
     switch: s_left_attack_bumper
-    # show_tokens:
-        # led: l_attack_bumper_left
-    # profile: bumper
     
   attack_bumper_right_shot:
     switch: s_right_attack_bumper
-    # show_tokens:
-        # led: l_attack_bumper_right
-    # profile: bumper
   
   attack_bumper_lower_shot:
     switch: s_lower_attack_bumper 
-    # show_tokens:
-        # led: l_attack_bumper_lower 
-    # profile: bumper
   
 shot_groups:
     reentry_shot:
@@ -273,14 +238,3 @@ shot_profiles:
       - name: lit
         show: "reentry_lit"
     loop: true
-#    block: true
-  
-  # bumper:
-    # states:
-      # - name: off
-        # show: off
-      # - name: lit
-        # show: "on_abl"
-    # loop: true
-
-

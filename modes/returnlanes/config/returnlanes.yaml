@@ -54,11 +54,8 @@ shot_profiles:
     states:
       - name: unlit
         show: off
- #       manual_advance: true
       - name: lit
         show: "returnLane_lit"
- #       manual_advance: false
- #   loop: true
     advance_on_hit: false
 
 variable_player:

@@ -12,7 +12,9 @@ modes:
   - returnlanes
 #  - medal
 #  - test
-#  - mission
+  - mission
+#  - understanding_test
+  - radiation
   
 hardware:
   # platform: virtual
@@ -33,34 +35,75 @@ playfields:
     default_source_device: bd_plunger  # use None in steps before 8
 
 switches:
-  s_left_flipper:
-    number: 0-0-11
-    tags: left_flipper
-  s_right_flipper:
-    number: 0-0-27
-    tags: right_flipperw
-  s_reentry_left:
-    number: 0-0-3
+  s_reentry_right:
+    number: 0-0-1
     tags: playfield_active
   s_reentry_middle:
     number: 0-0-2
     tags: playfield_active
-  s_reentry_right:
-    number: 0-0-1
+  s_reentry_left:
+    number: 0-0-3
     tags: playfield_active
-  s_left_attack_bumper:
-    number: 1-0-8
+  s_trough1:
+    number: 0-0-8
+    type: NC
+  s_plunger:
+    number: 0-0-9
+  s_start:
+    number: 0-0-10
+    tags: start
+  s_left_flipper:
+    number: 0-0-11
+    tags: left_flipper
+
+  s_right_flipper:
+    number: 0-0-27
+    tags: right_flipperw
+  s_right_out_lane:
+    number: 0-0-26
+  s_right_return_lane:
+    number: 0-0-25
+  s_lower_right_slingshot:
+    number: 0-0-24
+  s_lower_left_slingshot:
+    number: 0-0-19
+  s_left_return_lane:
+    number: 0-0-18
+  s_bonus_lane:
+    number: 0-0-17
+  s_left_out_lane:
+    number: 0-0-16
+
+  s_wormhole_target:
+    number: 1-0-1
   s_lower_attack_bumper:
     number: 1-0-2
   s_right_attack_bumper:
     number: 1-0-3
+  s_left_attack_bumper:
+    number: 1-0-8
+  s_hyperspacekicker:
+    number: 1-0-9
+  s_urreboundkicker:
+    number: 1-0-10
+  s_spacewarp_rollover:
+    number: 1-0-11
 
-# lower attack is upper
-# left is left
-# lower is upper
+    
+  s_radiation_spot_3:
+    number: 1-0-31
+  s_radiation_spot_1:
+    number: 1-0-30
+  s_radiation_spot_2:
+    number: 1-0-29
 
+  s_mission_spot_3:
+    number: 1-0-26
+  s_mission_spot_2:
+    number: 1-0-25
+  s_mission_spot_1:
+    number: 1-0-24
 
-    # tags: playfield_active
   # s_green_wormhole:
     # number: 5
   # s_red_wormhole:
@@ -71,8 +114,6 @@ switches:
     # number: 8
   # s_multiplier_right:
     # number: 9
-  s_spacewarp_rollover:
-    number: 1-0-11
   # s_fuel_spot_1:
     # number: 11
   # s_fuel_spot_2:
@@ -81,15 +122,6 @@ switches:
     # number: 13
   # s_satellite_bumper:
     # number: 14
-
-  s_hyperspacekicker:
-    number: 1-0-9
-  # s_radiationspot_1:
-    # number: 16
-  # s_radiationspot_2:
-    # number: 17
-  # s_radiationspot_3:
-    # number: 18
   # s_fuel_flag:
     # number: 19
   # s_comet_spot_1:
@@ -100,8 +132,6 @@ switches:
     # number: 22
   # s_hyperspace_flag:
     # number: 23
-  s_wormhole_target:
-    number: 1-0-1
   # s_upper_right_rebound:
     # number: 25
   # s_upper_left_rebound:
@@ -123,28 +153,8 @@ switches:
     # number: 32
   # s_yellow_wormhole:
     # number: 33
-  # s_mission_spot_1:
-    # number: 1-0-35
-  # s_mission_spot_2:
-    # number: 1-0-36
-  # s_mission_spot_3:
-    # number: 1-0-40
-  s_lower_right_slingshot:
-    number: 0-0-24
-  s_lower_left_slingshot:
-    number: 0-0-19
-  s_left_return_lane:
-    number: 0-0-18
-  s_bonus_lane:
-    number: 0-0-17
-  s_left_out_lane:
-    number: 0-0-16
   # s_left_out_lane_kicker:
     # number: 42
-  s_right_return_lane:
-    number: 0-0-25
-  s_right_out_lane:
-    number: 0-0-26
   # s_right_out_lane_kicker:
     # number: 45
   # s_blackhole_kicker:
@@ -191,14 +201,6 @@ switches:
     # number: 66
   # s_engine_bumper_3:
     # number: 67
-  s_trough1:
-    number: 0-0-8
-    type: NC
-  s_plunger:
-    number: 1-0-10
-  s_start:
-    number: 0-0-10
-    tags: start
 
 lights:
   #NEO0 output supports 256 LEDs numbered 0-0-0 to 0-0-255
@@ -252,44 +254,212 @@ lights:
     subtype: led
     type: grb   #Most WS2812-based LEDs are grb color order.
 
-  l_JAM_lanes:
+  l_worm_hole_exit_l:
     number: 0-0-10
     subtype: led
     type: grb   #Most WS2812-based LEDs are grb color order.
       
-  l_mission_spot_1:
+  l_fuel_spot1:
     number: 0-0-11
     subtype: led
     type: grb   #Most WS2812-based LEDs are grb color order.
-
-  l_mission_spot_2:
+      
+  l_fuel_spot2:
     number: 0-0-12
     subtype: led
     type: grb   #Most WS2812-based LEDs are grb color order.
-
-  l_mission_spot_3:
+      
+  l_fuel_spot3:
     number: 0-0-13
     subtype: led
     type: grb   #Most WS2812-based LEDs are grb color order.
       
-  l_medal_spot_1:
-    number: 0-0-14
+  l_radiation_spot_1:
+    number: 0-0-16
     subtype: led
     type: grb   #Most WS2812-based LEDs are grb color order.
       
-  l_medal_spot_2:
+  l_radiation_spot_2:
     number: 0-0-15
     subtype: led
     type: grb   #Most WS2812-based LEDs are grb color order.
       
-  l_medal_spot_3:
-    number: 0-0-16
-    
+  l_radiation_spot_3:
+    number: 0-0-14
     subtype: led
     type: grb   #Most WS2812-based LEDs are grb color order.
+      
+  l_meteor_spot1:
+    number: 0-0-17
+    subtype: led
+    type: grb   #Most WS2812-based LEDs are grb color order.
+      
+  l_meteor_spot2:
+    number: 0-0-18
+    subtype: led
+    type: grb   #Most WS2812-based LEDs are grb color order.
+      
+  l_meteor_spot3:
+    number: 0-0-19
+    subtype: led
+    type: grb   #Most WS2812-based LEDs are grb color order.
+      
+  l_comet_spot1:
+    number: 0-0-20
+    subtype: led
+    type: grb   #Most WS2812-based LEDs are grb color order.
+      
+  l_comet_spot2:
+    number: 0-0-21
+    subtype: led
+    type: grb   #Most WS2812-based LEDs are grb color order.
+      
+  l_comet_spot3:
+    number: 0-0-22
+    subtype: led
+    type: grb   #Most WS2812-based LEDs are grb color order.
+      
+  l_worm_hole_exit_r:
+    number: 0-0-23
+    subtype: led
+    type: grb   #Most WS2812-based LEDs are grb color order.
+      
+  l_mission_spot_1:
+    number: 1-0-5
+    subtype: led
+    type: grb   #Most WS2812-based LEDs are grb color order.
+
+  l_mission_spot_2:
+    number: 1-0-4
+    subtype: led
+    type: grb   #Most WS2812-based LEDs are grb color order.
+
+  l_mission_spot_3:
+    number: 1-0-3
+    subtype: led
+    type: grb   #Most WS2812-based LEDs are grb color order.
+      
+  l_medal_spot_1:
+    number: 1-0-0
+    subtype: led
+    type: grb   #Most WS2812-based LEDs are grb color order.
+      
+  l_medal_spot_2:
+    number: 1-0-1
+    subtype: led
+    type: grb   #Most WS2812-based LEDs are grb color order.
+      
+  l_medal_spot_3:
+    number: 1-0-2
+    subtype: led
+    type: grb   #Most WS2812-based LEDs are grb color order.
+
+  l_left_right_returnlane:
+    number: 1-0-6
+    subtype: led
+    type: grb
  
-    
-  
+  l_left_left_returnlane:
+    number: 1-0-8
+    subtype: led
+    type: grb
+ 
+  l_left_outlane:
+    number: 1-0-7
+    subtype: led
+    type: grb
+ 
+  l_left_triangle:
+    number: 1-0-9
+    subtype: led
+    type: grb
+ 
+  l_center_post_spot:
+    number: 1-0-10
+    subtype: led
+    type: grb
+ 
+  l_right_triangle:
+    number: 1-0-11
+    subtype: led
+    type: grb
+ 
+  l_right_outlane:
+    number: 1-0-12
+    subtype: led
+    type: grb
+ 
+  l_right_inlane:
+    number: 1-0-13
+    subtype: led
+    type: grb
+
+  l_wormhole_exit_low:
+    number: 1-0-14
+    subtype: led
+    type: grb
+
+  l_booster_lower:
+    number: 1-0-15
+    subtype: led
+    type: grb
+
+  l_booster_lmid:
+    number: 1-0-16
+    subtype: led
+    type: grb
+
+  l_booster_umid:
+    number: 1-0-17
+    subtype: led
+    type: grb
+
+  l_booster_upper:
+    number: 1-0-18
+    subtype: led
+    type: grb
+
+  l_malestrom:
+    number: 1-0-19
+    subtype: led
+    type: grb
+
+  l_timewarp:
+    number: 1-0-20
+    subtype: led
+    type: grb
+
+  l_hs_reflex:
+    number: 1-0-21
+    subtype: led
+    type: grb
+
+  l_hyperspace:
+    number: 1-0-22
+    subtype: led
+    type: grb
+
+  l_wormhole_target:
+    number: 1-0-23
+    subtype: led
+    type: grb
+
+  l_launch_ramp_reflex:
+    number: 1-0-24
+    subtype: led
+    type: grb
+
+  l_launch_ramp_timewarp:
+    number: 1-0-25
+    subtype: led
+    type: grb
+
+  l_launch_ramp_missionaccept:
+    number: 1-0-26
+    subtype: led
+    type: grb
+
+#Coil Assignments  
 #0-0-14 Green   Right Slingshot
 #0-0-13 Yellow  Left Slingshot
 #0-0-12 White   Right Flipper
@@ -298,6 +468,15 @@ lights:
 #0-0-10
 #0-0-9
 #0-0-8
+
+#1-0-0
+#1-0-7
+#1-0-6
+#1-0-5
+#1-0-4 White    hyperspacekicker 
+#1-0-3 Blue     right_attack_bumper
+#1-0-2 Yellow   left_attack_bumper
+#1-0-1 Green    lower_attack_bumper
       
 coils:      
   c_flipper_left_main:
@@ -341,7 +520,11 @@ coils:
     number: 1-0-4
     default_pulse_ms: 55
     allow_enable: true
-    
+  c_upper_right_rebound_kicker:
+    number: 1-0-5
+    default_pulse_ms: 55
+    allow_enable: true
+        
 autofire_coils:
   lower_left_slingshot:
     coil: c_lower_left_slingshot
@@ -361,6 +544,9 @@ autofire_coils:
   hyperspacekicker:
     coil: c_hyperspace_kicker
     switch: s_hyperspacekicker
+  urreboundkicker:
+    coil: c_upper_right_rebound_kicker
+    switch: s_urreboundkicker
 
 
 flippers:
@@ -460,6 +646,8 @@ sounds:
         volume: 0.75
     worm_hole_hit_sound:
         file: sound55.wav
+    radiation_spot_shot_complete_sound:
+        file: sound14.wav
         
 sound_player:
  #   reentry_sound_active:
@@ -489,6 +677,21 @@ sound_player:
      s_wormhole_target_active:
         worm_hole_hit_sound:
             action: play
+#     s_radiation_spot_1_active:
+     radiation_flash_orange:
+        target_sound:
+            action: play
+     s_radiation_spot_2_active:
+        target_sound:
+            action: play
+     s_radiation_spot_3_active:
+        target_sound:
+            action: play
+     radiation_spot_group_shot_lit_complete:
+        radiation_spot_shot_complete_sound:
+            action: play
+
+
         # drop_sound:
             # action: play
     # booster_drop_sound_active:

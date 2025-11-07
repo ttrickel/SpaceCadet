@@ -1,0 +1,141 @@
+#show_version=6
+
+- time: 0
+  lights:
+    l_center_post_spot: '590002'
+    
+- time: +250ms
+  lights:
+    l_center_post_spot: '000000'
+    
+#No change this frame - take another step
+#  lights:
+- time: +250ms
+    
+#No change this frame - take another step
+#  lights:
+- time: +250ms
+    
+- time: +250ms
+  lights:
+    l_right_triangle: '980014'
+    
+- time: +250ms
+  lights:
+    l_left_triangle: '130003'
+    l_right_triangle: '000000'
+    
+- time: +250ms
+  lights:
+    l_left_triangle: '000000'
+    l_left_left_returnlane: '3D000C'
+    
+- time: +250ms
+  lights:
+    l_left_left_returnlane: '000000'
+    
+- time: +250ms
+  lights:
+    l_right_inlane: '060002'
+    
+- time: +250ms
+  lights:
+    l_left_outlane: '460117'
+    l_right_inlane: '000000'
+    
+- time: +250ms
+  lights:
+    l_left_outlane: '000000'
+    
+#No change this frame - take another step
+#  lights:
+- time: +250ms
+    
+- time: +250ms
+  lights:
+    l_mission_spot_1: '640131'
+    
+- time: +250ms
+  lights:
+    l_mission_spot_1: '000000'
+    l_mission_spot_2: '67013A'
+    
+- time: +250ms
+  lights:
+    l_mission_spot_2: '000000'
+    l_mission_spot_3: '630140'
+    
+- time: +250ms
+  lights:
+    l_mission_spot_3: '000000'
+    
+#No change this frame - take another step
+#  lights:
+- time: +250ms
+    
+- time: +250ms
+  lights:
+    l_medal_spot_3: '030003'
+    
+- time: +250ms
+  lights:
+    l_medal_spot_2: '0A000B'
+    l_medal_spot_3: '000000'
+    
+- time: +250ms
+  lights:
+    l_medal_spot_1: '18011E'
+    l_medal_spot_2: '000000'
+    
+- time: +250ms
+  lights:
+    l_medal_spot_1: '000000'
+    
+#No change this frame - take another step
+#  lights:
+- time: +250ms
+    
+- time: +250ms
+  lights:
+    l_attack_bumper_lower: '2E025C'
+    
+- time: +250ms
+  lights:
+    l_attack_bumper_lower: '000000'
+    
+- time: '+250ms'
+  lights:
+    l_JAM_lanes: '180247'
+    l_attack_bumper_left: '1F025A'
+    l_attack_bumper_right: '030009'
+    
+- time: '+250ms'
+  lights:
+#    l_JAM_lanes: '000000'
+    l_attack_bumper_left: '000000'
+    l_attack_bumper_right: '000000'
+    
+#No change this frame - take another step
+#  lights:
+- time: +250ms
+    
+- time: +250ms
+  lights:
+    l_re-entry_left: '0B0248'
+    l_re-entry_middle: '0C024F'
+    l_re-entry_right: '0A0240'
+    
+- time: +250ms
+  lights:
+    l_re-entry_left: '000000'
+    l_re-entry_middle: '000000'
+    l_re-entry_right: '000000'
+    
+#No change this frame - take another step
+#  lights:
+- time: +250ms
+    
+#No change this frame - take another step
+#  lights:
+- time: +250ms
+    

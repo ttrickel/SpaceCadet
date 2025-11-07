@@ -1,0 +1,84 @@
+#config_version=6
+# mission config file
+
+mode:
+  start_events: ball_started 
+  stop_events: ball_stopped 
+  priority: 200
+
+shots:
+  mission_spot_1_shot:
+    switch: s_mission_spot_1
+    show_tokens:
+      led: l_medal_spot_1
+    profile: bearded_lady_profile
+    # advance_events: s_mission_spot_1_active
+    # control_events:
+      # - events: s_mission_spot_1_active
+        # state: 1
+
+shot_profiles:
+  bearded_lady_profile:
+    states:
+      - name: flashing
+        show: red_flashing
+      - name: lit
+        show: red_lady_lit
+      - name: unlit
+        show: off
+ #   advance_on_hit: false
+    loop: true
+
+
+shows:
+  red_flashing:
+    - duration: 200ms
+      lights:
+        (led):
+          color: 0f0000
+    - duration: 200ms
+      lights: 
+        (led): 
+          color: black
+    - duration: 200ms
+      lights:
+        (led):
+          color: 1f0000
+    - duration: 200ms
+      lights: 
+        (led): 
+          color: black
+  red_lady_lit:
+    #- duration: -1
+    - lights: 
+       (led):
+         color: 4a0e03 
+
+
+# shows:
+    # mission_spot_lit:    # define our show to indicate the state
+     # - lights:
+        # (led): yellow
+        
+    # mission_all_off:
+     # - time: 0
+       # lights:
+        # l_mission_spot_1: off
+        # l_mission_spot_2: off
+        # l_mission_spot_3: off
+     # - time: +120ms
+       # lights:
+        # l_mission_spot_1: purple
+        # l_mission_spot_2: purple
+        # l_mission_spot_3: purple
+
+    # mission_flash_purple:
+     # - time: 0
+       # lights:
+        # (led): purple   #on
+     # - time: +120ms
+       # lights:
+        # (led): off
+     # - time: +120ms
+       # lights:
+        # (led): purple   #on

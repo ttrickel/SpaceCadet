@@ -1,10 +1,10 @@
 Coils
-	J8-1 1-0-1 Lower Attack Coil
-	J8-2 1-0-2 Left Attack Coil
-	J8-3 1-0-3 Upper Attack Coil
+	J8-1 1-0-1	Lower Attack Coil
+	J8-2 1-0-2	Left Attack Coil
+	J8-3 1-0-3	Right Attack Coil
 	J8-4 K
-	J8-5 1-0-4
-	J8-6 1-0-5
+	J8-5 1-0-4	hyperspace coil
+	J8-6 1-0-5	upper right rebound coil
 	J8-7 1-0-6
 	J8-8 1-0-7
 	J8-9 1-0-0
@@ -14,15 +14,15 @@ Coils
 	J7-3 0-0-3
 	J7-4 0-0-4
 	J7-5 K
-	J7-6 0-0-5
+	J7-6 0-0-5	trough eject coil
 	J7-7 0-0-6
 	J7-8 0-0-7
 	J7-9 0-0-15
 	
-	J6-1 0-0-14 Lower Right Slingshot
-	J6-2 0-0-13 Lower Left Slingshot
-	J6-3 0-0-12 Left Flipper Coil
-	J6-4 0-0-0  Right Flipper Coil
+	J6-1 0-0-14	Lower Right Slingshot
+	J6-2 0-0-13	Lower Left Slingshot
+	J6-3 0-0-12	Left Flipper Coil
+	J6-4 0-0-0 	Right Flipper Coil
 	J6-5 0-0-11
 	J6-6 K
 	J6-7 0-0-10
@@ -31,34 +31,51 @@ Coils
 
 Switches	
 	J1-1 N/C
-	J1-2 0-0-1
-	J1-3 0-0-2
-	J1-4 0-0-3
+	J1-2 0-0-1		reentry right
+	J1-3 0-0-2		reentry middle
+	J1-4 0-0-3		reentry left
 	J1-5 GND
-	J1-6 0-0-8
-	J1-7 0-0-9
-	J1-8 0-0-10
-	J1-9 0-0-11
+	J1-6 0-0-8		Trough
+	J1-7 0-0-9		Plunger
+	J1-8 0-0-10		Start
+	J1-9 0-0-11		left flipper
 
-	J2-1 0-0-27
-	J2-2 0-0-26
-	J2-3 0-0-25
-	J2-4 0-0-24
+	J2-1 0-0-27		right flipper
+	J2-2 0-0-26		right out lane
+	J2-3 0-0-25		right retun lane
+	J2-4 0-0-24		lower right slingshot
 	J2-5 GND
-	J2-6 0-0-19
-	J2-7 0-0-18
-	J2-8 0-0-17
-	J2-9 0-0-16
+	J2-6 0-0-19		lower left slingshot
+	J2-7 0-0-18		left return lane
+	J2-8 0-0-17		bonus lane
+	J2-9 0-0-16		left out lane
 	
 	J3-1 N/C
 	J3-2 1-0-1		Wormhole Target
-	J3-3 1-0-2		Upper Attack Bumper
-	J3-4 1-0-3		Lower Attack Bumper
+	J3-3 1-0-2		Lower Attack Bumper
+	J3-4 1-0-3		Right Attack Bumper
 	J3-5 GND
 	J3-6 1-0-8		Left Attack Bumper
-	J3-7 1-0-9
-	J3-8 1-0-10
-	J3-9 1-0-11
+	J3-7 1-0-9		hyperspace kicker
+	J3-8 1-0-10		upper right rebound kicker
+	J3-9 1-0-11		spacewarp rollover
 	
-	J6-2 1-0-2
-	J6-3 1-0-3 
+	J4-1 1-0-31		radiation spot 3
+	J4-2 1-0-30		radiation spot 1
+	J4-3 1-0-29		radiation spot 2
+	J4-4 1-0-28		
+	J4-5 GND
+	J4-6 1-0-27		
+	J4-7 1-0-26		mission spot 3
+	J4-8 1-0-25		mission spot 2
+	J4-9 1-0-24		mission spot 1
+	
+	J5-1 1-0-23
+	J5-2 1-0-23		
+	J5-3 1-0-21		
+	J5-4 1-0-20		
+	J5-5 GND
+	J5-6 1-0-19		
+	J5-7 1-0-18
+	J5-8 1-0-17
+	J5-9 1-0-16

@@ -1,7 +1,8 @@
-#config_version=5
+#config_version=6
 ##! show: attract_display_loop
 ##! mode: attract
 
 show_player:
   mode_attract_started: attract_display_loop
-  mode_attract_started.1: attract_light_show
+  mode_attract_started.1: attract_rbow_light_show
+#  mode_attract_started.1: output3

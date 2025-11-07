@@ -1,0 +1,159 @@
+#config_version=6
+# radiation config file
+
+
+#Radiation (Left Hazard) Targets
+# - 3 Spot Targets grouped to the left of the Attack Bumpers.
+#     * When this happens the lights blink and go out.
+# - Light all 3 Left Hazard Target Lights to re-activate the left Out-Lane Kicker.
+# - 750 points per hit.
+
+
+mode:
+  start_events: ball_started #reentry_start   #, device.shots.my_first_shot_mode2.state:0
+  stop_events: ball_stopped #reentry_stop
+  priority: 200
+
+shots:
+  radiation_spot_1_shot:
+    switch: s_radiation_spot_1
+    show_tokens:
+      led: l_radiation_spot_1
+    profile: radiation
+    control_events:
+      - events: s_radiation_spot_1_active
+        state: 1
+  radiation_spot_2_shot:
+    switch: s_radiation_spot_2
+    show_tokens:
+      led: l_radiation_spot_2
+    profile: radiation
+    control_events:
+      - events: s_radiation_spot_2_active
+        state: 1
+  radiation_spot_3_shot:
+    switch: s_radiation_spot_3
+    show_tokens:
+      led: l_radiation_spot_3
+    profile: radiation
+    control_events:
+      - events: s_radiation_spot_3_active
+        state: 1
+
+shot_groups:
+    radiation_spot_group_shot:
+        shots: radiation_spot_1_shot, radiation_spot_2_shot, radiation_spot_3_shot
+        reset_events: 
+           radiation_spot_group_shot_lit_complete: 2s 
+           
+shot_profiles:
+  radiation:
+    states:
+      - name: off
+        show: off
+      - name: lit
+        show: "radiation_flash_orange"
+ #       loops: 0
+    loop: true
+
+shows:
+    radiation_spot_lit:    # define our show to indicate the state
+     - lights:
+        (led): orangered
+        
+    radiation_all_off:
+     - time: 0
+       lights:
+        l_radiation_spot_1: off
+        l_radiation_spot_2: off
+        l_radiation_spot_3: off
+     - time: +120ms
+       lights:
+        l_radiation_spot_1: orangered
+        l_radiation_spot_2: orangered
+        l_radiation_spot_3: orangered
+     - time: +120ms
+       lights:
+        l_radiation_spot_1: off
+        l_radiation_spot_2: off
+        l_radiation_spot_3: off
+     - time: +120ms
+       lights:
+        l_radiation_spot_1: orangered
+        l_radiation_spot_2: orangered
+        l_radiation_spot_3: orangered
+     - time: +120ms
+       lights:
+        l_radiation_spot_1: off
+        l_radiation_spot_2: off
+        l_radiation_spot_3: off
+     - time: +120ms
+       lights:
+        l_radiation_spot_1: orangered
+        l_radiation_spot_2: orangered
+        l_radiation_spot_3: orangered
+     - time: +120ms
+       lights:
+        l_radiation_spot_1: off
+        l_radiation_spot_2: off
+        l_radiation_spot_3: off
+     - time: +120ms
+       lights:
+        l_radiation_spot_1: orangered
+        l_radiation_spot_2: orangered
+        l_radiation_spot_3: orangered
+     - time: +120ms
+       lights:
+        l_radiation_spot_1: off
+        l_radiation_spot_2: off
+        l_radiation_spot_3: off
+     - time: +120ms
+       lights:
+        l_radiation_spot_1: orangered
+        l_radiation_spot_2: orangered
+        l_radiation_spot_3: orangered
+     - time: +120ms
+       lights:
+        l_radiation_spot_1: off
+        l_radiation_spot_2: off
+        l_radiation_spot_3: off
+       # duration: -1
+
+    radiation_flash_orange:
+     - time: 0
+       lights:
+        (led): orangered   #on
+     - time: +120ms
+       lights:
+        (led): off
+     - time: +120ms
+       lights:
+        (led): orangered   #on
+     - time: +120ms
+       lights:
+        (led): off
+     - time: +120ms
+       lights:
+        (led): orangered   #on
+     - time: +120ms
+       lights:
+        (led): off
+     - time: +120ms
+       lights:
+        (led): orangered   #on
+     - time: +120ms
+       lights:
+        (led): off
+     - time: +120ms
+       lights:
+        (led): orangered   #on
+       duration: -1
+
+show_player:
+  radiation_spot_group_shot_lit_complete:
+    radiation_all_off:
+      loops: 0
+  
+variable_player:
+  radiation_spot_group_shot_hit:
+    score: 750

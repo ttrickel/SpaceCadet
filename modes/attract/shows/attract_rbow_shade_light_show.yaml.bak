@@ -1,0 +1,195 @@
+#show_version=6
+
+
+#add to show
+  # l_radiation_spot1
+  # l_radiation_spot2
+  # l_radiation_spot3
+  # l_comet_spot1
+  # l_comet_spot2
+  # l_comet_spot3
+  # l_worm_hole_exit_r
+  
+
+- duration: .1
+  lights:
+    l_re-entry_left: red
+    l_re-entry_middle: red
+    l_re-entry_right: red
+    l_worm_hole_exit_l: red
+    l_fuel_spot1: red
+    l_fuel_spot2: red
+    l_fuel_spot3: red
+
+- duration: .1
+  lights:
+    l_multiplier_drop_target_1: orangered
+    l_multiplier_drop_target_2: orangered
+    l_multiplier_drop_target_3: orangered
+    l_multiplier_drop_target_4: orangered
+    l_radiation_spot1: orangered
+    l_radiation_spot2: orangered
+    l_radiation_spot3: orangered
+    l_comet_spot1: orangered
+    l_comet_spot2: orangered
+    l_comet_spot3: orangered
+    l_worm_hole_exit_r: orangered
+
+- duration: .1
+  lights:
+    l_attack_bumper_left: gold
+    l_attack_bumper_lower: gold
+    l_attack_bumper_right: gold
+    l_meteor_spot1: gold
+    l_meteor_spot2: gold
+    l_meteor_spot3: gold
+
+- duration: .1
+  lights:
+    l_medal_spot_1: green
+    l_medal_spot_2: green
+    l_medal_spot_3: green
+    l_malestrom: green
+    l_timewarp: green
+    l_hs_reflex: green
+    l_hyperspace: green
+    l_wormhole_target: green
+
+- duration: .1
+  lights:
+    l_mission_spot_1: blue
+    l_mission_spot_2: blue
+    l_mission_spot_3: blue
+    l_wormhole_exit_low: blue
+    l_booster_lower: blue
+    l_booster_lmid: blue
+    l_booster_umid: blue
+    l_booster_upper: blue
+    l_launch_ramp_reflex: blue
+    l_launch_ramp_timewarp: blue
+    l_launch_ramp_missionaccept: blue
+
+- duration: .1
+  lights:
+    l_left_right_returnlane: indigo
+    l_left_left_returnlane: fuchsia
+    l_left_outlane: indigo
+    l_left_triangle: fuchsia
+    l_right_triangle: fuchsia
+    l_right_outlane: indigo
+    l_right_inlane: indigo
+
+- duration: .5
+  lights:
+    l_center_post_spot: rebeccapurple
+
+- duration: .1
+  lights:
+    l_center_post_spot: off
+
+- duration: .1
+  lights:
+    l_left_right_returnlane: off
+    l_left_left_returnlane: off
+    l_left_outlane: off
+    l_left_triangle: off
+    l_right_triangle: off
+    l_right_outlane: off
+    l_right_inlane: off
+
+- duration: .1
+  lights:
+    l_mission_spot_1: off
+    l_mission_spot_2: off
+    l_mission_spot_3: off
+    l_wormhole_exit_low: off
+    l_booster_lower: off
+    l_booster_lmid: off
+    l_booster_umid: off
+    l_booster_upper: off
+    l_launch_ramp_reflex: off
+    l_launch_ramp_timewarp: off
+    l_launch_ramp_missionaccept: off
+
+- duration: .1
+  lights:
+    l_medal_spot_1: off
+    l_medal_spot_2: off
+    l_medal_spot_3: off
+    l_malestrom: off
+    l_timewarp: off
+    l_hs_reflex: off
+    l_hyperspace: off
+    l_wormhole_target: off
+
+- duration: .1
+  lights:
+    l_attack_bumper_left: off
+    l_attack_bumper_lower: off
+    l_attack_bumper_right: off
+    l_meteor_spot1: off
+    l_meteor_spot2: off
+    l_meteor_spot3: off
+
+- duration: .1
+  lights:
+    l_multiplier_drop_target_1: off
+    l_multiplier_drop_target_2: off
+    l_multiplier_drop_target_3: off
+    l_multiplier_drop_target_4: off
+    l_radiation_spot1: off
+    l_radiation_spot2: off
+    l_radiation_spot3: off
+    l_comet_spot1: off
+    l_comet_spot2: off
+    l_comet_spot3: off
+    l_worm_hole_exit_r: off
+
+- duration: .5
+  lights:
+    l_re-entry_left: off
+    l_re-entry_middle: off
+    l_re-entry_right: off
+    l_worm_hole_exit_l: off
+    l_fuel_spot1: off
+    l_fuel_spot2: off
+    l_fuel_spot3: off
+
+   
+# - duration: .5
+  # lights:
+    # l_re-entry_left: off
+    # l_re-entry_middle: off
+    # l_re-entry_right: off
+    # l_attack_bumper_left: off
+    # l_attack_bumper_lower: off
+    # l_attack_bumper_right: off
+    # l_multiplier_drop_target_1: off
+    # l_multiplier_drop_target_2: off
+    # l_multiplier_drop_target_3: off
+    # l_multiplier_drop_target_4: off
+    # l_medal_spot_1: off
+    # l_medal_spot_2: off
+    # l_medal_spot_3: off
+    # l_mission_spot_1: off
+    # l_mission_spot_2: off
+    # l_mission_spot_3: off
+    # l_left_right_returnlane: off
+    # l_left_left_returnlane: off
+    # l_left_outlane: off
+    # l_left_triangle: off
+    # l_center_post_spot: off
+    # l_right_triangle: off
+    # l_right_outlane: off
+    # l_right_inlane: off
+    # l_lower_wormhole_exit: off
+    # l_booster_lower: off
+    # l_booster_lmid: off
+    # l_booster_umid: off
+    # l_booster_upper: off
+    # l_malestrom: off
+    # l_timewarp: off
+    # l_hs_reflex: off
+    # l_hyperspace: off
+    # l_wormhole_target: off
+     

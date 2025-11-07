@@ -37,7 +37,7 @@ shows:
               speed: 4
               priority: 10
                 
-    reentry_lit:    # define our show to indicate the state
+    reentry_lit:
         - lights:
             (led): yellow
 
