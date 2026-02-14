@@ -1,2 +1,5 @@
-# CobraPinTest1
-Test YAMLs for a Space Cadet pinball machine based on MPF and the CobraPin Pinball Controller
+# Windows 98 Space Cadet
+
+Based on Mission Pinball Framework and CobraPin
+
+![Image of the current top side](/Build_Documents/Images/Top_Side.jpg)
