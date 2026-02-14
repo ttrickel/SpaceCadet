@@ -1,0 +1,118 @@
+Coils
+	J8-1 1-0-1	Lower Attack Coil
+	J8-2 1-0-2	Left Attack Coil
+	J8-3 1-0-3	Right Attack Coil
+	J8-4 K
+	J8-5 1-0-4	hyperspace coil
+	J8-6 1-0-5	upper right slingshot coil
+	J8-7 1-0-6	booster drop targets coil
+	J8-8 1-0-7	medal drop targets coil
+	J8-9 1-0-0
+	
+	J7-1 0-0-1	upper left slingshot coil
+	J7-2 0-0-2
+	J7-3 0-0-3
+	J7-4 0-0-4
+	J7-5 K
+	J7-6 0-0-5	trough eject coil - not connected
+	J7-7 0-0-6
+	J7-8 0-0-7
+	J7-9 0-0-15
+	
+	J6-1 0-0-14	Lower Right Slingshot
+	J6-2 0-0-13	Lower Left Slingshot
+	J6-3 0-0-12	Left Flipper Coil
+	J6-4 0-0-0 	Right Flipper Coil
+	J6-5 0-0-11
+	J6-6 K
+	J6-7 0-0-10
+	J6-8 0-0-9
+	J6-9 0-0-8
+
+	J13-1		HV_C
+	J13-2		HV_B
+	J13-3		HV_A
+
+Power
+	J9-1		GND
+	J9-2		GND
+	J9-3		VIN - 48V
+	J9-4		VIN - 48V
+
+	J10-1		GND
+	J10-2		GND
+	J10-3		5IN
+	J10-4		5IN
+
+	J14-1		GND
+	J14-2		GND
+	J14-3		5VO
+	J14-4		5VO
+
+LEDs
+	J11-1		5VO
+	J11-2		NE00
+	J11-3		GND
+	
+	J12-1		5VO
+	J12-2		NE01
+	J12-3		GND
+
+Relay
+	J15-1		GND
+	J15-2		RLY1
+	J15-3		RLY0
+	J15-4		5VD
+
+Switches	
+	J1-1 N/C
+	J1-2 0-0-1		reentry right
+	J1-3 0-0-2		reentry middle
+	J1-4 0-0-3		reentry left
+	J1-5 GND
+	J1-6 0-0-8			Trough - not connected
+	J1-7 0-0-9		upper left slingshot
+	J1-8 0-0-10			Start - not connected
+	J1-9 0-0-11		left flipper
+
+	J2-1 0-0-27		right flipper
+	J2-2 0-0-26		right out lane
+	J2-3 0-0-25		right retun lane
+	J2-4 0-0-24		lower right slingshot
+	J2-5 GND
+	J2-6 0-0-19		lower left slingshot
+	J2-7 0-0-18		left return lane
+	J2-8 0-0-17		bonus lane
+	J2-9 0-0-16		left out lane
+	
+	J3-1 N/C
+	J3-2 1-0-1		Wormhole Target
+	J3-3 1-0-2		Lower Attack Bumper
+	J3-4 1-0-3		Right Attack Bumper
+	J3-5 GND
+	J3-6 1-0-8		Left Attack Bumper
+	J3-7 1-0-9		hyperspace kicker
+	J3-8 1-0-10		upper right slingshot
+	J3-9 1-0-11			spacewarp rollover - not connected
+	
+	J4-1 1-0-31		radiation spot 3
+	J4-2 1-0-30		radiation spot 1
+	J4-3 1-0-29		radiation spot 2
+	J4-4 1-0-28			Plunger - not connected
+	J4-5 GND
+-----	J4-6 1-0-27		
+	J4-7 1-0-26		mission spot 3
+	J4-8 1-0-25		mission spot 2
+	J4-9 1-0-24		mission spot 1
+	
+	J5-1 1-0-23		medal drop target right
+	J5-2 1-0-22		medal drop target middle	
+	J5-3 1-0-21		medal drop target left	
+------	J5-4 1-0-20		
+	J5-5 GND
+------	J5-6 1-0-19
+	J5-7 1-0-18		booster drop target 3
+	J5-8 1-0-17		booster drop target 2
+	J5-9 1-0-16		booster drop target 1
+
+
